@@ -336,8 +336,8 @@ export function Hero() {
               A modern approach to law
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-King @ Law routinely costs half that of competing law firms, all while
-providing better, faster service. That's because we use modern business practices
+King @ Law routinely costs half that of competing law firms, while
+providing better, faster, more convenient service. That's because we use modern business practices
 like virtual offices, custom automation software, and online tools to 
 do more for less.
 Still can't afford us? There's an app for that.

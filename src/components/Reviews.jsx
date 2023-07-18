@@ -13,53 +13,74 @@ import { Container } from '@/components/Container'
 
 const reviews = [
   {
-    title: 'Online Review',
-    body: 'Was extremely professional and handled a particularly stressful legal situation with ease. He made the divorce process easy for me and the value was unmatched for the area. He responded quickly to any question I had and kept me in the loop for the entire process. I strongly recommend Davids services and I will not hesitate to use him again..',
-    author: 'Online Review',
+    title: 'Thumbtack',
+    body: 'David always responses quick and will explain anything I asked.',
+    author: 'Michael',
     rating: 5,
   },
   {
-    title: 'Online Review',
-    body: 'He was quick to explain the whole process with me in detail before I even purchased his services. He always answered my emails promptly and took the time to answer every little question me and my fiance had regarding our prenup. I highly recommend utilizing Davids Prenup Package, or any of his services. Thanks again David!',
-    author: 'Online Reviewer',
+    title: 'Thumbtack',
+    body: 'He has shown empathy and concerns about my situation and has been willing to help in all the necessary steps.',
+    author: 'Andy',
     rating: 5,
   },
   {
-    title: 'This shouldn’t be legal.',
-    body: 'Pocket makes it so easy to win big in the stock market that I can’t believe it’s actually legal.',
-    author: 'LivingDaDream',
+    title: 'Thumbtack.',
+    body: 'Was extremely professional and handled a particularly stressful legal situation with ease. He made the divorce process easy for me and the value was unmatched for the area. He responded quickly to any question I had and kept me in the loop for the entire process. I strongly recommend Davids services and I will not hesitate to use him again if I have any other legal matters.',
+    author: 'William',
     rating: 5,
   },
   {
-    title: 'Screw financial advisors.',
-    body: 'I barely made any money investing in mutual funds. With Pocket, I’m doubling my net-worth every single month.',
-    author: 'JordanBelfort1962',
+    title: 'Thumbtack',
+    body: 'Mr. King handled my divorce - he responded to every question, was efficient and professional. I would certainly recommend him to others.',
+    author: 'Debbie',
     rating: 5,
   },
   {
-    title: 'I love it!',
-    body: 'I started providing insider information myself and now I get new insider tips every 5 minutes. I don’t even have time to act on all of them. New Lamborghini is being delivered next week!',
-    author: 'MrBurns',
+    title: 'Thumbtack',
+    body: 'Very pleasant experience. He handled everything in a quick professional manner. I will definitely hire him again.',
+    author: 'Tracey',
     rating: 5,
   },
   {
-    title: 'Too good to be true.',
-    body: 'I was making money so fast with Pocket that it felt like a scam. But I sold my shares and withdrew the money and it’s really there, right in my bank account. This app is crazy!',
-    author: 'LazyRich99',
+    title: 'Thumbtack',
+    body: 'David made it a breeze. He was quick to explain the whole process with me in detail before I even purchased his services. He always answered my emails promptly and took the time to answer every little question me and my fiance had regarding our prenup. I highly recommend utilizing Davids Prenup Package, or any of his services. Thanks again David!',
+    author: 'Izabella',
     rating: 5,
   },
   {
-    title: 'Wish I could give 6 stars',
-    body: 'This is literally the most important app you will ever download in your life. Get on this before it’s so popular that everyone else is getting these tips too.',
-    author: 'SarahLuvzCash',
+    title: 'Thumbtack',
+    body: 'David King has been amazing! Extremely responsive during all times of the day and night. Very knowledgeable and is looking out for your best interest. I couldnt have asked for anyone better.',
+    author: 'Alex',
     rating: 5,
   },
   {
-    title: 'Bought an island.',
-    body: 'Yeah, you read that right. Want your own island too? Get Pocket.',
-    author: 'ScroogeMcduck',
+    title: 'Thumbtack',
+    body: 'Very good experience.',
+    author: 'Carolyn',
     rating: 5,
   },
+  {
+    title: 'Yelp',
+    body: 'David was thoughtful and thorough. Great consultation and a plan to help me. Definitely went the extra mile!',
+    author: 'Mike',
+    rating: 5,
+  },
+  {
+    title: 'Thumbtack',
+    body: 'Very good experience.',
+    author: 'Carolyn',
+    rating: 5,
+  },
+  {
+    title: 'Google',
+    body: 'All I can say is a better law group.',
+    author: 'Gary',
+    rating: 4,
+  },
+
+
+  
 ]
 
 function StarIcon(props) {
@@ -105,7 +126,7 @@ function Review({ title, body, author, rating, className, ...props }) {
     >
       <blockquote className="text-gray-900">
         <StarRating rating={rating} />
-        <p className="mt-4 text-lg font-semibold leading-6 before:content-['“'] after:content-['”']">
+        <p className="mt-4 text-lg font-semibold leading-6">
           {title}
         </p>
         <p className="mt-3 text-base leading-7">{body}</p>
@@ -229,13 +250,13 @@ export function Reviews() {
           The reviews are in
         </h2>
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
-          Divorce lawyers get a lot of negative reviews, but not us.
+          
         </p>
 
         <table class="w-full"><tr>
-          <td class="text-center w-1/3">Thumbtack 4.9/5</td>
-          <td class="text-center w-1/3">Google 4.5/5</td>
-          <td class="text-center w-1/3">Yelp 5/5</td></tr></table>
+          <td class="text-center w-1/3">Thumbtack 4.9/5 stars</td>
+          <td class="text-center w-1/3">Google 4.5/5 stars</td>
+          <td class="text-center w-1/3">Yelp 5/5 stars</td></tr></table>
 
         <ReviewGrid />
       </Container>

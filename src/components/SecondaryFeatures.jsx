@@ -6,37 +6,37 @@ const features = [
   {
     name: 'Virtual Office',
     description:
-      'Avoid fighting downtown traffic during your work schedule to see your lawyer in-person. We use convenient Zoom calls.',
+      'No need to fight downtown traffic during your work schedule to see your lawyer in-person. Schedule Zoom meetings online at your convenience, even on evenings and weekends.',
     icon: DeviceArrowIcon,
   },
   {
     name: 'Online Portal',
     description:
-      'Sign our contract, upload evidence, schedule meetings, and more online at your convenience.',
+      'Sign documents, pay fees, upload evidence, provide information, schedule meetings, see upcoming deadlines, review your To Do list, and more in our convenient online portal.',
     icon: DeviceCardsIcon,
-  },
-  {
-    name: 'Virtual Office',
-    description:
-      'Avoid paying for your law firms marble floors. We operate out of a virtual office.',
-    icon: DeviceClockIcon,
   },
   {
     name: 'Flat Fee',
     description:
-      'No blank checks or exaggerated hours. Our flat fees are more predictable and more affordable.',
-    icon: DeviceListIcon,
-  },
-  {
-    name: 'Responsive',
-    description:
-      'We answer most emails within 24 hours. Clients can schedule same-day meetings.',
-    icon: DeviceLockIcon,
+    'Most law firms spend a lot of time tracking time. They bill you for every six minutes and every page printed. Our clients pay a flat-fee using an online calculator.',
+    icon: DeviceClockIcon,
   },
   {
     name: 'Efficient',
     description:
-      'We use custom software to automate tasks other law firms charge hourly to complete.',
+      'We automate tasks other law firms charge hourly for. We dont pay for fancy downtown offices and we never spend time tracking time. OUr efficiency means a lower cost to you. ',
+    icon: DeviceListIcon,
+  },
+  {
+    name: 'Affordable',
+    description:
+      'Lawyers are always expensive. However, our fees routinely come out to half that of competing law firms, while providing better, faster, more convenient service.',
+    icon: DeviceLockIcon,
+  },
+  {
+    name: 'Responsive',
+    description:
+      'We respond to most emails within 24 hours. Clients can typically schedule a Zoom meeting either later that day or within a few days at most.',
     icon: DeviceChartIcon,
   },
 ]
@@ -199,7 +199,7 @@ export function SecondaryFeatures() {
             How we're different
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            Most law firms operate mostly the same way they did 100 years ago.
+            Most law firms operate the same way they did 100 years ago.
           </p>
         </div>
         <ul

@@ -24,9 +24,16 @@ const MotionAppScreenBody = motion(AppScreen.Body)
 
 const features = [
   {
+    name: 'App Picker',
+    description:
+      'Answer a few questions to get a selection of apps that each handle specific legal processes relevant to your situation.',
+    icon: DeviceUserIcon,
+    screen: InviteScreen,
+  },
+   {
     name: 'Legal Documents',
     description:
-      'The apps select and complete the right legal documents based on informaiton you provide.',
+      'The app for your legal process will select and complete the right legal documents based on informtion you provide using if-then logic.',
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },
@@ -549,13 +556,13 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
-            Can't afford a lawyer? There's an app for that.
+            Do-it-Yourself Legal Apps
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Often those that need a lawyer the most are the ones that can't afford it.
-            Our DIY Apps gives you a robo-lawyer that completes your paperwork and tells
-            you what to do using if-then logic.
-          </p>
+          You need a lawyer, but can't afford one, or you don't trust them.
+          You're not alone. More than 70% of divorces are done without a lawyer.
+          However, they are often a train wreck. Get divorced like a pro without paying for one.
+</p>
         </div>
       </Container>
       <div className="mt-16 md:hidden">

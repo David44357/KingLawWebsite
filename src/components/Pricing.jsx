@@ -7,53 +7,55 @@ import { Logomark } from '@/components/Logo'
 
 const plans = [
   {
-    name: 'DIY App User',
+    name: 'The DIY App User',
     featured: false,
-    price: { Monthly: '$485', Annually: '$0' },
+    price: { Monthly: 'Total: $485', Annually: '$0' },
     description:
-      'This spouse paid $60/month for our do-it-yourself apps and settled their divorce in six months. They also paid for attorney assistance for $125.',
+      'Used our DIY apps to help them file claims with the court, prepare financial disclosures, present evidence at temporary hearings, and prepare an accounting for mediation. They bought the subscription for six months and spent $125 on an attorney consultation.',
     button: {
-      label: 'Download the DIY Apps',
+      label: 'Download the App Picker',
       href: '/register',
     },
     features: [
-      'Creates your legal documents',
-      'Step by step instructions',
-      'Attorney support available',
+      'App-picker: Directs you to apps for your courthouse, legal process, and situation',
+      'Apps: Each app provides tools and guides for a legal process in a step-by-step format',
+      'Documents: Selects and completes legal documents based on information you provide',
+      'Step-by-step: Know what step youre on and what the next step is',
     ],
     logomarkClassName: 'fill-gray-300',
   },
   {
     name: 'The Settler',
     featured: true,
-    price: { Monthly: '$6,000', Annually: '$70' },
+    price: { Monthly: 'Total: $6,000', Annually: '$70' },
     description:
-      'This client had three claims: property/debt, custody, and child support. They paid the "early litigation fee" for all three at $1,200 each. They settled custody through the courts mediation fee, which cost them nothing. Then, the financial claims were resolved at mediation for an additional $1,200 each. Mediator fees are not included.',
+      'Hired attorney David King to help them file claims with the court, prepare financial disclosures, present evidence at temporary hearings, and prepare an accounting for mediation. They paid $1,200 per-claim for the "Early Litgation" and "Negotiations" phases.',
+
     button: {
       label: 'Get a Quote',
       href: '/register',
     },
     features: [
-      'Flat-fee is more predictable',
-      'Includes court fees and most other expenses',
-      'Most legal disputes look something like this',
+      'A flat-fee based on the number of claims and services provided means no surprise invoices for exaggerated hours and less stress about watching the clock',
+      'Sign documents, schedule meetings with your attorney, upload evidence, pay fees, see deadlines, and more at your convenience in our online portal',
+      'Most expenses like court fees, printing costs, and service of process costs are included',
     ],
     logomarkClassName: 'fill-gray-500',
   },
   {
-    name: 'The Litigator',
+    name: 'The Friendly Divorce',
     featured: false,
-    price: { Monthly: '$20k+', Annually: '$1,990' },
+    price: { Monthly: 'Total: $2,600', Annually: '$1,990' },
     description:
-      'Your spouse just does not want to settle or agree to anything reasonable. You have to take all of your claims to trial.',
+      'Hired attorney David King to draft a separation agreement, evaluate the terms the spouses agreed on, file for divorce, and prepare a deed to transfer ownership of the marital home. They paid a flat-fee for the divorce ($800), the deed ($200), and the separation agremeent ($1,600).',
     button: {
       label: 'Get a Quote',
       href: '/register',
     },
     features: [
-      'Extremely rare',
-      'Most divorce lawsuits are resolved at mediation',
-    ],
+      'Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
+      'Mr. King will go over the agreement with your spouse, so long as the substantive terms are already agreed upon',
+      'Sign documents, schedule meetings with your attorney, upload documents, pay fees, and more at your convenience in our online portal',    ],
     logomarkClassName: 'fill-cyan-500',
   },
 ]
@@ -196,11 +198,10 @@ export function Pricing() {
             id="pricing-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Flat-fee pricing, no hourly rates or expenses.
+            No hourly rates.
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            Surveys show a majority of lawyers bill clients for fake hours.
-            We use flat-fees that incentivize us to complete your legal work more efficiently.
+            Here are a few examples of how much our clients could pay.
           </p>
         </div>
 
