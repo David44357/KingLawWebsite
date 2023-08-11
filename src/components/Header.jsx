@@ -49,7 +49,7 @@ export function Header() {
   return (
     <header>
       <nav>
-        <Container className="relative z-50 flex justify-between py-8">
+        <Container className="relative z-50 flex justify-between py-3">
           <div className="relative z-10 flex items-center gap-16">
             <Link href="/" aria-label="Home">
               <Logo className="h-10 w-auto" />
@@ -98,8 +98,8 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#features">
-                              Features
+                            <MobileNavLink href="#about">
+                              About Us
                             </MobileNavLink>
                             <MobileNavLink href="#reviews">
                               Reviews

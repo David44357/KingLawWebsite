@@ -30,7 +30,7 @@ const features = [
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },
-   {
+  {
     name: 'Legal Documents',
     description:
       'The app for your legal process will select and complete the right legal documents based on informtion you provide using if-then logic.',
@@ -559,10 +559,10 @@ export function PrimaryFeatures() {
             Do-it-Yourself Legal Apps
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-          You need a lawyer, but can't afford one, or you don't trust them.
-          You're not alone. More than 70% of divorces are done without a lawyer.
-          However, they are often a train wreck. Get divorced like a pro without paying for one.
-</p>
+            {`You need a lawyer, but can't afford one, or you don't trust them.
+            You're not alone. More than 70% of divorces are done without a lawyer.
+            However, they are often a train wreck. Get divorced like a pro without paying for one.`}
+          </p>
         </div>
       </Container>
       <div className="mt-16 md:hidden">

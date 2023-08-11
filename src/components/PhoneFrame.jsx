@@ -5,7 +5,7 @@ import frame from '@/images/phone-frame.svg'
 
 function PlaceholderFrame(props) {
   return (
-    <svg viewBox="0 0 366 729" aria-hidden="true" {...props}>
+    <svg viewBox="0 0 366 729" aria-hidden="true" {...props} >
       <path
         fill="#F2F2F2"
         fillRule="evenodd"
@@ -32,7 +32,7 @@ export function PhoneFrame({
       <PlaceholderFrame className="pointer-events-none absolute inset-0 h-full w-full fill-gray-100" />
       <Image
         src={frame}
-        alt=""
+        alt="frame"
         className="pointer-events-none absolute inset-0 h-full w-full"
         unoptimized
         priority={priority}

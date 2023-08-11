@@ -1,6 +1,7 @@
-import { AppStoreLink } from '@/components/AppStoreLink'
+// import { AppStoreLink } from '@/components/AppStoreLink'
 import { CircleBackground } from '@/components/CircleBackground'
 import { Container } from '@/components/Container'
+import { Button } from './Button'
 
 export function CallToAction() {
   return (
@@ -13,15 +14,23 @@ export function CallToAction() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-md sm:text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl font-medium text-center tracking-tight text-white sm:text-4xl">
             Get a Quote
           </h2>
-          <p className="mt-4 text-lg text-gray-300">
+          <p className="mt-4 text-lg text-center text-gray-300">
             Use our online wizard to calculate your legal fees for any given situation.
             Court fees and many other costs are included.
           </p>
           <div className="mt-8 flex justify-center">
-            <AppStoreLink color="white" />
+            {/* <AppStoreLink color="white" /> */}
+            <Button
+              href={'/qoutetool'}
+              color={true ? '#000' : 'gray'}
+              className="mt-6 text-black text-[1.10rem] bg-gray-50 px-8 py-4 rounded-md"
+              aria-label={`Get started with the Quote Tool`}
+            >
+              Quote Tool
+            </Button>
           </div>
         </div>
       </Container>

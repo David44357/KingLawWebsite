@@ -24,7 +24,7 @@ const features = [
   {
     name: 'Efficient',
     description:
-      'We automate tasks other law firms charge hourly for. We dont pay for fancy downtown offices and we never spend time tracking time. OUr efficiency means a lower cost to you. ',
+      'We automate tasks other law firms charge hourly for. We dont pay for fancy downtown offices and we never spend time tracking time. Our efficiency means a lower cost to you. ',
     icon: DeviceListIcon,
   },
   {
@@ -191,14 +191,14 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for building a portfolio"
-      className="py-20 sm:py-32"
+      className="py-12 lg:py-16"
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            How we're different
+          <h2 className="text-3xl text-center font-medium tracking-tight text-gray-900">
+           {`How we're different`}
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
+          <p className="mt-2 text-center text-lg leading-tight text-gray-600">
             Most law firms operate the same way they did 100 years ago.
           </p>
         </div>

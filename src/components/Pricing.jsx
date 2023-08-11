@@ -9,16 +9,15 @@ const plans = [
   {
     name: 'The DIY App User',
     featured: false,
-    price: { Monthly: 'Total: $485', Annually: '$0' },
+    price: { Monthly: 'Total: $1200', Annually: '$0' },
     description:
-      'Used our DIY apps to help them file claims with the court, prepare financial disclosures, present evidence at temporary hearings, and prepare an accounting for mediation. They bought the subscription for six months and spent $125 on an attorney consultation.',
+      'This user purchased our do-it-yourself subscription for $199, which comes with online TurboTax-like apps to walk you through legal processes and monthly attorney consultations. They settled six months in.',
     button: {
-      label: 'Download the App Picker',
+      label: 'Get more information',
       href: '/register',
     },
     features: [
-      'App-picker: Directs you to apps for your courthouse, legal process, and situation',
-      'Apps: Each app provides tools and guides for a legal process in a step-by-step format',
+      'Attorney Support: Comes with monthly attorney consultations',
       'Documents: Selects and completes legal documents based on information you provide',
       'Step-by-step: Know what step youre on and what the next step is',
     ],
@@ -36,7 +35,7 @@ const plans = [
       href: '/register',
     },
     features: [
-      'A flat-fee based on the number of claims and services provided means no surprise invoices for exaggerated hours and less stress about watching the clock',
+      'A flat-fee means no surprise invoices for exaggerated hours and less stress about watching the clock',
       'Sign documents, schedule meetings with your attorney, upload evidence, pay fees, see deadlines, and more at your convenience in our online portal',
       'Most expenses like court fees, printing costs, and service of process costs are included',
     ],
@@ -94,18 +93,18 @@ function Plan({
   return (
     <section
       className={clsx(
-        'flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
+        'flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 h-full',
         featured ? 'order-first bg-gray-900 lg:order-none' : 'bg-white'
       )}
     >
       <h3
         className={clsx(
-          'flex items-center text-sm font-semibold',
+          'flex items-center justify-center text-lg font-bold',
           featured ? 'text-white' : 'text-gray-900'
         )}
       >
-        <Logomark className={clsx('h-6 w-6 flex-none', logomarkClassName)} />
-        <span className="ml-4">{name}</span>
+        {/* <Logomark className={clsx('h-6 w-6 flex-none', logomarkClassName)} /> */}
+        <span className="text-center">{name}</span>
       </h3>
       <p
         className={clsx(
@@ -190,17 +189,17 @@ export function Pricing() {
     <section
       id="pricing"
       aria-labelledby="pricing-title"
-      className="border-t border-gray-200 bg-gray-100 py-20 sm:py-32"
+      className="border-t border-gray-200 bg-gray-100 py-12 lg:py-16"
     >
       <Container>
         <div className="mx-auto max-w-2xl text-center">
           <h2
             id="pricing-title"
-            className="text-3xl font-medium tracking-tight text-gray-900"
+            className="text-3xl text-center font-medium tracking-tight text-gray-900"
           >
             No hourly rates.
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
+          <p className="mt-2 text-center text-lg leading-tight text-gray-600">
             Here are a few examples of how much our clients could pay.
           </p>
         </div>

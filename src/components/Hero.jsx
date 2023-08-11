@@ -140,28 +140,28 @@ function Chart({
       className={clsx(className, 'overflow-visible')}
       {...(interactionEnabled
         ? {
-            onPointerLeave: () => onChangeActivePointIndex(null),
-            onPointerMove: (event) => {
-              let x = event.nativeEvent.offsetX
-              let closestPointIndex
-              let closestDistance = Infinity
-              for (
-                let pointIndex = 0;
-                pointIndex < points.length;
-                pointIndex++
-              ) {
-                let point = points[pointIndex]
-                let distance = Math.abs(point.x - x)
-                if (distance < closestDistance) {
-                  closestDistance = distance
-                  closestPointIndex = pointIndex
-                } else {
-                  break
-                }
+          onPointerLeave: () => onChangeActivePointIndex(null),
+          onPointerMove: (event) => {
+            let x = event.nativeEvent.offsetX
+            let closestPointIndex
+            let closestDistance = Infinity
+            for (
+              let pointIndex = 0;
+              pointIndex < points.length;
+              pointIndex++
+            ) {
+              let point = points[pointIndex]
+              let distance = Math.abs(point.x - x)
+              if (distance < closestDistance) {
+                closestDistance = distance
+                closestPointIndex = pointIndex
+              } else {
+                break
               }
-              onChangeActivePointIndex(closestPointIndex)
-            },
-          }
+            }
+            onChangeActivePointIndex(closestPointIndex)
+          },
+        }
         : {})}
       {...props}
     >
@@ -278,9 +278,8 @@ function AppDemo() {
                     percentageChange >= 0 ? 'text-cyan-500' : 'text-gray-500'
                   )}
                 >
-                  {`${
-                    percentageChange >= 0 ? '+' : ''
-                  }${percentageChange.toFixed(2)}%`}
+                  {`${percentageChange >= 0 ? '+' : ''
+                    }${percentageChange.toFixed(2)}%`}
                 </div>
               )}
             </div>
@@ -328,7 +327,7 @@ function AppDemo() {
 
 export function Hero() {
   return (
-    <div className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
+    <div className="overflow-hidden py-10 lg:pb-32 xl:pb-36">
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
@@ -336,27 +335,32 @@ export function Hero() {
               A modern approach to law
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-King @ Law routinely costs half that of competing law firms, while
-providing better, faster, more convenient service. That's because we use modern business practices
-like virtual offices, custom automation software, and online tools to 
-do more for less.
-Still can't afford us? There's an app for that.
+              {`King @ Law routinely costs half that of competing law firms, while
+              providing better, faster, more convenient service. That's because we use modern business practices
+              like virtual offices, custom automation software, and online tools to
+              do more for less.
+              Still can't afford us? We have an app for that.`}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <AppStoreLink />
+              {/* <AppStoreLink /> */}
+              <Button href="#" variant='solid' >
+                <span >Get the Mobile App</span>
+              </Button>
               <Button
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 variant="outline"
               >
-                <span className="ml-2.5">Get a Consultation</span>
+                <span >Get a Consultation</span>
               </Button>
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
             <BackgroundIllustration className="absolute left-3/4 top-4 h-[613px] w-[513px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_top,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
-            <div className="max-w-300 [mask-image:linear-gradient(to_bottom,white_70%,transparent)] sm:mx-5 lg:absolute lg:-bottom-20 lg:-top-10 lg:h-auto lg:px-0 xl:-bottom-32">
+            <div className="hidden lg:block max-w-300 [mask-image:linear-gradient(to_bottom,white_70%,transparent)] sm:mx-36 md:mx-40 lg:absolute lg:mx-5 lg:bottom-32 lg:-top-10 lg:h-auto lg:px-0 xl:-bottom-32">
 
-            <Image src={myImage} />
+              <Image src={myImage} alt='myImage'
+                className="w-full h-auto object-contain my-auto"
+              />
 
             </div>
           </div>

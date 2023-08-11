@@ -28,6 +28,7 @@ module.exports = {
         'spin-reverse': 'spin-reverse 1s linear infinite',
         'spin-reverse-slow': 'spin-reverse 4s linear infinite',
         'spin-reverse-slower': 'spin-reverse 6s linear infinite',
+        'wiggle': 'wiggle 1s ease-in-out infinite',
       },
       borderRadius: {
         '4xl': '2rem',
@@ -58,6 +59,10 @@ module.exports = {
             transform: 'rotate(-360deg)',
           },
         },
+        'wiggle': {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
       },
       maxWidth: {
         '2xl': '40rem',

@@ -80,7 +80,7 @@ const reviews = [
   },
 
 
-  
+
 ]
 
 function StarIcon(props) {
@@ -90,6 +90,14 @@ function StarIcon(props) {
     </svg>
   )
 }
+function HalfStarIcon(props) {
+  return (
+    <svg viewBox="-10.1 0 20 20" aria-hidden="true" {...props}>
+      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+    </svg>
+  )
+}
+
 
 function StarRating({ rating }) {
   return (
@@ -153,7 +161,7 @@ function splitArray(array, numParts) {
 function ReviewColumn({
   className,
   reviews,
-  reviewClassName = () => {},
+  reviewClassName = () => { },
   msPerPixel = 0,
 }) {
   let columnRef = useRef()
@@ -208,7 +216,7 @@ function ReviewGrid() {
             reviewClassName={(reviewIndex) =>
               clsx(
                 reviewIndex >= columns[0].length + columns[2][0].length &&
-                  'md:hidden',
+                'md:hidden',
                 reviewIndex >= columns[0].length && 'lg:hidden'
               )
             }
@@ -240,23 +248,93 @@ export function Reviews() {
     <section
       id="reviews"
       aria-labelledby="reviews-title"
-      className="pb-16 pt-20 sm:pb-24 sm:pt-32"
+      className="py-12 lg:py-16"
     >
       <Container>
         <h2
           id="reviews-title"
-          className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
+          className="text-3xl text-center font-medium tracking-tight text-gray-900 sm:text-center"
         >
           The reviews are in
         </h2>
-        <p className="mt-2 text-lg text-gray-600 sm:text-center">
-          
+        <p className="mt-8 text-lg text-gray-600 sm:text-center">
+
         </p>
 
-        <table class="w-full"><tr>
-          <td class="text-center w-1/3">Thumbtack 4.9/5 stars</td>
-          <td class="text-center w-1/3">Google 4.5/5 stars</td>
-          <td class="text-center w-1/3">Yelp 5/5 stars</td></tr></table>
+        <table className="w-full">
+          <tbody>
+            <tr className='w-full flex flex-col md:flex-row md:flex-wrap' >
+              <td className="text-center w-full md:w-1/3 mb-4 md:mb-0">
+                <span className='inline-flex text-[1.4rem] font-semibold whitespace-nowrap flex-row justify-center items-center' >
+                  <h2 className='mr-2'>
+                    <svg className="text-sky-500" width="48" height="48" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0"></path><path fill="#FFF" d="M8.973 10.385a3.71 3.71 0 0 1-.564 1.957L8 13l-.409-.658a3.704 3.704 0 0 1-.564-1.957v-3.14C7.51 6.62 8.231 6.4 8.973 6.4v3.985zM4 5.69V4h8v1.69H4z"></path></svg>
+                  </h2>
+                  {
+                    [1, 2, 3, 4, 5].map((each) => (
+                      <StarIcon
+                        key={each}
+                        className={clsx(
+                          'h-8 w-8',
+                          each <= 5 ? 'fill-cyan-500' : 'fill-gray-300'
+                        )}
+                      />
+                    ))
+                  }
+                </span>
+              </td>
+              <td className="text-center w-full md:w-1/3 mb-4 md:mb-0">
+                <span className='inline-flex text-[1.4rem] font-semibold whitespace-nowrap flex-row justify-center items-center' >
+                  <h2 className='mr-2'>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                      <path fill="#fbc02d" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12	s5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24s8.955,20,20,20	s20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path><path fill="#e53935" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039	l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path><path fill="#4caf50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36	c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path><path fill="#1565c0" d="M43.611,20.083L43.595,20L42,20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571	c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
+                    </svg>
+                  </h2>
+                  {
+                    [1, 2, 3, 4, 4.5].map((each) => {
+
+                      if (each === 4.5) return (<HalfStarIcon key={each} className={clsx(
+                        'ml-[-15px] h-8 w-8',
+                        true ? 'fill-cyan-500' : 'fill-gray-300'
+                      )} />)
+
+                      return (
+                        <StarIcon
+                          key={each}
+                          className={clsx(
+                            'h-8 w-8',
+                            each < 4.5 ? 'fill-cyan-500' : 'fill-gray-300'
+                          )}
+                        />
+                      )
+
+
+                    })
+                  }
+                </span>
+              </td>
+              <td className="text-center w-full md:w-1/3">
+                <span className='inline-flex text-[1.4rem] font-semibold whitespace-nowrap flex-row justify-center items-center' >
+                  <h2 className='mr-2'>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                      <path fill="#DD2C00" d="M10.7,32.7c-0.5,0-0.9-0.3-1.2-0.8c-0.2-0.4-0.3-1-0.4-1.7c-0.2-2.2,0-5.5,0.7-6.5c0.3-0.5,0.8-0.7,1.2-0.7c0.3,0,0.6,0.1,7.1,2.8c0,0,1.9,0.8,1.9,0.8c0.7,0.3,1.1,1,1.1,1.8c0,0.8-0.5,1.4-1.2,1.6c0,0-2.7,0.9-2.7,0.9C11.2,32.7,11,32.7,10.7,32.7z M24,36.3c0,6.3,0,6.5-0.1,6.8c-0.2,0.5-0.6,0.8-1.1,0.9c-1.6,0.3-6.6-1.6-7.7-2.8c-0.2-0.3-0.3-0.5-0.4-0.8c0-0.2,0-0.4,0.1-0.6c0.1-0.3,0.3-0.6,4.8-5.9c0,0,1.3-1.6,1.3-1.6c0.4-0.6,1.3-0.7,2-0.5c0.7,0.3,1.2,0.9,1.1,1.6C24,33.5,24,36.3,24,36.3z M22.8,22.9c-0.3,0.1-1.3,0.4-2.5-1.6c0,0-8.1-12.9-8.3-13.3c-0.1-0.4,0-1,0.4-1.4c1.2-1.3,7.7-3.1,9.4-2.7c0.6,0.1,0.9,0.5,1.1,1c0.1,0.6,0.9,12.5,1,15.2C24.1,22.5,23.1,22.8,22.8,22.9z M27.2,25.9c-0.4-0.6-0.4-1.4,0-1.9c0,0,1.7-2.3,1.7-2.3c3.6-5,3.8-5.3,4.1-5.4c0.4-0.3,0.9-0.3,1.4-0.1c1.4,0.7,4.4,5.1,4.6,6.7c0,0,0,0,0,0.1c0,0.6-0.2,1-0.6,1.3c-0.3,0.2-0.5,0.3-7.4,1.9c-1.1,0.3-1.7,0.4-2,0.5c0,0,0-0.1,0-0.1C28.4,26.9,27.6,26.5,27.2,25.9z M38.9,34.4c-0.2,1.6-3.5,5.8-5.1,6.4c-0.5,0.2-1,0.2-1.4-0.2c-0.3-0.2-0.5-0.6-4.1-6.4l-1.1-1.7c-0.4-0.6-0.3-1.4,0.2-2.1c0.5-0.6,1.2-0.8,1.9-0.6c0,0,2.7,0.9,2.7,0.9c6,2,6.2,2,6.4,2.2C38.8,33.4,39,33.9,38.9,34.4z"></path>
+                    </svg>
+                  </h2>
+                  {
+                    [1, 2, 3, 4, 5].map((each) => (
+                      <StarIcon
+                        key={each}
+                        className={clsx(
+                          'h-8 w-8',
+                          each <= 5 ? 'fill-cyan-500' : 'fill-gray-300'
+                        )}
+                      />
+                    ))
+                  }
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
         <ReviewGrid />
       </Container>
