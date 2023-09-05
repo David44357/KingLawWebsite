@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to DigitalOcean Droplet
+      - name: Clone from Git REPO
         uses: appleboy/ssh-action@master
         with:
           host: ${{secrets.HOST}}
@@ -18,3 +18,15 @@ jobs:
           script: |
            cd dockerized-sites
            git clone https://github.com/A3DataSolutions/KingLawWebsite.git
+      - name: Build Docker Image
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{secrets.HOST}}
+          username: ${{secrets.USERNAME}}
+          key: ${{secrets.SSHKEY}}
+          passphrase: ${{secrets.PASSPHRASE}}
+          script: |
+           cd dockerized-sites/KingLawWebsite
+           
+      
+
