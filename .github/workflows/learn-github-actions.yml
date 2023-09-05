@@ -16,8 +16,8 @@ jobs:
           key: ${{secrets.SSHKEY}}
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
-           cd dockerized-sites
-           git clone https://github.com/A3DataSolutions/KingLawWebsite.git
+           cd dockerized-sites/king-law-website
+           git pull
       - name: Build Docker Image
         uses: appleboy/ssh-action@master
         with:
@@ -26,7 +26,7 @@ jobs:
           key: ${{secrets.SSHKEY}}
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
-           cd dockerized-sites/KingLawWebsite
+           cd dockerized-sites/king-law-website
            
       
 
