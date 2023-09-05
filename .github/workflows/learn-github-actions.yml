@@ -16,4 +16,5 @@ jobs:
           key: ${{secrets.SSHKEY}}
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
+           cd dockerized-sites
            git clone https://github.com/A3DataSolutions/KingLawWebsite.git
