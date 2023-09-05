@@ -16,4 +16,4 @@ jobs:
           key: ${{secrets.SSHKEY}}
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
-           mkdir testing13
+          git clone git@github.com:A3DataSolutions/KingLawWebsite.git
