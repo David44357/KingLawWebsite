@@ -16,4 +16,4 @@ jobs:
           key: ${{secrets.SSHKEY}}
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
-           mkdir testing1
+           mkdir testing13
