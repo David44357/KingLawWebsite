@@ -31,6 +31,6 @@ jobs:
            docker stop king-law-website
            docker rm king-law-website
            docker-compose up king-law-website
-           docker exec -it nginx-proxy nginx -s reload
+           docker exec nginx-proxy nginx -s reload
       
 

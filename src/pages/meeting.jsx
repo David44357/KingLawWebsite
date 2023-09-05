@@ -71,7 +71,7 @@ export default function MyApp() {
                 ATTORNEY <span className="text-[#ff551d]">MEETING</span>
                 </h2>
                 <p className="my-3 text-sm font-normal text-gray-500">
-                Schedule a Zoom meeting with attorney King anytime using the below scheduling app. Evenings & weekends are ok, but the app does require scheduling at least three hours in advance. To make the most of your meeting:
+                Schedule a Zoom meeting with attorney King anytime using the below scheduling app. Evenings & weekends are ok, but the app does require scheduling at least 3 hours in advance. To make the most of your meeting:
                 </p>
                 <ul className="mt-10 list-none">
                   {ListPoints.map((point, index) => (
