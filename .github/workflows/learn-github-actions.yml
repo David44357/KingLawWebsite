@@ -27,7 +27,10 @@ jobs:
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
            cd dockerized-sites/king-law-website
-           echo 'test'
            docker build . -t king-law-website
+           docker stop king-law-website
+           docker rm king-law-website
+           docker-compose up king-law-website
+           docker exec -it nginx-proxy nginx -s reload
       
 
