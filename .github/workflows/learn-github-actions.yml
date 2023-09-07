@@ -30,7 +30,7 @@ jobs:
            docker build . -t king-law-website
            docker stop king-law-website
            docker rm king-law-website
-           docker-compose up king-law-website
+           docker-compose up -d king-law-website
            docker exec nginx-proxy nginx -s reload
       
 
