@@ -358,8 +358,7 @@ export function Hero() {
             <BackgroundIllustration className="absolute left-3/4 top-4 h-[613px] w-[513px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_top,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
             <div style={{bottom: "-8rem"}} className="[bottom: -8rem] hidden lg:block max-w-300 [mask-image:linear-gradient(to_bottom,white_70%,transparent)] sm:mx-36 md:mx-40 lg:absolute lg:mx-5 lg:bottom-32 lg:-top-10 lg:h-auto lg:px-0">
               <div className="[mask-image:linear-gradient(to_bottom,white_70%,transparent)]">
-              <Image src={myImage} alt='myImage'
-                className="w-full h-auto object-contain my-auto"
+              <Image src={myImage} alt='myImage' style={{"max-height": "540px"}} className="w-full h-auto object-contain my-auto"
               />
               </div>
             </div>
