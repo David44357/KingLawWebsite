@@ -26,7 +26,7 @@ export default function DiyApps() {
                 <Container>
                     <div className="flex flex-row justify-center items-center relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6 text-center h-[65vh]">
                         <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-                            Comming Soon.
+                            Coming Soon.
                         </h1>
                         {/* <p className="mt-6 text-lg text-gray-600">
               {`King @ Law routinely costs half that of competing law firms, while
