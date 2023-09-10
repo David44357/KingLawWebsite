@@ -25,20 +25,20 @@ export default function DiyApps() {
             <main>
                 <Container>
                     {/* {changes here} */}
-                    <div class="row justify-content-center">
-                        <div class="col-md-10 main-title">
-                            <h3 className="text-xl font-medium text-gray-900 p-5">Apps Under Construction</h3>
+                    <div className="row justify-content-center">
+                        <div className="col-md-10 main-title">
+                            <h3 className="text-xl font-medium text-gray-900">Apps Under Construction</h3>
                         </div>
                     </div>
-                    <div class="row align-items-center">
-                        <div class="col-sm-10 col-md-6 col-lg-6 svg-img p-5">
+                    <div className="row align-items-center">
+                        <div className="col-sm-10 col-md-6 col-lg-6 svg-img p-5">
                             <svg
-                                viewBox="0 0 834 690"
+                                viewBox="0 0 417 345"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
-                                <g id="undraw_dev_productivity_umsq 1" clip-path="url(#clip0)">
-                                    <g id="man">
+                                <g transform="scale(0.5 0.5)"  id="undraw_dev_productivity_umsq 1" clip-path="url(#clip0)">
+                                    <g transform="scale(0.5 0.5)"  id="man">
                                         <path
                                             id="Vector"
                                             d="M435.922 191.941C476.534 191.941 509.458 159.018 509.458 118.405C509.458 77.7923 476.534 44.869 435.922 44.869C395.309 44.869 362.385 77.7923 362.385 118.405C362.385 159.018 395.309 191.941 435.922 191.941Z"
@@ -191,7 +191,7 @@ export default function DiyApps() {
                                             fill="#3F3D56"
                                         />
                                     </g>
-                                    <g id="clock">
+                                    <g  id="clock">
                                         <path
                                             id="Vector_30"
                                             d="M115.016 94.2729H107.803V135.145H115.016V94.2729Z"
@@ -203,7 +203,7 @@ export default function DiyApps() {
                                             fill="#3F3D56"
                                         />
                                     </g>
-                                    <g id="leftTree">
+                                    <g transform="scale(0.5 0.5)"  id="leftTree">
                                         <path
                                             id="Vector_32"
                                             d="M150.594 599.754C151.527 631.704 132.859 643.413 109.43 644.097C108.886 644.113 108.345 644.123 107.805 644.126C106.719 644.135 105.643 644.117 104.577 644.072C83.3891 643.193 66.6173 631.945 65.7495 602.232C64.8515 571.482 103.018 531.529 105.882 528.574L105.887 528.571C105.996 528.458 106.052 528.402 106.052 528.402C106.052 528.402 149.661 567.807 150.594 599.754Z"
@@ -215,7 +215,7 @@ export default function DiyApps() {
                                             fill="#3F3D56"
                                         />
                                     </g>
-                                    <g id="righTree">
+                                    <g transform="scale(0.5 0.5)"  id="righTree">
                                         <path
                                             id="Vector_34"
                                             d="M798.594 599.754C799.527 631.704 780.859 643.413 757.43 644.097C756.886 644.113 756.345 644.123 755.805 644.126C754.719 644.135 753.643 644.117 752.577 644.072C731.389 643.193 714.617 631.945 713.75 602.232C712.852 571.482 751.018 531.529 753.882 528.574L753.887 528.571C753.996 528.458 754.052 528.402 754.052 528.402C754.052 528.402 797.661 567.807 798.594 599.754Z"
@@ -227,7 +227,7 @@ export default function DiyApps() {
                                             fill="#3F3D56"
                                         />
                                     </g>
-                                    <g id="pc-circle">
+                                    <g  id="pc-circle">
                                         <path
                                             id="Vector_36"
                                             d="M422.5 512.326C436.307 512.326 447.5 501.133 447.5 487.326C447.5 473.519 436.307 462.326 422.5 462.326C408.693 462.326 397.5 473.519 397.5 487.326C397.5 501.133 408.693 512.326 422.5 512.326Z"
