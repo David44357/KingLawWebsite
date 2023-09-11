@@ -1,0 +1,36 @@
+name: Deploy to DigitalOcean Droplet
+'on':
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone from Git REPO
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{secrets.HOST}}
+          username: ${{secrets.USERNAME}}
+          key: ${{secrets.SSHKEY}}
+          passphrase: ${{secrets.PASSPHRASE}}
+          script: |
+           cd dockerized-sites/king-law-website
+           git pull
+      - name: Build Docker Image
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{secrets.HOST}}
+          username: ${{secrets.USERNAME}}
+          key: ${{secrets.SSHKEY}}
+          passphrase: ${{secrets.PASSPHRASE}}
+          script: |
+           cd dockerized-sites/king-law-website
+           docker build . -t king-law-website
+           docker stop king-law-website
+           docker rm king-law-website
+           docker-compose up -d king-law-website
+           docker exec nginx-proxy nginx -s reload
+      
+
