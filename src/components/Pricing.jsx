@@ -14,7 +14,7 @@ const plans = [
       'This user purchased our do-it-yourself subscription for $199, which comes with online TurboTax-like apps to walk you through legal processes and monthly attorney consultations. They settled six months in.',
     button: {
       label: 'Get more information',
-      href: '/register',
+      href: '/comingsoon',
     },
     features: [
       'Attorney Support: Comes with monthly attorney consultations',
@@ -32,7 +32,7 @@ const plans = [
 
     button: {
       label: 'Get a Quote',
-      href: '/register',
+      href: '/comingsoon',
     },
     features: [
       'A flat-fee means no surprise invoices for exaggerated hours and less stress about watching the clock',
@@ -49,7 +49,7 @@ const plans = [
       'Hired attorney David King to draft a separation agreement, evaluate the terms the spouses agreed on, file for divorce, and prepare a deed to transfer ownership of the marital home. They paid a flat-fee for the divorce ($800), the deed ($200), and the separation agremeent ($1,600).',
     button: {
       label: 'Get a Quote',
-      href: '/register',
+      href: '/comingsoon',
     },
     features: [
       'Court fees, filing fees with the Register of Deeds, and service of process costs are all included',

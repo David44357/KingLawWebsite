@@ -343,11 +343,11 @@ export function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
-              <Button href="#" variant='solid' >
+              <Button href="/comingsoon" variant='solid' >
                 <span >Get the Mobile App</span>
               </Button>
               <Button
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="https://k-l-meeting-scheduler.flutterflow.app"
                 variant="outline"
               >
                 <span >Get a Consultation</span>
