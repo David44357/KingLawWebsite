@@ -20,6 +20,7 @@ jobs:
            git pull
       - name: Build Docker Image
         uses: appleboy/ssh-action@master
+        if: success()
         with:
           host: ${{secrets.HOST}}
           username: ${{secrets.USERNAME}}
