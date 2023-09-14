@@ -32,7 +32,7 @@ const plans = [
 
     button: {
       label: 'Get a Quote',
-      href: '/comingsoon',
+      href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
     },
     features: [
       'A flat-fee means no surprise invoices for exaggerated hours and less stress about watching the clock',
@@ -49,7 +49,7 @@ const plans = [
       'Hired attorney David King to draft a separation agreement, evaluate the terms the spouses agreed on, file for divorce, and prepare a deed to transfer ownership of the marital home. They paid a flat-fee for the divorce ($800), the deed ($200), and the separation agremeent ($1,600).',
     button: {
       label: 'Get a Quote',
-      href: '/comingsoon',
+      href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
     },
     features: [
       'Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
