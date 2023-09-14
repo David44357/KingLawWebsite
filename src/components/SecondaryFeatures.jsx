@@ -199,7 +199,7 @@ export function SecondaryFeatures() {
            {`How we're different`}
           </h2>
           <p className="mt-2 text-center text-lg leading-tight text-gray-600">
-            Most law firms operate the same way they did 100 years ago.
+            Convenient, affordable, modern.
           </p>
         </div>
         <ul
