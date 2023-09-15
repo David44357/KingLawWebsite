@@ -6,37 +6,37 @@ const features = [
   {
     name: 'Virtual Office',
     description:
-      'No need to fight downtown traffic during your work schedule to see your lawyer in-person. Schedule Zoom meetings online at your convenience, even on evenings and weekends.',
+      'Schedule Zoom meetings with your lawyer online at your convenience.',
     icon: DeviceArrowIcon,
   },
   {
     name: 'Online Portal',
     description:
-      'Sign documents, pay fees, upload evidence, provide information, schedule meetings, see upcoming deadlines, review your To Do list, and more in our convenient online portal.',
+      'Pay fees, upload evidence, provide information, and more in our online portal.',
     icon: DeviceCardsIcon,
   },
   {
     name: 'Flat Fee',
     description:
-    'Most law firms spend a lot of time tracking time. They bill you for every six minutes and every page printed. Our clients pay a flat-fee using an online calculator.',
+    'Pay a flat-fee that includes most expenses, making your legal fees more predictable.',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Efficient',
+    name: 'Paperwork',
     description:
-      'We automate tasks other law firms charge hourly for. We dont pay for fancy downtown offices and we never spend time tracking time. Our efficiency means a lower cost to you. ',
+      'Don\'t pay for time spent tracking time, tracking expenses, scheduling meetings, or other busy work.',
     icon: DeviceListIcon,
   },
   {
     name: 'Affordable',
     description:
-      'Lawyers are always expensive. However, our fees routinely come out to half that of competing law firms, while providing better, faster, more convenient service.',
+      'Our fees routinely come out to half that of competing law firms, without sacrificing service.',
     icon: DeviceLockIcon,
   },
   {
     name: 'Responsive',
     description:
-      'We respond to most emails within 24 hours. Clients can typically schedule a Zoom meeting either later that day or within a few days at most.',
+      'Attorney King responds to most emails within 24 hours and can be available for meetings with a couple days.',
     icon: DeviceChartIcon,
   },
 ]
