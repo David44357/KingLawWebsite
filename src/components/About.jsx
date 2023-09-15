@@ -28,11 +28,16 @@ export function About() {
               King @ Law is run by a husband/wife team: Attorney David King and Paralegal Maryann Voisinet (we kept our last names).
             </p>
             <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
-              We run King @ Law the way most modern businesses are run. We operate out of a virtual office. We use software to streamline paperwork.
+            Many divorce law firms are too greedy. They charge an hourly rate, then profiteer from running grossly inefficient businesses out of the 1900s, racking up billable hours. Also, surveys show the majority of lawyers have billed clients for fake hours.
             </p>
 
             <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
-              We charge a flat-fee based on the services provided. We’ve abandoned the traditional law firm model of charging exorbitant hourly rates that motivate inefficient, dated practices.
+            The bedrock of what makes King @ Law different is our modern approach to everything we do. This means offering financing or low-cost subscriptions, supporting DIY, charging flat-fees, and using modern technology to streamline everything.
+              
+            </p>
+  <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
+    
+            </p>
             </p>
           </div>
         </div>
