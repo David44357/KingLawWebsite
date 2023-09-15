@@ -33,7 +33,7 @@ export function About() {
 
             <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
             The bedrock of what makes King @ Law different is our modern approach to everything we do. This means offering financing or low-cost subscriptions, supporting DIY, charging flat-fees, and using modern technology to streamline everything.
-              
+          
             </p>
   <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
     
