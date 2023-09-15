@@ -25,14 +25,11 @@ export function About() {
           <div className="py-8 px-6 md:p-8">
             <div className="uppercase block mt-1 mb-6 text-3xl leading-tight font-medium text-black">About <span className='text-[#ff551d]'>Our</span> Firm</div>
             <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
-              King @ Law is run by a husband/wife team: Attorney David King and Paralegal Maryann Voisinet (we kept our last names).
+              King @ Law is run by a husband/wife team: Attorney David King and Paralegal Maryann Voisinet (we kept our last names). We work out of a home-office in Raleigh, North Carolina.
             </p>
             <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
-              We run King @ Law the way most modern businesses are run. We operate out of a virtual office. We use software to streamline paperwork.
-            </p>
-
-            <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
-             TEst We charge a flat-fee based on the services provided. We’ve abandoned the traditional law firm model of charging exorbitant hourly rates that motivate inefficient, dated practices.
+              Our time is divided between representing clients like a traditional law firm and working with developers to automate legal processes. We create software to automate legal paperwork and accounting for the firm, then share the same software we use to DIYers for a monthly fee. 
+              
             </p>
           </div>
         </div>
