@@ -24,7 +24,7 @@ const features = [
   {
     name: 'Efficient',
     description:
-      'Don't pay hourly fees for lawyers to prepare piles of paperwork we automate with custom software.',
+      'Don\'t pay hourly fees for lawyers to prepare piles of paperwork we automate with custom software.',
     icon: DeviceListIcon,
   },
   {
