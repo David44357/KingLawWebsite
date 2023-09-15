@@ -24,7 +24,7 @@ const features = [
   {
     name: 'Paperwork',
     description:
-      'Never pay for time spent tracking time, billing for each page printed, or other busywork.',
+      'Never pay hourly for time spent tracking time, for each page printed, or for busywork.',
     icon: DeviceListIcon,
   },
   {
