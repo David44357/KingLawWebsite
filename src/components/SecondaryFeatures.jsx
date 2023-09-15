@@ -30,7 +30,7 @@ const features = [
   {
     name: 'Honest',
     description:
-      'Get honest, objective advice from an attorney that prioritizes your interests over inflating the budget.',
+      'Get honest, objective advice from an attorney that prioritizes your interests.',
     icon: DeviceLockIcon,
   },
   {
