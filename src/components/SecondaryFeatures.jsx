@@ -6,7 +6,7 @@ const features = [
   {
     name: 'Virtual Office',
     description:
-      'Test No need to fight downtown traffic during your work schedule to see your lawyer in-person. Schedule Zoom meetings online at your convenience, even on evenings and weekends.',
+      'No need to fight downtown traffic during your work schedule to see your lawyer in-person. Schedule Zoom meetings online at your convenience, even on evenings and weekends.',
     icon: DeviceArrowIcon,
   },
   {
