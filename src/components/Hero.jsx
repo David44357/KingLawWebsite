@@ -336,10 +336,7 @@ export function Hero() {
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               {`King @ Law routinely costs half that of competing law firms, while
-              providing better, faster, more convenient service. That's because we use modern business practices
-              like virtual offices, custom automation software, and online tools to
-              do more for less.
-              Still can't afford us? We have an app for that.`}
+              providing better, faster, more convenient service. That's because we use technology and modern practices to do more with less. Still can't afford us? We have an app for that.`}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
