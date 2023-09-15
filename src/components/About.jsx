@@ -32,7 +32,7 @@ export function About() {
             </p>
 
             <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
-              We charge a flat-fee based on the services provided. We’ve abandoned the traditional law firm model of charging exorbitant hourly rates that motivate inefficient, dated practices.
+             TEst We charge a flat-fee based on the services provided. We’ve abandoned the traditional law firm model of charging exorbitant hourly rates that motivate inefficient, dated practices.
             </p>
           </div>
         </div>
