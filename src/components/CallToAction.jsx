@@ -21,7 +21,7 @@ export function CallToAction() {
           </h2>
           <p className="mt-4 text-lg text-center text-gray-300">
             Use our online wizard to calculate your legal fees for any given situation.
-            Court fees and many other costs are included.
+            Court fees and many other expenses are included.
           </p>
           <div className="mt-8 flex justify-center">
             {/* <AppStoreLink color="white" /> */}
