@@ -6,37 +6,37 @@ const features = [
   {
     name: 'Virtual Office',
     description:
-      'Instead of fighting downtown traffic on a work-day to meet your lawyer, schedule Zoom meetings at your convenience.',
+      'No need to fight downtown traffic during your work schedule to see your lawyer in-person. Schedule Zoom meetings online at your convenience, even on evenings and weekends.',
     icon: DeviceArrowIcon,
   },
   {
     name: 'Online Portal',
     description:
-      'Sign documents, pay fees, upload evidence, provide information, and more in our online portal.',
+      'Sign documents, pay fees, upload evidence, provide information, schedule meetings, see upcoming deadlines, review your To Do list, and more in our convenient online portal.',
     icon: DeviceCardsIcon,
   },
   {
     name: 'Flat Fee',
     description:
-    'Pay a flat-fee that includes expenses, rather than paying complex invoices with potentially fictitious hours.',
+    'Most law firms spend a lot of time tracking time. They bill you for every six minutes and every page printed. Our clients pay a flat-fee using an online calculator.',
     icon: DeviceClockIcon,
   },
   {
     name: 'Efficient',
     description:
-      'Don\'t pay hourly fees for lawyers to prepare piles of paperwork we automate with custom software.',
+      'We automate tasks other law firms charge hourly for. We dont pay for fancy downtown offices and we never spend time tracking time. Our efficiency means a lower cost to you. ',
     icon: DeviceListIcon,
   },
   {
     name: 'Affordable',
     description:
-      'Our fees routinely come out to half that of competing firms, while providing better service.',
+      'Lawyers are always expensive. However, our fees routinely come out to half that of competing law firms, while providing better, faster, more convenient service.',
     icon: DeviceLockIcon,
   },
   {
     name: 'Responsive',
     description:
-      'Need to talk to your lawyer? Schedule a meeting just a day or two out.',
+      'We respond to most emails within 24 hours. Clients can typically schedule a Zoom meeting either later that day or within a few days at most.',
     icon: DeviceChartIcon,
   },
 ]
