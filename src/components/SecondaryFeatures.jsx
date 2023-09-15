@@ -24,19 +24,19 @@ const features = [
   {
     name: 'Paperwork',
     description:
-      'Don\'t pay for time spent tracking time, tracking expenses, scheduling meetings, or other busy work.',
+      'Never pay for time spent tracking time, billing for each page printed, or other busywork.',
     icon: DeviceListIcon,
   },
   {
     name: 'Affordable',
     description:
-      'Our fees routinely come out to half that of competing law firms, without sacrificing service.',
+      'Pay half that of a competing law firm, without sacrificing service.',
     icon: DeviceLockIcon,
   },
   {
     name: 'Responsive',
     description:
-      'Attorney King responds to most emails within 24 hours and can be available for meetings with a couple days.',
+      'Schedule meetings just a day or two out and get prompt responses to your emails.',
     icon: DeviceChartIcon,
   },
 ]
