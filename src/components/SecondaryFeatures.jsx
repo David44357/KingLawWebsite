@@ -28,9 +28,9 @@ const features = [
     icon: DeviceListIcon,
   },
   {
-    name: 'Affordable',
+    name: 'Honest',
     description:
-      'Pay half that of a competing law firm, without sacrificing service.',
+      'Get honest, objective advice from an attorney that prioritizes your interests over inflating the budget.',
     icon: DeviceLockIcon,
   },
   {
