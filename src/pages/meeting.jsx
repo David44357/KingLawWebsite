@@ -10,9 +10,13 @@ import InternetIcon from '../images/internet.png'
 import DecideIcon from '../images/choose.png'
 import TargetIcon from '../images/target.png'
 import { Cal } from '@/components/Cal'
+import { redirect } from 'next/dist/server/api-utils'
+
+
+
+
 
 export default function MyApp() {
-
   const ListPoints = [
     {
       Title: 'FOCUS',
@@ -30,7 +34,6 @@ export default function MyApp() {
       Icon: InternetIcon,
     },
   ]
-
   return (
     <>
       <Head>

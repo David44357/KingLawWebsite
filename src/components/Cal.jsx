@@ -15,7 +15,7 @@ export function Cal() {
         })();
     }, [])
     return <Button
-        data-cal-link="ethicalwiki/meeting"
-        data-cal-config='{"layout":"month_view"}'
-    >Get a Consultation</Button>;
+    data-cal-link="kinglawnc/consultation"
+    data-cal-config='{"layout":"month_view"}'
+    >Schedule a Consultation</Button>;
 };
