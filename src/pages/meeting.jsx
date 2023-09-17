@@ -1,6 +1,5 @@
 import { Container } from '@/components/Container'
 import HeroBanner from '@/components/Hero-Banner'
-import Cal, { getCalApi } from '@calcom/embed-react'
 import Image from 'next/image'
 import { useEffect } from 'react'
 import Head from 'next/head'
@@ -10,18 +9,9 @@ import CardBanner from '../images/Card-Banner.jpg'
 import InternetIcon from '../images/internet.png'
 import DecideIcon from '../images/choose.png'
 import TargetIcon from '../images/target.png'
+import { Cal } from '@/components/Cal'
 
 export default function MyApp() {
-  useEffect(() => {
-    ; (async function () {
-      const cal = await getCalApi()
-      cal('ui', {
-        styles: { branding: { brandColor: '#000000' } },
-        hideEventTypeDetails: false,
-        layout: 'month_view',
-      })
-    })()
-  }, [])
 
   const ListPoints = [
     {
@@ -109,8 +99,7 @@ export default function MyApp() {
             <h2 className="text-center text-3xl font-medium uppercase tracking-tight text-gray-900">
               SCHEDULE <span className="text-[#ff551d]">CONSULTATION</span>
             </h2>
-            <iframe style={{minHeight:"850px"}}className="mt-5 h-full w-full overflow-auto" src="https://k-l-meeting-scheduler.flutterflow.app/"></iframe>
-            {/* Brought to you by <a href="https://k-l-meeting-scheduler.flutterflow.app/" target="_blank">Make Appoinrtment Flutter App</a> */}
+            <Cal></Cal>
           </Container>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { motion, useInView, useMotionValue } from 'framer-motion'
 import { AppScreen } from '@/components/AppScreen'
 import { AppStoreLink } from '@/components/AppStoreLink'
 import { Button } from '@/components/Button'
+import { Cal } from '@/components/Cal'
 import { Container } from '@/components/Container'
 import myImage from '@/images/Suit.png'
 
@@ -342,12 +343,7 @@ export function Hero() {
               <Button href="/comingsoon" variant='solid' >
                 <span >Get the Mobile App</span>
               </Button>
-              <Button
-                href="https://k-l-meeting-scheduler.flutterflow.app"
-                variant="outline"
-              >
-                <span >Get a Consultation</span>
-              </Button>
+              <Cal></Cal>
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
