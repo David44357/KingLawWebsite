@@ -26,7 +26,7 @@ export default function DiyApps() {
                 <Container>
                 <h1 className="text-4xl font-medium tracking-tight text-gray-900">Terms of Use and Privacy Policy</h1>
 
-<p className="mt-6 text-lg text-gray-600 my-3">King @ Law will never sell any information you provide to third-party spammers or advertisers. Your information is primarily used to provide features and services to you. However, we may use your information for our own marketing to you, such as follow-up emails. We also use various third-parties that may store, share, and process your information, such as Google Drive, the Firebase database, and custom software developers.
+<p className="mt-6 text-md text-gray-600 my-3">King @ Law will never sell any information you provide to third-party spammers or advertisers. Your information is primarily used to provide features and services to you. However, we may use your information for our own marketing to you, such as follow-up emails. We also use various third-parties that may store, share, and process your information, such as Google Drive, the Firebase database, and custom software developers.
 We cannot provide a clear policy on how long we will keep your information or records. The North Carolina Bar Association requires we keep records for as long as is reasonable under the circumstances. For example, we may need to keep records of a consultation for years to make sure we don’t accidentally end up in a conflict of interest situation.
 Nothing on this website constitutes legal advice for your particular circumstances. </p>
 
