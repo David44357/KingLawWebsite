@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { CallToAction } from '@/components/CallToAction'
+import { PromCallToAction } from '@/components/PromCallToAction'
 import { About } from '@/components/About'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -31,8 +31,8 @@ export default function Home() {
         <PromHero />
         <PromPrimaryFeatures />
         <PromSecondaryFeatures />
-        <Testimonials />
-        <CallToAction />
+        {/* <Testimonials /> */}
+        <PromCallToAction />
         <PromFaqs />
       </main>
       <Footer />
