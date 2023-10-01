@@ -336,7 +336,7 @@ export function PromHero() {
               Prometheus
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'A Legal App Coming Soon '}
+              {'Prometheus is an app you can download on your phone, install on your computer, or use online. You can think of it like the TurboTax of divorce law. You answer questions and provide information. Prometheus educates you on the law, completes your legal documents, and gives you step-by-step intructions.              '}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
