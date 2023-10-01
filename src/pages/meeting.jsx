@@ -1,7 +1,7 @@
 import { Container } from '@/components/Container'
 import HeroBanner from '@/components/Hero-Banner'
 import Image from 'next/image'
-import { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
@@ -9,7 +9,7 @@ import CardBanner from '../images/Card-Banner.jpg'
 import InternetIcon from '../images/internet.png'
 import DecideIcon from '../images/choose.png'
 import TargetIcon from '../images/target.png'
-import { Cal } from '@/components/Cal'
+import { CalInline } from '@/components/CalInline'
 import { redirect } from 'next/dist/server/api-utils'
 
 
@@ -17,6 +17,11 @@ import { redirect } from 'next/dist/server/api-utils'
 
 
 export default function MyApp() {
+  const [selectedOption, setSelectedOption] = useState('Select a value');
+
+
+
+
   const ListPoints = [
     {
       Title: 'FOCUS',
@@ -34,6 +39,19 @@ export default function MyApp() {
       Icon: InternetIcon,
     },
   ]
+
+  const handleDropdownChange = (e) => {
+    console.log(e.target.value)
+    const elements = document.getElementsByName('cal-embed=');
+            
+    // Check if an element with the specified name exists
+    if (elements.length > 0) {
+        // Update the "value" attribute of the first element
+        elements[0].setAttribute('src', "https://app.cal.com/"+e.target.value+"/embed?embed=&layout=month_view&embedType=inline");
+    }
+    setSelectedOption(e.target.value);
+  };
+
   return (
     <>
       <Head>
@@ -48,61 +66,24 @@ export default function MyApp() {
       <div>
         <HeroBanner title="MEETING" />
 
-        <div className="bg-gray-100 py-12 lg:py-16">
-          <div className="mx-auto max-w-lg cursor-pointer overflow-hidden md:max-w-5xl">
-            <div className="flex flex-col items-center justify-center md:flex-row">
-              <div className="md:shrink-0">
-                <Image
-                  src={CardBanner}
-                  alt="Image"
-                  className="h-full w-full object-contain md:h-96 md:w-96"
-                />
-              </div>
-              <div className="px-5 py-8 md:p-8">
-                <div className="max-w-md">
-                  <h2 className="block text-3xl font-medium uppercase leading-tight text-black">
-                    ATTORNEY <span className="text-[#ff551d]">MEETING</span>
-                  </h2>
-                  <p className="my-3 text-sm font-normal text-gray-500">
-                    Schedule a Zoom meeting with attorney King anytime using the below scheduling app. Evenings & weekends are ok, but the app does require scheduling at least 3 hours in advance. To make the most of your meeting:
-                  </p>
-                  <ul className="mt-10 list-none">
-                    {ListPoints.map((point, index) => (
-                      <li
-                        key={index}
-                        className="group relative mb-6 grid grid-cols-[50px,1fr] items-center gap-5 last:mb-0"
-                      >
-                        <div className="mr-4 flex h-10 w-full items-center justify-center bg-[#ff551c] group-hover:animate-wiggle md:h-10">
-                          <Image
-                            src={point?.Icon}
-                            width={30}
-                            height={30}
-                            alt="laptop_icon"
-                          />
-                        </div>
-                        <div className="flex flex-col">
-                          <h4 className="text-xl font-medium uppercase leading-tight text-gray-700">
-                            {point?.Title}
-                          </h4>
-                          <p className="mt-1 text-xs font-normal text-gray-500">
-                            {point?.Description}
-                          </p>
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="bg-white py-12 lg:py-16">
           <Container>
-            <h2 className="text-center text-3xl font-medium uppercase tracking-tight text-gray-900">
-              SCHEDULE <span className="text-[#ff551d]">CONSULTATION</span>
-            </h2>
-            <Cal></Cal>
+            <h4 className="text-center text-3xl font-medium uppercase tracking-tight text-gray-900">
+              Select an option <span className="text-[#ff551d]"></span>
+            </h4>
+            <label className="text-center block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
+            <select id="countries" onChange={handleDropdownChange} className="text-center p-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option value="Select a value">Please choose an option</option>
+              <option value="kinglawnc/consultation">I want a consultation</option>
+              <option value="kinglawnc/meeting">I am a current client</option>
+              <option value="kinglawnc/ocmeeting">I am an opposing counsel</option>
+              <option value="kinglawnc/prose">I am the opposing spouse</option>
+            </select>
+            
+
+
+            <CalInline selectedOption={selectedOption}></CalInline>
           </Container>
         </div>
       </div>
