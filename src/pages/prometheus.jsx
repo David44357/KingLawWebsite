@@ -8,7 +8,13 @@ import { PromHero } from '@/components/PromHero'
 import { Pricing } from '@/components/Pricing'
 // import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Reviews } from '@/components/Reviews'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import { PromPrimaryFeatures } from '@/components/PromPrimaryFeatures'
+import { PromSecondaryFeatures } from '@/components/PromSecondaryFeatures'
+import { PromFaqs } from '@/components/PromFaqs'
+
+import { Testimonials } from '@/components/Testimonials'
+
+
 
 export default function Home() {
   return (
@@ -23,11 +29,11 @@ export default function Home() {
       <Header />
       <main>
         <PromHero />
-        <SecondaryFeatures />
-        <Reviews />
+        <PromPrimaryFeatures />
+        <PromSecondaryFeatures />
+        <Testimonials />
         <CallToAction />
-        <Pricing />
-        <About />
+        <PromFaqs />
       </main>
       <Footer />
     </>
