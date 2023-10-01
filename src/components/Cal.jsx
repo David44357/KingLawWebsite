@@ -7,15 +7,15 @@ import { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 import { Button } from './Button'
 
-export function Cal() {
+export function Cal({ selectedOption }) {
     useEffect(() => {
         (async function () {
             const cal = await getCalApi();
             cal("ui", { "styles": { "branding": { "brandColor": "#FF551C" } }, "hideEventTypeDetails": false, "layout": "month_view" });
         })();
     }, [])
-    return <Button
+    return (<Button
     data-cal-link="kinglawnc/consultation"
     data-cal-config='{"layout":"month_view"}'
-    >Schedule a Consultation</Button>;
+    >Schedule a Consultation {selectedOption} </Button>);
 };
