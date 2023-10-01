@@ -70,9 +70,9 @@ export default function MyApp() {
           <Container>
             <div className="flex flex-row justify-center">
             <h2 class="p-2 text-lg font-normal lg:text-xl">I am    </h2>
-            <select id="countries" onChange={handleDropdownChange} className="max-w-fit text-center p-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-              <option value="Select a value">Please choose an option</option>
-              <option value="kinglawnc/consultation">seeking a consultation</option>
+            <select id="countries" onChange={handleDropdownChange} className="max-w-fit text-left p-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option value="Select a value">Please choose an option.   </option>
+              <option value="kinglawnc/consultation">seeking a consultation. </option>
               <option value="kinglawnc/meeting">a current client</option>
               <option value="kinglawnc/ocmeeting">an opposing counsel</option>
               <option value="kinglawnc/prose">the opposing spouse</option>
