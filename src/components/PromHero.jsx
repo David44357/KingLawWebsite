@@ -336,7 +336,7 @@ export function PromHero() {
              Legal services for the rest of us.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'Finally, legal help most people can afford. In Prometheus, you answer questions and provide information. The app emails you completed legal documents, provides step-by-step instructions, and provides other help. If you need more assistance, you can schedule a Zoom with an attorney for just $199.'}
+              {'Finally, legal help most people can afford. Prometheus will help you complete legal documents, prepare for hearings, or complete a legal process for just $99 a month. Need more help? Schedule a Zoom with an attorney anytime for just $199. '}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
