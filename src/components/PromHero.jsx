@@ -333,10 +333,10 @@ export function PromHero() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
           <div className="">
             <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-              Prometheus
+              Legal services for the rest of us.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'Law firms are for the super-rich. Prometheus is for the rest of us. In Prometheus, you answer questions and provide information. Prometheus will create your legal documents, walk you through a process, create an accounting, or prepare you for a hearing.  '}
+              {'Prometheus is a DIY North Carolina divorce law powerhouse. You answer questions and provide information. Prometheus provides completed legal documents, step-by-step instructions, deeds, separation agreements, settlement proposals, and more. '}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
