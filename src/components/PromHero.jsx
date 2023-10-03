@@ -333,10 +333,10 @@ export function PromHero() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
           <div className="">
             <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-              Legal services for the rest of us.
+              Prometheus Apps. Legal services for the rest of us.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'You can think of Prometheus as a TurboTax for North Carolina divorce law. You answer questions and provide information. Prometheus gives you completed legal documents, step-by-step instructions, deeds, agreements, and more. Talk to an attorney anytime for a small fee. '}
+              {'You can think of Prometheus as a TurboTax for North Carolina divorce law. You answer questions and provide information. Prometheus gives you completed legal documents and step-by-step instructions. Pay only $99/month and schedule a Zoom with an attorney anytime for just $199.'}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
