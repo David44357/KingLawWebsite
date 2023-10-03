@@ -336,12 +336,18 @@ export function PromHero() {
               Legal services for the rest of us.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'Prometheus is a DIY North Carolina divorce law powerhouse. You answer questions and provide information. Prometheus provides completed legal documents, step-by-step instructions, deeds, separation agreements, settlement proposals, and more. '}
+              {'You can think of Prometheus as a TurboTax for North Carolina divorce law. You answer questions and provide information. Prometheus gives you completed legal documents, step-by-step instructions, deeds, agreements, and more. Talk to an attorney anytime for a small fee. '}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
               <Button href="/comingsoon" variant='solid' >
-                <span >Get the Mobile App</span>
+                <span >Download the App</span>
+              </Button>
+            </div>
+              <div className="mt-10 flex justify-center gap-x-6">
+              {/* <AppStoreLink /> */}
+              <Button href="/comingsoon" variant='solid' >
+                <span >Use the Online Portal</span>
               </Button>
             </div>
           </div>
