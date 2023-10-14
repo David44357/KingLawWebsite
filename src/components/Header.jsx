@@ -111,9 +111,10 @@ export function Header() {
                             <MobileNavLink href="https://www.kinglawnc.com/#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="https://www.apps.kinglawnc.com/login" variant="outline">
+                           <a href="href="https://www.apps.kinglawnc.com/login">
+                           <Button variant="outline">
                               Log in
-                            </Button>
+                            </Button></a>
                             <Button href="/comingsoon">Download the app</Button>
                           </div>
                         </Popover.Panel>
