@@ -111,7 +111,7 @@ export function Header() {
                             <MobileNavLink href="https://www.kinglawnc.com/#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/comingsoon" variant="outline">
+                            <Button href="https://www.apps.kinglawnc.com/login" variant="outline">
                               Log in
                             </Button>
                             <Button href="/comingsoon">Download the app</Button>
