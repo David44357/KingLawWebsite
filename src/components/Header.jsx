@@ -99,22 +99,21 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="https://www.kinglawnc.com/#about">
+                            <MobileNavLink href="#about">
                               About Us
                             </MobileNavLink>
-                            <MobileNavLink href="https://www.kinglawnc.com/#reviews">
+                            <MobileNavLink href="#reviews">
                               Reviews
                             </MobileNavLink>
-                            <MobileNavLink href="https://www.kinglawnc.com/#pricing">
+                            <MobileNavLink href="#pricing">
                               Pricing
                             </MobileNavLink>
-                            <MobileNavLink href="https://www.kinglawnc.com/#faqs">FAQs</MobileNavLink>
+                            <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                           <a href="href="https://www.apps.kinglawnc.com/login">
-                           <Button variant="outline">
+                            <Button href="/comingsoon" variant="outline">
                               Log in
-                            </Button></a>
+                            </Button>
                             <Button href="/comingsoon">Download the app</Button>
                           </div>
                         </Popover.Panel>
