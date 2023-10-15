@@ -115,7 +115,7 @@ export function Header() {
                             <Button variant="outline" style={{ maxWidth: '200px' }}>
                               Log in
                             </Button></Link>
-                            <Button href="/comingsoon">Download the app</Button>
+                            <Button href="/comingsoon" style={{ maxWidth: '200px' }}>Download the app</Button>
                           </div>
                         </Popover.Panel>
                       </>
