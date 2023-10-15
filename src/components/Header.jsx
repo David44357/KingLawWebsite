@@ -111,9 +111,10 @@ export function Header() {
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/comingsoon" variant="outline">
+                            <Link href="https://www.apps.kinglawnc.com">
+                            <Button variant="outline" style={{ maxWidth: '200px' }}>
                               Log in
-                            </Button>
+                            </Button></Link>
                             <Button href="/comingsoon">Download the app</Button>
                           </div>
                         </Popover.Panel>
@@ -124,7 +125,7 @@ export function Header() {
               )}
             </Popover>
             <Link href="https://www.apps.kinglawnc.com">
-            <Button variant="outline" className="hidden lg:block">
+            <Button variant="outline" style={{ maxWidth: '200px' }} className="hidden lg:block">
               Log in
             </Button></Link>
             <Button href="comingsoon" className="hidden lg:block">
