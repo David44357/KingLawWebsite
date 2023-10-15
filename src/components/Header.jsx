@@ -123,7 +123,7 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/meeting" variant="outline" className="hidden lg:block">
+            <Button href="apps.kinglawn.com" variant="outline" className="hidden lg:block">
               Log in
             </Button>
             <Button href="comingsoon" className="hidden lg:block">
