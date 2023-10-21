@@ -13,9 +13,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Instructions',
-    summary: 'The apps walk you through a legal process in a step-by-step format',
+    summary: 'Step-by-step walkthroughs that are specific to your situation and courthouse',
     description:
-      'Don\'t settle for generalized instructions online. The apps will give you the specifics of what to do for your situation and courthouse.',
+      'Don\'t settle for generalized instructions online. Each courthouse and situation is different. Our apps provide specific step-by-step instructions based on the information you provide.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -48,9 +48,9 @@ const features = [
   {
     name: 'Legal Documents',
     summary:
-      'Let the app complete the right legal documents for you',
+      'The right completed draft legal documents for you',
     description:
-      'Don\'t lose custody or get divorced without a separation agreement just because you didn\'t do the right paperwork.',
+      'You may need different documents depending on which courthouse you\'re in and your situation. Our apps select and complete the right documents for you.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -76,7 +76,7 @@ const features = [
   {
     name: 'Attorney Support',
     summary:
-      'Paid users get access to one attorney consultation per app they complete.',
+      'One attorney consultation for each app you complete',
     description:
       'Have an attorney review your documents, provide advice, and answer your questions over Zoom at no additional cost.',
     image: screenshotContacts,
