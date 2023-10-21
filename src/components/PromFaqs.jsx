@@ -30,24 +30,24 @@ const faqs = [
       question:
         'How much does it cost?',
       answer:
-        'Currently, it is just $49 a month, while the program is in beta. We plan to charge $199, once the program is more robust and covers more courthouses/processes.',
+        'Currently, a subscription is just $49 a month, while the app is in beta. We plan to charge $199, once the app is fully developed.',
     },
     {
       question:
         'Shouldn\'t I just hire a lawyer?',
       answer:
-        'It depends on what you can afford, how much money is in dispute, and whether you found a lawyer you trust.',
+        'This is a personal question. It depends on what you can afford, how much money is in dispute, and whether you trust lawyers to give you objective advice.',
     },
   ],
   [
     {
-      question: 'Where did this app come from?',
+      question: 'Does King @ Law have access to information I upload?',
       answer:
-        'The app uses the same tools we use for our firm to automatically generate legal documents.',
+        'Yes, the app uses the same tools we use for our firm to automatically generate legal documents. However, we never have access to your credit card information or password.',
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'You can cancel in the app anytime, without having to talk to a person or contact support.',
+      answer: 'You can cancel anytime in the app without having to talk to a person or contact support.',
     },
     {
       question: 'Can my ex and I both use the app together to collaborate on settlement?',
