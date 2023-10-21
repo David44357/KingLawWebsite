@@ -13,7 +13,7 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Instructions',
-    summary: 'Step-by-step walkthroughs that are specific to your situation and courthouse',
+    summary: 'Step-by-step walkthroughs based on your situation',
     description:
       'Don\'t settle for generalized instructions online. Each courthouse and situation is different. Our apps provide specific step-by-step instructions based on the information you provide.',
     image: screenshotProfitLoss,
