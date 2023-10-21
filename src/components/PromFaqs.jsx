@@ -8,16 +8,16 @@ const faqs = [
     {
       question: 'Can I just hire King @ Law to represent me?',
       answer:
-        'Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
+        'Test Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
     },
     {
-      question: 'What if King @ Law doesn\'t have an app for my situation or courthouse yet?',
-      answer: 'Email David@kinglawnc.com to request we create the app you need.',
+      question: 'What if the app doesn\'t cover my situation or courthouse?',
+      answer: 'Please email David@kinglawnc.com and let him know. He may create the app at your request.',
     },
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'No. Each courthouse uses their own forms, rules, and processes that are unique to that courthouse.',
+        'Generally not. Each courthouse uses their own forms, rules, and processes that are unique to that courthouse.',
     },
   ],
   [
@@ -30,29 +30,29 @@ const faqs = [
       question:
         'How much does it cost?',
       answer:
-        'A subscription is $199 per-month until cancelled. This gives you access to all of the apps, plus one attorney consultation per app you use.',
+        'Currently, a subscription is just $49 a month, while the app is in beta. We plan to charge $199, once the app is fully developed.',
     },
     {
       question:
         'Shouldn\'t I just hire a lawyer?',
       answer:
-        'Whether to hire a lawyer depends on how much you can afford, how much is in dispute, and how confident you are following the apps' instructions.',
+        'This is a personal question. It depends on what you can afford, how much money is in dispute, and whether you trust lawyers to give you objective advice.',
     },
   ],
   [
     {
       question: 'Does King @ Law have access to information I upload?',
       answer:
-        'Yes, the app uses the same tools we use for our law firm for clients we represent. Your data is stored basically the same way a client\'s data would be stored. However, we never have access to credit card information or passwords.',
+        'Yes, the app uses the same tools we use for our firm to automatically generate legal documents. However, we never have access to your credit card information or password.',
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'You can cancel anytime in the app with the press of a button anytime without having to talk to a person or contact support.',
+      answer: 'You can cancel anytime in the app without having to talk to a person or contact support.',
     },
     {
       question: 'Can my ex and I both use the app together to collaborate on settlement?',
       answer:
-        'Yes. That\'s a terrific way to use the app. However, in some cases this may limit the legal services Mr. King can provide under the Bar Association\'s Conflict of Interest rules.',
+        'Yes, but in some cases this may limit the legal services we\'re able to provide under the Bar Association\'s Conflict of Interest rules.',
     },
   ],
 ]
