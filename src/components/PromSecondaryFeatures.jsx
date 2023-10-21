@@ -12,10 +12,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Instructions',
+    summary: 'The apps walk you through a legal process in a step-by-step format',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Don\'t settle for generalized instructions online. The apps will give you the specifics of what to do for your situation and courthouse.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -46,11 +46,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Legal Documents',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Let the app complete the right legal documents for you',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Don\'t lose custody or get divorced without a separation agreement just because you didn\'t do the right paperwork.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -74,11 +74,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Attorney Support',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Paid users get access to one attorney consultation per app they complete.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Have an attorney review your documents, provide advice, and answer your questions over Zoom at no additional cost.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
