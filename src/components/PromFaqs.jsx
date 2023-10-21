@@ -6,7 +6,7 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Can I just hire King @ Law?',
+      question: 'Can I just hire King @ Law to represent me?',
       answer:
         'Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
     },
