@@ -34,7 +34,7 @@ const features = [
   {
     title: '4. Instructions',
     description:
-      "Get step-by-step instructions, down to where to park, how to find the clerk's office, and how many copies to make.",    
+      "Follow step-by-step instructions, down to where to park, how to find the clerk's office, and how many copies to make.",    
       image: screenshotReporting,
   },
 ]
@@ -76,10 +76,10 @@ export function PromPrimaryFeatures() {
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            4 Steps to a Legal Issue
+            4 Steps to Using One of Our Apps
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-           From uncontestded divorce decrees and separation agreements to motions for contempt, we have you covered. 
+           From uncontested divorce decrees and separation agreements to motions for contempt, we have you covered. 
           </p>
         </div>
         <Tab.Group
