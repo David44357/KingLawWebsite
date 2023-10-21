@@ -11,8 +11,8 @@ const faqs = [
         'Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
     },
     {
-      question: 'What if the app doesn\'t cover my situation or courthouse?',
-      answer: 'Please email David@kinglawnc.com and let him know. He may create the app at your request.',
+      question: 'What if you don\'t have an app for my situation or courthouse?',
+      answer: 'Email David@kinglawnc.com and request we create the app you need.',
     },
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
@@ -34,25 +34,25 @@ const faqs = [
     },
     {
       question:
-        'Shouldn\'t I just hire a lawyer?',
+        'Is there a limit to the number of consultations I can have?',
       answer:
-        'It depends on what you can afford, how much money is in dispute, whether you trust lawyers, and how confident you feel with a DIY approach.',
+        'Yes. The subscription comes with one attorney consultation per app you use, capped at one consultation per-month.',
     },
   ],
   [
     {
-      question: 'Is there a limit to the number of consultations I can have?',
+      question: 'Shouldn\'t I just hire a lawyer?',
       answer:
-        'Yes. The subscription comes with one attorney consultation per app you use, capped at one consultation per-month.',
+        'It depends on what you can afford, how much money is in dispute, whether you trust lawyers, and how confident you feel with a DIY approach.',
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'You can cancel anytime in the app with a click of a button, without having to talk to a person or contact support.',
+      answer: 'You can cancel anytime in the app with a single click. You do not need to contact anyone to cancel.',
     },
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. That\'s a terrific way to use the apps. However, in some cases attorney King may be prohibited from providing consultations if both parties are using the apps.',
+        'Yes. That\'s a terrific way to use the apps. However, if both parties purchase a subscription, we can only provide consultations to the first one to use the apps.',
     },
   ],
 ]
