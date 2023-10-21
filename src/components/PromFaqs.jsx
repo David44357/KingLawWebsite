@@ -24,7 +24,7 @@ const faqs = [
     {
       question: 'Isn\'t this the same as LegalZoom?',
       answer:
-        'We use a similar TurboTax-style format. You answer questions and provide information. The app generates the right documents. However, our apps cover more complex legal matters and are programmed for specific courthouses. We also offer attorney assistance as part of the subscription price.',
+        'We use a similar TurboTax-style format. However, our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance as part of the subscription price.',
     },
     {
       question:
@@ -36,7 +36,7 @@ const faqs = [
       question:
         'Shouldn\'t I just hire a lawyer?',
       answer:
-        'This is a personal question. It depends on what you can afford, how much money is in dispute, and whether you trust lawyers to give you objective advice.',
+        'It depends on what you can afford, how much money is in dispute, whether you trust lawyers, and how confident you feel with a DIY approach.',
     },
   ],
   [
@@ -47,12 +47,12 @@ const faqs = [
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'You can cancel anytime in the app without having to talk to a person or contact support.',
+      answer: 'You can cancel anytime in the app with a click of a button, without having to talk to a person or contact support.',
     },
     {
-      question: 'Can my ex and I both use the app together to collaborate on settlement?',
+      question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. That\'s a terrific way to use the apps. However, attorney King may be prohibited from providing consultations if both parties are using the aps.',
+        'Yes. That\'s a terrific way to use the apps. However, in some cases attorney King may be prohibited from providing consultations if both parties are using the apps.',
     },
   ],
 ]
