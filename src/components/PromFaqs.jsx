@@ -52,7 +52,7 @@ const faqs = [
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. That\'s a terrific way to use the apps. However, if both parties purchase a subscription, we can only provide consultations to the first one to use the apps.',
+        'Yes. That\'s a terrific way to use the apps. However, the Bar Association\'s conflict of interest rules prohibit us from providing consultations to both parties.',
     },
   ],
 ]
