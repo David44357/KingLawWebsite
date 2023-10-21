@@ -346,9 +346,6 @@ export function PromHero() {
             </div>
               <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
-              <Button href="/comingsoon" variant='solid' >
-                <span >Use the Online Portal</span>
-              </Button>
             </div>
           </div>
         </div>
