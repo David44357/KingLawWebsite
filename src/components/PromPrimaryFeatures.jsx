@@ -14,25 +14,25 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: '1. Provide Information',
+    title: '1. Provide Info',
     description:
       "Give the app information about your situation, so it can determine what documents and instructions you need.",
     image: screenshotPayroll,
   },
   {
-    title: '2. Legal Documents',
+    title: '2. Get Documents',
     description:
-      "Review completed draft legal documents specific to your courthouse and situation that the app will email to you.",
+      "The app will email you completed draft legal documents specific to your courthouse and situation.",
     image: screenshotExpenses,
   },
   {
-    title: '3. Legal Advice',
+    title: '3. Get Advice',
     description:
       "Schedule a Zoom consultation with an attorney to review your documents and discuss your situation.",
     image: screenshotVatReturns,
   },
   {
-    title: '4. Instructions',
+    title: '4. Follow Instructions',
     description:
       "Follow step-by-step instructions, down to where to park, how to find the clerk's office, and how many copies to make.",    
       image: screenshotReporting,
@@ -79,7 +79,7 @@ export function PromPrimaryFeatures() {
             4 Steps to Using One of Our Apps
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-           From uncontested divorce decrees and separation agreements to motions for contempt, we have you covered. 
+           From uncontested divorce decrees and separation agreements to motions for contempt, we have an app for it. 
           </p>
         </div>
         <Tab.Group
@@ -119,7 +119,7 @@ export function PromPrimaryFeatures() {
                           'mt-2 hidden text-sm lg:block',
                           selectedIndex === featureIndex
                             ? 'text-white'
-                            : 'text-blue-100 group-hover:text-white',
+                            : 'text-orange-300 group-hover:text-white',
                         )}
                       >
                         {feature.description}
