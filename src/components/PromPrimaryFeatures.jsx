@@ -14,27 +14,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Provide Information',
+    title: '1. Provide Information',
     description:
-      "Give the app information about your situation, so it can determine what to do.",
+      "Give the app information about your situation, so it can determine what documents and instructions you need.",
     image: screenshotPayroll,
   },
   {
-    title: 'Legal Documents',
+    title: '2. Legal Documents',
     description:
-      "Get completed draft documents specific to your courthouse and situation in your email inbox.",
+      "Get completed draft legal documents specific to your courthouse and situation in your email inbox.",
     image: screenshotExpenses,
   },
   {
-    title: 'Instructions',
+    title: '3. Legal Advice',
     description:
-      "Get step-by-step instructions, down to where to park, how to find the clerk's office, and how many copies to make.",
+      "Schedule a Zoom consultation with an attorney to review your documents and discuss your situation.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Legal Advice',
+    title: '4. Instructions',
     description:
-      "Get one Zoom consultation with an attorney per-month to review your documents and discuss your situation.",    
+      "Get step-by-step instructions, down to where to park, how to find the clerk's office, and how many copies to make.",    
       image: screenshotReporting,
   },
 ]
