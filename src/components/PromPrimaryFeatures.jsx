@@ -14,27 +14,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
+    title: 'Provide Information',
+    description:
+      "Give the app information about your situation, so it can determine what documents you need, where to file them, and what to do.",
+    image: screenshotPayroll,
+  },
+  {
     title: 'Legal Documents',
     description:
-      "You answer questions and provide information. The app selects the right documents and completes a draft for you.",
-    image: screenshotPayroll,
+      "Get completed draft documents specific to your courthouse and situation in your email inbox.",
+    image: screenshotExpenses,
+  },
+  {
+    title: 'Instructions',
+    description:
+      "Return to the app for step-by-step instructions on what to do next, down to where to park and how to find the clerk's office at your courthouse.",
+    image: screenshotVatReturns,
   },
   {
     title: 'Legal Advice',
     description:
-      "Our monthly subscription comes with up to one consultation with an attorney each month",
-    image: screenshotExpenses,
-  },
-  {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      "Use up to one monthly Zoom consultation with an attorney to review your documents, discuss your case, and answer your questions. ",
     image: screenshotReporting,
   },
 ]
