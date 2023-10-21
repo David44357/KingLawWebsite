@@ -78,7 +78,7 @@ export function PromPrimaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             4 Steps to Using One of Our Apps
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-orange-200">
+          <p className="mt-6 text-lg tracking-tight text-orange-100">
            From uncontested divorce decrees and separation agreements to motions for contempt, we have an app for it. 
           </p>
         </div>
