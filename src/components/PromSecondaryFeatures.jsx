@@ -221,7 +221,7 @@ export function PromSecondaryFeatures() {
             How the apps work
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            You can think of our apps as the TurboTax of divorce law. Each app uses a series of if-then statements to pick the right courthouse, give you the right instructions for your situation, or select the right documents to complete.
+            You can think of our apps as the TurboTax of divorce law. You answer questions and provide information. The app selects the right legal documents and instructions. An attorney helps coach you through it.
           </p>
         </div>
         <FeaturesMobile />
