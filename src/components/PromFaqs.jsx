@@ -11,48 +11,48 @@ const faqs = [
         'Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
     },
     {
-      question: 'What if the app doesn\'t have anything for my courthouse or process?',
+      question: 'What if the app doesn\'t cover my situation or courthouse?',
       answer: 'Please email David@kinglawnc.com and let him know. We are constantly expanding the app to cover more courthouses and processes.',
     },
     {
-      question: 'Shouldn\'t I hire a lawyer?',
+      question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'It is difficult to say, depending on what you can afford and how your situation unfolds.',
+        'Generally not. Each courthouse uses their own forms, rules, and processes that are unique to that courthouse.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Isn\'t this the same as LegalZoom?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Our apps handle more complex legal matters, are programmed for specific courthouses, and have a different approach to attorney assistance.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'How much does it cost?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Currently, it is just $49 a month, while the program is in beta. We plan to charge $199, once the program is more robust and covers more courthouses/processes.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'Shouldn\'t I just hire a lawyer?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'It depends on what you can afford, how much money is in dispute, and whether you found a lawyer you trust.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Where did this app come from?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'The app uses the same tools we use for our firm to automatically generate legal documents.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Is it difficult to cancel?',
+      answer: 'You can cancel in the app anytime, without having to talk to a person or contact support.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Can my ex and I both use the app together to collaborate on settlement?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Yes, but in some cases this may limit the legal services we\'re able to provide under the Bar Association\'s Conflict of Interest rules.',
     },
   ],
 ]
@@ -81,8 +81,7 @@ export function PromFaqs() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Still have questions? Contact attorney David King at David@kinglawnc.com or schedule a consultation at kinglawnc.com/meeting.
           </p>
         </div>
         <ul
