@@ -99,16 +99,16 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#about">
+                            <MobileNavLink href="https://www.kinglawnc.com/#about">
                               About Us
                             </MobileNavLink>
-                            <MobileNavLink href="#reviews">
+                            <MobileNavLink href="https://www.kinglawnc.com/#reviews">
                               Reviews
                             </MobileNavLink>
-                            <MobileNavLink href="#pricing">
+                            <MobileNavLink href="https://www.kinglawnc.com/#pricing">
                               Pricing
                             </MobileNavLink>
-                            <MobileNavLink href="#faqs">FAQs</MobileNavLink>
+                            <MobileNavLink href="https://www.kinglawnc.com/#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             <Link href="https://www.apps.kinglawnc.com">
