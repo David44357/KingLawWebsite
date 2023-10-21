@@ -41,9 +41,9 @@ const faqs = [
   ],
   [
     {
-      question: 'Does King @ Law have access to information I upload?',
+      question: 'Is there a limit to the number of consultations I can have?',
       answer:
-        'Yes, the app uses the same tools we use for our firm to automatically generate legal documents. However, we never have access to your credit card information or password.',
+        'Yes. The subscription comes with one attorney consultation per app you use, capped at one consultation per-month.',
     },
     {
       question: 'Is it difficult to cancel?',
@@ -52,7 +52,7 @@ const faqs = [
     {
       question: 'Can my ex and I both use the app together to collaborate on settlement?',
       answer:
-        'Yes, but in some cases this may limit the legal services we\'re able to provide under the Bar Association\'s Conflict of Interest rules.',
+        'Yes. That\'s a terrific way to use the apps. However, attorney King may be prohibited from providing consultations if both parties are using the aps.',
     },
   ],
 ]
