@@ -12,7 +12,7 @@ const faqs = [
     },
     {
       question: 'What if the app doesn\'t cover my situation or courthouse?',
-      answer: 'Please email David@kinglawnc.com and let him know. We are constantly expanding the app to cover more courthouses and processes.',
+      answer: 'Please email David@kinglawnc.com and let him know. He may create the app at your request.',
     },
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
