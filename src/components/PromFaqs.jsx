@@ -8,7 +8,7 @@ const faqs = [
     {
       question: 'Can I just hire King @ Law to represent me?',
       answer:
-        'Test Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
+        'Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
     },
     {
       question: 'What if the app doesn\'t cover my situation or courthouse?',
@@ -17,20 +17,20 @@ const faqs = [
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'Generally not. Each courthouse uses their own forms, rules, and processes that are unique to that courthouse.',
+        'Some apps cover multiple courthouses or are statewide. However, you should not use an app for a courthouse it is not designed for. Each courthouse has its own forms, rules, and processes.',
     },
   ],
   [
     {
       question: 'Isn\'t this the same as LegalZoom?',
       answer:
-        'Our apps handle more complex legal matters, are programmed for specific courthouses, and have a different approach to attorney assistance.',
+        'We use a similar TurboTax-style format. You answer questions and provide information. The app generates the right documents. However, our apps cover more complex legal matters and are programmed for specific courthouses. We also offer attorney assistance as part of the subscription price.',
     },
     {
       question:
         'How much does it cost?',
       answer:
-        'Currently, a subscription is just $49 a month, while the app is in beta. We plan to charge $199, once the app is fully developed.',
+        '$199 per-month gives you unlimited access to the apps and one consultation for each app you use.',
     },
     {
       question:
