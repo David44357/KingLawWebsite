@@ -16,7 +16,7 @@ const features = [
   {
     title: 'Provide Information',
     description:
-      "Give the app information about your situation, so it can determine what documents you need, where to file them, and what to do.",
+      "Give the app information about your situation, so it can determine what to do.",
     image: screenshotPayroll,
   },
   {
@@ -28,14 +28,14 @@ const features = [
   {
     title: 'Instructions',
     description:
-      "Return to the app for step-by-step instructions on what to do next, down to where to park and how to find the clerk's office at your courthouse.",
+      "Get step-by-step instructions, down to where to park, how to find the clerk's office, and how many copies to make.",
     image: screenshotVatReturns,
   },
   {
     title: 'Legal Advice',
     description:
-      "Use up to one monthly Zoom consultation with an attorney to review your documents, discuss your case, and answer your questions. ",
-    image: screenshotReporting,
+      "Get one Zoom consultation with an attorney per-month to review your documents and discuss your situation.",    
+      image: screenshotReporting,
   },
 ]
 
