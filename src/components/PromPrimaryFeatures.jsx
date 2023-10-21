@@ -119,7 +119,7 @@ export function PromPrimaryFeatures() {
                           'mt-2 hidden text-sm lg:block',
                           selectedIndex === featureIndex
                             ? 'text-white'
-                            : 'text-orange-300 group-hover:text-white',
+                            : 'text-orange-100 group-hover:text-white',
                         )}
                       >
                         {feature.description}
