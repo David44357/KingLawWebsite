@@ -6,18 +6,18 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Can I just hire King @ Law?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'What if the app doesn\'t have anything for my courthouse or process?',
+      answer: 'Please email David@kinglawnc.com and let him know. We are constantly expanding the app to cover more courthouses and processes.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Shouldn\'t I hire a lawyer?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'It is difficult to say, depending on what you can afford and how your situation unfolds.',
     },
   ],
   [
