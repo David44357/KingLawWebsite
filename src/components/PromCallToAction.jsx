@@ -27,7 +27,7 @@ export function PromCallToAction() {
             Each app supports the first few steps for free.
           </p>
           <Button href="/register" color="white" className="mt-10">
-            Get 6 months free
+            Download the app
           </Button>
         </div>
       </PromContainer>
