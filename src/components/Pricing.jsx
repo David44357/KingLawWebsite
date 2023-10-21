@@ -9,52 +9,51 @@ const plans = [
   {
     name: 'The DIY App User',
     featured: false,
-    price: { Monthly: 'Total: $1200', Annually: '$0' },
+    price: { Monthly: 'Total: $1,200'},
     description:
-      'This user purchased our do-it-yourself subscription for $199, which comes with online TurboTax-like apps to walk you through legal processes and monthly attorney consultations. They settled six months in.',
+      'A spouse that uses our DIY apps for $199 per-month and settles their case in six months would pay approximately $1,200. The apps would create all of their legal documents for them and include one attorney consultation per app completed.',
     button: {
       label: 'Get more information',
-      href: '/comingsoon',
+      href: 'https://www.kinglawnc.com/prometheus',
     },
     features: [
-      'Attorney Support: Comes with monthly attorney consultations',
-      'Documents: Selects and completes legal documents based on information you provide',
-      'Step-by-step: Know what step youre on and what the next step is',
+      'Step-by-step: Always know what step you\'re on and what the next step is',
+      'Documents: Get the right draft legal documents automatically created for you',
+      'Attorney Support: Get one attorney consultation for each app you complete with your subscription',
     ],
     logomarkClassName: 'fill-gray-300',
   },
   {
     name: 'The Settler',
     featured: true,
-    price: { Monthly: 'Total: $6,000', Annually: '$70' },
+    price: { Monthly: 'Total: $6,000', Monthly: '$167' },
     description:
-      'Hired attorney David King to help them file claims with the court, prepare financial disclosures, present evidence at temporary hearings, and prepare an accounting for mediation. They paid $1,200 per-claim for the "Early Litgation" and "Negotiations" phases.',
-
+      'A spouse that hired attorney David King to represent them for several claims. They file claims in court, prepare financial disclosures, and present evidence at a temporary hearings, before settling at mediation. They had excellent credit and qualified for our payment plan.'
     button: {
       label: 'Get a Quote',
       href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
     },
     features: [
-      'A flat-fee means no surprise invoices for exaggerated hours and less stress about watching the clock',
-      'Sign documents, schedule meetings with your attorney, upload evidence, pay fees, see deadlines, and more at your convenience in our online portal',
-      'Most expenses like court fees, printing costs, and service of process costs are included',
+  'Expenses: Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
+      'Flat-Fee: No stressing out about time spent with your attorney. No surprise invoices for exorbitant hours',
+      'Modern: Sign documents, meet with your attorney, upload evidence, pay fees, and more online at your convenience',   
     ],
     logomarkClassName: 'fill-gray-500',
   },
   {
-    name: 'The Friendly Divorce',
+    name: 'The Trial',
     featured: false,
-    price: { Monthly: 'Total: $2,600', Annually: '$1,990' },
+    price: { Monthly: 'Total: $40,000', Monthly: '$1,111' },
     description:
-      'Hired attorney David King to draft a separation agreement, evaluate the terms the spouses agreed on, file for divorce, and prepare a deed to transfer ownership of the marital home. They paid a flat-fee for the divorce ($800), the deed ($200), and the separation agremeent ($1,600).',
+      'This spouse had numerous claims and had to take all of them all the way to trial. This is rare and to be avoided whenever possible, in no small part due to the cost.',
     button: {
       label: 'Get a Quote',
       href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
     },
     features: [
-      'Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
-      'Mr. King will go over the agreement with your spouse, so long as the substantive terms are already agreed upon',
-      'Sign documents, schedule meetings with your attorney, upload documents, pay fees, and more at your convenience in our online portal',    ],
+      'Expenses: Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
+      'Flat-Fee: No stressing out about time spent with your attorney. No surprise invoices for exorbitant hours',
+      'Modern: Sign documents, meet with your attorney, upload evidence, pay fees, and more online at your convenience',    ],
     logomarkClassName: 'fill-cyan-500',
   },
 ]
@@ -200,7 +199,7 @@ export function Pricing() {
             No hourly rates.
           </h2>
           <p className="mt-2 text-center text-lg leading-tight text-gray-600">
-            Here are a few examples of how much our clients could pay.
+            Here are a few examples of our pricing.
           </p>
         </div>
 
