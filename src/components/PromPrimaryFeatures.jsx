@@ -76,11 +76,10 @@ export function PromPrimaryFeatures() {
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to represent yourself
+            4 Steps to a Legal Issue
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+           From uncontestded divorce decrees and separation agreements to motions for contempt, we have you covered. 
           </p>
         </div>
         <Tab.Group
