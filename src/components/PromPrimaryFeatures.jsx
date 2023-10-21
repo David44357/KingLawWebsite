@@ -22,7 +22,7 @@ const features = [
   {
     title: '2. Legal Documents',
     description:
-      "Get completed draft legal documents specific to your courthouse and situation in your email inbox.",
+      "Review completed draft legal documents specific to your courthouse and situation that the app will email to you.",
     image: screenshotExpenses,
   },
   {
