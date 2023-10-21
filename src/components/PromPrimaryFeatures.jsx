@@ -14,15 +14,15 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Legal Documents',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "You answer questions and provide information. The app selects the right documents and completes a draft for you.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Legal Advice',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Our monthly subscription comes with up to one consultation with an attorney each month",
     image: screenshotExpenses,
   },
   {
@@ -76,7 +76,7 @@ export function PromPrimaryFeatures() {
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Everything you need to represent yourself
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
             Well everything you need if you aren’t that picky about minor
