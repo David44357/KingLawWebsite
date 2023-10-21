@@ -336,7 +336,7 @@ export function PromHero() {
              Legal services for the rest of us.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'Finally, legal help most people can afford. King @ Law\'s apps will help you complete legal documents, prepare for hearings, or complete a legal process for just $199 a month. Each app comes with one attorney consultation, included in your subscription for free.'}
+              {'Finally, legal help most people can afford. King @ Law\'s apps will help you complete legal documents, prepare for hearings, or complete a legal process for just $199 a month. Get started for free and get one attorney consultation per-app with your subscription.'}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
