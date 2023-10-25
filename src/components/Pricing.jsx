@@ -28,7 +28,7 @@ const plans = [
     featured: true,
     price: { Monthly: 'Total: $6,000', Monthly: '$167' },
     description:
-      'A spouse that hired attorney David King to represent them for several claims. They file claims in court, prepare financial disclosures, and present evidence at a temporary hearings, before settling at mediation. They had excellent credit and qualified for our payment plan.'
+      'A spouse that hired attorney David King to represent them for several claims. They file claims in court, prepare financial disclosures, and present evidence at a temporary hearings, before settling at mediation. They had excellent credit and qualified for our payment plan.',
     button: {
       label: 'Get a Quote',
       href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
