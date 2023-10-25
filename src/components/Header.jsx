@@ -6,7 +6,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
-import { Cal } from '@/components/Cal'
+import React, { useEffect, useState } from 'react';
 
 function MenuIcon(props) {
   return (
@@ -47,6 +47,29 @@ function MobileNavLink({ children, ...props }) {
 }
 
 export function Header() {
+  const [userOS, setUserOS] = useState('');
+  // INSERT FILES WITHIN THE PUBLIC/FILES DIRECTORY
+  // AFTER CHANGING THE LINKS IN THE BELOW FUNCTION YOU'LL NEED TO CHANGE
+  // TWO LINKS WITHIN THE RETURN STATEMENT
+  useEffect(() => {
+    const platform = window.navigator.userAgent.toLowerCase();
+    //WHEN YOUR READY CHANGE 
+    if (platform.includes('win')) {
+      setUserOS('Windows'); //CHANGE HERE FOR WINDOWS
+    } else if (platform.includes('mac')) {
+      setUserOS('macOS'); // CHANGE HERE FOR MAC
+    } else if (platform.includes('linux')) {
+      setUserOS('Linux'); // CHANGE HERE FOR LINUX
+    } else if (platform.includes('android')) {
+      setUserOS('Android'); // CHANGE HERE FOR ANDROID
+    } else if (platform.includes('iphone') || platform.includes('ipad') || platform.includes('ipod')) {
+      setUserOS('iOS'); // CHANGE HERE FOR IOS
+    } else {
+      setUserOS('Other'); // CHANGE HERE FOR OTHER
+    }
+  }, []);
+
+  
   return (
     <header>
       <nav>
