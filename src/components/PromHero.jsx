@@ -336,7 +336,7 @@ export function PromHero() {
              Legal services for the rest of us.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'Finally, legal help most people can afford. King @ Law\'s apps will help North Carolina spouses and parents going through a separation with anything from uncontested divorce decrees to preparing for trial. The apps are inspired by TurboTax. You answer questions and provide information. The app completes your documents and takes you through it step-by-step. Get started for free. Then, pay $199 per-month for unlimited access and one Zoom consultation with an attorney for each app you use.'}
+              {'Finally, legal help most people can afford. King @ Law\'s apps help North Carolina spouses and parents going through a separation with uncontested divorces, trial, and everything in-between. Start using the app for free. Then, pay just $199 a month for unlimited access and attorney support.'}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
