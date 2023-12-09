@@ -7,7 +7,7 @@ import clsx from 'clsx'
 import { PromContainer } from '@/components/PromContainer'
 import backgroundImage from '@/images/background-features.jpg'
 import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
+import screenshotPayroll from '@/images/Provide Info.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
@@ -16,7 +16,7 @@ const features = [
   {
     title: '1. Provide Info',
     description:
-      "Give the app information about your situation, so it can determine what documents and instructions you need.",
+      "Give the app information about your situation.",
     image: screenshotPayroll,
   },
   {
@@ -79,7 +79,7 @@ export function PromPrimaryFeatures() {
             4 Steps to Complete any Task
           </h2>
           <p className="mt-6 text-lg tracking-tight text-orange-100">
-           From uncontested divorce decrees to trial, we have an app for that. 
+          TurboTax does your taxes. Our apps do your divorce.
           </p>
         </div>
         <Tab.Group
