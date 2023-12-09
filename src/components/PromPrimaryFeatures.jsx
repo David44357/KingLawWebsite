@@ -34,7 +34,7 @@ const features = [
   {
     title: '4. Follow Instructions',
     description:
-      "Follow step-by-step instructions, down to where to park, how to find the clerk's office, and how many copies to make.",    
+      "Follow step-by-step instructions provided by the app.",    
       image: screenshotReporting,
   },
 ]
@@ -76,10 +76,10 @@ export function PromPrimaryFeatures() {
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            4 Steps to Using One of Our Apps
+            4 Steps to Complete any Task
           </h2>
           <p className="mt-6 text-lg tracking-tight text-orange-100">
-           From uncontested divorce decrees and separation agreements to motions for contempt, we have an app for it. 
+           From uncontested divorce decrees to trial, we have an app for that. 
           </p>
         </div>
         <Tab.Group
