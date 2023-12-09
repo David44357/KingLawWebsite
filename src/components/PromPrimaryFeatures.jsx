@@ -66,11 +66,11 @@ export function PromPrimaryFeatures() {
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
       <Image
-        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
+        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-70%] translate-y-[-70%]"
         src={backgroundImage}
         alt=""
-        width={2245}
-        height={1636}
+        width={500}
+        height={364}
         unoptimized
       />
       <PromContainer className="relative">
