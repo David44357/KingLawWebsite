@@ -6,10 +6,10 @@ import clsx from 'clsx'
 
 import { PromContainer } from '@/components/PromContainer'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
+import screenshotExpenses from '@/images/CoverSheet.png'
 import screenshotPayroll from '@/images/Provide Info.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotVatReturns from '@/images/team-1.webp'
 
 
 const features = [
@@ -22,13 +22,13 @@ const features = [
   {
     title: '2. Get Documents',
     description:
-      "The app will email you completed draft legal documents specific to your courthouse and situation.",
+      "Receive completed draft legal documents.",
     image: screenshotExpenses,
   },
   {
     title: '3. Get Advice',
     description:
-      "Schedule a Zoom consultation with an attorney to review your documents and discuss your situation.",
+      "Schedule a Zoom consultation with an attorney.",
     image: screenshotVatReturns,
   },
   {
