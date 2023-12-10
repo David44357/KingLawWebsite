@@ -15,7 +15,7 @@ const features = [
     name: 'Smart',
     summary: 'Tailored to your courthouse and situation.',
     description:
-      'You may have noticed that most information online is very general. This is because even uncontested divorces require different documents and steps depending on which courthouse you/'re filing in and your situation.',
+      'You may have noticed that most information online is very general. This is because even uncontested divorces require different documents and steps depending on which courthouse you are filing in and your situation.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
