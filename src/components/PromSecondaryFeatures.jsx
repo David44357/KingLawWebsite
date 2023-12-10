@@ -13,9 +13,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Smart',
-    summary: 'The right documents and instructions for your courthouse and situation',
+    summary: 'Tailored to your courthouse and situation.',
     description:
-      'The reason it can be difficult to find step-by-step instructions online is that you need different documents and steps depending on your courthouse and situation, even for simple things like uncontested divorce decrees. Our apps provide the right steps and documents for your situation and courthouse.',
+      'You may have noticed that most information online is very general. This is because even uncontested divorces require different documents and steps depending on which courthouse you/'re filing in and your situation.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
