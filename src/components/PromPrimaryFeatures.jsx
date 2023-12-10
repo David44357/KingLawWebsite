@@ -6,7 +6,7 @@ import clsx from 'clsx'
 
 import { PromContainer } from '@/components/PromContainer'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/CoverSheet.png'
+import screenshotExpenses from '@/images/ExampleDocs.png'
 import screenshotPayroll from '@/images/Provide Info.png'
 import screenshotReporting from '@/images/Instructions.png'
 import screenshotVatReturns from '@/images/Calendar.png'
