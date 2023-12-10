@@ -12,10 +12,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Instructions',
-    summary: 'Step-by-step walkthroughs based on your situation',
+    name: 'Smart',
+    summary: 'Get the right documents and instructions for your situation and courthouse.',
     description:
-      'Don\'t settle for generalized instructions online. Each courthouse and situation is different. Our apps provide specific step-by-step instructions based on the information you provide.',
+      'The reason most information online is very general, is because the precise documents and steps for financial disclosures, contempt, simple divorces, or most other processes vary from one courthouse to the next, and depending on your situation. Our apps use the information you provide to give you the right documents and instructions.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -46,11 +46,11 @@ const features = [
     },
   },
   {
-    name: 'Legal Documents',
+    name: 'Documents',
     summary:
-      'The right completed draft legal documents for you',
+      'Completed draft legal documents directly to your email inbox',
     description:
-      'You may need different documents depending on which courthouse you\'re in and your situation. Our apps select and complete the right documents for you.',
+      'Did you know even simple, uncontested divorces can involve a dozen or more legal documents? There are documents to prove you served your spouse, that your ex isn't in the military, or requesting the court update public records. Many court forms ask for the same information you've already provided, over and over again. Our apps auto-create these documents for you.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -78,7 +78,7 @@ const features = [
     summary:
       'One attorney consultation for each app you complete',
     description:
-      'Have an attorney review your documents, provide advice, and answer your questions over Zoom at no additional cost.',
+      'We\'ve learned from experience that pro se do-it-yourselfer\'s can\'t succeed without at least some help from an attorney. That's why users on the $199/mo subscription get one free Zoom consultation, included in thier subscription, for each app they complete, to discuss documents and issues related to that app.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
