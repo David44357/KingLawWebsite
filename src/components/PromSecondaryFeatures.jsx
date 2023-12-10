@@ -76,9 +76,9 @@ const features = [
   {
     name: 'Attorney Support',
     summary:
-      'One attorney Zoom consultation for each app you complete',
+      'Have an attorney review your documents, answer questions, and provide advice.',
     description:
-      'Pro se representation is not ideal without at least some help from an attorney to review your documents, answer questions, and provide advice.',
+      'One Zoom consultation with an attorney is included for premium users for each app you complete. ',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
