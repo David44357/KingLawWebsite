@@ -13,9 +13,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Smart',
-    summary: 'Get the right documents and instructions for your situation and courthouse.',
+    summary: 'The right documents and instructions for your courthouse and situation',
     description:
-      'The reason most information online is very general, is because the precise documents and steps for financial disclosures, contempt, simple divorces, or most other processes vary from one courthouse to the next, and depending on your situation. Our apps use the information you provide to give you the right documents and instructions.',
+      'The reason it\'s difficult to find step-by-step instructions online is that you need different documents and steps depending on your courthouse and situation, even for simple things like uncontested divorce decree. The apps provide you with the right steps and documents based on your situation.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -48,9 +48,9 @@ const features = [
   {
     name: 'Documents',
     summary:
-      'Completed draft legal documents directly to your email inbox',
+      'Completed legal documents directly to your email',
     description:
-      'Did you know even simple, uncontested divorces can involve a dozen or more legal documents? There are documents to prove you served your spouse, that your ex isn't in the military, or requesting the court update public records. Many court forms ask for the same information you've already provided, over and over again. Our apps auto-create these documents for you.',
+      'Often, pro se spouses haven\'t seen their kids in years, merely because they haven\'t filed the right paperwork. Even simple divorce decrees require over a dozen documents that often ask for the same information over and over. Our apps create completed legal documents for you.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -76,7 +76,7 @@ const features = [
   {
     name: 'Attorney Support',
     summary:
-      'One attorney consultation for each app you complete',
+      'One attorney Zoom consultation for each app you complete',
     description:
       'We\'ve learned from experience that pro se do-it-yourselfer\'s can\'t succeed without at least some help from an attorney. That's why users on the $199/mo subscription get one free Zoom consultation, included in thier subscription, for each app they complete, to discuss documents and issues related to that app.',
     image: screenshotContacts,
