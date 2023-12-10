@@ -14,25 +14,25 @@ import screenshotVatReturns from '@/images/Calendar.png'
 
 const features = [
   {
-    title: '1. Provide Info',
+    title: 'Info',
     description:
       "Give the app information about your situation.",
     image: screenshotPayroll,
   },
   {
-    title: '2. Get Documents',
+    title: 'Docs',
     description:
       "Receive completed draft legal documents.",
     image: screenshotExpenses,
   },
   {
-    title: '3. Get Advice',
+    title: 'Advice',
     description:
       "Schedule a Zoom consultation with an attorney.",
     image: screenshotVatReturns,
   },
   {
-    title: '4. Follow Instructions',
+    title: 'Steps',
     description:
       "Follow step-by-step instructions provided by the app.",    
       image: screenshotReporting,
