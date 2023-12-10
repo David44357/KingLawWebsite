@@ -15,7 +15,7 @@ const features = [
     name: 'Smart',
     summary: 'Tailored to your courthouse and situation.',
     description:
-      'You may have noticed that most information online is very general. This is because even uncontested divorces require different documents and steps depending on which courthouse you are filing in and your situation.',
+      'Each courthouse uses different forms and steps for the same process. Our apps use if-then logic to determine the right steps and documents for you.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -50,7 +50,7 @@ const features = [
     summary:
       'Completed legal documents in your inbox',
     description:
-      'Even simple divorce decrees require over a dozen documents that often ask for the same information over and over. Our apps create completed legal documents for you and explain what each one is for.',
+      'Even simple divorce decrees require over a dozen forms and documents that often ask for the same info over and over. Our apps complete your paperwork for you.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -78,7 +78,7 @@ const features = [
     summary:
       'One attorney Zoom consultation for each app you complete',
     description:
-      'Have an attorney answer your questions, review your documents, and provide legal advice. Premium users get one free Zoom conusultation for each app they use, to discuss the documents and instructions in that app.',
+      'Pro se representation is not ideal without at least some help from an attorney to review your documents, answer questions, and provide advice.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
