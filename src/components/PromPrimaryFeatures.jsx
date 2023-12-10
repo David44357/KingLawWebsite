@@ -43,7 +43,7 @@ export function PromPrimaryFeatures() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
   useEffect(() => {
-    let lgMediaQuery = window.matchMedia('(min-width: 300px)')
+    let lgMediaQuery = window.matchMedia('(min-width: 200px)')
 
     function onMediaQueryChange({ matches }) {
       setTabOrientation(matches ? 'vertical' : 'horizontal')
@@ -143,7 +143,7 @@ export function PromPrimaryFeatures() {
                         src={feature.image}
                         alt=""
                         priority
-                        sizes="(min-width: 300px) 35rem, (min-width: 200px) 60vw, 15rem"
+                        sizes="(min-width: 200px) 35rem, (min-width: 200px) 60vw, 15rem"
                       />
                     </div>
                   </Tab.Panel>
