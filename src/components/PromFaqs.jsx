@@ -17,7 +17,7 @@ const faqs = [
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'Some apps cover multiple courthouses or are statewide. However, you should not use an app for a courthouse it is not designed for. Each courthouse has its own forms, rules, and processes.',
+        'Please ask us to create an app for your courthouse, rather than using the wrong one.',
     },
   ],
   [
@@ -30,7 +30,7 @@ const faqs = [
       question:
         'How much does it cost?',
       answer:
-        '$199 per-month gives you unlimited access to the apps and one consultation for each app you use.',
+        'Free members get access to the first few steps of each app. Premium members pay $199 per-month for unlimited access and one Zoom consultation per-app, up to once per-month.',
     },
     {
       question:
