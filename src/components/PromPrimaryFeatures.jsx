@@ -9,7 +9,7 @@ import backgroundImage from '@/images/background-features.jpg'
 import screenshotExpenses from '@/images/CoverSheet.png'
 import screenshotPayroll from '@/images/Provide Info.png'
 import screenshotReporting from '@/images/Instructions.png'
-import screenshotVatReturns from '@/images/team-1.webp'
+import screenshotVatReturns from '@/images/Calendar.png'
 
 
 const features = [
@@ -137,13 +137,13 @@ export function PromPrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[25rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[40rem]">
+                    <div className="mt-10 w-[25rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[30rem]">
                       <Image
                         className="w-full"
                         src={feature.image}
                         alt=""
                         priority
-                        sizes="(min-width: 512px) 35rem, (min-width: 300px) 100vw, 25rem"
+                        sizes="(min-width: 300px) 35rem, (min-width: 200px) 60vw, 15rem"
                       />
                     </div>
                   </Tab.Panel>
