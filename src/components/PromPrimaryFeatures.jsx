@@ -43,7 +43,7 @@ export function PromPrimaryFeatures() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
   useEffect(() => {
-    let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
+    let lgMediaQuery = window.matchMedia('(min-width: 300px)')
 
     function onMediaQueryChange({ matches }) {
       setTabOrientation(matches ? 'vertical' : 'horizontal')
@@ -62,7 +62,7 @@ export function PromPrimaryFeatures() {
     // <div>"DIV"</div>
     <section
       id="features"
-      aria-label="Features for running your books"
+      aria-label="Features of our apps"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
       <Image
@@ -90,7 +90,7 @@ export function PromPrimaryFeatures() {
           {({ selectedIndex }) => (
             <>
               <div className="-mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5">
-                <Tab.List className="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
+                <Tab.List className="relative z-10 flex gap-x-2 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
                   {features.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
