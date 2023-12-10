@@ -107,7 +107,7 @@ export function PromPrimaryFeatures() {
                             'font-display text-lg ui-not-focus-visible:outline-none',
                             selectedIndex === featureIndex
                               ? 'text-blue-600 lg:text-white'
-                              : 'text-blue-100 hover:text-white lg:text-white',
+                              : 'text-white hover:text-white lg:text-white',
                           )}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
