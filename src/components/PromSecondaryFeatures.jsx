@@ -15,7 +15,7 @@ const features = [
     name: 'Smart',
     summary: 'The right documents and instructions for your courthouse and situation',
     description:
-      'The reason it\'s difficult to find step-by-step instructions online is that you need different documents and steps depending on your courthouse and situation, even for simple things like uncontested divorce decree. The apps provide you with the right steps and documents based on your situation.',
+      'The reason it can be difficult to find step-by-step instructions online is that you need different documents and steps depending on your courthouse and situation, even for simple things like uncontested divorce decrees. Our apps provide the right steps and documents for your situation and courthouse.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -48,9 +48,9 @@ const features = [
   {
     name: 'Documents',
     summary:
-      'Completed legal documents directly to your email',
+      'Completed legal documents in your inbox',
     description:
-      'Often, pro se spouses haven\'t seen their kids in years, merely because they haven\'t filed the right paperwork. Even simple divorce decrees require over a dozen documents that often ask for the same information over and over. Our apps create completed legal documents for you.',
+      'Even simple divorce decrees require over a dozen documents that often ask for the same information over and over. Our apps create completed legal documents for you and explain what each one is for.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -78,7 +78,7 @@ const features = [
     summary:
       'One attorney Zoom consultation for each app you complete',
     description:
-      'We\'ve learned from experience that pro se do-it-yourselfer\'s can\'t succeed without at least some help from an attorney. That's why users on the $199/mo subscription get one free Zoom consultation, included in thier subscription, for each app they complete, to discuss documents and issues related to that app.',
+      'Have an attorney answer your questions, review your documents, and provide legal advice. Premium users get one free Zoom conusultation for each app they use, to discuss the documents and instructions in that app.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
