@@ -76,9 +76,9 @@ const features = [
   {
     name: 'Attorney Support',
     summary:
-      'Have an attorney review your documents, answer questions, and provide advice.',
+      'Have an attorney in your pocket.',
     description:
-      'One Zoom consultation with an attorney is included for premium users for each app you complete. ',
+      'Subscriptions include up to one consultation for each app you use, up to once per-month, to answer questions, review documents, or provide advice related to that app.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
