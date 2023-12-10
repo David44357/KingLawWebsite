@@ -17,14 +17,14 @@ const faqs = [
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'Please ask us to create an app for your courthouse, rather than using the wrong one.',
+        'No. Each courthouse uses different documents and processes. However, we will typically add support for courts if a paying user requests it.',
     },
   ],
   [
     {
       question: 'Isn\'t this the same as LegalZoom?',
       answer:
-        'We use a similar TurboTax-style format. However, our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance as part of the subscription price.',
+        'It is a similar concept. However, our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance as part of the subscription price.',
     },
     {
       question:
@@ -43,7 +43,7 @@ const faqs = [
     {
       question: 'Shouldn\'t I just hire a lawyer?',
       answer:
-        'It depends on what you can afford, how much money is in dispute, whether you trust lawyers, and how confident you feel with a DIY approach.',
+        'It depends on what you can afford, how much money is in dispute, whether you trust lawyers, and how confident you feel with a do-it-yourself approach.',
     },
     {
       question: 'Is it difficult to cancel?',
@@ -52,7 +52,7 @@ const faqs = [
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. That\'s a terrific way to use the apps. However, the Bar Association\'s conflict of interest rules prohibit us from providing consultations to both parties.',
+        'Yes. That\'s a terrific way to use the apps. However, the Bar Association\'s conflict of interest rules prohibit Mr. King from providing consultations to both parties.',
     },
   ],
 ]
