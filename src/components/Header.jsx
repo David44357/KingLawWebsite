@@ -123,16 +123,16 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#about">
+                            <MobileNavLink href="https://kinglawnc.com#about">
                               About Us
                             </MobileNavLink>
-                            <MobileNavLink href="#reviews">
+                            <MobileNavLink href="https://kinglawnc.com#reviews">
                               Reviews
                             </MobileNavLink>
-                            <MobileNavLink href="#pricing">
+                            <MobileNavLink href="https://kinglawnc.com#pricing">
                               Pricing
                             </MobileNavLink>
-                            <MobileNavLink href="#faqs">FAQs</MobileNavLink>
+                            <MobileNavLink href="https://kinglawnc.com#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             <Button href="https://apps.kinglawnc.com/" variant="outline">
@@ -150,7 +150,7 @@ export function Header() {
             <Button href="/comingsoon" variant="outline" className="hidden lg:block">
               Log in
             </Button>
-            <Button href="comingsoon" className="hidden lg:block">
+            <Button href="/comingsoon" className="hidden lg:block">
               Download
             </Button>
           </div>
