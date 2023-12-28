@@ -9,29 +9,29 @@ const plans = [
   {
     name: 'The DIY App User',
     featured: false,
-    price: { Monthly: 'Total: $1,200'},
+    price: { Monthly: '$199', Total: '$1,200'},
     description:
-      'A spouse that uses our DIY apps for $199 per-month and settles their case in six months would pay approximately $1,200. The apps would create all of their legal documents for them and include one attorney consultation per app completed.',
+      'Using our do-it-yourself apps with attorney support for six months before settling at mediation would cost just $199 per-month or about $1,200 total. However, DIY users must pay their own court fees and expenses as well.',
     button: {
       label: 'Get more information',
       href: 'https://www.kinglawnc.com/prometheus',
     },
     features: [
-      'Step-by-step: Always know what step you\'re on and what the next step is',
       'Documents: Get the right draft legal documents automatically created for you',
-      'Attorney Support: Get one attorney consultation for each app you complete with your subscription',
+      'Step-by-step: Always know what step you\'re on and what to do next for each legal process',
+      'Attorney Support: Get one attorney consultation per app, up to once-per-month',
     ],
     logomarkClassName: 'fill-gray-300',
   },
   {
     name: 'The Settler',
     featured: true,
-    price: { Monthly: 'Total: $6,000', Monthly: '$167' },
+    price: { Total: '$8,000', Monthly: '$222' },
     description:
-      'A spouse that hired attorney David King to represent them for several claims. They file claims in court, prepare financial disclosures, and present evidence at a temporary hearings, before settling at mediation. They had excellent credit and qualified for our payment plan.',
+      'A client that hires King @ Law for property, alimony, and divorce will typically pay $8,000 using our flat-fee calculator. This fee includes the cost of the mediator, court fees, and other expenses.',
     button: {
       label: 'Get a Quote',
-      href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
+      href: 'https://apps.kinglawnc.com/billingCalculator',
     },
     features: [
   'Expenses: Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
@@ -48,7 +48,7 @@ const plans = [
       'This spouse had numerous claims and had to take all of them all the way to trial. This is rare and to be avoided whenever possible, in no small part due to the cost.',
     button: {
       label: 'Get a Quote',
-      href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
+      href: 'https://apps.kinglawnc.com/billingCalculator',
     },
     features: [
       'Expenses: Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
