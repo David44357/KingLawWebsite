@@ -136,7 +136,7 @@ export function Header() {
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             <Button href="https://apps.kinglawnc.com/" variant="outline">
-                              Log in
+                              Log in / Create Account
                             </Button>
                             <Button href="/comingsoon">Download the app</Button>
                           </div>
@@ -147,8 +147,8 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/comingsoon" variant="outline" className="hidden lg:block">
-              Log in
+            <Button href="https://apps.kinglawnc.com/" variant="outline" className="hidden lg:block">
+              Log in / Create Account
             </Button>
             <Button href="/comingsoon" className="hidden lg:block">
               Download
