@@ -27,10 +27,6 @@ export function About() {
             <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
               King @ Law is run by a husband/wife team: Attorney David King and Paralegal Maryann Voisinet (we kept our last names). We work out of a home-office in Raleigh, North Carolina.
             </p>
-            <p className="text-gray-600 mt-1 mb-5 text-[1.11rem] sm:text-[1rem] lg:text-[1.11rem] ">
-              Our time is divided between representing clients like a traditional law firm and working with developers to automate legal processes. We create software to automate legal paperwork and accounting for the firm, then share the same software we use to DIYers for a monthly fee. 
-              
-            </p>
           </div>
         </div>
       </div>
