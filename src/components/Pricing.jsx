@@ -34,7 +34,7 @@ const plans = [
       href: 'https://apps.kinglawnc.com/billingCalculator',
     },
     features: [
-  'Expenses: Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
+  'Expenses: Court fees, mediator fees, service of process costs, and other fees are included',
       'Flat-Fee: No stressing out about time spent with your attorney. No surprise invoices for exorbitant hours',
       'Modern: Sign documents, meet with your attorney, upload evidence, pay fees, and more online at your convenience',   
     ],
