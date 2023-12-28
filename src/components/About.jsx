@@ -12,7 +12,7 @@ export function About() {
 
   return (
     <section className={clsx(
-      'flex flex-col overflow-hidden rounded-3xl shadow-lg shadow-gray-900/5 text-gray-300 py-12 lg:py-16',
+      'flex flex-col overflow-hidden rounded-3xl shadow-lg shadow-gray-900/5 text-gray-300 py-12 bt-10 lg:py-16',
       featured ? 'order-first bg-gray-900 lg:order-none' : 'bg-gray-100'
     )}
       id='about'
@@ -32,6 +32,6 @@ export function About() {
       </div>
 
     </section>
-
+<BR>
   )
 }
