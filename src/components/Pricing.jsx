@@ -9,32 +9,32 @@ const plans = [
   {
     name: 'The DIY App User',
     featured: false,
-    price: { "$1,200"},
+    price: { Monthly: 'Total: $1,200'},
     description:
-      'Using our do-it-yourself apps with attorney support for six months before settling at mediation would cost just $199 per-month or about $1,200 total. However, DIY users must pay their own court fees and expenses as well.',
+      'A spouse that uses our DIY apps for $199 per-month and settles their case in six months would pay approximately $1,200. The apps would create all of their legal documents for them and include one attorney consultation per app completed.',
     button: {
       label: 'Get more information',
       href: 'https://www.kinglawnc.com/prometheus',
     },
     features: [
+      'Step-by-step: Always know what step you\'re on and what the next step is',
       'Documents: Get the right draft legal documents automatically created for you',
-      'Step-by-step: Always know what step you\'re on and what to do next for each legal process',
-      'Attorney Support: Get one attorney consultation per app, up to once-per-month',
+      'Attorney Support: Get one attorney consultation for each app you complete with your subscription',
     ],
     logomarkClassName: 'fill-gray-300',
   },
   {
     name: 'The Settler',
     featured: true,
-    price: { "$8,000" },
+    price: { Monthly: 'Total: $6,000', Monthly: '$167' },
     description:
-      'A client that hires King @ Law for property, alimony, and divorce will typically pay $8,000 using our flat-fee calculator. This fee includes the cost of the mediator, court fees, and other expenses. Payment plans are available to qualifying clients.',
+      'A spouse that hired attorney David King to represent them for several claims. They file claims in court, prepare financial disclosures, and present evidence at a temporary hearings, before settling at mediation. They had excellent credit and qualified for our payment plan.',
     button: {
       label: 'Get a Quote',
-      href: 'https://apps.kinglawnc.com/billingCalculator',
+      href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
     },
     features: [
-  'Expenses: Court fees, mediator fees, service of process costs, and other fees are included',
+  'Expenses: Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
       'Flat-Fee: No stressing out about time spent with your attorney. No surprise invoices for exorbitant hours',
       'Modern: Sign documents, meet with your attorney, upload evidence, pay fees, and more online at your convenience',   
     ],
@@ -43,12 +43,12 @@ const plans = [
   {
     name: 'The Trial',
     featured: false,
-    price: { "$40,000" },
+    price: { Monthly: 'Total: $40,000', Monthly: '$1,111' },
     description:
-      'This spouse had numerous claims and had to take all of them all the way to trial. This is rare and to be avoided whenever possible, in no small part due to the cost. Payment plans are available to qualifying clients.',
+      'This spouse had numerous claims and had to take all of them all the way to trial. This is rare and to be avoided whenever possible, in no small part due to the cost.',
     button: {
       label: 'Get a Quote',
-      href: 'https://apps.kinglawnc.com/billingCalculator',
+      href: 'https://k-l-get-a-quote.flutterflow.app/?fbclid=IwAR1OvslkR4bLihv7jj-F6F7pUFt-8RxGl3UZuhzHvDEXxISSFHL6XPQvfWg',
     },
     features: [
       'Expenses: Court fees, filing fees with the Register of Deeds, and service of process costs are all included',
