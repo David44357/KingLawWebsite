@@ -17,7 +17,7 @@ export function About() {
     )}
       id='about'
     >
-      <div className="max-w-lg mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl cursor-pointer">
+      <div className="max-w-lg mx-auto mb-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl cursor-pointer">
         <div className="flex flex-col md:flex-row">
           <div className="md:shrink-0">
             <Image src={MyTeamImage} alt="Image" className="h-96 w-full object-cover md:h-full md:w-96" />
