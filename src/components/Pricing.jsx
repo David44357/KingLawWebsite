@@ -9,7 +9,7 @@ const plans = [
   {
     name: 'The DIY App User',
     featured: false,
-    price: { Monthly: '$199', Total: '$1,200'},
+    price: { "$1,200 ($199/mo)"},
     description:
       'Using our do-it-yourself apps with attorney support for six months before settling at mediation would cost just $199 per-month or about $1,200 total. However, DIY users must pay their own court fees and expenses as well.',
     button: {
@@ -26,9 +26,9 @@ const plans = [
   {
     name: 'The Settler',
     featured: true,
-    price: { Total: '$8,000', Monthly: '$222' },
+    price: { "$8,000 ($222/mo)" },
     description:
-      'A client that hires King @ Law for property, alimony, and divorce will typically pay $8,000 using our flat-fee calculator. This fee includes the cost of the mediator, court fees, and other expenses.',
+      'A client that hires King @ Law for property, alimony, and divorce will typically pay $8,000 using our flat-fee calculator. This fee includes the cost of the mediator, court fees, and other expenses. Payment plans are available to qualifying clients.',
     button: {
       label: 'Get a Quote',
       href: 'https://apps.kinglawnc.com/billingCalculator',
@@ -43,9 +43,9 @@ const plans = [
   {
     name: 'The Trial',
     featured: false,
-    price: { Monthly: 'Total: $40,000', Monthly: '$1,111' },
+    price: { "$40,000 ($1,111/mo)" },
     description:
-      'This spouse had numerous claims and had to take all of them all the way to trial. This is rare and to be avoided whenever possible, in no small part due to the cost.',
+      'This spouse had numerous claims and had to take all of them all the way to trial. This is rare and to be avoided whenever possible, in no small part due to the cost. Payment plans are available to qualifying clients.',
     button: {
       label: 'Get a Quote',
       href: 'https://apps.kinglawnc.com/billingCalculator',
