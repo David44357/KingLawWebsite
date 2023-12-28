@@ -336,7 +336,7 @@ export function Hero() {
               A modern approach to law
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'Going through a divorce puts a strain on your pocketbook and your time. Hiring a modern law firm means options for any budget, convenient online meetings, and an online portal that streamlines the entire process. Can\'t afford us? Use our online apps with attorney support for just $199 a month. '}
+              {'Hiring a modern law firm means options for any budget, convenient online meetings, and a portal that streamlines the process. Can\'t afford a lawyer? Use our online DIY apps with attorney support for just $199 a month. '}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
