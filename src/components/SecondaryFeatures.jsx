@@ -10,7 +10,7 @@ const features = [
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Online Portal',
+    name: 'The App',
     description:
       'Pay fees, upload evidence, provide information, and more in our online portal.',
     icon: DeviceCardsIcon,
@@ -18,13 +18,13 @@ const features = [
   {
     name: 'Flat Fee',
     description:
-    'Pay a flat-fee that includes most expenses, making your legal fees more predictable.',
+    'Pay a flat-fee that includes most expenses and take advantage of our payment plans.',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Paperwork',
+    name: 'DIY Apps',
     description:
-      'Never pay hourly for time spent tracking time, for each page printed, or for busywork.',
+      'Can\'t afford a lawyer? Use our do-it-yourself apps with attorney support for just $199.',
     icon: DeviceListIcon,
   },
   {
