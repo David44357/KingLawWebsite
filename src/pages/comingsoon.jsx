@@ -27,7 +27,7 @@ export default function DiyApps() {
                     {/* {changes here} */}
                     <div className="row justify-content-center">
                         <div className="col-md-10 main-title">
-                            <h3 className="text-xl font-medium text-gray-900">Mobile apps are coming soon. For now, visit \https://apps.kinglawnc.com\. Be patient if loading from a mobile network.</h3>
+                            <h3 className="text-xl font-medium text-gray-900">Mobile apps are coming soon. For now, visit apps.kinglawnc.com. Be patient if loading from a mobile network.</h3>
                         </div>
                     </div>
                     {/* <div className="row align-items-center">
