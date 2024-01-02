@@ -11,7 +11,7 @@ const plans = [
     featured: false,
     price: { Monthly: 'Total: $1,200'},
     description:
-      'A spouse that uses our DIY apps for $199 per-month and settles their case in six months would pay approximately $1,200. The apps would create all of their legal documents for them and include one attorney consultation per app completed.',
+      'A user of our do-it-yourself apps with attorney support can pay just $199 /mo. If it takes six months for them to settle their case, their total would be about $1,200.',
     button: {
       label: 'Get more information',
       href: 'https://www.kinglawnc.com/prometheus',
