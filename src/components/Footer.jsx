@@ -22,7 +22,6 @@ function QrCodeBorder(props) {
 
 export function Footer() {
   return (
-    <BR>
     <div style={{paddingBottom : '2.5rem'}} className="bg-black pt-10 pb-20 text-white text-center">
       <span className='block m-1' >King @ Law</span>
       <span className='block m-1' >6613 Hammersmith Drive</span>
