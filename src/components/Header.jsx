@@ -120,7 +120,7 @@ export function Header() {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="max-w-[200px] absolute top-10 right-10 z-0 origin-top rounded-b-2xl rounded-t-2xl bg-gray-50 px-6 pb-6 pt-6 shadow-2xl shadow-gray-900/20"
+                          className="max-w-[200px] absolute top-10 right-0 z-0 origin-top rounded-b-2xl rounded-t-2xl bg-gray-50 px-6 pb-6 pt-6 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4 max-w-2xl">
                             <MobileNavLink href="https://kinglawnc.com#about">
