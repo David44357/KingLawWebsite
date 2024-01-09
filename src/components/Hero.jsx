@@ -335,7 +335,7 @@ export function Hero() {
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
               A modern approach to law
             </h1>
-            <p className="mt-6 text-lg text-gray-600">
+            <p className="mt-0 text-lg text-gray-600">
               {'Hiring a modern law firm means options for any budget, convenient online meetings, and a portal that streamlines the process. Can\'t afford a lawyer? Use our online self-service apps with attorney support for just $199 a month.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
