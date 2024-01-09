@@ -120,7 +120,7 @@ export function Header() {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="max-w-[200px] absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
+                          className="max-w-[200px] absolute top-0 right-10 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4 max-w-2xl">
                             <MobileNavLink href="https://kinglawnc.com#about">
@@ -136,7 +136,7 @@ export function Header() {
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             <Button href="https://apps.kinglawnc.com/" variant="outline">
-                              Log in / Create Account
+                              Web Portal
                             </Button>
                             <Button href="/comingsoon">Download the app</Button>
                           </div>
