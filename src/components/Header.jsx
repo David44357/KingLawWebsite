@@ -147,10 +147,10 @@ export function Header() {
               )}
             </Popover>
             <Button href="https://apps.kinglawnc.com/" variant="outline" className="hidden lg:block">
-              Log in / Create Account
+              Web Portal
             </Button>
             <Button href="/comingsoon" className="hidden lg:block">
-              Download
+              Download App
             </Button>
           </div>
         </Container>
