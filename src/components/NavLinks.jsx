@@ -6,7 +6,7 @@ export function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
 
   return [
-    ['DIY Apps', 'https://kinglawnc.com/comingsoon'],
+    ['DIY Apps', 'https://kinglawnc.com/prometheus'],
     ['Reviews', 'https://kinglawnc.com/#reviews'],
     ['Pricing', 'https://kinglawnc.com/#pricing'],
     ['About', 'https://kinglawnc.com/#about'],
@@ -14,7 +14,7 @@ export function NavLinks() {
     <Link
       key={label}
       href={href}
-      className="relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]"
+      className="relative -mx-3 -my-2 rounded-lg px-3 py-2 text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]"
       onMouseEnter={() => setHoveredIndex(index)}
       onMouseLeave={() => setHoveredIndex(null)}
     >
