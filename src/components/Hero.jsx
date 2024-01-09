@@ -340,9 +340,6 @@ export function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />
-              <Button href="/comingsoon" variant='solid' >
-                <span >Download App</span>
-              </Button>
               <Cal></Cal>
             </div>
           </div>
