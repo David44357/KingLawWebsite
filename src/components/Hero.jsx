@@ -339,9 +339,9 @@ export function Hero() {
               {'Hiring a modern law firm means options for any budget, convenient online meetings, and a portal that streamlines the process. Can\'t afford a lawyer? Use our online self-service apps with attorney support for just $199 a month.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              {/* <AppStoreLink /> */}
+              <AppStoreLink />
               <Button href="/comingsoon" variant='solid' >
-                <span >Get the App</span>
+                <span >Download App</span>
               </Button>
               <Cal></Cal>
             </div>
