@@ -336,7 +336,7 @@ export function Hero() {
               A modern approach to law
             </h1>
             <p className="mt-0 text-lg text-gray-600 mt-3">
-              {'Divorce is a burden on your pocketbook, your time, and your stress. King @ Law makes it easy. Schedule meetings with your attorney online, share evidence, pay bills, and more in our app or web portal, all while paying flat-fee rates that are 30-50% less than the competition. Can\'t afford a lawyer? Use our online self-service apps with attorney support for just $199 a month.'}
+              {'What does it mean to be a modern law firm? Efficiency that reduces prices 30-50%. Zoom meetings you can schedule online at your convenience. An app that keeps you up-to-date. Can\'t afford a lawyer? Use our online self-service apps with attorney support for just $199 a month.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />
