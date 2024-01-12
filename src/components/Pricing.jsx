@@ -150,16 +150,14 @@ export function Pricing() {
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
-            href="/register"
+            name="Trial"
+            price="$55,000"
+            description="A rare situation involving numerous claims taken all the way to trial without financing."
+            href="https://apps.kinglawnc.com/billingcalculator"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Trial is rare and should be avoided in most cases, due to the cost, delays, and stress',
+              'Our fees come out to 30-50% less than those charged by hourly-rate attorneys under similar circumstances',
+              'Trial may be necessary in some cases, but most of the time it should be avoided',
             ]}
           />
         </div>
