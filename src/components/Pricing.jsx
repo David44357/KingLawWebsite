@@ -115,9 +115,9 @@ export function Pricing() {
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
-              <span className="relative">Flat-Fee,</span>
+              <span className="relative">Flat fee,</span>
             </span>{' '}
-            pricing for every scenario.
+            pricing.
           </h2>
           <p className="mt-4 text-lg text-slate-200">
             Payment plans available for qualifying clients.
@@ -126,7 +126,7 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Self-Service"
-            price="$199/mo"
+            price="$199 mo"
             description="A great option if you can\'t afford a lawyer or just want a smaller budget."
             href="/prometheus"
             features={[
@@ -139,9 +139,9 @@ export function Pricing() {
           <Plan
             featured
             name="The Settler"
-            price="$275/mo"
+            price="$275 mo"
             description="What a client with no children could pay if they settle at mediation and qualify for a 36-month payment plan."
-            href="https://apps.kinglawnc.com/billingcalculator"
+            href="/billingcalculator"
             features={[
               'Send 25 quotes and invoices',
               'Connect up to 5 bank accounts',
@@ -154,9 +154,9 @@ export function Pricing() {
           />
           <Plan
             name="Trial"
-            price="$1,500/mo"
+            price="$1,500 mo"
             description="A case with children where every issue is taken to trial."
-            href="https://apps.kinglawnc.com/billingcalculator"
+            href="/billingcalculator"
             features={[
               'Send unlimited quotes and invoices',
               'Connect up to 15 bank accounts',
