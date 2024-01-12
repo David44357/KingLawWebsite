@@ -36,7 +36,7 @@ const features = [
   {
     name: 'Responsive',
     description:
-      'Schedule meetings and get prompt responses to emails, Facebook messages, or texts directly from your lawyer.',
+      'Get prompt responses to emails, Facebook messages, or texts directly from your lawyer.',
     icon: ResponsiveIcon,
   },
 ]
