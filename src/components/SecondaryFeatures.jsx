@@ -7,7 +7,7 @@ const features = [
     name: 'Virtual Office',
     description:
       'Schedule Zoom meetings with your lawyer online at your convenience.',
-    icon: DeviceCardsIcon,
+    icon: Microphone,
   },
   {
     name: 'The App',
@@ -61,7 +61,7 @@ function DeviceArrowIcon(props) {
   )
 }
 
-function DeviceCardsIcon(props) {
+function Microphone(props) {
   let id = useId()
 
   return (
