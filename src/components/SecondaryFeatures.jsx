@@ -7,7 +7,7 @@ const features = [
     name: 'Virtual Office',
     description:
       'Schedule Zoom meetings with your lawyer online at your convenience.',
-    icon: microphone,
+    icon: DeviceCardsIcon,
   },
   {
     name: 'The App',
@@ -19,25 +19,25 @@ const features = [
     name: 'Flat Fee',
     description:
     'Pay a flat-fee that includes most expenses and take advantage of our payment plans.',
-    icon: DeviceClockIcon,
+    icon: DeviceCardsIcon,
   },
   {
     name: 'DIY Apps',
     description:
       'Can\'t afford a lawyer? Use our self-service apps with attorney support for just $199/mo.',
-    icon: DeviceListIcon,
+    icon: DeviceCardsIcon,
   },
   {
     name: 'Honest',
     description:
       'Get honest, objective advice from an attorney that prioritizes settlement over inflating your budget.',
-    icon: DeviceLockIcon,
+    icon: DeviceCardsIcon,
   },
   {
     name: 'Responsive',
     description:
       'Schedule meetings and get prompt responses to emails, Facebook messages, or texts directly from your lawyer.',
-    icon: DeviceChartIcon,
+    icon: DeviceCardsIcon,
   },
 ]
 
