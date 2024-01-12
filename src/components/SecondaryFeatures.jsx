@@ -31,33 +31,22 @@ const features = [
     name: 'Honest',
     description:
       'Get honest, objective advice from an attorney that prioritizes settlement over inflating your budget.',
-    icon: DeviceArrowIcon,
+    icon: CheckIcon,
   },
   {
     name: 'Responsive',
     description:
       'Schedule meetings and get prompt responses to emails, Facebook messages, or texts directly from your lawyer.',
-    icon: DeviceArrowIcon,
+    icon: ResponsiveIcon,
   },
 ]
 
-function DeviceArrowIcon(props) {
+function ResponsiveIcon(props) {
   return (
-    <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z"
-        fill="#737373"
-      />
-      <path
-        d="M12 25l8-8m0 0h-6m6 0v6"
-        stroke="#171717"
-        strokeWidth={2}
-        strokeLinecap="round"
-      />
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
-    </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+</svg>
+
   )
 }
 
@@ -104,23 +93,12 @@ function DeviceListIcon(props) {
   )
 }
 
-function DeviceLockIcon(props) {
+function CheckIcon(props) {
   return (
-    <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M5 4a4 4 0 014-4h14a4 4 0 014 4v10h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h5v2H9a4 4 0 01-4-4V4z"
-        fill="#737373"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M18 19.5a3.5 3.5 0 117 0V22a2 2 0 012 2v6a2 2 0 01-2 2h-7a2 2 0 01-2-2v-6a2 2 0 012-2v-2.5zm2 2.5h3v-2.5a1.5 1.5 0 00-3 0V22z"
-        fill="#171717"
-      />
-    </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+
   )
 }
 
