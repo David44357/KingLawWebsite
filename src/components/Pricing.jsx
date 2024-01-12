@@ -141,7 +141,7 @@ export function Pricing() {
             href="https://apps.kinglawnc.com/billingcalculator"
             features={[
               'Most divorce lawsuits are settled at mediation',
-              'Includes expenses such as court fees, service of process expenses, and mediator fees',
+              'Includes expenses, such as court fees, service of process expenses, and mediator fees',
               'Qualifying for financing is evaluated on a case-by-case basis',
               'King @ Law costs 30-50% less than hourly-rate attorneys',
             ]}
