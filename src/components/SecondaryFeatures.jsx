@@ -13,19 +13,19 @@ const features = [
     name: 'The App',
     description:
       'Pay fees, upload evidence, provide information, and more in our online portal.',
-    icon: DeviceArrowIcon,
+    icon: DeviceListIcon,
   },
   {
     name: 'Flat Fee',
     description:
     'Pay a flat-fee that includes most expenses and take advantage of our payment plans.',
-    icon: DeviceArrowIcon,
+    icon: CurrencyIcon,
   },
   {
     name: 'DIY Apps',
     description:
       'Can\'t afford a lawyer? Use our self-service apps with attorney support for just $199/mo.',
-    icon: DeviceArrowIcon,
+    icon: DeviceListIcon,
   },
   {
     name: 'Honest',
@@ -72,23 +72,12 @@ function Microphone(props) {
   )
 }
 
-function DeviceClockIcon(props) {
+function CurrencyIcon(props) {
   return (
-    <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M5 4a4 4 0 014-4h14a4 4 0 014 4v10h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h5v2H9a4 4 0 01-4-4V4z"
-        fill="#737373"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M24 32a8 8 0 100-16 8 8 0 000 16zm1-8.414V19h-2v5.414l4 4L28.414 27 25 23.586z"
-        fill="#171717"
-      />
-    </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+
   )
 }
 
