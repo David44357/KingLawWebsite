@@ -60,7 +60,7 @@ function Plan({
 }) {
   return (
     <section
-      className={clsx(
+      className=py-12 lg:py-16 {clsx(
         'flex flex-col rounded-3xl px-6 sm:px-8',
         featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8',
       )}
