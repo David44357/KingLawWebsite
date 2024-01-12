@@ -74,7 +74,7 @@ function Plan({
       >
         {description}
       </p>
-      <p className="order-first font-display text-5xl font-light tracking-tight text-white">
+      <p className="order-first font-display text-5xl font-light tracking-tight text-white pt-5">
         {price}
       </p>
       <ul
