@@ -24,19 +24,19 @@ const features = [
   {
     name: 'DIY Apps',
     description:
-      'Can\'t afford a lawyer? Use our do-it-yourself apps with attorney support for just $199.',
+      'Can\'t afford a lawyer? Use our self-service apps with attorney support for just $199/mo.',
     icon: DeviceListIcon,
   },
   {
     name: 'Honest',
     description:
-      'Get honest, objective advice from an attorney that prioritizes your interests.',
+      'Get honest, objective advice from an attorney that prioritizes settlement over inflating your budget.',
     icon: DeviceLockIcon,
   },
   {
     name: 'Responsive',
     description:
-      'Schedule meetings just a day or two out and get prompt responses to your emails.',
+      'Schedule meetings and get prompt responses to emails, Facebook messages, or texts directly from your lawyer.',
     icon: DeviceChartIcon,
   },
 ]
@@ -205,7 +205,7 @@ export function SecondaryFeatures() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-12 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-15 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
         >
           {features.map((feature) => (
             <li
