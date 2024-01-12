@@ -192,7 +192,7 @@ export function SecondaryFeatures() {
       id="secondary-features"
       style={{paddingTop:"1rem"}}
       aria-label="Features for building a portfolio"
-      className="py-12 lg:py-16"
+      className="py-6 lg:py-8"
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
