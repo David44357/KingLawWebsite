@@ -135,18 +135,15 @@ export function Pricing() {
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="The Settler"
+            price="$275/mo"
+            description="The approximate cost for a case settled at mediation with no children on a 36-month payment plan"
             href="https://apps.kinglawnc.com/billingcalculator"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Most divorce lawsuits are settled at mediation',
+              'Includes expenses such as court fees, service of process expenses, and mediator fees',
+              'Qualifying for financing is evaluated on a case-by-case basis',
+              'King @ Law costs 30-50% less than hourly-rate attorneys',
             ]}
           />
           <Plan
