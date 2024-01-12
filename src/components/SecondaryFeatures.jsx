@@ -13,31 +13,31 @@ const features = [
     name: 'The App',
     description:
       'Pay fees, upload evidence, provide information, and more in our online portal.',
-    icon: DeviceCardsIcon,
+    icon: DeviceArrowIcon,
   },
   {
     name: 'Flat Fee',
     description:
     'Pay a flat-fee that includes most expenses and take advantage of our payment plans.',
-    icon: DeviceCardsIcon,
+    icon: DeviceArrowIcon,
   },
   {
     name: 'DIY Apps',
     description:
       'Can\'t afford a lawyer? Use our self-service apps with attorney support for just $199/mo.',
-    icon: DeviceCardsIcon,
+    icon: DeviceArrowIcon,
   },
   {
     name: 'Honest',
     description:
       'Get honest, objective advice from an attorney that prioritizes settlement over inflating your budget.',
-    icon: DeviceCardsIcon,
+    icon: DeviceArrowIcon,
   },
   {
     name: 'Responsive',
     description:
       'Schedule meetings and get prompt responses to emails, Facebook messages, or texts directly from your lawyer.',
-    icon: DeviceCardsIcon,
+    icon: DeviceArrowIcon,
   },
 ]
 
