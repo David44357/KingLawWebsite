@@ -190,8 +190,8 @@ export function SecondaryFeatures() {
   return (
     <section
       id="secondary-features"
-      style={{paddingTop:"1rem"}}
-      aria-label="Features for building a portfolio"
+      style={{paddingTop:"0rem"}}
+      aria-label="How we\'re different"
       className=""
     >
       <Container>
