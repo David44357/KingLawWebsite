@@ -115,10 +115,9 @@ export function Pricing() {
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
-              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Simple pricing,</span>
+              <span className="relative">Flat-Fee,</span>
             </span>{' '}
-            for everyone.
+            pricing for every scenario.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
             It doesn’t matter what size your business is, our software won’t
