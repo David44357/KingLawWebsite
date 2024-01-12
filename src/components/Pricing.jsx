@@ -93,7 +93,7 @@ function Plan({
       </ul>
       <Button
         href={href}
-        variant={featured ? 'solid' : 'outline'}
+        variant={featured ? 'solid' : 'solid'}
         color="white"
         className="mt-8"
         aria-label={`Get started with the ${name} plan for ${price}`}
@@ -130,17 +130,17 @@ export function Pricing() {
               'Let the app select and complete the right legal documents.',
               'Follow step-by-step instructions specific to your courthouse',
               'Get up to one free attorney consultation via Zoom each month',
-              'Request new apps or support for the courthouse you\'re in',
+              'Request new apps or addingn support for your courthouse',
             ]}
           />
           <Plan
             featured
             name="The Settler"
-            price="$275/mo"
-            description="The approximate cost for starting a lawsuit and settling at mediation, in a case with no children, on a 36-month payment plan"
+            price="$250/mo"
+            description="The approximate cost for hiring attorney King for early litigation and mediation in a case with no children, on a 36-month payment plan."
             href="https://apps.kinglawnc.com/billingcalculator"
             features={[
-              'Most divorce lawsuits are settled at mediation',
+              'Most divorce-related litigation is settled at mediation',
               'Includes expenses, such as court fees, service of process expenses, and mediator fees',
               'Qualifying for financing is evaluated on a case-by-case basis',
               'King @ Law costs 30-50% less than hourly-rate attorneys',
@@ -154,8 +154,9 @@ export function Pricing() {
             href="https://apps.kinglawnc.com/billingcalculator"
             features={[
               'Trial is rare and should be avoided in most cases, due to the cost, delays, and stress',
-              'Our fees come out to 30-50% less than those charged by hourly-rate attorneys under similar circumstances',
-              'Trial may be necessary in some cases, but most of the time it should be avoided',
+              'Hourly-rate attorneys often come out to $75-$100k in similar circumstances',
+              'Spouses often think they should "just" go to trial, but this number should scare you away from that',
+              'Trial is more common if there are extreme circumstances and a lot of money involved'
             ]}
           />
         </div>
