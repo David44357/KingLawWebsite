@@ -119,31 +119,29 @@ export function Pricing() {
             </span>{' '}
             pricing for every scenario.
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+          <p className="mt-4 text-lg text-slate-200">
+            Payment plans available for qualifying clients.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
-            href="/register"
+            name="Self-Service"
+            price="$199/mo"
+            description="A great option if you can\'t afford a lawyer or just want a smaller budget."
+            href="/prometheus"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Selects and completes legal documents based on information you provide',
+              'Step-by-step instructions specific to your courthouse and situation',
+              'Helps you keep track of deadlines, tasks, contacts, and court info',
+              'Includes up to one 30-minute Zoom consultation with an attorney every month',
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
-            href="/register"
+            name="The Settler"
+            price="$275/mo"
+            description="What a client with no children could pay if they settle at mediation and qualify for a 36-month payment plan."
+            href="https://apps.kinglawnc.com/billingcalculator"
             features={[
               'Send 25 quotes and invoices',
               'Connect up to 5 bank accounts',
@@ -155,10 +153,10 @@ export function Pricing() {
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
-            href="/register"
+            name="Trial"
+            price="$1,500/mo"
+            description="A case with children where every issue is taken to trial."
+            href="https://apps.kinglawnc.com/billingcalculator"
             features={[
               'Send unlimited quotes and invoices',
               'Connect up to 15 bank accounts',
