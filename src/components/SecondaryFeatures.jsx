@@ -7,7 +7,7 @@ const features = [
     name: 'Virtual Office',
     description:
       'Schedule Zoom meetings with your lawyer online at your convenience.',
-    icon: DeviceArrowIcon,
+    icon: microphone,
   },
   {
     name: 'The App',
