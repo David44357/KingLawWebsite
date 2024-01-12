@@ -117,15 +117,15 @@ export function Pricing() {
          Flat-fee pricing
           </h2>
           <p className="mt-4 text-lg text-slate-200">
-            Most expenses are included. Payment plans are available to qualifying customers.
+            Payment plans are available to qualifying customers.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Self-Service Apps"
             price="$199/mo"
-            description="A great option if you can\'t afford a lawyer."
-            href="/register"
+            description="A great option if you can't afford a lawyer."
+            href="/prometheus"
             features={[
               'Let the app select and complete the right legal documents.',
               'Follow step-by-step instructions specific to your courthouse',
@@ -138,7 +138,7 @@ export function Pricing() {
             name="Small business"
             price="$15"
             description="Perfect for small / medium sized businesses."
-            href="/register"
+            href="https://apps.kinglawnc.com/billingcalculator"
             features={[
               'Send 25 quotes and invoices',
               'Connect up to 5 bank accounts',
