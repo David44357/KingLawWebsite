@@ -60,7 +60,7 @@ function Plan({
 }) {
   return (
     <section
-      className=py-12 lg:py-16 {clsx(
+      className={clsx(
         'flex flex-col rounded-3xl px-6 sm:px-8',
         featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8',
       )}
@@ -109,39 +109,42 @@ export function Pricing() {
     <section
       id="pricing"
       aria-label="Pricing"
-      className="bg-slate-800 py-12 lg:py-16"
+      className="bg-slate-900 py-20 sm:py-32"
     >
       <Container>
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
-              <span className="relative">Flat fee,</span>
+              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
+              <span className="relative">Simple pricing,</span>
             </span>{' '}
-            pricing.
+            for everyone.
           </h2>
-          <p className="mt-4 text-lg text-slate-200">
-            Payment plans available for qualifying clients.
+          <p className="mt-4 text-lg text-slate-400">
+            It doesn’t matter what size your business is, our software won’t
+            work well for you.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Self-Service"
-            price="$199 mo"
-            description="A great option if you can\'t afford a lawyer or just want a smaller budget."
-            href="/prometheus"
+            name="Starter"
+            price="$9"
+            description="Good for anyone who is self-employed and just getting started."
+            href="/register"
             features={[
-              'Selects and completes legal documents based on information you provide',
-              'Step-by-step instructions specific to your courthouse and situation',
-              'Helps you keep track of deadlines, tasks, contacts, and court info',
-              'Includes up to one 30-minute Zoom consultation with an attorney every month',
+              'Send 10 quotes and invoices',
+              'Connect up to 2 bank accounts',
+              'Track up to 15 expenses per month',
+              'Manual payroll support',
+              'Export up to 3 reports',
             ]}
           />
           <Plan
             featured
-            name="The Settler"
-            price="$275 mo"
-            description="What a client with no children could pay if they settle at mediation and qualify for a 36-month payment plan."
-            href="/billingcalculator"
+            name="Small business"
+            price="$15"
+            description="Perfect for small / medium sized businesses."
+            href="/register"
             features={[
               'Send 25 quotes and invoices',
               'Connect up to 5 bank accounts',
@@ -153,10 +156,10 @@ export function Pricing() {
             ]}
           />
           <Plan
-            name="Trial"
-            price="$1,500 mo"
-            description="A case with children where every issue is taken to trial."
-            href="/billingcalculator"
+            name="Enterprise"
+            price="$39"
+            description="For even the biggest enterprise companies."
+            href="/register"
             features={[
               'Send unlimited quotes and invoices',
               'Connect up to 15 bank accounts',
