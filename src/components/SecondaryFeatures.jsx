@@ -192,7 +192,7 @@ export function SecondaryFeatures() {
       id="secondary-features"
       style={{paddingTop:"0rem"}}
       aria-label="How we\'re different"
-      className=""
+      className="pb-16"
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
