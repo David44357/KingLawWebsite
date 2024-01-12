@@ -116,22 +116,21 @@ export function Pricing() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
          Flat-fee pricing
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
-            Most expenses are included and payment plans are available to qualifying customers.
+          <p className="mt-4 text-lg text-slate-200">
+            Most expenses are included. Payment plans are available to qualifying customers.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            name="Self-Service Apps"
+            price="$199/mo"
+            description="A great option if you can\'t afford a lawyer."
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Let the app select and complete the right legal documents.',
+              'Follow step-by-step instructions specific to your courthouse',
+              'Get up to one free attorney consultation via Zoom each month',
+              'Request new apps or support for the courthouse you\'re in',
             ]}
           />
           <Plan
