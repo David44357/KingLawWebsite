@@ -69,7 +69,7 @@ function Plan({
       <p
         className={clsx(
           'mt-2 text-base',
-          featured ? 'text-white' : 'text-slate-400',
+          featured ? 'text-white' : 'text-slate-200',
         )}
       >
         {description}
@@ -86,7 +86,7 @@ function Plan({
       >
         {features.map((feature) => (
           <li key={feature} className="flex">
-            <CheckIcon className={featured ? 'text-white' : 'text-slate-400'} />
+            <CheckIcon className={featured ? 'text-white' : 'text-slate-200'} />
             <span className="ml-4">{feature}</span>
           </li>
         ))}
@@ -98,7 +98,7 @@ function Plan({
         className="mt-8"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
-        Get started
+        Learn more
       </Button>
     </section>
   )
@@ -137,13 +137,14 @@ export function Pricing() {
             featured
             name="The Settler"
             price="$275/mo"
-            description="The approximate cost for a case settled at mediation with no children on a 36-month payment plan"
+            description="The approximate cost for starting a lawsuit and settling at mediation, in a case with no children, on a 36-month payment plan"
             href="https://apps.kinglawnc.com/billingcalculator"
             features={[
               'Most divorce lawsuits are settled at mediation',
               'Includes expenses, such as court fees, service of process expenses, and mediator fees',
               'Qualifying for financing is evaluated on a case-by-case basis',
               'King @ Law costs 30-50% less than hourly-rate attorneys',
+              'Clients using our payment plan must pay $1,200 up-front'
             ]}
           />
           <Plan
