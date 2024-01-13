@@ -74,13 +74,13 @@ function Plan({
       >
         {description}
       </p>
-      <p className="order-first font-display text-5xl font-light tracking-tight text-white pt-5">
+      <p className="order-first font-display text-4xl font-light tracking-tight text-white pt-8">
         {price}
       </p>
       <ul
         role="list"
         className={clsx(
-          'order-last mt-10 flex flex-col gap-y-3 text-sm',
+          'order-last mt-7 flex flex-col gap-y-3 text-sm',
           featured ? 'text-white' : 'text-slate-200',
         )}
       >
@@ -137,7 +137,7 @@ export function Pricing() {
             featured
             name="The Settler"
             price="$250/mo"
-            description="An example approximate cost for hiring attorney King for early litigation and mediation in a case with no children, on a 36-month payment plan. Most cases are settled at mediation."
+            description="Approximate cost of hiring attorney King for early litigation and mediation in a case with no children using the payment plan."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Most divorce-related litigation is settled at mediation',
