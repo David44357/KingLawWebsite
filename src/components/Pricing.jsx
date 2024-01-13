@@ -65,7 +65,7 @@ function Plan({
         featured ? 'order-first bg-blue-600 lg:order-none' : 'lg:py-2',
       )}
     >
-      <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
+      <h3 className="mt-2 font-display text-lg text-white">{name}</h3>
       <p
         className={clsx(
           'mt-2 text-base',
@@ -80,7 +80,7 @@ function Plan({
       <ul
         role="list"
         className={clsx(
-          'order-last mt-7 flex flex-col gap-y-3 text-sm',
+          'order-last py-7 flex flex-col gap-y-3 text-sm',
           featured ? 'text-white' : 'text-slate-200',
         )}
       >
@@ -95,7 +95,7 @@ function Plan({
         href={href}
         variant={featured ? 'solid' : 'solid'}
         color="white"
-        className="mt-8"
+        className="mt-5"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
         Learn more
