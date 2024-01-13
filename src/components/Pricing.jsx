@@ -152,7 +152,7 @@ export function Pricing() {
             description="A rare situation involving numerous claims taken all the way to trial without financing. Trial is rare and should be avoided in most cases."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
-              'Trial is rare and should be avoided in most cases, due to costs, delays, and stress',
+              'Trial is rare and should be avoided in most cases',
               'Hourly-rate attorneys often come out to $75-$100k in similar circumstances',
               'Few King @ Law clients actually pay this amount',
               'Trial is more common if there are extreme circumstances that also involve a lot of money'
