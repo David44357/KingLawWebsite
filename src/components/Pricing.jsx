@@ -124,7 +124,7 @@ export function Pricing() {
           <Plan
             name="Self-Service"
             price="$199/mo"
-            description="Each app walks you through a legal process, creates your documents, and comes with 30 minutes of attorney support."
+            description="Our self-service apps walk you through legal processes, create your documents, and come with attorney support."
             href="/prometheus"
             features={[
               'Use the app to select and complete the right legal documents.',
