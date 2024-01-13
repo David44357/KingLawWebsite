@@ -61,8 +61,8 @@ function Plan({
   return (
     <section
       className={clsx(
-        'flex flex-col rounded-3xl py-16 sm:px-24',
-        featured ? 'order-first bg-blue-600 lg:order-none' : 'lg:py-20',
+        'flex flex-col rounded-3xl py-8 sm:px-24',
+        featured ? 'order-first bg-blue-600 lg:order-none' : 'lg:py-10',
       )}
     >
       <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
