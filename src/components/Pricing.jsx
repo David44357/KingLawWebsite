@@ -122,9 +122,9 @@ export function Pricing() {
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-20 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Self-Service Apps"
+            name="Self-Service"
             price="$199/mo"
-            description="You can think of our self-service apps like using TurboTax, instead of hiring an accountant. Each \"app\" walks you through a legal process, creates your documents, and comes with 30 minutes of attorney support."
+            description="You can think of our self-service apps like using TurboTax, instead of hiring an accountant. Each app walks you through a legal process, creates your documents, and comes with 30 minutes of attorney support."
             href="/prometheus"
             features={[
               'Use the app select and complete the right legal documents.',
