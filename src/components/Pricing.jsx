@@ -74,7 +74,7 @@ function Plan({
       >
         {description}
       </p>
-      <p className="order-first font-display text-4xl font-light tracking-tight text-white pt-8">
+      <p className="order-first font-display text-4xl font-light tracking-tight text-white pt-6">
         {price}
       </p>
       <ul
@@ -137,7 +137,7 @@ export function Pricing() {
             featured
             name="The Settler"
             price="$250/mo"
-            description="Approximate cost of hiring attorney King for early litigation and mediation in a case with no children using the payment plan."
+            description="Approximate cost of hiring attorney King for early litigation and mediation, in a case with no children, using the payment plan."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Most divorce-related litigation is settled at mediation',
