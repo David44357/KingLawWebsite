@@ -12,47 +12,41 @@ const faqs = [
     },
     {
       question: 'What if you don\'t have an app for my situation or courthouse?',
-      answer: 'Email David@kinglawnc.com and request we create the app you need.',
+      answer: 'Premium users can request a new app or support for their specific courthouse',
     },
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'No. Each courthouse uses different documents and processes. However, we will typically add support for courts if a paying user requests it.',
+        'Probably not. Each courthouse uses different documents and processes. However, we will typically add support for courts if a premium user requests it.',
     },
   ],
   [
     {
       question: 'Isn\'t this the same as LegalZoom?',
       answer:
-        'It is a similar concept. However, our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance as part of the subscription price.',
+        'It is a similar concept. However, our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance as part of the service.',
     },
     {
       question:
         'How much does it cost?',
       answer:
-        'Free members get access to the first few steps of each app. Premium members pay $199 per-month for unlimited access and one Zoom consultation per-app, up to once per-month.',
-    },
-    {
-      question:
-        'Is there a limit to the number of consultations I can have?',
-      answer:
-        'Yes. The subscription comes with one attorney consultation per app you use, capped at one consultation per-month.',
+        'Free members get access to the first few steps of each app. Premium members pay $199 per-month for unlimited access and one Zoom consultation with an attorney every 30 days.',
     },
   ],
   [
     {
       question: 'Shouldn\'t I just hire a lawyer?',
       answer:
-        'It depends on what you can afford, how much money is in dispute, whether you trust lawyers, and how confident you feel with a do-it-yourself approach.',
+        'It depends on what you can afford, how much money is in dispute, whether you trust lawyers, and how confident you feel with a self-service approach.',
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'You can cancel anytime in the app with a single click. You do not need to contact anyone to cancel.',
+      answer: 'You can cancel your premium subscription instantly in the app with a single click. However, we currently do not have the software in place to delay cancellation until the end of the month you already paid for.',
     },
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. That\'s a terrific way to use the apps. However, the Bar Association\'s conflict of interest rules prohibit Mr. King from providing consultations to both parties.',
+        'Yes. However, the Bar Association\'s conflict of interest rules prohibit Mr. King from providing consultations to both parties.',
     },
   ],
 ]
