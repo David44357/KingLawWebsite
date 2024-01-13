@@ -61,7 +61,7 @@ function Plan({
   return (
     <section
       className={clsx(
-        'flex flex-col rounded-3xl py-1 px-6 mx-6',
+        'flex flex-col rounded-3xl py-1 px-6',
         featured ? 'order-first bg-blue-600 lg:order-none' : 'lg:py-2',
       )}
     >
@@ -124,13 +124,13 @@ export function Pricing() {
           <Plan
             name="Self-Service"
             price="$199/mo"
-            description="You can think of our self-service apps like using TurboTax, instead of hiring an accountant. Each app walks you through a legal process, creates your documents, and comes with 30 minutes of attorney support."
+            description="Each app walks you through a legal process, creates your documents, and comes with 30 minutes of attorney support."
             href="/prometheus"
             features={[
-              'Use the app select and complete the right legal documents.',
+              'Use the app to select and complete the right legal documents.',
               'Follow step-by-step instructions specific to your courthouse',
               'Get up to one free attorney consultation via Zoom each month',
-              'Request new apps or addingn support for your courthouse',
+              'Request new apps or that support for your courthouse be added',
             ]}
           />
           <Plan
@@ -143,7 +143,7 @@ export function Pricing() {
               'Most divorce-related litigation is settled at mediation',
               'Includes expenses, such as court fees, service of process expenses, and mediator fees',
               'Qualifying for financing is evaluated on a case-by-case basis and requires $1,200 up-front',
-              'King @ Law costs 30-50% less than hourly-rate attorneys'
+              'King @ Law often costs 30-50% less than hourly-rate attorneys'
             ]}
           />
           <Plan
@@ -152,11 +152,10 @@ export function Pricing() {
             description="A rare situation involving numerous claims taken all the way to trial without financing. Trial is rare and should be avoided in most cases."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
-              'Spouses often say they should \"just\" go to trial, but this number should change your perspective',
-              'Trial is rare and should be avoided in most cases, due to the cost, delays, and stress',
+              'Trial is rare and should be avoided in most cases, due to costs, delays, and stress',
               'Hourly-rate attorneys often come out to $75-$100k in similar circumstances',
-              'This number should encourage you to focus on the preferred process of settling at mediation',
-              'Trial is more common if there are extreme circumstances and a lot of money involved'
+              'Few King @ Law clients actually pay this amount',
+              'Trial is more common if there are extreme circumstances that also involve a lot of money'
             ]}
           />
         </div>
