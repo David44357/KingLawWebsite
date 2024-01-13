@@ -95,7 +95,7 @@ function Plan({
         href={href}
         variant={featured ? 'solid' : 'solid'}
         color="white"
-        className="mt-5"
+        className="mt-5 mx-5"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
         Learn more
