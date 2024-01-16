@@ -137,7 +137,7 @@ export function Pricing() {
             featured
             name="The Settler"
             price="$250/mo"
-            description="Approximate cost for hiring King @ Law for early litigation and mediation, in a case with no children, on a payment plan."
+            description="Approximate cost for hiring King @ Law on a 36-month payment plan for early litigation and mediation, in a case with no children."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Most divorce-related litigation is settled at mediation',
@@ -149,12 +149,13 @@ export function Pricing() {
           <Plan
             name="Trial"
             price="$55,000"
-            description="A rare situation involving numerous claims taken all the way to trial without financing."
+            description="A rare situation involving numerous claims taken all the way to trial without qualifying for a payment plan."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
+            'Very few King @ Law clients actually pay this amount',
               'Trial is rare and should be avoided in most cases',
               'Hourly-rate attorneys often come out to $75-$100k in similar circumstances',
-              'Few King @ Law clients actually pay this amount',
+              'This price explains why we avoid trial in most cases',
             ]}
           />
         </div>
