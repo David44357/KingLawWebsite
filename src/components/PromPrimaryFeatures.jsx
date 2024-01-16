@@ -16,7 +16,7 @@ const features = [
   {
     title: 'Info',
     description:
-      "Give the app information about your situation.",
+      "Give the app information about your situation. test",
     image: screenshotProvideInfo,
   },
   {
@@ -39,11 +39,11 @@ const features = [
   },
 ]
 
-export function PromPrimaryFeatures() {
+export function PrimaryFeatures() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
   useEffect(() => {
-    let lgMediaQuery = window.matchMedia('(min-width: 200px)')
+    let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
 
     function onMediaQueryChange({ matches }) {
       setTabOrientation(matches ? 'vertical' : 'horizontal')
@@ -58,21 +58,27 @@ export function PromPrimaryFeatures() {
   }, [])
 
   return (
-
-    // <div>"DIV"</div>
     <section
       id="features"
-      aria-label="Features of our apps"
+      aria-label="Features for running your books"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
-
-      <PromContainer className="relative">
+      <Image
+        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
+        src={backgroundImage}
+        alt=""
+        width={2245}
+        height={1636}
+        unoptimized
+      />
+      <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            4 Steps to Complete a Legal Process
+            Everything you need to run your books.
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-slate-50">
-          TurboTax does your taxes. Our apps do your divorce.
+          <p className="mt-6 text-lg tracking-tight text-blue-100">
+            Well everything you need if you aren’t that picky about minor
+            details like tax compliance.
           </p>
         </div>
         <Tab.Group
@@ -83,7 +89,7 @@ export function PromPrimaryFeatures() {
           {({ selectedIndex }) => (
             <>
               <div className="-mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5">
-                <Tab.List className="relative z-10 flex whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
+                <Tab.List className="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
                   {features.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
@@ -100,7 +106,7 @@ export function PromPrimaryFeatures() {
                             'font-display text-lg ui-not-focus-visible:outline-none',
                             selectedIndex === featureIndex
                               ? 'text-blue-600 lg:text-white'
-                              : 'text-white hover:text-white lg:text-white',
+                              : 'text-blue-100 hover:text-white lg:text-white',
                           )}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
@@ -112,7 +118,7 @@ export function PromPrimaryFeatures() {
                           'mt-2 hidden text-sm lg:block',
                           selectedIndex === featureIndex
                             ? 'text-white'
-                            : 'text-orange-100 group-hover:text-white',
+                            : 'text-blue-100 group-hover:text-white',
                         )}
                       >
                         {feature.description}
@@ -130,13 +136,13 @@ export function PromPrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[25rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[30rem]">
+                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         className="w-full"
                         src={feature.image}
                         alt=""
                         priority
-                        sizes="(min-width: 200px) 35rem, (min-width: 200px) 60vw, 15rem"
+                        sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
                       />
                     </div>
                   </Tab.Panel>
@@ -145,7 +151,7 @@ export function PromPrimaryFeatures() {
             </>
           )}
         </Tab.Group>
-      </PromContainer>
+      </Container>
     </section>
   )
 }
