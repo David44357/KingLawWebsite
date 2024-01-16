@@ -16,7 +16,7 @@ const features = [
   {
     title: 'Info',
     description:
-      "Give the app information about your situation.",
+      "Give the app information about your situation.Test",
     image: screenshotProvideInfo,
   },
   {
