@@ -130,7 +130,7 @@ export function PromPrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[25rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[30rem] max-w-300px mx-auto">
+                    <div className="mt-20 w-[25rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[30rem] max-w-300px mx-auto">
                       <Image
                         className="w-full max-w-300px"
                         src={feature.image}
