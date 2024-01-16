@@ -8,7 +8,7 @@ import { PromContainer } from '@/components/PromContainer'
 import backgroundImage from '@/images/background-features.jpg'
 import screenshotExpenses from '@/images/ExampleDocs.png'
 import screenshotProvideInfo from '@/images/screenshots/Provide Info.png'
-import screenshotInstructions from '@/images/Instructions.png'
+import screenshotInstructions from '@/images/screenshots/screenshotInstructions.png'
 import screenshotCalendar from '@/images/Calendar.png'
 
 
