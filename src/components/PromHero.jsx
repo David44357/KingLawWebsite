@@ -328,7 +328,7 @@ function AppDemo() {
 
 export function PromHero() {
   return (
-    <div className="overflow-hidden lg:pb-32 xl:pb-36">
+    <div className="overflow-hidden lg:pb-26 xl:pb-22">
       <Container>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
           <div className="">
