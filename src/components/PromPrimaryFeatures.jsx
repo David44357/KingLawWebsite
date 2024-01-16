@@ -7,9 +7,9 @@ import clsx from 'clsx'
 import { PromContainer } from '@/components/PromContainer'
 import backgroundImage from '@/images/background-features.jpg'
 import screenshotExpenses from '@/images/ExampleDocs.png'
-import screenshotPayroll from '@/images/Provide Info.png'
+import screenshotProvideInfo from '@/images/screenshots/Provide Info.png'
 import screenshotReporting from '@/images/Instructions.png'
-import screenshotVatReturns from '@/images/Calendar.png'
+import screenshotCalendar from '@/images/Calendar.png'
 
 
 const features = [
@@ -17,7 +17,7 @@ const features = [
     title: 'Info',
     description:
       "Give the app information about your situation.",
-    image: screenshotPayroll,
+    image: screenshotProvideInfo,
   },
   {
     title: 'Docs',
@@ -29,7 +29,7 @@ const features = [
     title: 'Advice',
     description:
       "Schedule a Zoom consultation with an attorney.",
-    image: screenshotVatReturns,
+    image: screenshotCalendar,
   },
   {
     title: 'Steps',
