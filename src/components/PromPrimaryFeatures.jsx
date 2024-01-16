@@ -8,7 +8,7 @@ import { PromContainer } from '@/components/PromContainer'
 import backgroundImage from '@/images/background-features.jpg'
 import screenshotExpenses from '@/images/ExampleDocs.png'
 import screenshotProvideInfo from '@/images/screenshots/Provide Info.png'
-import screenshotReporting from '@/images/Instructions.png'
+import screenshotInstructions from '@/images/Instructions.png'
 import screenshotCalendar from '@/images/Calendar.png'
 
 
@@ -35,7 +35,7 @@ const features = [
     title: 'Steps',
     description:
       "Follow step-by-step instructions provided by the app.",    
-      image: screenshotReporting,
+      image: screenshotInstructions,
   },
 ]
 
