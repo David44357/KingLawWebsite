@@ -137,25 +137,24 @@ export function Pricing() {
             featured
             name="The Settler"
             price="$250/mo"
-            description="Approximate cost of hiring attorney King for early litigation and mediation, in a case with no children, using the payment plan."
+            description="Approximate cost for hiring King @ Law for early litigation and mediation, in a case with no children, on a payment plan."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Most divorce-related litigation is settled at mediation',
-              'Includes expenses, such as court fees, service of process expenses, and mediator fees',
-              'Qualifying for financing is evaluated on a case-by-case basis and requires $1,200 up-front',
+              'Includes expenses, such as court fees and mediator fees',
+              'Must qualify for the payment plan and pay $1,200 up-front',
               'King @ Law often costs 30-50% less than hourly-rate attorneys'
             ]}
           />
           <Plan
             name="Trial"
             price="$55,000"
-            description="A rare situation involving numerous claims taken all the way to trial without financing. Trial is rare and should be avoided in most cases."
+            description="A rare situation involving numerous claims taken all the way to trial without financing."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Trial is rare and should be avoided in most cases',
               'Hourly-rate attorneys often come out to $75-$100k in similar circumstances',
               'Few King @ Law clients actually pay this amount',
-              'Trial is more common if there are extreme circumstances that also involve a lot of money'
             ]}
           />
         </div>
