@@ -124,19 +124,19 @@ export function Pricing() {
           <Plan
             name="Self-Service"
             price="$89/mo"
-            description="Our self-service apps walk you through legal processes and create your documents."
+            description="Follow step-by-step walkthroughs that create your legal documents and court filings for you."
             href="/prometheus"
             features={[
-              'Use the app to select and complete the right legal documents.',
-              'Follow step-by-step instructions specific to your courthouse',
-              'Upgrade to get access to support features',
+              'Provide information and answer questions',
+              'Receive step-by-step instructions and completed legal documents or templates',
+              'Upgrade to Assisted for $189/mo to get access to support features',
             ]}
           />
           <Plan
             featured
             name="The Settler"
-            price="$250/mo"
-            description="Hired King @ Law for a financial case settled at mediation and paid on a 36-month payment plan."
+            price="~$250/mo"
+            description="Qualify for a 36-month payment plan and hire King @ Law for financial disputes that are settled at mediation."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Most divorce-related litigation is settled at mediation',
@@ -147,12 +147,12 @@ export function Pricing() {
           <Plan
             name="Trial"
             price="$55,000"
-            description="A rare situation involving numerous claims taken all the way to trial without a payment plan."
+            description="Take numerous claims to trial without a payment plan, due to a poor credit history."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
             'Very few King @ Law clients actually pay this amount',
               'Trial is rare and should be avoided in most cases',
-              'Hourly-rate attorneys often come out to $75-$100k in similar circumstances',
+              'Hourly-rate attorneys often come out to $75-$100k for similar trial cases',
             ]}
           />
         </div>
