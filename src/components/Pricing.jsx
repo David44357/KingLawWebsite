@@ -123,39 +123,36 @@ export function Pricing() {
         <div className="mt-16 px-8 grid max-w-2xl grid-cols-1 gap-y-5 sm:mx-auto lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Self-Service"
-            price="$199/mo"
-            description="Our self-service apps walk you through legal processes, create your documents, and come with attorney support."
+            price="$89/mo"
+            description="Our self-service apps walk you through legal processes and create your documents."
             href="/prometheus"
             features={[
               'Use the app to select and complete the right legal documents.',
               'Follow step-by-step instructions specific to your courthouse',
-              'Get up to one free attorney consultation via Zoom each month',
-              'Request new apps or that support for your courthouse be added',
+              'Upgrade to get access to support features',
             ]}
           />
           <Plan
             featured
             name="The Settler"
             price="$250/mo"
-            description="Approximate cost for hiring King @ Law on a 36-month payment plan for early litigation and mediation, in a case with no children."
+            description="Hired King @ Law for a financial case settled at mediation and paid on a 36-month payment plan."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Most divorce-related litigation is settled at mediation',
               'Includes expenses, such as court fees and mediator fees',
               'Must qualify for the payment plan and pay $1,200 up-front',
-              'King @ Law often costs 30-50% less than hourly-rate attorneys'
             ]}
           />
           <Plan
             name="Trial"
             price="$55,000"
-            description="A rare situation involving numerous claims taken all the way to trial without qualifying for a payment plan."
+            description="A rare situation involving numerous claims taken all the way to trial without a payment plan."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
             'Very few King @ Law clients actually pay this amount',
               'Trial is rare and should be avoided in most cases',
               'Hourly-rate attorneys often come out to $75-$100k in similar circumstances',
-              'This price explains why we avoid trial in most cases',
             ]}
           />
         </div>
