@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import React, { useEffect,useState } from 'react'
 import { Button } from '@/components/Button'
 import { PromContainer } from '@/components/PromContainer'
 import backgroundImage from '@/images/background-call-to-action.jpg'
