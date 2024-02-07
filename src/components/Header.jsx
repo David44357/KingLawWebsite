@@ -153,7 +153,7 @@ export function Header() {
               Web Portal
             </Button>
             <Button href={userOS} className="hidden lg:block">
-              Download
+              Download App
             </Button>
           </div>
         </Container>
