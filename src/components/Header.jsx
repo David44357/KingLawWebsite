@@ -140,7 +140,7 @@ export function Header() {
                             <Button href="https://apps.kinglawnc.com/" variant="outline">
                               Web Portal
                             </Button>
-                            <Button href="/comingsoon">Download the app</Button>
+                            <Button href={userOS}>Download the app</Button>
                           </div>
                         </Popover.Panel>
                       </>
@@ -152,7 +152,7 @@ export function Header() {
             <Button href="https://apps.kinglawnc.com/" variant="outline" className="hidden lg:block">
               Web Portal
             </Button>
-            <Button href="/comingsoon" className="hidden lg:block">
+            <Button href={userOS} className="hidden lg:block">
               Download
             </Button>
           </div>
