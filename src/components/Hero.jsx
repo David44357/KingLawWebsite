@@ -357,18 +357,18 @@ export function Hero() {
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
               A modern approach to law
             </h1>
-            <p className="mt-6 text-lg text-gray-600">
-              {'Hiring a modern law firm means options for any budget, convenient online meetings, and a portal that streamlines the process. Can\'t afford a lawyer? Use our online DIY apps with attorney support for just $199 a month.'}
+            <p className="mt-0 text-lg text-gray-600 mt-3">
+              {'What does it mean to be a modern law firm? Trading downtown traffic for convenient Zoom meetings. Upgrading from blank-check hourly rates to a flat-fee with expenses included. 30% lower prices thanks to virtual offices, automation, and other efficiencies. Can\'t afford a lawyer? Use our self-service DIY apps starting at just $89/mo.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
-              <Button href={userOS} variant='solid' >
+              <Button href="/comingsoon" variant='solid' >
                 <span >Get the App</span>
               </Button>
               <Cal></Cal>
             </div>
           </div>
-          <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+          <div className="relative mt-5 sm:mt-10 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
             <BackgroundIllustration className="absolute left-3/4 top-4 h-[613px] w-[513px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_top,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
             <div style={{bottom: "-8rem"}} className="[bottom: -8rem] hidden lg:block max-w-300 [mask-image:linear-gradient(to_bottom,white_70%,transparent)] sm:mx-36 md:mx-40 lg:absolute lg:mx-5 lg:bottom-32 lg:-top-10 lg:h-auto lg:px-0">
               <div className="[mask-image:linear-gradient(to_bottom,white_70%,transparent)]">

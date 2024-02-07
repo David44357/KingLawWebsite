@@ -349,7 +349,7 @@ export function PromHero() {
     }
   }, []);
   return (
-    <div className="overflow-hidden lg:pb-32 xl:pb-36">
+    <div className="overflow-hidden lg:pb-36 xl:pb-32">
       <Container>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
           <div className="">
@@ -357,7 +357,7 @@ export function PromHero() {
              Legal services for the rest of us.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'Finally, legal help most people can afford. North Carolina family law firm King @ Law provides do-it-yourself apps for uncontested divorces, trial, and everything in-between. Start for free and pay just $199 a month for full access with attorney support.'}
+              {'Finally, legal help most people can afford. North Carolina family law firm King @ Law provides self-service apps for uncontested divorces, motions, starting a lawsuit, trial, and more. Start for free and pay just $89/mo for full access to the self-service apps or $189/mo for additional support.'}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}

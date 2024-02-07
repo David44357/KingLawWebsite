@@ -7,9 +7,9 @@ import clsx from 'clsx'
 import { PromContainer } from '@/components/PromContainer'
 import backgroundImage from '@/images/background-features.jpg'
 import screenshotExpenses from '@/images/ExampleDocs.png'
-import screenshotPayroll from '@/images/Provide Info.png'
-import screenshotReporting from '@/images/Instructions.png'
-import screenshotVatReturns from '@/images/Calendar.png'
+import screenshotProvideInfo from '@/images/screenshots/Provide Info.png'
+import screenshotInstructions from '@/images/screenshots/screenshotInstructions.png'
+import screenshotCalendar from '@/images/Calendar.png'
 
 
 const features = [
@@ -17,7 +17,7 @@ const features = [
     title: 'Info',
     description:
       "Give the app information about your situation.",
-    image: screenshotPayroll,
+    image: screenshotProvideInfo,
   },
   {
     title: 'Docs',
@@ -29,13 +29,13 @@ const features = [
     title: 'Advice',
     description:
       "Schedule a Zoom consultation with an attorney.",
-    image: screenshotVatReturns,
+    image: screenshotCalendar,
   },
   {
     title: 'Steps',
     description:
       "Follow step-by-step instructions provided by the app.",    
-      image: screenshotReporting,
+      image: screenshotInstructions,
   },
 ]
 
@@ -65,20 +65,13 @@ export function PromPrimaryFeatures() {
       aria-label="Features of our apps"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
-      <Image
-        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
-        src={backgroundImage}
-        alt=""
-        width={2245}
-        height={1636}
-        unoptimized
-      />
+
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            4 Steps to Complete any Task
+            4 Steps to Complete a Legal Process Test
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-orange-100">
+          <p className="mt-6 text-lg tracking-tight text-slate-50">
           TurboTax does your taxes. Our apps do your divorce.
           </p>
         </div>
@@ -137,9 +130,9 @@ export function PromPrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[25rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[30rem]">
+                    <div className="mt-10 w-[25rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[30rem] max-w-300px mx-auto">
                       <Image
-                        className="w-full"
+                        className="w-full max-w-300px"
                         src={feature.image}
                         alt=""
                         priority

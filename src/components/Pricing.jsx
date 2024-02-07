@@ -61,44 +61,44 @@ function Plan({
   return (
     <section
       className={clsx(
-        'flex flex-col rounded-3xl px-6 sm:px-8',
-        featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8',
+        'flex flex-col rounded-3xl py-1 px-6',
+        featured ? 'order-first bg-blue-600 lg:order-none' : 'lg:py-2',
       )}
     >
-      <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
+      <h3 className="mt-2 font-display text-lg text-white">{name}</h3>
       <p
         className={clsx(
           'mt-2 text-base',
-          featured ? 'text-white' : 'text-slate-400',
+          featured ? 'text-white' : 'text-slate-200',
         )}
       >
         {description}
       </p>
-      <p className="order-first font-display text-5xl font-light tracking-tight text-white">
+      <p className="order-first font-display text-4xl font-light tracking-tight text-white pt-6">
         {price}
       </p>
       <ul
         role="list"
         className={clsx(
-          'order-last mt-10 flex flex-col gap-y-3 text-sm',
+          'order-last py-7 flex flex-col gap-y-3 text-sm',
           featured ? 'text-white' : 'text-slate-200',
         )}
       >
         {features.map((feature) => (
           <li key={feature} className="flex">
-            <CheckIcon className={featured ? 'text-white' : 'text-slate-400'} />
+            <CheckIcon className={featured ? 'text-white' : 'text-slate-200'} />
             <span className="ml-4">{feature}</span>
           </li>
         ))}
       </ul>
       <Button
         href={href}
-        variant={featured ? 'solid' : 'outline'}
+        variant={featured ? 'solid' : 'solid'}
         color="white"
-        className="mt-8"
+        className="mt-5 mx-5"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
-        Get started
+        Learn more
       </Button>
     </section>
   )
@@ -114,58 +114,45 @@ export function Pricing() {
       <Container>
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            <span className="relative whitespace-nowrap">
-              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Simple pricing,</span>
-            </span>{' '}
-            for everyone.
+         Flat-fee pricing
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+          <p className="mt-4 text-lg text-slate-200">
+            Payment plans are available to qualifying customers.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="mt-16 px-8 grid max-w-2xl grid-cols-1 gap-y-5 sm:mx-auto lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
-            href="/register"
+            name="Self-Service"
+            price="$89/mo"
+            description="Follow step-by-step walkthroughs that create your legal documents and court filings for you."
+            href="/prometheus"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Provide information and answer questions',
+              'Receive step-by-step instructions and completed legal documents or templates',
+              'Upgrade to Assisted for $189/mo to get access to support features',
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
-            href="/register"
+            name="The Settler"
+            price="~$250/mo"
+            description="Qualify for a 36-month payment plan and hire King @ Law for financial disputes that are settled at mediation."
+            href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Most divorce-related litigation is settled at mediation',
+              'Includes expenses, such as court fees and mediator fees',
+              'Must qualify for the payment plan and pay $1,200 up-front',
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
-            href="/register"
+            name="Trial"
+            price="$55,000"
+            description="Take numerous claims to trial without a payment plan, due to a poor credit history."
+            href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+            'Very few King @ Law clients actually pay this amount',
+              'Trial is rare and should be avoided in most cases',
+              'Hourly-rate attorneys often come out to $75-$100k for similar trial cases',
             ]}
           />
         </div>

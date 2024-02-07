@@ -7,113 +7,66 @@ const features = [
     name: 'Virtual Office',
     description:
       'Schedule Zoom meetings with your lawyer online at your convenience.',
-    icon: DeviceArrowIcon,
+    icon: Microphone,
   },
   {
     name: 'The App',
     description:
       'Pay fees, upload evidence, provide information, and more in our online portal.',
-    icon: DeviceCardsIcon,
+    icon: DeviceListIcon,
   },
   {
     name: 'Flat Fee',
     description:
     'Pay a flat-fee that includes most expenses and take advantage of our payment plans.',
-    icon: DeviceClockIcon,
+    icon: CurrencyIcon,
   },
   {
     name: 'DIY Apps',
     description:
-      'Can\'t afford a lawyer? Use our do-it-yourself apps with attorney support for just $199.',
+      'Can\'t afford a lawyer? Use our self-service apps with attorney support for just $199/mo.',
     icon: DeviceListIcon,
   },
   {
     name: 'Honest',
     description:
-      'Get honest, objective advice from an attorney that prioritizes your interests.',
-    icon: DeviceLockIcon,
+      'Get honest, objective advice from an attorney that prioritizes settlement over inflating your budget.',
+    icon: CheckIcon,
   },
   {
     name: 'Responsive',
     description:
-      'Schedule meetings just a day or two out and get prompt responses to your emails.',
-    icon: DeviceChartIcon,
+      'Get prompt responses to emails, Facebook messages, or texts directly from your lawyer.',
+    icon: ResponsiveIcon,
   },
 ]
 
-function DeviceArrowIcon(props) {
+function ResponsiveIcon(props) {
   return (
-    <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z"
-        fill="#737373"
-      />
-      <path
-        d="M12 25l8-8m0 0h-6m6 0v6"
-        stroke="#171717"
-        strokeWidth={2}
-        strokeLinecap="round"
-      />
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
-    </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+</svg>
+
   )
 }
 
-function DeviceCardsIcon(props) {
+function Microphone(props) {
   let id = useId()
 
   return (
-    <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z"
-        fill="#737373"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M9 13a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H10a1 1 0 01-1-1v-2zm0 6a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H10a1 1 0 01-1-1v-2zm1 5a1 1 0 00-1 1v2a1 1 0 001 1h12a1 1 0 001-1v-2a1 1 0 00-1-1H10z"
-        fill={`url(#${id}-gradient)`}
-      />
-      <rect x={9} y={6} width={14} height={4} rx={1} fill="#171717" />
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
-      <defs>
-        <linearGradient
-          id={`${id}-gradient`}
-          x1={16}
-          y1={12}
-          x2={16}
-          y2={28}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#737373" />
-          <stop offset={1} stopColor="#737373" stopOpacity={0} />
-        </linearGradient>
-      </defs>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z" />
+</svg>
+
   )
 }
 
-function DeviceClockIcon(props) {
+function CurrencyIcon(props) {
   return (
-    <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M5 4a4 4 0 014-4h14a4 4 0 014 4v10h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h5v2H9a4 4 0 01-4-4V4z"
-        fill="#737373"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M24 32a8 8 0 100-16 8 8 0 000 16zm1-8.414V19h-2v5.414l4 4L28.414 27 25 23.586z"
-        fill="#171717"
-      />
-    </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+
   )
 }
 
@@ -140,23 +93,12 @@ function DeviceListIcon(props) {
   )
 }
 
-function DeviceLockIcon(props) {
+function CheckIcon(props) {
   return (
-    <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M5 4a4 4 0 014-4h14a4 4 0 014 4v10h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h5v2H9a4 4 0 01-4-4V4z"
-        fill="#737373"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M18 19.5a3.5 3.5 0 117 0V22a2 2 0 012 2v6a2 2 0 01-2 2h-7a2 2 0 01-2-2v-6a2 2 0 012-2v-2.5zm2 2.5h3v-2.5a1.5 1.5 0 00-3 0V22z"
-        fill="#171717"
-      />
-    </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+
   )
 }
 
@@ -190,9 +132,9 @@ export function SecondaryFeatures() {
   return (
     <section
       id="secondary-features"
-      style={{paddingTop:"1rem"}}
-      aria-label="Features for building a portfolio"
-      className="py-12 lg:py-16"
+      style={{paddingTop:"0rem"}}
+      aria-label="How we\'re different"
+      className="pb-16"
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
@@ -205,7 +147,7 @@ export function SecondaryFeatures() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-12 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-15 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
         >
           {features.map((feature) => (
             <li

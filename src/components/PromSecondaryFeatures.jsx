@@ -13,9 +13,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Smart',
-    summary: 'Tailored to your courthouse and situation.',
+    summary: 'For your situation and courthouse',
     description:
-      'Each courthouse uses different forms and steps for the same process. Our apps use if-then logic to determine the right steps and documents for you.',
+      'Each individual courthouse has different rules, forms, and processes, even for simple things like uncontested divorces. Our apps use if/then logic to get the right documents for your courthouse and situation.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -48,9 +48,9 @@ const features = [
   {
     name: 'Documents',
     summary:
-      'Completed legal documents in your inbox',
+      'Completed legal documents',
     description:
-      'Even simple divorce decrees require over a dozen forms and documents that often ask for the same info over and over. Our apps complete your paperwork for you.',
+      'Even simple divorce decrees require over a dozen forms and documents that differ from court to court and ask for the same information repeatedly. Our apps ask for your information once, then populate complex legal documents correctly.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -78,7 +78,7 @@ const features = [
     summary:
       'Attorney support if you need it.',
     description:
-      'Schedule Zoom consultations with a licensed attorney to review documents, ask questions, or get advice.',
+      'Premium users can schedule up to one Zoom consultation with a licensed attorney each month to review documents, ask questions, or get advice.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -116,7 +116,7 @@ function Feature({ feature, isActive, className, ...props }) {
       </div>
       <h3
         className={clsx(
-          'mt-6 text-sm font-medium',
+          'mt-3 text-sm font-medium',
           isActive ? 'text-blue-600' : 'text-slate-600',
         )}
       >
@@ -218,10 +218,11 @@ export function PromSecondaryFeatures() {
       <PromContainer>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            How the apps work
+            How it works
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            You can think of our apps as the TurboTax of divorce law. You answer questions and provide information. The app selects the right legal documents and instructions. An attorney helps coach you through it.
+            The apps use if/then logic to select the right documents and instructions for your situation and courthouse.
+            
           </p>
         </div>
         <FeaturesMobile />

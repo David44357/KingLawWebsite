@@ -17,5 +17,5 @@ export function Cal({ selectedOption }) {
     return (<Button
     data-cal-link="kinglawnc/consultation"
     data-cal-config='{"layout":"month_view"}'
-    >Schedule a Consultation {selectedOption} </Button>);
+    >Consultation {selectedOption} </Button>);
 };
