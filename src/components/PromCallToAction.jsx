@@ -12,13 +12,7 @@ export function PromCallToAction() {
   useEffect(() => {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
-    if (platform.includes('win')) {
-      setUserOS('https://apps.kinglawnc.com'); //CHANGE HERE FOR WINDOWS
-    } else if (platform.includes('mac')) {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR MAC
-    } else if (platform.includes('linux')) {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR LINUX
-    } else if (platform.includes('android')) {
+    if (platform.includes('android')) {
       setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
     } else if (platform.includes('iphone') || platform.includes('ipad') || platform.includes('ipod')) {
       setUserOS('https://apps.apple.com/app/prometheus-nc-divorce-law/id6475014498'); // CHANGE HERE FOR IOS

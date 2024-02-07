@@ -335,17 +335,23 @@ export function Hero() {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
     if (platform.includes('win')) {
-      setUserOS('https://apps.kinglawnc.com'); //CHANGE HERE FOR WINDOWS
+      // setUserOS('https://apps.kinglawnc.com'); //CHANGE HERE FOR WINDOWS
+      setUserOS(platform)
     } else if (platform.includes('mac')) {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR MAC
+      // setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR MAC
+      setUserOS(platform)
     } else if (platform.includes('linux')) {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR LINUX
+      // setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR LINUX
+      setUserOS(platform)
     } else if (platform.includes('android')) {
-      setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
+      // setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
+      setUserOS(platform)
     } else if (platform.includes('iphone') || platform.includes('ipad') || platform.includes('ipod')) {
-      setUserOS('https://apps.apple.com/app/prometheus-nc-divorce-law/id6475014498'); // CHANGE HERE FOR IOS
+      // setUserOS('https://apps.apple.com/app/prometheus-nc-divorce-law/id6475014498'); // CHANGE HERE FOR IOS
+      setUserOS(platform)
     } else {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
+      // setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
+      setUserOS(platform)
     }
   }, []);
 
