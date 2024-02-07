@@ -327,6 +327,27 @@ function AppDemo() {
 }
 
 export function PromHero() {
+  const [userOS, setUserOS] = useState('');
+  // INSERT FILES WITHIN THE PUBLIC
+  // AFTER CHANGING THE LINKS IN THE BELOW FUNCTION YOU'LL NEED TO CHANGE
+  // TWO LINKS WITHIN THE RETURN STATEMENT
+  useEffect(() => {
+    const platform = window.navigator.userAgent.toLowerCase();
+    //WHEN YOUR READY CHANGE 
+    if (platform.includes('win')) {
+      setUserOS('https://apps.kinglawnc.com'); //CHANGE HERE FOR WINDOWS
+    } else if (platform.includes('mac')) {
+      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR MAC
+    } else if (platform.includes('linux')) {
+      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR LINUX
+    } else if (platform.includes('android')) {
+      setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
+    } else if (platform.includes('iphone') || platform.includes('ipad') || platform.includes('ipod')) {
+      setUserOS('https://apps.apple.com/app/prometheus-nc-divorce-law/id6475014498'); // CHANGE HERE FOR IOS
+    } else {
+      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
+    }
+  }, []);
   return (
     <div className="overflow-hidden lg:pb-32 xl:pb-36">
       <Container>
@@ -340,7 +361,7 @@ export function PromHero() {
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
-              <Button href="/comingsoon" variant='solid' >
+              <Button variant='solid' >
                 <span >Download the App</span>
               </Button>
             </div>

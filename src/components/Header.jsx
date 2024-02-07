@@ -55,17 +55,17 @@ export function Header() {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
     if (platform.includes('win')) {
-      setUserOS('Windows'); //CHANGE HERE FOR WINDOWS
+      setUserOS('https://apps.kinglawnc.com'); //CHANGE HERE FOR WINDOWS
     } else if (platform.includes('mac')) {
-      setUserOS('macOS'); // CHANGE HERE FOR MAC
+      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR MAC
     } else if (platform.includes('linux')) {
-      setUserOS('Linux'); // CHANGE HERE FOR LINUX
+      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR LINUX
     } else if (platform.includes('android')) {
-      setUserOS('Android'); // CHANGE HERE FOR ANDROID
+      setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
     } else if (platform.includes('iphone') || platform.includes('ipad') || platform.includes('ipod')) {
-      setUserOS('iOS'); // CHANGE HERE FOR IOS
+      setUserOS('https://apps.apple.com/app/prometheus-nc-divorce-law/id6475014498'); // CHANGE HERE FOR IOS
     } else {
-      setUserOS('Other'); // CHANGE HERE FOR OTHER
+      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
     }
   }, []);
 
@@ -138,7 +138,7 @@ export function Header() {
                             <Button href="https://apps.kinglawnc.com/" variant="outline">
                               Log in / Create Account
                             </Button>
-                            <Button href="/comingsoon">Download the app</Button>
+                            <Button href={userOS} >Download the app</Button>
                           </div>
                         </Popover.Panel>
                       </>
@@ -150,7 +150,7 @@ export function Header() {
             <Button href="https://apps.kinglawnc.com/" variant="outline" className="hidden lg:block">
               Log in / Create Account
             </Button>
-            <Button href="/comingsoon" className="hidden lg:block">
+            <Button href={userOS} className="hidden lg:block">
               Download
             </Button>
           </div>

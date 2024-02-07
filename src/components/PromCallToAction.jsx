@@ -26,7 +26,7 @@ export function PromCallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             The first few steps of each app are free.
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button color="white" className="mt-10">
             Download the app
           </Button>
         </div>
