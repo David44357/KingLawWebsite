@@ -77,7 +77,7 @@ export function PromPrimaryFeatures() {
         </div>
         <Tab.Group
           as="div"
-          className="lg:mt-16 xl:mt-16 sm:mt-8 md:mt16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
+          className="mt-16 grid grid-cols-1 items-center gap-y-2 pt-5 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
           vertical={tabOrientation === 'vertical'}
         >
           {({ selectedIndex }) => (
