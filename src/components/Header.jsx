@@ -57,6 +57,15 @@ function DownloadButton(props) {
       </div>
     )
   }
+  else if (props.userOS == 'https://apps.kinglawnc.com' && props.popover == 'True') {
+    return (
+      <div>
+      <Button href={props.userOS} variant="outline">
+        Web Portal
+      </Button>
+      </div>
+      );
+  }
   return (
     <div>
     <Button href={props.userOS} variant="outline" className="hidden lg:block">
