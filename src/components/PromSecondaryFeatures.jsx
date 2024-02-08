@@ -16,7 +16,7 @@ const features = [
     summary: 'For your situation and courthouse',
     description:
       'Each individual courthouse has different rules, forms, and processes, even for simple things like uncontested divorces. Our apps use if/then logic to get the right documents for your courthouse and situation.',
-    image: screenshotProfitLoss,
+
     icon: function ReportingIcon() {
       let id = useId()
       return (
