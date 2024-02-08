@@ -8,29 +8,29 @@ const faqs = [
     {
       question: 'Can I just hire King @ Law to represent me?',
       answer:
-        'Yes. For more information about hiring attorney David King, please schedule a consultation at kinglawnc.com/meeting.',
+        'Yes. For more information about hiring attorney David King, schedule an initial consultation at kinglawnc.com/meeting.',
     },
     {
       question: 'What if you don\'t have an app for my situation or courthouse?',
-      answer: 'Premium users can request a new app or support for their specific courthouse',
+      answer: 'Pay $189 for the Assisted tier to gain access to support features, including the ability to request new features or courthouses we don\'t support yet.',
     },
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'Probably not. Each courthouse uses different documents and processes. However, we will typically add support for courts if a premium user requests it.',
+        'We don\'t recommend it. Some apps may work some of the time, but each courthouse has their own forms.',
     },
   ],
   [
     {
       question: 'Isn\'t this the same as LegalZoom?',
       answer:
-        'It is a similar concept. However, our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance as part of the service.',
+        'It is similar. However, our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance as part of the service.',
     },
     {
       question:
         'How much does it cost?',
       answer:
-        'Free members get access to the first few steps of each app. Premium members pay $199 per-month for unlimited access and one Zoom consultation with an attorney every 30 days.',
+        'You can create an account for free to explore the app. This is called the Explore tier. You can use the self-service tools for $89/mo. We recommend the Assisted tier, which costs $189/mo and comes with support features. However, the lower-cost tiers are a good way to see if you like our service before making a bigger investment.',
     },
   ],
   [
@@ -41,12 +41,12 @@ const faqs = [
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'You can cancel your premium subscription instantly in the app with a single click. However, we currently do not have the software in place to delay cancellation until the end of the month you already paid for.',
+      answer: 'You can cancel your subscription instantly in the app with a single click and without talking to a person. It will immediately stop any future charges, unless you restart the service.',
     },
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. However, the Bar Association\'s conflict of interest rules prohibit Mr. King from providing consultations to both parties.',
+        'Yes. However, if both parties are using the app, Mr. King will not provide any attorney support or consultation to either party.',
     },
   ],
 ]
