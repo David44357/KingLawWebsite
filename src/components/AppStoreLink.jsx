@@ -19,7 +19,7 @@ export function AppStoreLink({ color = 'black' }) {
     }
   }, []);
 
-  if (userOS.includes('android')) {
+  if (userOS.includes('apple')) {
 
     return (
       <Link
