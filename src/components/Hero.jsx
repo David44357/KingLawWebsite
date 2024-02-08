@@ -237,6 +237,24 @@ function Chart({
   )
 }
 
+function DownloadButton(props) {
+  if (props.userOS != 'https://apps.kinglawnc.com') {
+    return (
+      <div>
+        <AppStoreLink />
+      </div>
+    )
+  }
+  
+  return (
+    <div>
+    <Button href={props.userOS} variant="outline">
+      Web Portal
+    </Button>
+    </div>
+    );
+}
+
 function AppDemo() {
   let [activePointIndex, setActivePointIndex] = useState(null)
   let activePriceIndex = activePointIndex ?? prices.length - 1
@@ -334,24 +352,12 @@ export function Hero() {
   useEffect(() => {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
-    if (platform.includes('win')) {
-      // setUserOS('https://apps.kinglawnc.com'); //CHANGE HERE FOR WINDOWS
-      setUserOS(platform)
-    } else if (platform.includes('mac')) {
-      // setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR MAC
-      setUserOS(platform)
-    } else if (platform.includes('linux')) {
-      // setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR LINUX
-      setUserOS(platform)
-    } else if (platform.includes('android')) {
-      // setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
-      setUserOS(platform)
+    if (platform.includes('android')) {
+      setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
     } else if (platform.includes('iphone') || platform.includes('ipad') || platform.includes('ipod')) {
-      // setUserOS('https://apps.apple.com/app/prometheus-nc-divorce-law/id6475014498'); // CHANGE HERE FOR IOS
-      setUserOS(platform)
+      setUserOS('https://apps.apple.com/app/prometheus-nc-divorce-law/id6475014498'); // CHANGE HERE FOR IOS
     } else {
-      // setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
-      setUserOS(platform)
+      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
     }
   }, []);
 
@@ -367,7 +373,7 @@ export function Hero() {
               {'What does it mean to be a modern law firm? Trading downtown traffic for convenient Zoom meetings. Upgrading from blank-check hourly rates to a flat-fee with expenses included. 30% lower prices thanks to virtual offices, automation, and other efficiencies. Can\'t afford a lawyer? Use our self-service DIY apps starting at just $89/mo.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <AppStoreLink />
+              <DownloadButton userOS={userOS}></DownloadButton>
               <Cal></Cal>
             </div>
           </div>
