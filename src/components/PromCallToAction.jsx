@@ -40,7 +40,7 @@ export function PromCallToAction() {
             Get started for free
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            The first few steps of each app are free.
+            Get an Explore account to check out the app for free
           </p>
           <Button href={userOS} color="white" className="mt-10">
             Download the app
