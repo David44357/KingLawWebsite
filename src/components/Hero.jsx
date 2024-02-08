@@ -240,9 +240,7 @@ function Chart({
 function DownloadButton(props) {
   if (props.userOS != 'https://apps.kinglawnc.com') {
     return (
-      <div>
         <AppStoreLink />
-      </div>
     )
   }
   

@@ -3,6 +3,7 @@ import clsx from 'clsx'
 import React, { useState, useEffect } from 'react'
 import myImage from '@/images/sx89xlao.png'
 import Image from 'next/image'
+import { Container } from '@/components/Container'
 
 export function AppStoreLink({ color = 'black' }) {
   const [userOS, setUserOS] = useState('');
