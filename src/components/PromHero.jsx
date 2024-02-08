@@ -328,6 +328,8 @@ function AppDemo() {
 
 
 export function PromHero() {
+  const [userOS, setUserOS] = useState('');
+
   useEffect(() => {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
