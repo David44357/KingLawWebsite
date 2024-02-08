@@ -46,6 +46,26 @@ function MobileNavLink({ children, ...props }) {
   )
 }
 
+
+function DownloadButton(props) {
+  if (props.userOS != 'https://apps.kinglawnc.com' && props.popover == 'True') {
+    return (
+      <div>
+        <Button href={props.userOS}>
+          Download App
+        </Button>
+      </div>
+    )
+  }
+  return (
+    <div>
+    <Button href={props.userOS} variant="outline" className="hidden lg:block">
+      Web Portal
+    </Button>
+    </div>
+    );
+}
+
 export function Header() {
   const [userOS, setUserOS] = useState('');
   // INSERT FILES WITHIN THE PUBLIC
@@ -63,8 +83,8 @@ export function Header() {
     }
   }, []);
 
-  
-  
+
+
   return (
     <header>
       <nav>
@@ -131,10 +151,8 @@ export function Header() {
                             </MobileNavLink>
                           </div>
                           <div className="mt-4 flex flex-col gap-4">
-                            <Button href="https://apps.kinglawnc.com/" variant="outline">
-                              Web Portal
-                            </Button>
-                            <Button href={userOS}>Download the app</Button>
+                            {/* TWO BUTTONS HERE */}
+                            <DownloadButton userOS={userOS} popover='True' ></DownloadButton>
                           </div>
                         </Popover.Panel>
                       </>
@@ -143,12 +161,8 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="https://apps.kinglawnc.com/" variant="outline" className="hidden lg:block">
-              Web Portal
-            </Button>
-            <Button href={userOS} className="hidden lg:block">
-              Download App
-            </Button>
+            {/* TWO BUTTONS HERE */}
+            <DownloadButton userOS={userOS}></DownloadButton>
           </div>
         </Container>
       </nav>
