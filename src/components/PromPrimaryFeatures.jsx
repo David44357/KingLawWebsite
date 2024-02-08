@@ -69,7 +69,7 @@ export function PromPrimaryFeatures() {
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            4 Steps to Complete a Legal Process Test
+            4 Steps to Complete a Legal Process
           </h2>
           <p className="mt-3 text-lg tracking-tight text-slate-50">
           TurboTax does your taxes. Our apps do your divorce.
