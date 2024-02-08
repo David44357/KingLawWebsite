@@ -71,13 +71,13 @@ export function PromPrimaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             4 Steps to Complete a Legal Process Test
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-slate-50">
+          <p className="mt-3 text-lg tracking-tight text-slate-50">
           TurboTax does your taxes. Our apps do your divorce.
           </p>
         </div>
         <Tab.Group
           as="div"
-          className="mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
+          className="lg:mt-16 xl:mt-16 sm:mt-8 md:mt16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
           vertical={tabOrientation === 'vertical'}
         >
           {({ selectedIndex }) => (
