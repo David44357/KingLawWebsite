@@ -368,7 +368,7 @@ export function Hero() {
               A modern approach to law
             </h1>
             <p className="mt-0 text-lg text-gray-600 mt-3">
-              {'What does it mean to be a modern law firm? Trading downtown traffic for convenient Zoom meetings. Upgrading from blank-check hourly rates to a flat-fee with expenses included. 30% lower prices thanks to virtual offices, automation, and other efficiencies. Can\'t afford a lawyer? Use our self-service DIY apps starting at just $89/mo.'}
+              {'What does it mean to be a modern law firm? Trading downtown traffic for convenient Zoom meetings. Upgrading from blank-check hourly rates to a flat-fee that includes expenses. 30% lower prices thanks to virtual offices, automation, and other efficiencies. Can\'t afford a lawyer? Use our self-service DIY apps starting at just $89/mo.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <DownloadButton userOS={userOS}></DownloadButton>

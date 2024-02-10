@@ -24,7 +24,7 @@ const features = [
   {
     name: 'DIY Apps',
     description:
-      'Can\'t afford a lawyer? Use our self-service apps with attorney support for just $199/mo.',
+      'Can\'t afford a lawyer? Use our self-service apps starting at just $89/mo.',
     icon: DeviceListIcon,
   },
   {
