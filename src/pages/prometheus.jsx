@@ -13,7 +13,7 @@ import { PromSecondaryFeatures } from '@/components/PromSecondaryFeatures'
 import { PromFaqs } from '@/components/PromFaqs'
 
 import { Testimonials } from '@/components/Testimonials'
-
+import { AppStoreLink } from '@/components/AppStoreLink'
 
 
 export default function Home() {
