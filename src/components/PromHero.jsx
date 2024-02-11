@@ -342,14 +342,14 @@ export function PromHero() {
     } else {
       setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
       setOS('other')
-    } 
+    }
   }, []);
 
   function ButtonLink(props) {
     if (props.OS != 'other') {
       return <AppStoreLink />;
     } else {
-      return   <Button href={props.userOS} variant="outline" className="m-3 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Web Portal</Button>
+      return <Button href={props.userOS} variant="outline" className="m-3 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Web Portal</Button>
     }
   }
 
@@ -359,20 +359,15 @@ export function PromHero() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
           <div className="">
             <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-             Legal services for the rest of us.
+              Legal services for the rest of us.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               {'Finally, legal help most people can afford. North Carolina family law firm King @ Law provides self-service apps for uncontested divorces, motions, starting a lawsuit, trial, and more. Start for free and pay just $89/mo for full access to the self-service apps or $189/mo for additional support.'}
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
-            < ButtonLink OS={OS} ></ButtonLink>
-
-              {/* <AppStoreLink /> */}
-              {/* <Button href={userOS} variant='solid' >
-                <span >Download the App</span>
-              </Button> */}
+              < ButtonLink OS={OS} userOS={userOS} ></ButtonLink>
             </div>
-              <div className="mt-10 flex justify-center gap-x-6">
+            <div className="mt-10 flex justify-center gap-x-6">
               {/* <AppStoreLink /> */}
             </div>
           </div>

@@ -56,7 +56,7 @@ export function PromCallToAction() {
             Get an Explore account to check out the app for free
           </p>
           <div className="m-3 flex items-center justify-center">
-          < ButtonLink OS = {OS} ></ButtonLink>
+          < ButtonLink OS = {OS} userOS={userOS}></ButtonLink>
           </div>
           
           
