@@ -359,7 +359,7 @@ export function PromHero() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
           <div className="">
             <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-              Test4
+              Test1
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               {'Finally, legal help most people can afford. North Carolina family law firm King @ Law provides self-service apps for uncontested divorces, motions, starting a lawsuit, trial, and more. Start for free and pay just $89/mo for full access to the self-service apps or $189/mo for additional support.'}
