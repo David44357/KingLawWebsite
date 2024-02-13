@@ -17,7 +17,7 @@
     "clsx": "^1.2.1",
     "focus-visible": "^5.2.0",
     "framer-motion": "^6.5.1",
-    "next": "13.4.2",
+    "next": "^13.5.6",
     "postcss-focus-visible": "^6.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -30,5 +30,10 @@
     "eslint-config-next": "13.0.2",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.6"
-  }
+  },
+  "description": "Pocket is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
