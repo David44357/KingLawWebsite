@@ -17,5 +17,5 @@ export function Cal({ selectedOption }) {
     return (<Button
     data-cal-link="kinglawnc/consultation"
     data-cal-config='{"layout":"month_view"}'
-    >Consultation {selectedOption} </Button>);
+    class="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded">Consultation {selectedOption} </Button>);
 };

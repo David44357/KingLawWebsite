@@ -12,7 +12,7 @@ const features = [
   {
     name: 'The App',
     description:
-      'Pay fees, upload evidence, provide information, and more in our online portal.',
+      'Pay fees, upload evidence, provide info, and more in our online portal.',
     icon: DeviceListIcon,
   },
   {
