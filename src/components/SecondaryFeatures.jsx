@@ -28,15 +28,15 @@ const features = [
     icon: DeviceListIcon,
   },
   {
-    name: 'Honest',
+    name: 'Lower Prices',
     description:
-      'Get honest, objective advice from an attorney that prioritizes settlement over inflating your budget.',
+      'We use custom software to automate legal work, resulting in lower prices to clients.',
     icon: CheckIcon,
   },
   {
     name: 'Responsive',
     description:
-      'Get prompt responses to emails, Facebook messages, or texts directly from your lawyer.',
+      'Is your current lawyer ghosting you? Schedule meetings with your lawyer just 48 hours in advance.',
     icon: ResponsiveIcon,
   },
 ]
@@ -154,10 +154,10 @@ export function SecondaryFeatures() {
               key={feature.name}
               className="rounded-2xl border border-gray-200 p-8"
             >
-              <feature.icon className="h-8 w-8" />
-              <h3 className="mt-6 font-semibold text-gray-900">
+             <div class="flex items-center"><feature.icon className="h-8 w-8" />
+              <h3 className="ml-3 font-semibold text-gray-900">
                 {feature.name}
-              </h3>
+              </h3></div>
               <p className="mt-2 text-gray-700">{feature.description}</p>
             </li>
           ))}

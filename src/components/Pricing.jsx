@@ -128,8 +128,9 @@ export function Pricing() {
             href="/prometheus"
             features={[
               'Provide information and answer questions',
-              'Receive step-by-step instructions and completed legal documents or templates',
-              'Upgrade to Assisted for $189/mo to get access to support features',
+              'Receive completd draft legal documents',
+              'Follow step-by-step instructions',
+              'Upgrade to Assisted for $189/mo to add support',
             ]}
           />
           <Plan
@@ -139,9 +140,10 @@ export function Pricing() {
             description="Qualify for a 36-month payment plan and hire King @ Law for financial disputes that are settled at mediation."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
-              'Most divorce-related litigation is settled at mediation',
-              'Includes expenses, such as court fees and mediator fees',
               'Must qualify for the payment plan and pay $1,200 up-front',
+              'Includes expenses, such as court fees and mediator fees',
+              'Most divorce disputes are settled at mediation, not trial',
+              'Severe penalties apply for missed payments, including potential litigation'
             ]}
           />
           <Plan
@@ -150,9 +152,9 @@ export function Pricing() {
             description="Take numerous claims to trial without a payment plan, due to a poor credit history."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
-            'Very few King @ Law clients actually pay this amount',
-              'Trial is rare and should be avoided in most cases',
-              'Hourly-rate attorneys often come out to $75-$100k for similar trial cases',
+            'Trial is rare, so very few King @ Law clients pay this much',
+            'Hourly-rate attorneys often come out to $75-$100k for similar trial cases',
+            'This price is featured as a warning on why trial is to be avoided',
             ]}
           />
         </div>

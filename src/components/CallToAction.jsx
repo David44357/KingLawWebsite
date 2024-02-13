@@ -20,8 +20,7 @@ export function CallToAction() {
             Get a Quote
           </h2>
           <p className="mt-4 text-lg text-center text-gray-300">
-            Use our online wizard to calculate your legal fees for any given situation.
-            Court fees and many other expenses are included.
+            Use our online calculator to determine your legal fees for any given situation. Most expenses are included.
           </p>
           <div className="mt-8 flex justify-center">
             {/* <AppStoreLink color="white" /> */}
