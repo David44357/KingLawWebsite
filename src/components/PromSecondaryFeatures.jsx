@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'The apps provide the right documents for each county courthouse in the list of supported courts',
+      'The apps provide the right documents for each of the county courthouses in the list of supported courts.',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -132,7 +132,7 @@ function Feature({ feature, isActive, className, ...props }) {
 
 function FeaturesMobile() {
   return (
-    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
+    <div className="-mx-4 mt-10 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
       {features.map((feature) => (
         <div key={feature.summary}>
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
@@ -158,7 +158,7 @@ function FeaturesDesktop() {
                 feature={{
                   ...feature,
                   name: (
-                    <Tab className="ui-not-focus-visible:outline-none">
+                    <Tab className="focus:outline-none ui-not-focus-visible:outline-none">
                       <span className="absolute inset-0" />
                       {feature.name}
                     </Tab>

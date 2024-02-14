@@ -17,7 +17,7 @@ const faqs = [
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'We don\'t recommend it. Some apps may work some of the time, but each courthouse has their own forms.',
+        'We don\'t recommend it. Some apps may work some of the time, but each courthouse has their own documents and processes.',
     },
   ],
   [
@@ -30,7 +30,7 @@ const faqs = [
       question:
         'How much does it cost?',
       answer:
-        'You can create an account for free to explore the app. This is called the Explore tier. You can use the self-service tools for $89/mo. We recommend the Assisted tier, which costs $189/mo and comes with support features. However, the lower-cost tiers are a good way to see if you like our service before making a bigger investment.',
+        'We offer three price-points: $0 (Explore), $89 (Basic), and $189 (Assisted). We recommend you start with the free Explore account, then upgrade as the need arises.',
     },
   ],
   [
@@ -41,12 +41,12 @@ const faqs = [
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'You can cancel your subscription instantly in the app with a single click and without talking to a person. It will immediately stop any future charges, unless you restart the service.',
+      answer: 'Your subscription is purchased 6 months at-a-time and do not auto-renew. It cancels automatically, unless you choose to renew.',
     },
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. However, if both parties are using the app, Mr. King will not provide any attorney support or consultation to either party.',
+        'Yes. However, if both parties are using the app, Mr. King will not provide a consultation to either party, due to the bar association\'s Conflict of Interest rules.',
     },
   ],
 ]
@@ -58,14 +58,7 @@ export function PromFaqs() {
       aria-labelledby="faq-title"
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
     >
-      <Image
-        className="absolute left-1/2 top-0 max-w-none -translate-y-1/4 translate-x-[-30%]"
-        src={backgroundImage}
-        alt=""
-        width={1558}
-        height={946}
-        unoptimized
-      />
+
       <PromContainer className="relative">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
@@ -80,7 +73,7 @@ export function PromFaqs() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3"
         >
           {faqs.map((column, columnIndex) => (
             <li key={columnIndex}>

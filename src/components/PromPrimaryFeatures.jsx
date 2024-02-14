@@ -75,12 +75,12 @@ export function PromPrimaryFeatures() {
         </div>
         <Tab.Group
           as="div"
-          className="mt-10 grid grid-cols-1 items-center gap-y-2 sm:gap-y-6 md:mt-20 lg:grid-cols-10 lg:pt-0"
+          className="mx-auto mt-10 grid grid-cols-1 items-center gap-y-2 sm:gap-y-6 md:mt-20 lg:grid-cols-10 lg:pt-0"
           vertical={tabOrientation === 'vertical'}
         >
           {({ selectedIndex }) => (
             <>
-              <div className="-mx-4 flex overflow-x-auto sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5 flex items-center">
+              <div className="-mx-4 overflow-x-auto sm:mx-auto sm:overflow-visible sm:pb-0 lg:col-span-5 items-center">
                 <Tab.List className="relative z-10 flex whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
                   {features.map((feature, featureIndex) => (
                     <div
@@ -95,7 +95,7 @@ export function PromPrimaryFeatures() {
                       <h3 class="outline-none">
                         <Tab
                           className={clsx(
-                            'font-display font-semibold text-base outline-none',
+                            'font-display font-semibold sm:text-base md:text-large outline-none',
                             selectedIndex === featureIndex
                               ? 'text-blue-600 lg:text-white'
                               : 'text-white hover:text-white lg:text-white',
@@ -128,7 +128,7 @@ export function PromPrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[25rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 lg:mt-0 lg:w-[20rem] max-w-300px sm:mx-auto lg:mx-0">
+                    <div className="mt-10 sm:w-[15rem] md:w-[25rem] lg:w-[30rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 lg:mt-0 lg:w-[20rem] max-w-300px sm:mx-auto lg:mx-0">
                       <Image
                         className="w-full max-w-300px"
                         src={feature.image}
