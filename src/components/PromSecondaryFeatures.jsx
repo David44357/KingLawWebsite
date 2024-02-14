@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'The apps provide the right documents for each of the county courthouses in the list of supported courts.',
+      'The apps provide the right documents for your specific courthouses if your county is on the list of supported counties.',
 
     icon: function ReportingIcon() {
       let id = useId()

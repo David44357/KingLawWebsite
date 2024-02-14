@@ -359,10 +359,10 @@ export function PromHero() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
           <div className="">
             <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-              Take control of your divorce.
+              ZipLaw. Take Control of Your Divorce.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              {'ZipLaw is the TurboTax of divorce law. You provide information and answer questions. The app creates your documents and provides step-by-step instructions. From uncontested divorces to modifications, lawsuits, and preparing for trial. Start exploring the app for free, then pay just $89/mo for a basic account.'}
+              {'ZipLaw is the TurboTax of divorce law. You provide information and answer questions. The apps create your documents and provide step-by-step instructions. From uncontested divorces to modifications, lawsuits, and preparing for trial. Use the apps for free for a limited time during beta testing.'}
             </p>
             <div className="mt-6 flex justify-center gap-x-6">
               < ButtonLink OS={OS} userOS={userOS} ></ButtonLink>
