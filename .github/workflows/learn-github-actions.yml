@@ -17,7 +17,7 @@ jobs:
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
            cd dockerized-sites/king-law-website
-           git config pull.rebase false
+           git config pull.rebase true
            git pull
       - name: Build Docker Image
         uses: appleboy/ssh-action@master
