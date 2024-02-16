@@ -17,7 +17,8 @@ jobs:
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
            cd dockerized-sites/king-law-website
-           git merge --abort
+           #git merge --abort
+           git pull origin main
            git pull
       - name: Build Docker Image
         uses: appleboy/ssh-action@master
