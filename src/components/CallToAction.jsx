@@ -25,7 +25,7 @@ export function CallToAction() {
           <div className="mt-8 flex justify-center">
             {/* <AppStoreLink color="white" /> */}
             <Button
-              href={'https://apps.kinglawnc.com/billingCalculator'}
+              href={'https://apps.kinglawnc.com/billingCalculatorWebsite'}
               color={true ? '#000' : 'gray'}
               className="mt-6 text-black text-[1.10rem] bg-gray-50 px-8 py-4 rounded-md"
               aria-label={`Get started with the Quote Tool`}
