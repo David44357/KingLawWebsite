@@ -28,7 +28,7 @@ const features = [
   {
     title: 'Setup',
     description:
-      "Give the app information like names and addresses.",
+      "Give the app information like names, dates, and addresses.",
     image: screenshotCalendar,
   },
   {
