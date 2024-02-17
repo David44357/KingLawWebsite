@@ -5,7 +5,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { PromContainer } from '@/components/PromContainer'
-import backgroundImage from '@/images/background-features.jpg'
+import screenshotDownload from '/images/screenshots/DownloadApp.png'
 import screenshotExpenses from '@/images/ExampleDocs.png'
 import screenshotProvideInfo from '@/images/screenshots/Provide Info.png'
 import screenshotInstructions from '@/images/screenshots/screenshotInstructions.png'
@@ -17,25 +17,25 @@ const features = [
     title: 'Download',
     description:
       "Download the app to your smartphone or browser.",
-    image: screenshotProvideInfo,
+    image: screenshotDownload,
   },
   {
     title: 'Signup',
     description:
       "Create an account using an email and password.",
-    image: screenshotExpenses,
+    image: screenshotDownload,
   },
   {
     title: 'Setup',
     description:
       "Give the app information like names, dates, and addresses.",
-    image: screenshotCalendar,
+    image: screenshotDownload,
   },
   {
     title: 'Apps',
     description:
       "Select the right app for your situation and get started.",    
-      image: screenshotInstructions,
+      image: screenshotDownload,
   },
 ]
 
