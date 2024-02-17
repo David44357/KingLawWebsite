@@ -41,12 +41,12 @@ const faqs = [
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'Your subscription is purchased 6 months at-a-time and do not auto-renew. It cancels automatically, unless you choose to renew.',
+      answer: 'Your subscription is purchased in 6-month increments and does not auto-renew. ',
     },
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. However, if both parties are using the app, Mr. King will not provide a consultation to either party, due to the bar association\'s Conflict of Interest rules.',
+        'Yes. However, if both parties are using the app, Mr. King will not provide a consultation to either party to avoid potential conflicts of interest.',
     },
   ],
 ]
