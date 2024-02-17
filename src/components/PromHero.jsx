@@ -362,7 +362,7 @@ export function PromHero() {
             Take Control of Your Divorce.
             </h1>
             <p className="mt-6 text-xl text-gray-600">
-              {'King @ Law\'s self-service apps create your legal documents and provide step-by-step instructions based on information you provide. From uncontested divorces to modifications, lawsuits, and preparing for trial. Use the apps for free during the Wake County beta.'}
+              {'King @ Law\'s self-service apps create completed legal documents and walkthroughs based on information you provide. From uncontested divorces to modifications, lawsuits, and preparing for trial. Use the apps for free during the Wake County beta and save thousands by not hiring a lawyer.'}
             </p>
             <div className="mt-6 flex justify-center gap-x-6">
               < ButtonLink OS={OS} userOS={userOS} ></ButtonLink>
