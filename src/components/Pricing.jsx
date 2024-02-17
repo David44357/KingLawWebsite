@@ -143,7 +143,6 @@ export function Pricing() {
               'Must qualify for the payment plan and pay $1,200 up-front',
               'Includes expenses, such as court fees and mediator fees',
               'Most divorce disputes are settled at mediation, not trial',
-              'Severe penalties apply for missed payments, including potential litigation'
             ]}
           />
           <Plan
