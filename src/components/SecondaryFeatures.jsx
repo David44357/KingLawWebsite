@@ -36,7 +36,7 @@ const features = [
   {
     name: 'Responsive',
     description:
-      'Is your current lawyer ghosting you? Schedule meetings with your lawyer just 48 hours in advance.',
+      'Schedule meetings with your lawyer just 48 hours in advance.',
     icon: ResponsiveIcon,
   },
 ]
