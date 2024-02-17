@@ -22,7 +22,7 @@ const features = [
   {
     title: 'Signup',
     description:
-      "Create an account using an email and password.",
+      "Test Create an account using an email and password.",
     image: screenshotDownload,
   },
   {
