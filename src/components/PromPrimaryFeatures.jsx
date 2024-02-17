@@ -34,7 +34,7 @@ const features = [
   {
     title: 'Apps',
     description:
-      "Select the right app for your situation.",    
+      "Select the right app for your situation and get started.",    
       image: screenshotInstructions,
   },
 ]
