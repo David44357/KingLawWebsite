@@ -6,9 +6,9 @@ import clsx from 'clsx'
 
 import { PromContainer } from '@/components/PromContainer'
 import screenshotDownload from '/public/images/screenshots/DownloadApp.png'
-import screenshotExpenses from '@/images/ExampleDocs.png'
-import screenshotProvideInfo from '@/images/screenshots/Provide Info.png'
-import screenshotInstructions from '@/images/screenshots/screenshotInstructions.png'
+import screenshotSignup from '/public/images/screenshots/SignUp.png'
+import screenshotProvideInfo from '/public/images/screenshots/ProvideInfo.png'
+import screenshotApps from '/public/images/screenshots/Apps.png'
 import screenshotCalendar from '@/images/Calendar.png'
 
 
@@ -22,20 +22,20 @@ const features = [
   {
     title: 'Signup',
     description:
-      "Test Create an account using an email and password.",
-    image: screenshotDownload,
+      "Create an account using an email and password.",
+    image: screenshotSignup,
   },
   {
     title: 'Setup',
     description:
       "Give the app information like names, dates, and addresses.",
-    image: screenshotDownload,
+    image: screenshotProvideInfo,
   },
   {
     title: 'Apps',
     description:
       "Select the right app for your situation and get started.",    
-      image: screenshotDownload,
+      image: screenshotApps,
   },
 ]
 
