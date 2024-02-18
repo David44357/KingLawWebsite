@@ -5,7 +5,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { PromContainer } from '@/components/PromContainer'
-import screenshotDownload from '/images/screenshots/DownloadApp.png'
+import screenshotDownload from '/public/images/screenshots/DownloadApp.png'
 import screenshotExpenses from '@/images/ExampleDocs.png'
 import screenshotProvideInfo from '@/images/screenshots/Provide Info.png'
 import screenshotInstructions from '@/images/screenshots/screenshotInstructions.png'
