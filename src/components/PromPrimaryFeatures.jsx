@@ -95,14 +95,14 @@ export function PromPrimaryFeatures() {
                       <h3 class="outline-none">
                         <Tab
                           className={clsx(
-                            'font-display font-semibold sm:text-base md:text-large lg:text-large outline-none',
+                            'font-display font-semibold outline-none',
                             selectedIndex === featureIndex
                               ? 'text-blue-600 lg:text-white'
                               : 'text-white hover:text-white lg:text-white',
                           )}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
-                          {feature.title}
+                         <span class="text-lg"> {feature.title}</span>
                         </Tab>
                       </h3>
                       <p
