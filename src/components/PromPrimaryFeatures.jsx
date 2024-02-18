@@ -92,7 +92,7 @@ export function PromPrimaryFeatures() {
                           : 'hover:bg-white/10 lg:hover:bg-white/5',
                       )}
                     >
-                      <h3 class="outline-none">
+                      <h3 class="outline-none text-lg">
                         <Tab
                           className={clsx(
                             'font-display font-semibold outline-none',
