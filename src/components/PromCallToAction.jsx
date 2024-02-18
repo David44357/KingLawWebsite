@@ -52,9 +52,9 @@ export function PromCallToAction() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             Get started for free
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-white font-medium">
-            For a limited time, use the app for free during beta testing
-          </p>
+          <p className="mt-4 text-xl tracking-tight text-white font-medium">
+            Use the app for free during beta testing
+          </p><BR></BR>
           <div className="m-3 flex items-center justify-center">
           < ButtonLink OS = {OS} userOS={userOS}></ButtonLink>
           </div>
