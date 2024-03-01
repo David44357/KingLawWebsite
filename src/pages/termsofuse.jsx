@@ -30,7 +30,9 @@ export default function DiyApps() {
 We cannot provide a clear policy on how long we will keep your information or records. The North Carolina Bar Association requires we keep records for as long as is reasonable under the circumstances. For example, we may need to keep records of a consultation for years to make sure we don’t accidentally provide legal services to your ex, which may create a conflict of interest.
 Nothing on this website constitutes legal advice for your particular circumstances. </p>
 <p className="pt-1 mt-6 text-md text-gray-600 my-3">The King @ Law app stores all information and files you provide to it, either in a database with Firebase, or in Google Drive. This may include your login information, financial records, addresses, contacts, progress in the apps, and information about your divorce. The app only contains information you provide to it. If you would like us to delete all or some of the information and records the app has stored about you for security purposes, please contact David@kinglawnc.com from the email address associated with your account.
-</p><br></br><br></br>
+</p><p className="pt-1 mt-6 text-md text-gray-600 my-3">No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</p>
+                    
+                    <br></br><br></br>
                 </Container>
             </main>
             <Footer />
