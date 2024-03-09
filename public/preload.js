@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const svgImage = document.createElement('img');
     svgImage.id = 'svgImage';
-    svgImage.src = 'https://cdn.jsdelivr.net/gh/jasminder/flutter_preloader/preload.svg';
+    svgImage.src = 'https://cdn.jsdelivr.net/gh/David44357/KingLawWebsite/public/preload.svg';
+
     svgImage.style.cssText = `
         max-width: 100%;
         max-height: 100%;
