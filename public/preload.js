@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     svgImage.id = 'svgImage';
     svgImage.src = 'https://cdn.jsdelivr.net/gh/David44357/KingLawWebsite/public/preload.svg';
 
+    
     svgImage.style.cssText = `
         max-width: 100%;
         max-height: 100%;
