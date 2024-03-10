@@ -1,5 +1,17 @@
 // Create the overlay and SVG elements
 const overlay = document.createElement('div');
+const logoImage = document.createElement('img');
+logoImage.src = 'https://kinglawnc.com/images/New%20Logo%20Square%20Icon%20(100x100).png';
+logoImage.alt = 'Logo'; 
+logoImage.style.cssText = `
+    width: 100px;
+    max-height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+`;
+overlay.appendChild(logoImage);
 overlay.id = 'loader';
 overlay.style.cssText = `
     display: flex;
