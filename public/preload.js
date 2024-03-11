@@ -1,17 +1,5 @@
-// Create the overlay and SVG elements
+// FULL SCREEN OVERLAY
 const overlay = document.createElement('div');
-const logoImage = document.createElement('img');
-logoImage.src = 'https://kinglawnc.com/images/New%20Logo%20Square%20Icon%20(100x100).png';
-logoImage.alt = 'Logo'; 
-logoImage.style.cssText = `
-    width: 100px;
-    max-height: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-`;
-overlay.appendChild(logoImage);
 overlay.id = 'loader';
 overlay.style.cssText = `
     display: flex;
@@ -25,41 +13,80 @@ overlay.style.cssText = `
     background-color: rgba(255, 255, 255, 0.7);
     z-index: 999;
 `;
+document.body.appendChild(overlay);
 
+//LOGO IMAGE
+const logoImage = document.createElement('img');
+logoImage.id = 'logoImage';
+logoImage.src = 'https://kinglawnc.com/images/New%20Logo%20Square%20Icon%20(100x100).png';
+logoImage.style.cssText = `
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+    position: absolute;
+    width:100px;
+    height:100px;
+    top: calc(50% - 70px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+`;
+logoImage.style.display = 'none';
+document.body.appendChild(logoImage);
+
+//SVG IMAGE
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://cdn.jsdelivr.net/gh/David44357/KingLawWebsite/public/preload.svg';
+svgImage.src = 'https://cdn.jsdelivr.net/gh/jasminder/flutter_preloader/preload.svg';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
     display: none;
     position: absolute;
-    top: 50%;
+    width:50px;
+    height:50px;
+    top: calc(50% + 40px);
     left: 50%;
     transform: translate(-50%, -50%);
 `;
 svgImage.style.display = 'none';
-
-// Append the elements to the body
-document.body.appendChild(overlay);
 document.body.appendChild(svgImage);
 
-// Function to hide the overlay and display the SVG
+
+// Text Element
+const textElement = document.createElement('div');
+textElement.id = 'textElement';
+textElement.textContent = 'Allow up to one minute to load on slow connections'; // Change the text content as needed
+textElement.style.cssText = `
+    position: absolute;
+   top: calc(50% - 20px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #333;
+    text-align:center;
+    font-weight:semi-bold;
+`;
+
+// Append the text element to the overlay
+textElement.style.display = 'none';
+document.body.appendChild(textElement);
+
+
+// Function to hide the overlay, logo, and text
 function hideOverlay() {
     overlay.style.display = 'none';
-    svgImage.style.display = 'block';
+    svgImage.style.display = 'inline';
+    logoImage.style.display = 'inline';
+    textElement.style.display = 'inline'; 
 }
 
 
 // Add an event listener to hide the overlay when all external JS files are loaded
-// document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     // Replace the following lines with the actual code that loads your external JS files
     // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
-//    setTimeout(hideOverlay, 100); // Replace with your actual loading code.
-// });
-
-
-
+    setTimeout(hideOverlay, 100); // Replace with your actual loading code.
+});
 
 // Fallback: If all external resources are loaded and the DOMContentLoaded event doesn't fire,
 // we'll still hide the overlay when the window's load event is triggered.
