@@ -352,9 +352,7 @@ export function Hero() {
     //WHEN YOUR READY CHANGE 
     if (platform.includes('android')) {
       setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
-    } else if (platform.includes('iphone') || platform.includes('ipad') || platform.includes('ipod')) {
-      setUserOS('https://apps.apple.com/app/prometheus-nc-divorce-law/id6475014498'); // CHANGE HERE FOR IOS
-    } else {
+    }  else {
       setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
     }
   }, []);
