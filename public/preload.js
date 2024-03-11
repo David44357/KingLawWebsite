@@ -26,7 +26,7 @@ logoImage.style.cssText = `
     position: absolute;
     width:100px;
     height:100px;
-    top: calc(50% - 70px);
+    top: calc(50% - 75px);
     left: 50%;
     transform: translate(-50%, -50%);
 `;
@@ -44,7 +44,7 @@ svgImage.style.cssText = `
     position: absolute;
     width:50px;
     height:50px;
-    top: calc(50% + 40px);
+    top: calc(50% + 45px);
     left: 50%;
     transform: translate(-50%, -50%);
 `;
