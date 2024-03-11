@@ -1,6 +1,8 @@
 //White Background
 document.body.style.backgroundColor = "white";
-
+document.body.style.cssText = `
+    background-color: white;
+`;
 // FULL SCREEN OVERLAY
 const overlay = document.createElement('div');
 overlay.id = 'loader';
