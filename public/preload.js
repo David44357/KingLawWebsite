@@ -10,7 +10,7 @@ overlay.style.cssText = `
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
     z-index: 999;
 `;
 document.body.appendChild(overlay);
@@ -55,14 +55,14 @@ document.body.appendChild(svgImage);
 // Text Element
 const textElement = document.createElement('div');
 textElement.id = 'textElement';
-textElement.textContent = 'Allow up to one minute to load on slow connections'; // Change the text content as needed
+textElement.textContent = 'Allow up to one minute to load'
 textElement.style.cssText = `
     position: absolute;
    top: calc(50% - 20px);
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
-    color: #333;
+    color: black;
     text-align:center;
     font-weight:semi-bold;
     color:black;
