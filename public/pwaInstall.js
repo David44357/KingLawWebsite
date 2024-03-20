@@ -26,3 +26,5 @@
         window.appLaunchedInBrowser();
       }
     }
+
+alert('Script tag is working');
