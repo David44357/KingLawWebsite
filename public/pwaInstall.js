@@ -26,5 +26,3 @@
         window.appLaunchedInBrowser();
       }
     }
-
-console.log("PWA Script run")
