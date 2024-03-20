@@ -27,4 +27,4 @@
       }
     }
 
-alert('Script tag is working');
+console.log("PWA Script run")
