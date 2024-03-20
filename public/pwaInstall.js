@@ -2,6 +2,7 @@
 
     window.addEventListener('beforeinstallprompt', (e) => {
       deferredPrompt = e;
+     console.log('beforeinstallprompt event captured successfully');
     });
 
     function promptInstall(){
