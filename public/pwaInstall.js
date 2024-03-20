@@ -1,11 +1,7 @@
-console.log('Custom Header for PWA prompted');
-
-let deferredPrompt;
+    let deferredPrompt;
 
     window.addEventListener('beforeinstallprompt', (e) => {
       deferredPrompt = e;
-     console.log('deferred Prompt: '+deferredPrompt);
-        
     });
 
     function promptInstall(){
