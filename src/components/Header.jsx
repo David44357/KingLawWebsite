@@ -52,7 +52,7 @@ function DownloadButton(props) {
     return (
       <div>
         <Button href={props.userOS}>
-          Download App
+          The App
         </Button>
       </div>
     )
@@ -61,7 +61,7 @@ function DownloadButton(props) {
     return (
       <div>
       <Button href={props.userOS} variant="outline">
-        Web Portal
+        The App
       </Button>
       </div>
       );
@@ -84,7 +84,7 @@ export function Header() {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
     if (platform.includes('android')) {
-      setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
+      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR ANDROID
     } else {
       setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
     }
