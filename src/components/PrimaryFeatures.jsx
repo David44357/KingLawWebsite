@@ -47,7 +47,7 @@ const features = [
   {
     name: 'Attorney Support',
     description:
-      'When you need more direction than the app provides, talk to an attorney for just $125.',
+      'When you need more direction than the app provides, talk to an attorney for just $150.',
     icon: DeviceTouchIcon,
     screen: InvestScreen,
   },
