@@ -117,14 +117,14 @@ export function Pricing() {
          Flat-fee pricing
           </h2>
           <p className="mt-4 text-lg text-slate-200">
-            Here are a few examples of our fees
+            A few examples of our fees
           </p>
         </div>
         <div className="mt-16 px-8 grid max-w-2xl grid-cols-1 gap-y-5 sm:mx-auto lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Self-Service"
-            price="$89/mo"
-            description="Follow step-by-step walkthroughs that create your legal documents and court filings for you."
+            price="$189/mo"
+            description="Monthly consultations and step-by-step self-service apps that create your documents."
             href="/prometheus"
             features={[
               'Provide information and answer questions',
@@ -137,7 +137,7 @@ export function Pricing() {
             featured
             name="The Settler"
             price="~$250/mo"
-            description="Qualify for a 36-month payment plan and hire King @ Law for financial disputes that are settled at mediation."
+            description="A client that qualified for a 36-month payment plan and settled financial disputes at mediation."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Must qualify for the payment plan and pay $1,200 up-front',
@@ -148,7 +148,7 @@ export function Pricing() {
           <Plan
             name="Trial"
             price="$55,000"
-            description="Take numerous claims to trial without a payment plan, due to a poor credit history."
+            description="Numerous claims taken to trial without a payment plan, due to a poor credit history."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
             'Trial is rare, so very few King @ Law clients pay this much',
