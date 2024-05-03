@@ -124,7 +124,7 @@ export function PromPrimaryFeatures() {
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative lg:hidden flex justify-center">
                       <div className="mt-6 h-20 absolute bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-xl flex items-center" />
-                      <p className="w-screen mt-3 max-w-2xl relative mx-3 max-w-2xl text-lg text-white sm:text-center">  
+                      <p className="w-screen mt-3 max-w-2xl relative mx-3 max-w-2xl text-lg text-white sm:text-center text-lg">  
                         {feature.description}
                       </p>
                     </div>
