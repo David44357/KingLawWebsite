@@ -16,25 +16,25 @@ const features = [
   {
     title: 'Download',
     description:
-      "Download the app to your smartphone or browser.",
+      "Download the app to your smartphone or use the online portal",
     image: screenshotDownload,
-  },
-  {
-    title: 'Signup',
-    description:
-      "Create an account using an email and password.",
-    image: screenshotSignup,
   },
   {
     title: 'Setup',
     description:
-      "Give the app information like names, dates, and addresses.",
+      "Provide information about your divorce to setup your account",
     image: screenshotProvideInfo,
   },
   {
     title: 'Apps',
     description:
-      "Select the right app for your situation and get started.",    
+      "Select an app for the legal process you want, like contempt or uncontested divorce",
+    image: screenshotApps,
+  },
+  {
+    title: 'Get Started',
+    description:
+      "Follow step-by-step instructions and get legal help if and when you want it.",    
       image: screenshotApps,
   },
 ]
