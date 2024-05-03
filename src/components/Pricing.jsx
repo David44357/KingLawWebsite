@@ -137,7 +137,7 @@ export function Pricing() {
             featured
             name="The Settler"
             price="~$250/mo"
-            description="An example of what our fees can come out to in a relatively common scenario; a case with several financial claims settled at mediation with legal fees paid on a payment plan."
+            description="An example of what our fees can come out to in a relatively common scenario; several financial claims settled at mediation with legal fees paid on a payment plan."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
               'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
