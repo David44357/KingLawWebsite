@@ -137,23 +137,23 @@ export function Pricing() {
             featured
             name="The Settler"
             price="~$250/mo"
-            description="A client that qualified for a 36-month payment plan and settled financial disputes at mediation."
+            description="An example of what our fees can come out to in a relatively common scenario. In this case, we handled three financial claims: alimony, child support, and equitable distribution. We started a lawsuit, supported discovery, and helped settle the claims at mediation. The client qualified for our payment plan."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
-              'Must qualify for the payment plan and pay $1,200 up-front',
-              'Includes expenses, such as court fees and mediator fees',
+              'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
+              'Only your historical credit score is evaluated to qualify for the payment plan',
               'Most divorce disputes are settled at mediation, not trial',
             ]}
           />
           <Plan
             name="Trial"
             price="$55,000"
-            description="Numerous claims taken to trial without a payment plan, due to a poor credit history."
+            description="An example of a near-worst-case scenario, where several claims are taken all the way to trial. Depending on the circumstances, the court may order that your ex pay some of your legal fees."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
             'Trial is rare, so very few King @ Law clients pay this much',
             'Hourly-rate attorneys often come out to $75-$100k for similar trial cases',
-            'This price is featured as a warning on why trial is to be avoided',
+            'Generally, trial is to be avoided, if at all possible',
             ]}
           />
         </div>
