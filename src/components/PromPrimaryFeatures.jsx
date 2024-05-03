@@ -22,13 +22,13 @@ const features = [
   {
     title: 'Apps',
     description:
-      "Select the app for the legal process you need, such as contempt, deed, separation agreement, filing claims, financial disclosures, uncontested divorce, or trial prep",
+      "Select the app for the legal process you need. Our apps include things like trial prep, motions, separation agreements, and uncontested divorce decrees.,
     image: screenshotApps,
   },
   {
     title: 'Steps',
     description:
-      "Follow step-by-step instructions in online wizards that walk you through the process and create draft legal documents like agreements or court filings.",
+      "Each app is a step-by-step walkthrough that creates your legal documents for you and provides instructions. You can think of it like the TurboTax of divorce law.",
     image: screenshotApps,
   },
   {
@@ -69,7 +69,7 @@ export function PromPrimaryFeatures() {
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-medium leading leading-tight font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            4 Steps to Affordable Justice
+            4 Steps to the TurboTax of Divorce Law
           </h2>
 
         </div>
