@@ -124,13 +124,13 @@ export function Pricing() {
           <Plan
             name="Self-Service"
             price="$189/mo"
-            description="Monthly consultations and step-by-step self-service apps that create your documents."
+            description="TurboTax does your taxes. We do your divorce. Use step-by-step walkthroughs that auto-generate your legal documents combined with monthly attorney check-ins."
             href="/prometheus"
             features={[
-              'Provide information and answer questions',
-              'Receive completd draft legal documents',
-              'Follow step-by-step instructions',
-              'Upgrade to Assisted for $189/mo to add support',
+              'Get started for free and pay only for support',
+              'Receive completd draft legal documents based on information you provide',
+              'Follow step-by-step instructions that adjust with your circumstances',
+              'Premium users get one online attorney consultation per-month included',
             ]}
           />
           <Plan
