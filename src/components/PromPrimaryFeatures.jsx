@@ -69,7 +69,7 @@ export function PromPrimaryFeatures() {
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-medium leading leading-tight font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Get Started in 4 Steps
+            4 Steps to Affordable Justice
           </h2>
 
         </div>
