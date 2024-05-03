@@ -107,7 +107,7 @@ export function PromPrimaryFeatures() {
                       </h3>
                       <p
                         className={clsx(
-                          'mt-2 hidden text-sm lg:block',
+                          'mt-2 hidden text-base lg:block',
                           selectedIndex === featureIndex
                             ? 'text-white'
                             : 'text-white group-hover:text-white',
