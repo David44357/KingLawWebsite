@@ -148,7 +148,7 @@ export function Pricing() {
           <Plan
             name="Trial"
             price="$55,000"
-            description="An example of a near-worst-case scenario, where several claims are taken all the way to trial. Depending on the circumstances, the court may order that your ex pay some of your legal fees."
+            description="An example of a near-worst-case scenario; several claims taken all the way to trial. Depending on the circumstances, the court may order that your ex pay some of your legal fees."
             href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
             features={[
             'Trial is rare, so very few King @ Law clients pay this much',
