@@ -128,7 +128,7 @@ export function Pricing() {
             href="/prometheus"
             features={[
               'Get started for free and pay only for support',
-              'Receive completd draft legal documents based on information you provide',
+              'Receive completed draft legal documents based on information you provide',
               'Follow step-by-step instructions that adjust with your circumstances',
               'Premium users get one online attorney consultation per-month included',
             ]}
