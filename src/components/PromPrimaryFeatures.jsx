@@ -28,13 +28,13 @@ const features = [
   {
     title: 'Apps',
     description:
-      "Select an app for the legal process you want, like contempt, prenups, motions, filing new claims, or uncontested divorce",
+      "Select the app you need, such as contempt or uncontested divorce",
     image: screenshotApps,
   },
   {
     title: 'Steps',
     description:
-      "Follow step-by-step instructions to create documents and complete a legal process. Get online help from a law firm only when and if you need it.",    
+      "Follow step-by-step instructions to create documents and complete a legal process.",    
       image: screenshotApps,
   },
 ]
