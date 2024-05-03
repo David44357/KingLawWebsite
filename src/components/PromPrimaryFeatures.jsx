@@ -32,9 +32,9 @@ const features = [
     image: screenshotApps,
   },
   {
-    title: 'Get Started',
+    title: 'Steps',
     description:
-      "Follow step-by-step instructions and get legal help if and when you want it.",    
+      "Follow step-by-step instructions to create documents and get attorney help only when and if you need it.",    
       image: screenshotApps,
   },
 ]
