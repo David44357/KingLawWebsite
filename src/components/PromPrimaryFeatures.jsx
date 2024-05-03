@@ -14,12 +14,6 @@ import screenshotCalendar from '@/images/Calendar.png'
 
 const features = [
   {
-    title: 'Download',
-    description:
-      "Download the app to your smartphone or use the online portal",
-    image: screenshotDownload,
-  },
-  {
     title: 'Setup',
     description:
       "Provide information about your divorce to setup your account",
@@ -34,7 +28,13 @@ const features = [
   {
     title: 'Steps',
     description:
-      "Follow step-by-step instructions to create documents and complete a legal process.",    
+      "Follow step-by-step instructions to create documents and complete a legal process",
+    image: screenshotApps,
+  },
+  {
+    title: 'Support',
+    description:
+      "Get convenient online help from an attorney when and if you want it",    
       image: screenshotApps,
   },
 ]
