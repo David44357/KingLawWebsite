@@ -16,25 +16,25 @@ const features = [
   {
     title: 'Setup',
     description:
-      "Provide information about your divorce to setup your account",
+      "Provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide the right instructions.",
     image: screenshotProvideInfo,
   },
   {
     title: 'Apps',
     description:
-      "Select the app you need, such as contempt or uncontested divorce",
+      "Select the app for the legal process you need, such as contempt, deed, separation agreement, filing claims, financial disclosures, uncontested divorce, or trial prep",
     image: screenshotApps,
   },
   {
     title: 'Steps',
     description:
-      "Follow step-by-step instructions to create documents and complete a legal process",
+      "Follow step-by-step instructions in online wizards that walk you through the process and create draft legal documents like agreements or court filings.",
     image: screenshotApps,
   },
   {
     title: 'Support',
     description:
-      "Get convenient online help from an attorney when and if you want it",    
+      "Get convenient online help from an attorney when and if you want it. You can purchase individual Zoom consultations for $150 or pay $189/mo for more comprehensive support.",    
       image: screenshotApps,
   },
 ]
