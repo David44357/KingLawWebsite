@@ -356,7 +356,7 @@ export function PromHero() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
           <div className="">
             <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-            DIY Divorce Test
+            DIY Divorce
             </h1>
             <p className="mt-6 text-xl text-gray-600 max-w-750">
               {'Legal help doesn\'t have to cost a fortune. Take control of your divorce with King @ Law\'s self-service apps. Get started with a free account.'}
