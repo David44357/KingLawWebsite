@@ -22,7 +22,7 @@ const features = [
   {
     title: 'Apps',
     description:
-      "Select the app for the legal process you need. Our apps include things like trial prep, motions, separation agreements, and uncontested divorce decrees.,
+      "Select the app for the legal process you need. Our apps include things like trial prep, motions, separation agreements, and uncontested divorce decrees.",
     image: screenshotApps,
   },
   {
