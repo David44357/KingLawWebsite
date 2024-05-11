@@ -17,8 +17,11 @@ jobs:
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
            cd dockerized-sites/king-law-website
-           git config pull.rebase false
+           ls
+           git checkout main
            git pull origin main
+           git checkout main
+           git rebase main
       - name: Build Docker Image
         uses: appleboy/ssh-action@master
         if: success()
