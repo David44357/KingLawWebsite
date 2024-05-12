@@ -18,10 +18,9 @@ jobs:
           script: |
            cd dockerized-sites/king-law-website
            ls
-           git checkout main
+           git fetch origin
+           git reset --hard origin/main
            git pull origin main
-           git checkout main
-           git rebase main
       - name: Build Docker Image
         uses: appleboy/ssh-action@master
         if: success()
