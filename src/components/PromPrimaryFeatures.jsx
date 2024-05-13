@@ -33,7 +33,7 @@ const features = [
   {
     title: 'Support',
     description:
-      "Get convenient online help from an attorney only when and if you need it. Buy a 30-minute Zoom with an attorney for $150 or pay $189/mo for a support subscription.",    
+      "Get convenient online help from an attorney only when and if you need it. Buy a 30-minute Zoom with an attorney for $150 or pay $189 per-month for a support subscription.",    
       image: screenshotCalendar,
   },
 ]
