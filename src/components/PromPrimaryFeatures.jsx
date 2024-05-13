@@ -16,25 +16,25 @@ const features = [
   {
     title: 'Setup',
     description:
-      "Provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide the right instructions.",
+      "Download the app and provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide the right instructions.",
     image: screenshotProvideInfo,
   },
   {
     title: 'Apps',
     description:
-      "Select the app for the legal process you need. Our apps include things like trial prep, motions, separation agreements, and uncontested divorce decrees.",
+      "Select an app for the legal process you need, ranging from uncontested divorce decrees and separation agreements to motions, discovery, and preparing for trial. Upgrade to a premium account if you need help.",
     image: screenshotApps,
   },
   {
     title: 'Steps',
     description:
-      "Each app is a step-by-step walkthrough that creates your legal documents for you and provides instructions. You can think of it like the TurboTax of divorce law.",
+      "Follow the app's step-by-step instructions. You'll answer questions and provide information. The app will provide instructions and legal documents based on the information you've provided",
     image: screenshotApps,
   },
   {
     title: 'Support',
     description:
-      "Get convenient online help from an attorney when and if you want it. You can purchase individual Zoom consultations for $150 or pay $189/mo for more comprehensive support.",    
+      "Get convenient online help from an attorney only when and if you want it. You can purchase individual Zoom consultations for $150 or pay $189/mo for more comprehensive support, including support for the specific courthouse you're in.",    
       image: screenshotApps,
   },
 ]
@@ -69,7 +69,7 @@ export function PromPrimaryFeatures() {
       <PromContainer className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-medium leading leading-tight font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            4 Steps to the TurboTax of Divorce Law
+            4 Steps to Affordable Legal Help
           </h2>
 
         </div>
