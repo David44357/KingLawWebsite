@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Each courthouse uses different forms and processes. Each of our apps list the counties its been programmed for and we add counties for premium users.',
+      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Each courthouse uses different forms and processes. Each app lists the courts it\'s programmed for and we add courts for premium users.',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -50,7 +50,7 @@ const features = [
     summary:
       'For your situation',
     description:
-      'Our apps uses a complex sets of if-then logic to get the right documents and instructions for your situation. For example, the apps will help you serve your ex based on their level of cooperation or provide the right documents based on which claims you\'re filing.',
+      'Our apps use if-then logic to get the right documents and instructions for your situation. For example, the apps will help you serve your ex based on their level of cooperation or provide the right documents based on which claims you\'re filing.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -78,7 +78,7 @@ const features = [
     summary:
       'Premium support if you want it',
     description:
-      'DIY tools often charge a fee to use them, then get kickbacks for referring you to a law firm when the DIY tool isn\'t enough. Our approach is focused on using lawyers only when and if you need them to support DIYers, not replace them.',
+      'Most online tools charge $100-$300, then get a kickback when referring you to a law firm. Our apps are free during the Wake County beta. Our legal support is intended to help DIYers, not replace them.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
