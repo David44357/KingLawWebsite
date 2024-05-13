@@ -143,6 +143,7 @@ export function Pricing() {
               'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
               'Only your historical credit score is evaluated to qualify for the payment plan',
               'Most divorce disputes are settled at mediation, not trial',
+              'Must pay $1,200 up-front and be approved for a payment plan',
             ]}
           />
           <Plan
