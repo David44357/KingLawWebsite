@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'People going through a divorce often don\'t know that each individual county courthouse uses different forms, rules, and processes for sharing financial disclosures, scheduling hearings, or even for uncontested divorces. Many online tools are useless, because they give everyone the same documents. Our apps list the courthouses supported and we add support for any courthouse for premium users.',
+      'Did you know each individual county courthouse uses different forms, rules, and processes? Even a simple uncontested divorce often can't be done without knowing that courthouse's forms and processes. Our apps are programmed for each of the courthouses listed as supported and we add support for new courthouses for premium users.',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -50,7 +50,7 @@ const features = [
     summary:
       'For your situation',
     description:
-      'Many similar online tools provide the same documents to everyone with simple placeholders for the information you provide. For example, they may standardize on waivers for service of process in uncontested divorces, but if your ex doesn't cooperate, the money you spent is wasted.',
+      'Some tools provide the same PDF of documents to everyone. However, our apps use a complex set of if-then statements to determine what makes sense for you.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -78,7 +78,7 @@ const features = [
     summary:
       'Premium support if you want it',
     description:
-      'Often, DIY tools charge $100 or so, but their main business model is as a referral service to law firms that pay kickbacks. Our tool is free and you only pay for legal services themselves, if you need them, directly from King @ Law.',
+      'DIY tools can cost $100-$400, but often their business model relies on kickbacks when you need more help and they refer you to a law firm. Our tool is free and the legal services are intended to help DIYers, not push them to hire a law firm.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
