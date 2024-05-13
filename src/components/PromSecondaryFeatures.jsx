@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'Did you know each individual county courthouse uses different forms, rules, and processes? Even a simple uncontested divorce often can't be done without knowing that courthouse's forms and processes. Our apps are programmed for each of the courthouses listed as supported and we add support for new courthouses for premium users.',
+      'Did you know each individual county courthouse uses different forms, rules, and processes? Even a simple uncontested divorce often can\'t be done without knowing that courthouse\'s forms and processes. Our apps are programmed for each of the courthouses listed as supported and we add support for new courthouses for premium users.',
 
     icon: function ReportingIcon() {
       let id = useId()
