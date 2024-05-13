@@ -12,25 +12,25 @@ const faqs = [
     },
     {
       question: 'What if you don\'t have an app for my situation or courthouse?',
-      answer: 'Pay $189 for the Assisted tier to gain access to support features, including the ability to request new features or courthouses we don\'t support yet.',
+      answer: 'Pay $189 for the a premium Assisted account to gain access to support features, including the ability to request new features or courthouses we don\'t support yet.',
     },
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
       answer:
-        'We don\'t recommend it. Some apps may work some of the time, but each courthouse has their own documents and processes.',
+        'We don\'t recommend it. Some apps may work some of the time, but each courthouse has their own documents and processes. Apps that are not courthouse-specific are indicated as such.',
     },
   ],
   [
     {
       question: 'Isn\'t this the same as LegalZoom?',
       answer:
-        'It is similar. However, our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance as part of the service.',
+        'Our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance differently. However, it is a similar concept of using an online DIY tool.',
     },
     {
       question:
         'How much does it cost?',
       answer:
-        'We offer three price-points: $0 (Explore), $89 (Basic), and $189 (Assisted). We recommend you start with the free Explore account, then upgrade as the need arises.',
+        'Using the app during the open beta is free. However, you can purchase a 30-minute Zoom with an attorney for $150 or upgrade to a premium account for $189 per-month on a six-month subscription.',
     },
   ],
   [
@@ -41,12 +41,12 @@ const faqs = [
     },
     {
       question: 'Is it difficult to cancel?',
-      answer: 'Your subscription is purchased in 6-month increments and does not auto-renew. ',
+      answer: 'Your subscription is purchased in 6-month increments and does not auto-renew. You never have to cancel, because each subscription is a six-month commitment and it cancels automatically after six months. You have to re-purchase it for another six months if you need it for longer.',
     },
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. However, if both parties are using the app, Mr. King will not provide a consultation to either party to avoid potential conflicts of interest.',
+        'Yes. However, if both parties are using the app, Mr. King will not provide a consultation to either party to avoid a potential conflicts of interest. Lawyers are not allowed to provide legal advice to both spouses.',
     },
   ],
 ]
