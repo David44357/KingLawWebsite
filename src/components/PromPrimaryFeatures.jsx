@@ -15,25 +15,25 @@ const features = [
   {
     title: 'Setup',
     description:
-      "Download the app and provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide the right instructions.",
+      "Download the app and provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide instructions.",
     image: screenshotProvideInfo,
   },
   {
     title: 'Apps',
     description:
-      "Select an app for the legal process you need, ranging from uncontested divorce decrees and separation agreements to motions, discovery, and preparing for trial. Upgrade to a premium account if you need help.",
+      "Select an app for the legal process you need, ranging from uncontested divorce decrees and separation agreements to motions, discovery, and preparing for trial.",
     image: screenshotApps,
   },
   {
     title: 'Steps',
     description:
-      "Follow the app's step-by-step instructions. You'll answer questions and provide information. The app will provide instructions and legal documents based on the information you've provide.",
+      "Follow the step-by-step wizard. Answer questions and provide information. The app will provide instructions and legal documents based on the information you've provide.",
     image: screenshotInstructions,
   },
   {
     title: 'Support',
     description:
-      "Get convenient online help from an attorney only when and if you want it. You can purchase a 30-minute Zoom with an attorney for $150 or pay $189/mo for a support subscription.",    
+      "Get convenient online help from an attorney only when and if you need it. Buy a 30-minute Zoom with an attorney for $150 or pay $189/mo for a support subscription.",    
       image: screenshotCalendar,
   },
 ]
