@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'The apps provide the right documents for your specific courthouses if your court is on the list of supported counties.',
+      'People going through a divorce often don\'t know that each individual county courthouse uses different forms, rules, and processes for sharing financial disclosures, scheduling hearings, or even for uncontested divorces. Many online tools are useless, because they give everyone the same documents. Our apps list the courthouses supported and we add support for any courthouse for premium users.',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -50,7 +50,7 @@ const features = [
     summary:
       'For your situation',
     description:
-      'The apps use if/then logic to create the right documents, instructions, and suggestions based on information you provide.',
+      'Many similar online tools provide the same documents to everyone with simple placeholders for the information you provide. For example, they may standardize on waivers for service of process in uncontested divorces, but if your ex doesn't cooperate, the money you spent is wasted.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -74,11 +74,11 @@ const features = [
     },
   },
   {
-    name: 'Support',
+    name: 'Free',
     summary:
-      'If you need it',
+      'Premium support if you want it',
     description:
-      'Upgrade to Assisted for $189/mo for attorney review of your documents, app support, and other support features.',
+      'Often, DIY tools charge $100 or so, but their main business model is as a referral service to law firms that pay kickbacks. Our tool is free and you only pay for legal services themselves, if you need them, directly from King @ Law.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -197,10 +197,10 @@ export function PromSecondaryFeatures() {
       <PromContainer>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            The Apps
+            Features
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Each app is a step-by-step walkthrough for a specific legal process
+            What makes our app different from other online tools
           </p>
         </div>
         <FeaturesMobile />
