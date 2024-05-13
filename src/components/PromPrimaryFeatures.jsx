@@ -7,7 +7,7 @@ import clsx from 'clsx'
 import { PromContainer } from '@/components/PromContainer'
 import screenshotProvideInfo from '/public/images/screenshots/ProvideInfo.png'
 import screenshotApps from '/public/images/screenshots/Apps.png'
-import screenshotInstructions.png from '/public/images/screenshots/Instructions.png'
+import screenshotInstructions from '/public/images/screenshots/Instructions.png'
 import screenshotCalendar from '@/images/Calendar.png'
 
 
@@ -34,7 +34,7 @@ const features = [
     title: 'Support',
     description:
       "Get convenient online help from an attorney only when and if you want it. You can purchase a 30-minute Zoom with an attorney for $150 or pay $189/mo for more comprehensive support.",    
-      image: screenshotApps,
+      image: screenshotCalendar,
   },
 ]
 
