@@ -359,7 +359,7 @@ export function PromHero() {
             DIY Divorce
             </h1>
             <p className="mt-6 text-xl text-gray-600 max-w-[740px] mx-auto">
-              {'Legal help doesn\'t have to cost a fortune. Take control of your divorce with King @ Law\'s self-service apps. Get started with a free account.'}
+              {'TurboTax does your taxes. We do your divorce. Use step-by-step wizards (apps) to get divorced, draft agreements, file claims, get evidence, or even prepare for trial. Get started with a free account.'}
             </p>
             <div className="mt-6 flex justify-center gap-x-6">
               < ButtonLink OS={OS} userOS={userOS} ></ButtonLink>
