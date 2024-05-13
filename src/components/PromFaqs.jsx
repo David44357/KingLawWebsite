@@ -32,6 +32,12 @@ const faqs = [
       answer:
         'Using the app during the open beta is free. However, you can purchase a 30-minute Zoom with an attorney for $150 or upgrade to a premium account for $189 per-month on a six-month subscription.',
     },
+        {
+      question:
+        'What does a subscription come with?',
+      answer:
+        'The subscription comes with one 30-minute attorney consultation each month, chat support with our paralegal if you need help with the app, and the ability to request we add support for your specific courthouse. It mostly makes sense if your courthouse isn\'t supported yet and you would like attorney help anyway.',
+    },
   ],
   [
     {
