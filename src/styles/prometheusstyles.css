@@ -1,0 +1,70 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 950px) {
+  .bg-white-tabs {
+    left: 120px;
+    right: 120px;
+  }
+  .prometheusTabs{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bg-white-tabs {
+    left: 85px;
+    right: 85px;
+  }
+  .prometheusTabs{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .bg-white-tabs {
+    left: 65px;
+    right: 65px;
+  }
+  .prometheusTabs{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bg-white-tabs {
+    left: 45px;
+    right: 45px;
+  }
+  .prometheusTabs{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bg-white-tabs {
+    left: initial;
+    right: initial;
+  }
+  .prometheusTabs{
+    padding-left: 0rem;
+    padding-right: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .bg-white-tabs {
+    left: initial;
+    right: initial;
+  }
+  .prometheusTabs{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  
+  .prometheusTabs{
+    padding-left: 1rem;
+    padding-right: 0.2rem;
+  }
+}
