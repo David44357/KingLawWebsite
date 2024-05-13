@@ -5,10 +5,9 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { PromContainer } from '@/components/PromContainer'
-import screenshotDownload from '/public/images/screenshots/DownloadApp.png'
-import screenshotSignup from '/public/images/screenshots/SignUp.png'
 import screenshotProvideInfo from '/public/images/screenshots/ProvideInfo.png'
 import screenshotApps from '/public/images/screenshots/Apps.png'
+import screenshotInstructions.png from '/public/images/screenshots/Instructions.png'
 import screenshotCalendar from '@/images/Calendar.png'
 
 
@@ -29,7 +28,7 @@ const features = [
     title: 'Steps',
     description:
       "Follow the app's step-by-step instructions. You'll answer questions and provide information. The app will provide instructions and legal documents based on the information you've provided",
-    image: screenshotApps,
+    image: screenshotInstructions,
   },
   {
     title: 'Support',
