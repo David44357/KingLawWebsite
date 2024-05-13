@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'Did you know each individual county courthouse uses different forms, rules, and processes? Even a simple uncontested divorce often can\'t be done without knowing that courthouse\'s forms and processes. Our apps are programmed for each of the courthouses listed as supported and we add support for new courthouses for premium users.',
+      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Each courthouse uses different forms and processes. Each of our apps list the counties its been programmed for and we add counties for premium users.',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -50,7 +50,7 @@ const features = [
     summary:
       'For your situation',
     description:
-      'Some tools provide the same PDF of documents to everyone. However, our apps use a complex set of if-then statements to determine what makes sense for you.',
+      'Our apps uses a complex sets of if-then logic to get the right documents and instructions for your situation. For example, the apps will help you serve your ex based on their level of cooperation or provide the right documents based on which claims you\'re filing.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -78,7 +78,7 @@ const features = [
     summary:
       'Premium support if you want it',
     description:
-      'DIY tools can cost $100-$400, but often their business model relies on kickbacks when you need more help and they refer you to a law firm. Our tool is free and the legal services are intended to help DIYers, not push them to hire a law firm.',
+      'DIY tools often charge a fee to use them, then get kickbacks for referring you to a law firm when the DIY tool isn\'t enough. Our approach is focused on using lawyers only when and if you need them to support DIYers, not replace them.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -200,7 +200,7 @@ export function PromSecondaryFeatures() {
             Features
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            What makes our app different from other online tools
+            How our app is different from other online tools
           </p>
         </div>
         <FeaturesMobile />
