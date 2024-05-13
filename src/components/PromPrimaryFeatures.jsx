@@ -27,7 +27,7 @@ const features = [
   {
     title: 'Steps',
     description:
-      "Follow the app's step-by-step instructions. You'll answer questions and provide information. The app will provide instructions and legal documents based on the information you've provided",
+      "Follow the app's step-by-step instructions. You'll answer questions and provide information. The app will provide instructions and legal documents based on the information you've provide.",
     image: screenshotInstructions,
   },
   {
