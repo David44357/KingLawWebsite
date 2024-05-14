@@ -96,10 +96,10 @@ export function PromAppDetails() {
       <PromContainer className="relative">
         <div className="mx-auto max-w-2xl text-center mb-10">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            App we offers
+            The Apps
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Here are the apps we offers.
+            Whether simple or contested, we have an app for that
           </p>
         </div>
         <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 mb-10">
