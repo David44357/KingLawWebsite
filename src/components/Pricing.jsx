@@ -112,15 +112,16 @@ export function Pricing() {
       className="bg-slate-900 py-20 sm:py-32"
     >
       <Container>
-        <div className="md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-         Flat-fee pricing
+        {/* <div className="md:text-center"> */}
+        <div className="text-center">
+          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl sm:text-center">
+            Flat-fee pricing
           </h2>
-          <p className="mt-4 text-lg text-slate-200">
+          <p className="mt-0 text-lg text-slate-200 sm:text-center">
             A few examples of our fees
           </p>
         </div>
-        <div className="mt-16 px-8 grid max-w-2xl grid-cols-1 gap-y-5 sm:mx-auto lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="mt-8 px-8 grid max-w-2xl grid-cols-1 gap-y-5 sm:mx-auto lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Self-Service"
             price="$189/mo"

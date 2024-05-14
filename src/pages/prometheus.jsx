@@ -14,6 +14,7 @@ import { PromFaqs } from '@/components/PromFaqs'
 
 import { Testimonials } from '@/components/Testimonials'
 import { AppStoreLink } from '@/components/AppStoreLink'
+import { PromAppDetails } from '@/components/PromAppDetails'
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <Header />
       <main>
         <PromHero />
+        <PromAppDetails />
         <PromPrimaryFeatures />
         <PromSecondaryFeatures />
         {/* <Testimonials /> */}
