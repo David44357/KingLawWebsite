@@ -15,7 +15,7 @@ const features = [
   {
     title: 'Setup',
     description:
-      "Download the app and provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide instructions.",
+      "Provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide instructions.",
     image: screenshotProvideInfo,
   },
   {
@@ -27,7 +27,7 @@ const features = [
   {
     title: 'Steps',
     description:
-      "Follow the step-by-step wizard. Answer questions and provide information. The app will provide instructions and legal documents based on the information you provide.",
+      "Follow the app\'s step-by-step wizard. You answer questions and provide information. The app creates your legal documents and provides instructions.",
     image: screenshotInstructions,
   },
   {
