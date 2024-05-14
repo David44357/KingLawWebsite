@@ -78,7 +78,7 @@ const features = [
     summary:
       'Premium support if you want it',
     description:
-      'Most online tools charge $100-$300, then get a kickback when referring you to a law firm. Our apps are free during the Wake County beta. Our legal support is intended to help DIYers, not replace them.',
+      'Many online DIY are more clickbait than substance. They aren\'t sophisticated enough to help most people, then get a kickback when inevitably referring you to a law firm. Our attorney support is intended to help DIYers, not produce leads for traditional legal representation.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -200,7 +200,7 @@ export function PromSecondaryFeatures() {
             Features
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            How our app is different from other online tools
+            How our apps are different from other online tools
           </p>
         </div>
         <FeaturesMobile />
