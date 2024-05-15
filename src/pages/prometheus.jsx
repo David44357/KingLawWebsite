@@ -15,9 +15,16 @@ import { PromFaqs } from '@/components/PromFaqs'
 import { Testimonials } from '@/components/Testimonials'
 import { AppStoreLink } from '@/components/AppStoreLink'
 import { PromAppDetails } from '@/components/PromAppDetails'
-
+import { useEffect } from 'react';
+import Aos from 'aos'
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1200,
+      once: true,
+    });
+  }, []);
   return (
     <>
       <Head>

@@ -62,11 +62,13 @@ export function PromPrimaryFeatures() {
     <section
       id="features"
       aria-label="Features of our apps"
-      className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
+      className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32 "
+      data-aos="fade-right"
+      data-aos-duration="300"
     >
 
-      <PromContainer className="relative">
-        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
+      <PromContainer className="relative ">
+        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none ">
           <h2 className="font-medium leading leading-tight font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             4 Steps to Affordable Legal Help
           </h2>
@@ -74,27 +76,27 @@ export function PromPrimaryFeatures() {
         </div>
         <Tab.Group
           as="div"
-          className="mx-auto mt-10 grid grid-cols-1 items-center gap-y-2 sm:gap-y-6 md:mt-20 lg:grid-cols-10 lg:pt-0"
+          className="mx-auto mt-10 grid grid-cols-1 items-center gap-y-2 sm:gap-y-6 md:mt-20 lg:grid-cols-10 lg:pt-0 "
           vertical={tabOrientation === 'vertical'}
         >
           {({ selectedIndex }) => (
             <>
               {/* I have removed */}
-              <div className="-mx-4 overflow-x-auto sm:overflow-visible sm:pb-0 lg:col-span-5 items-center max-[360px]:overflow-x-hidden">
+              <div className="-mx-4 overflow-x-auto sm:overflow-visible sm:pb-0 lg:col-span-5 items-center max-[360px]:overflow-x-hidden ">
               {/* <div className="-mx-4 overflow-x-auto sm:mx-auto sm:overflow-visible sm:pb-0 lg:col-span-5 items-center"> */}
                 {/* <Tab.List className="relative z-10 flex justify-between justify-around whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal"> */}
-                <Tab.List className="prometheusTabs relative z-10 flex justify-between justify-around whitespace-nowrap px-12 sm:mx-auto sm:px-30 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
+                <Tab.List className="prometheusTabs relative z-10 flex justify-between justify-around whitespace-nowrap px-12 sm:mx-auto sm:px-30 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal ">
                   {features.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
                       className={clsx(
-                        'group relative rounded-full px-3 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6',
+                        ' group relative rounded-full px-3 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6',
                         selectedIndex === featureIndex
                           ? 'bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10'
                           : 'hover:bg-white/10 lg:hover:bg-white/5',
                       )}
                     >
-                      <h3 class="outline-none text-lg !important">
+                      <h3 className="outline-none text-lg !important">
                         <Tab
                           className={clsx(
                             'font-display font-semibold outline-none',
@@ -104,7 +106,7 @@ export function PromPrimaryFeatures() {
                           )}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
-                         <span class="text-lg"> {feature.title}</span>
+                         <span className="text-lg"> {feature.title}</span>
                         </Tab>
                       </h3>
                       <p

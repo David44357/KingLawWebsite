@@ -353,8 +353,8 @@ export function PromHero() {
   return (
     <div className="overflow-hidden lg:pb-36 xl:pb-32">
       <Container>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32">
-          <div className="">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32 ">
+          <div className="animate__animated animate__bounce">
             <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
             DIY Divorce
             </h1>

@@ -11,6 +11,7 @@ import { Reviews } from '@/components/Reviews'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 
 export default function Home() {
+  
   return (
     <>
       <Head>
