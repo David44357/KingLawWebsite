@@ -63,13 +63,15 @@ export function PromPrimaryFeatures() {
       id="features"
       aria-label="Features of our apps"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32 "
-      data-aos="fade-right"
-      data-aos-duration="1600"
+      
     >
 
       <PromContainer className="relative ">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none ">
-          <h2 className="font-medium leading leading-tight font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+          <h2 className="font-medium leading leading-tight font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl"
+            data-aos="fade-down"
+            data-aos-duration="1600"
+          >
             4 Steps to Affordable Legal Help
           </h2>
 
@@ -78,6 +80,8 @@ export function PromPrimaryFeatures() {
           as="div"
           className="mx-auto mt-10 grid grid-cols-1 items-center gap-y-2 sm:gap-y-6 md:mt-20 lg:grid-cols-10 lg:pt-0 "
           vertical={tabOrientation === 'vertical'}
+          data-aos="fade-up"
+          data-aos-duration="1600"
         >
           {({ selectedIndex }) => (
             <>

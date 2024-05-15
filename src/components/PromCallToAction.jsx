@@ -31,8 +31,8 @@ export function PromCallToAction() {
     <section
       id="get-started-today"
       className="relative overflow-hidden bg-blue-600 py-32"
-      data-aos="fade-right"
-      data-aos-duration="1600"
+      // data-aos="fade-right"
+      // data-aos-duration="1600"
     >
       <Image
         className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
@@ -44,13 +44,22 @@ export function PromCallToAction() {
       />
       <PromContainer className="relative">
         <div className="mx-auto max-w-lg text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started for free
-          </h2>
-          <p className="m-4 text-xl tracking-tight text-white font-medium">
-            Use the app for free during the Wake County beta
-          </p>
-          <div className="m-3 flex items-center justify-center">
+          <div 
+            
+            data-aos="fade-down"
+            data-aos-duration="1600"
+          >
+            <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+              Get started for free
+            </h2>
+            <p className="m-4 text-xl tracking-tight text-white font-medium">
+              Use the app for free during the Wake County beta
+            </p>
+          </div>
+          <div className="m-3 flex items-center justify-center"
+            data-aos="fade-up"
+            data-aos-duration="1600"
+          >
             < ButtonLink OS = {OS} userOS={userOS}></ButtonLink>
           </div>
           

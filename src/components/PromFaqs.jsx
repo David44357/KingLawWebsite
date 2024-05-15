@@ -63,12 +63,15 @@ export function PromFaqs() {
       id="faq"
       aria-labelledby="faq-title"
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
-      data-aos="fade-right"
-      data-aos-duration="1600"
+      // data-aos="fade-right"
+      // data-aos-duration="1600"
     >
 
       <PromContainer className="relative">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto max-w-2xl lg:mx-0"
+          data-aos="fade-down"
+          data-aos-duration="1600"
+        >
           <h2
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
@@ -82,6 +85,8 @@ export function PromFaqs() {
         <ul
           role="list"
           className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3"
+          data-aos="fade-up"
+          data-aos-duration="1600"
         >
           {faqs.map((column, columnIndex) => (
             <li key={columnIndex}>

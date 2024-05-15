@@ -193,20 +193,30 @@ export function PromSecondaryFeatures() {
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
       className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32 "
-      data-aos="fade-right"
-      data-aos-duration="1600"
+      // data-aos="fade-right"
+      // data-aos-duration="1600"
     >
       <PromContainer className="">
-        <div className="mx-auto max-w-2xl md:text-center ">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+        <div className="mx-auto max-w-2xl md:text-center "
+          data-aos="fade-down"
+          data-aos-duration="1600"
+        >
+          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
+            
+          >
             Features
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             How our apps are different from other online tools
           </p>
         </div>
-        <FeaturesMobile />
-        <FeaturesDesktop />
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1600"
+        >
+          <FeaturesMobile />
+          <FeaturesDesktop />
+        </div>
       </PromContainer>
     </section>
   )
