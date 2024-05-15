@@ -9,7 +9,7 @@ import { Button } from '@/components/Button'
 import { Cal } from '@/components/Cal'
 import { Container } from '@/components/Container'
 import myImage from '@/images/Suit.png'
-
+import backgroundImage from '@/images/background-call-to-action.jpg'
 function BackgroundIllustration(props) {
   let id = useId()
 
@@ -351,10 +351,22 @@ export function PromHero() {
   }
 
   return (
-    <div className="overflow-hidden lg:pb-36 xl:pb-32">
+    <div className="overflow-hidden lg:pb-36 xl:pb-32"
+      data-aos="fade-up-right"
+      data-aos-duration="1600"
+    >
+      
       <Container>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32 ">
-          <div className="animate__animated animate__bounce">
+          {/* <Image
+            className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2 w-full"
+            src={backgroundImage}
+            alt=""
+            // width={2347}
+            // height={544}
+            // unoptimized
+          /> */}
+          <div className="">
             <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
             DIY Divorce
             </h1>

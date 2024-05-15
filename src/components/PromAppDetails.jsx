@@ -97,7 +97,7 @@ export function PromAppDetails() {
       <PromContainer className="relative ">
         <div
           data-aos="fade-right"
-          data-aos-duration="300"
+          data-aos-duration="900"
         >
           <div className="mx-auto max-w-2xl text-center mb-10 ">
             <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">

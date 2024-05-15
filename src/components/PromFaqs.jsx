@@ -64,7 +64,7 @@ export function PromFaqs() {
       aria-labelledby="faq-title"
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
       data-aos="fade-right"
-      data-aos-duration="1200"
+      data-aos-duration="1600"
     >
 
       <PromContainer className="relative">

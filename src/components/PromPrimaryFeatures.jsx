@@ -64,7 +64,7 @@ export function PromPrimaryFeatures() {
       aria-label="Features of our apps"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32 "
       data-aos="fade-right"
-      data-aos-duration="300"
+      data-aos-duration="1600"
     >
 
       <PromContainer className="relative ">
