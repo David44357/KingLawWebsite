@@ -56,10 +56,10 @@ const people = [
     name: 'Subpoena Records',
     imageUrl:'/images/Subpoena.png',
   },
-  {
-    name: 'Compel Evidence',
-    imageUrl:'/images/Compel.jpeg',
-  },
+  // {
+  //   name: 'Compel Evidence',
+  //   imageUrl:'/images/Compel.jpeg',
+  // },
   {
     name: 'Enforce Order',
     imageUrl:'/images/Enforce.jpeg',
@@ -110,20 +110,21 @@ export function PromAppDetails() {
               Whether simple or contested, we have an app for that
             </p>
           </div>
-          <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 mb-10 "
+          <ul role="list" className="grid max-[360px]:grid-cols-1 grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 mb-10 "
             data-aos="fade-up"
             data-aos-duration="1600"
           >
             {people.map((person) => (
               <li
                 key={person.name}
-                className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
+                // className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
+                className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg text-center"
               >
                 <div className="flex flex-1 flex-col p-4">
                 {/* <div className="flex flex-1 flex-col p-8"> */}
-                  <img className="mx-auto h-20 w-20 flex-shrink-0 rounded-full" src={person.imageUrl} alt="" />
+                  <img className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src={person.imageUrl} alt="" />
                   {/* <img className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src={person.imageUrl} alt="" /> */}
-                  <h3 className="mt-4 text-sm font-medium text-gray-900">{person.name}</h3>
+                  <h3 className="mt-4 text-md font-medium text-gray-900 leading-tight	">{person.name}</h3>
                   {/* <dl className="mt-1 flex flex-grow flex-col justify-between">
                     <dt className="sr-only">Title</dt>
                     <dd className="text-sm text-gray-500">{person.title}</dd>
