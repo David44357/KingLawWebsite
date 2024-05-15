@@ -351,21 +351,15 @@ export function PromHero() {
   }
 
   return (
-    <div className="overflow-hidden lg:pb-36 xl:pb-32"
-      
+    <div
+      className="bg-cover bg-center  w-full"
+      style={{ backgroundImage: `url('/images/background-call-to-action.jpg')` }}
     >
-      
-      <Container>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32 ">
-          {/* <Image
-            className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2 w-full"
-            src={backgroundImage}
-            alt=""
-            // width={2347}
-            // height={544}
-            // unoptimized
-          /> */}
-          <div className="">
+      <div className="overflow-hidden lg:pb-36 xl:pb-32"
+        
+      >
+        <Container>
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32 ">
             {/* <Image
               className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2 w-full"
               src={backgroundImage}
@@ -374,32 +368,53 @@ export function PromHero() {
               // height={544}
               // unoptimized
             /> */}
-            <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl"
-              data-aos="zoom-in"
-              data-aos-duration="1200"
+            <div 
+              // className="bg-cover bg-center h-64 w-full"
+              // style={{ backgroundImage: `url('/images/background-call-to-action.jpg')` }}
             >
-              {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"> */}
-              DIY Divorce
-            </h1>
-            {/* <p className="mt-6 text-xl text-white max-w-[740px] mx-auto"> */}
-            <p className="mt-6 text-xl text-gray-600 max-w-[740px] mx-auto"
-              data-aos="fade-up"
-              data-aos-duration="1600"
-            >
-              {'TurboTax does your taxes. We do your divorce. Use step-by-step wizards (apps) to get divorced, draft agreements, file claims, get evidence, or even prepare for trial. Get started with a free account.'}
-            </p>
-            <div className="mt-6 flex justify-center gap-x-6"
-              data-aos="fade-up"
-              data-aos-duration="1900"
-            >
-              < ButtonLink OS={OS} userOS={userOS} ></ButtonLink>
-            </div>
-            <div className="mt-10 flex justify-center gap-x-6">
-              {/* <AppStoreLink /> */}
+              {/* <Image
+                className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2 w-full"
+                src={backgroundImage}
+                alt=""
+                // width={2347}
+                // height={544}
+                // unoptimized
+              /> */}
+              {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+              > */}
+              <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+              >
+                {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"> */}
+                DIY Divorce
+              </h1>
+              {/* <p className="mt-6 text-xl text-white max-w-[740px] mx-auto"> */}
+              {/* <p className="mt-6 text-xl text-gray-600 max-w-[740px] mx-auto"
+                data-aos="fade-up"
+                data-aos-duration="1600"
+              > */}
+              <p className="mt-6 text-xl text-white max-w-[740px] mx-auto"
+                data-aos="fade-up"
+                data-aos-duration="1600"
+              >
+                {'TurboTax does your taxes. We do your divorce. Use step-by-step wizards (apps) to get divorced, draft agreements, file claims, get evidence, or even prepare for trial. Get started with a free account.'}
+              </p>
+              <div className="mt-6 flex justify-center gap-x-6"
+                data-aos="fade-up"
+                data-aos-duration="1900"
+              >
+                < ButtonLink OS={OS} userOS={userOS} ></ButtonLink>
+              </div>
+              <div className="mt-10 flex justify-center gap-x-6">
+                {/* <AppStoreLink /> */}
+              </div>
             </div>
           </div>
-        </div>
-      </Container>
+        </Container>
+      </div>
     </div>
   )
 }

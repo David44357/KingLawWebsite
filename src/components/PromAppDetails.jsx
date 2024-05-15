@@ -90,7 +90,7 @@ export function PromAppDetails() {
     <section
       id="appDetails"
       aria-labelledby="faq-title"
-      className="relative overflow-hidden bg-slate-50 "
+      className="relative overflow-hidden bg-slate-50 pb-28 pt-20 sm:py-32"
       
       // className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
     >
