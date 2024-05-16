@@ -95,10 +95,10 @@ export function Header() {
   return (
     <header>
       <nav>
-        <Container className="relative z-50 flex justify-between py-3">
+        <Container className="relative z-50 flex justify-between">
           <div className="relative z-10 flex items-center gap-16">
             <Link href="/" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo className="h-6 w-auto" />
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />

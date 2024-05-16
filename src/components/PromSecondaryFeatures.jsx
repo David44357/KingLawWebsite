@@ -21,6 +21,10 @@ const features = [
       let id = useId()
       return (
         <>
+        {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+        </svg> */}
           <defs>
             <linearGradient
               id={id}
@@ -34,13 +38,17 @@ const features = [
               <stop offset={1} stopColor="#6692F1" />
             </linearGradient>
           </defs>
-          <path
+          {/* <path
             d="m30 15-4 5-4-11-4 18-4-11-4 7-4-5"
             stroke={`url(#${id})`}
             strokeWidth={2}
             strokeLinecap="round"
             strokeLinejoin="round"
-          />
+          /> */}
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke={`url(#${id})`} >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+          </svg>
         </>
       )
     },
@@ -55,7 +63,16 @@ const features = [
     icon: function InventoryIcon() {
       return (
         <>
-          <path
+          <svg xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-white">
+            <path 
+              strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" 
+              className='w-6 h-6'
+              // fill="#fff"
+            />
+          </svg>
+
+          {/* <path
             opacity=".5"
             d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
             fill="#fff"
@@ -68,7 +85,7 @@ const features = [
           <path
             d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
             fill="#fff"
-          />
+          /> */}
         </>
       )
     },
@@ -83,7 +100,7 @@ const features = [
     icon: function ContactsIcon() {
       return (
         <>
-          <path
+          {/* <path
             opacity=".5"
             d="M25.778 25.778c.39.39 1.027.393 1.384-.028A11.952 11.952 0 0 0 30 18c0-6.627-5.373-12-12-12S6 11.373 6 18c0 2.954 1.067 5.659 2.838 7.75.357.421.993.419 1.384.028.39-.39.386-1.02.036-1.448A9.959 9.959 0 0 1 8 18c0-5.523 4.477-10 10-10s10 4.477 10 10a9.959 9.959 0 0 1-2.258 6.33c-.35.427-.354 1.058.036 1.448Z"
             fill="#fff"
@@ -91,7 +108,11 @@ const features = [
           <path
             d="M12 28.395V28a6 6 0 0 1 12 0v.395A11.945 11.945 0 0 1 18 30c-2.186 0-4.235-.584-6-1.605ZM21 16.5c0-1.933-.5-3.5-3-3.5s-3 1.567-3 3.5 1.343 3.5 3 3.5 3-1.567 3-3.5Z"
             fill="#fff"
-          />
+          /> */}
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
+            <path  strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+
         </>
       )
     },
@@ -107,11 +128,11 @@ function Feature({ feature, isActive, className, ...props }) {
       <div className="flex gap-2">
         <div
           className={clsx(
-            'w-9 rounded-lg ',
+            'w-9 rounded-lg text-center flex justify-center items-center mt-1',
             isActive ? 'bg-blue-600' : 'bg-slate-500',
           )}
         >
-          <svg aria-hidden="true" className="h-9 w-9" fill="none">
+          <svg aria-hidden="true" className="h-8 w-8 pt-1 pb-1 flex justify-center items-center" fill="none">
             <feature.icon />
           </svg>
         </div>

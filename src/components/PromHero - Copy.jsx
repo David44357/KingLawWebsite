@@ -355,17 +355,35 @@ export function PromHero() {
       className="bg-cover bg-center  w-full"
       style={{ backgroundImage: `url('/images/background-call-to-action.jpg')` }}
     >
-      <div className="overflow-hidden "
+      <div className="overflow-hidden lg:pb-36 xl:pb-32"
         
       >
         <Container>
-          <div className="mx-auto max-w-7xl pb-32 pt-32 sm:pb-52 sm:pt-52 md:pb-48 md:pt-48 lg:pb-48 lg:pt-48 xl:pb-48 xl:pt-48 text-center ">
-            
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32 ">
+            {/* <Image
+              className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2 w-full"
+              src={backgroundImage}
+              alt=""
+              // width={2347}
+              // height={544}
+              // unoptimized
+            /> */}
             <div 
               // className="bg-cover bg-center h-64 w-full"
               // style={{ backgroundImage: `url('/images/background-call-to-action.jpg')` }}
             >
-              
+              {/* <Image
+                className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2 w-full"
+                src={backgroundImage}
+                alt=""
+                // width={2347}
+                // height={544}
+                // unoptimized
+              /> */}
+              {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+              > */}
               <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"
                 data-aos="zoom-in"
                 data-aos-duration="1200"
@@ -378,7 +396,7 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               > */}
-              <p className="mt-6 text-xl text-white max-w-[740px] mx-auto font-medium"
+              <p className="mt-6 text-xl text-white max-w-[740px] mx-auto"
                 data-aos="fade-up"
                 data-aos-duration="1600"
               >
@@ -390,9 +408,9 @@ export function PromHero() {
               >
                 < ButtonLink OS={OS} userOS={userOS} ></ButtonLink>
               </div>
-              {/* <div className="mt-10 flex justify-center gap-x-6">
-                <AppStoreLink />
-              </div> */}
+              <div className="mt-10 flex justify-center gap-x-6">
+                {/* <AppStoreLink /> */}
+              </div>
             </div>
           </div>
         </Container>
