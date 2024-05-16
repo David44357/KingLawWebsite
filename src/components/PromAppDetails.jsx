@@ -140,8 +140,22 @@ export function PromAppDetails() {
               >
                 <div className="flex flex-1 flex-col p-4">
                 {/* <div className="flex flex-1 flex-col p-8"> */}
-                  <img className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src={person.imageUrl} alt="" />
                   {/* <img className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src={person.imageUrl} alt="" /> */}
+                  <div className='mx-auto relative  h-32 w-32 flex-shrink-0 rounded-full'>
+                    <Image
+                      src={person.imageUrl}
+                      className='mx-auto h-32 w-32 flex-shrink-0 rounded-full'
+                      fill 
+                      // width={500}
+                      // height={500}
+                      // alt="Picture of the author"
+                      // width={500} automatically provided
+                      // height={500} automatically provided
+                      // blurDataURL="data:..." automatically provided
+                      // placeholder="blur" // Optional blur-up while loading
+                    />
+                  </div>
+                  
                   <h3 className="mt-4 text-md font-medium text-gray-900 leading-tight	">{person.name}</h3>
                   {/* <dl className="mt-1 flex flex-grow flex-col justify-between">
                     <dt className="sr-only">Title</dt>
