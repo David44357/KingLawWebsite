@@ -5,10 +5,14 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { PromContainer } from '@/components/PromContainer'
-import screenshotProvideInfo from '/public/images/screenshots/ProvideInfo.png'
-import screenshotApps from '/public/images/screenshots/Apps.png'
-import screenshotInstructions from '/public/images/screenshots/Instructions.png'
-import screenshotCalendar from '@/images/Calendar.png'
+// import screenshotProvideInfo from '/public/images/screenshots/ProvideInfo.png'
+// import screenshotApps from '/public/images/screenshots/Apps.png'
+// import screenshotInstructions from '/public/images/screenshots/Instructions.png'
+// import screenshotCalendar from '@/images/Calendar.png'
+import screenshotProvideInfo from '/public/images/screenshots/webp/ProvideInfo.webp'
+import screenshotApps from '/public/images/screenshots/webp/Apps.webp'
+import screenshotInstructions from '/public/images/screenshots/webp/Instructions.webp'
+import screenshotCalendar from '/public/images/screenshots/webp/Calendar.webp'
 
 
 const features = [

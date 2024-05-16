@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { PromContainer } from '@/components/PromContainer'
-import backgroundImage from '@/images/background-faqs.jpg'
+// import backgroundImage from '@/images/background-faqs.jpg'
 // import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/20/solid'
 const people = [
   {
