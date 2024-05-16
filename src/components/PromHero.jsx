@@ -353,7 +353,9 @@ export function PromHero() {
   return (
     <div
       className="bg-cover bg-center  w-full"
-      style={{ backgroundImage: `url('/images/background-call-to-action.jpg')` }}
+      style={{ backgroundImage: `url('/images/webp/background-call-to-action.webp')` }}
+      // style={{ backgroundImage: `url('/images/background-call-to-action.jpg')` }}
+      
     >
       <div className="overflow-hidden "
         
