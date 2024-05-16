@@ -6,55 +6,68 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const people = [
   {
     name: 'Divorce Decree',
-    imageUrl:'/images/Broken Heart.png',
+    imageUrl:'/images/webp/broken-heart.webp',
+    // imageUrl:'/images/Broken Heart.png',
   },
   {
     name: 'Deed',
-    imageUrl:'/images/Deed.png',
+    imageUrl:'/images/webp/deed.webp',
+    // imageUrl:'/images/Deed.png',
   },
   {
     name: 'Prenup or Postnup',
-    imageUrl:'/images/Prenup.png',
+    imageUrl:'/images/webp/Prenup.webp',
+    // imageUrl:'/images/Prenup.png',
   },
   {
     name: 'Agreement',
-    imageUrl:'/images/Agreements.png',
+    imageUrl:'/images/webp/Agreements.webp',
+    // imageUrl:'/images/Agreements.png',
   },
   {
     name: 'Child Support Calculator',
-    imageUrl:'/images/Calculator.png',
+    imageUrl:'/images/webp/Calculator.webp',
+    // imageUrl:'/images/Calculator.png',
   },
   {
     name: 'Property Calculator',
-    imageUrl:'/images/PropertyCalculator.png',
+    imageUrl:'/images/webp/PropertyCalculator.webp',
+    // imageUrl:'/images/PropertyCalculator.png',
   },
   {
     name: 'Respond to a Lawsuit',
-    imageUrl:'/images/Respond to a Lawsuit.jpg',
+    imageUrl:'/images/webp/respond-to-a-lawsuit.webp',
+    // imageUrl:'/images/Respond to a Lawsuit.jpg',
   },
   {
     name: 'File a Lawsuit',
-    imageUrl:'/images/File a Lawsuit.png',
+    imageUrl:'/images/webp/file-a-lawsuit.webp',
+    // imageUrl:'/images/File a Lawsuit.png',
   },
   {
     name: 'Service of Process',
-    imageUrl:'/images/Service of Process.png',
+    imageUrl:'/images/webp/service-of-process.webp',
+    // imageUrl:'/images/Service of Process.png',
   },
   {
     name: 'Pretrial / Scheduling Order',
-    imageUrl:'/images/SchedulingOrder.jpeg',
+    imageUrl:'/images/webp/SchedulingOrder.webp',
+    // imageUrl:'/images/SchedulingOrder.jpeg',
   },
   {
     name: 'Get Evidence from Ex',
-    imageUrl:'/images/EvidencefromEx.png',
+    imageUrl:'/images/webp/EvidencefromEx.webp',
+    // imageUrl:'/images/EvidencefromEx.png',
   },
   {
     name: 'Financial Disclosures',
-    imageUrl:'/images/FinancialDisclosures.png',
+    imageUrl:'/images/webp/FinancialDisclosures.webp',
+    // imageUrl:'/images/FinancialDisclosures.png',
   },
   {
     name: 'Subpoena Records',
-    imageUrl:'/images/Subpoena.png',
+    imageUrl:'/images/webp/Subpoena.webp',
+    // imageUrl:'/images/Subpoena.png',
   },
   // {
   //   name: 'Compel Evidence',
@@ -62,23 +75,28 @@ const people = [
   // },
   {
     name: 'Enforce Order',
-    imageUrl:'/images/Enforce.jpeg',
+    imageUrl:'/images/webp/Enforce.webp',
+    // imageUrl:'/images/Enforce.jpeg',
   },
   {
     name: 'Other Motion',
-    imageUrl:'/images/Motion.jpeg',
+    imageUrl:'/images/webp/Motion.webp',
+    // imageUrl:'/images/Motion.jpeg',
   },
   {
     name: 'Compel Evidence',
-    imageUrl:'/images/Compel.jpeg',
+    imageUrl:'/images/webp/Compel.webp',
+    // imageUrl:'/images/Compel.jpeg',
   },
   {
     name: 'Trial prep',
-    imageUrl:'/images/Trial Prep.jpeg',
+    imageUrl:'/images/webp/trial-prep.webp',
+    // imageUrl:'/images/Trial Prep.jpeg',
   },
   {
     name: 'Schedule Hearing',
-    imageUrl:'/images/ScheduleHearing.jpeg',
+    imageUrl:'/images/webp/ScheduleHearing.webp',
+    // imageUrl:'/images/ScheduleHearing.jpeg',
   },
   
   // More people...
