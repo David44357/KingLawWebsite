@@ -41,7 +41,7 @@ export const JoinTheBetaListModal = (props) => {
       ...values
     };
     try {
-      const response = await fetch('/api/myEndpoint', {
+      const response = await fetch(`https://us-east4-king-law-app-final.cloudfunctions.net/joinTheBetaListGen2/joinTheBetaList`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
