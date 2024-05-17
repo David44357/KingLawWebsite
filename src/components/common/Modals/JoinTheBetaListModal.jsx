@@ -59,6 +59,9 @@ export const JoinTheBetaListModal = (props) => {
       setIsLoading(false);
       setIsApiError(false);
       setApiMsg("Your request has been sent successfully, we will get back to you shortly.")
+      setTimeout(() => {
+        closeModal();
+      }, 3000);
     } catch (error) {
       console.error('There was a problem with the fetch operation:', error);
       setIsLoading(false);
@@ -123,8 +126,8 @@ export const JoinTheBetaListModal = (props) => {
                       <label for="tetEmailJoinBetaList" class="block text-sm font-medium mb-2">Email</label>
                       <input type="email" id="tetEmailJoinBetaList" 
                         class="" 
-                        className={`py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none ${errors.email &&
-                          "!border-solid !border-red-300 !border-1"}`}
+                        className={`py-3 px-4 block w-full border-gray-200 rounded-lg text-sm  disabled:opacity-50 disabled:pointer-events-none ${errors.email ?
+                          "!border-solid !border-red-300 !border-1 focus:border-red-500 focus:ring-red-500" : "focus:border-blue-500 focus:ring-blue-500"}`}
                         placeholder="Email" 
                         {
                           ...register("email")
@@ -153,7 +156,19 @@ export const JoinTheBetaListModal = (props) => {
                     }
                     {
                       isLoading === false ?
-                        <div className="mt-4 text-right">
+                        <div className="mt-4 text-right flex justify-end gap-2">
+                         
+                          <button
+                            type="button"
+                            className="inline-flex justify-center rounded-md border border-transparent bg-red-100 px-4 py-2 text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2"
+                            // onClick={closeModal}
+                            onClick={() => {
+                              // btnOnClickSubmitJoinTheBeta()
+                              closeModal()
+                            }}
+                          >
+                            Close
+                          </button>
                           <button
                             type="button"
                             className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
