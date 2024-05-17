@@ -16,6 +16,7 @@ export const JoinTheBetaListModal = (props) => {
   const [isLoading, setIsLoading] = useState(false);
   const [apiMsg, setApiMsg] = useState('');
   const [isApiError, setIsApiError] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
   const closeModal = () => {
     setIsOpen(false)
   }
@@ -37,6 +38,7 @@ export const JoinTheBetaListModal = (props) => {
     setIsLoading(true);
     setApiMsg("");
     setIsApiError(false);
+    setIsSuccess(false);
     const objPostData = {
       ...values
     };
@@ -56,6 +58,7 @@ export const JoinTheBetaListModal = (props) => {
       // Handle successful response
       const data = await response.json();
       console.log('Response data:', data);
+      setIsSuccess(true);
       setIsLoading(false);
       setIsApiError(false);
       setApiMsg("Your request has been sent successfully, we will get back to you shortly.")
@@ -64,6 +67,7 @@ export const JoinTheBetaListModal = (props) => {
       }, 3000);
     } catch (error) {
       console.error('There was a problem with the fetch operation:', error);
+      setIsSuccess(false);
       setIsLoading(false);
       setIsApiError(true);
       setApiMsg("Error in sending the request, Please try again.")
@@ -169,17 +173,21 @@ export const JoinTheBetaListModal = (props) => {
                           >
                             Close
                           </button>
-                          <button
-                            type="button"
-                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                            // onClick={closeModal}
-                            onClick={() => {
-                              // btnOnClickSubmitJoinTheBeta()
-                              handleSubmit(onSubmit)();
-                            }}
-                          >
-                            Submit
-                          </button>
+                          {
+                            isSuccess === false ?
+                              <button
+                                type="button"
+                                className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                                // onClick={closeModal}
+                                onClick={() => {
+                                  // btnOnClickSubmitJoinTheBeta()
+                                  handleSubmit(onSubmit)();
+                                }}
+                              >
+                                Submit
+                              </button>
+                            : null
+                          }
                         </div>
                       : 
                       <div className="mt-4 text-right">
