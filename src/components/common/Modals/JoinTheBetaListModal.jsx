@@ -41,7 +41,7 @@ export const JoinTheBetaListModal = (props) => {
       ...values
     };
     try {
-      const response = await fetch(`https://us-east4-king-law-app-final.cloudfunctions.net/joinTheBetaListGen2/joinTheBetaList`, {
+      const response = await fetch(`https://us-east4-king-law-app-final.cloudfunctions.net/joinTheBetaListGen2/send-join-beta-list-request`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
