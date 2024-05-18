@@ -7,6 +7,9 @@ import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
 import React, { useEffect, useState } from 'react';
+import OsWebAndriodIosButton from './common/Buttons/OsWebAndriodIosButton'
+import PopOverOsWebAndriodIosButton from './common/Buttons/PopOver/PopOverOsWebAndriodIosButton'
+import PopOverJoinTheBetaListModal from './common/Modals/PopOverJoinTheBetaListModal'
 
 function MenuIcon(props) {
   return (
@@ -69,7 +72,7 @@ function DownloadButton(props) {
   return (
     <div>
     <Button href={props.userOS} variant="outline" className="hidden lg:block">
-      Web Portal
+      Get Started
     </Button>
     </div>
     );
@@ -77,6 +80,7 @@ function DownloadButton(props) {
 
 export function Header() {
   const [userOS, setUserOS] = useState('');
+  const [OS, setOS] = useState('');
   // INSERT FILES WITHIN THE PUBLIC
   // AFTER CHANGING THE LINKS IN THE BELOW FUNCTION YOU'LL NEED TO CHANGE
   // TWO LINKS WITHIN THE RETURN STATEMENT
@@ -85,11 +89,20 @@ export function Header() {
     //WHEN YOUR READY CHANGE 
     if (platform.includes('android')) {
       setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR ANDROID
+      setOS('android')
     } else {
       setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
+      setOS('other')
     }
   }, []);
 
+  const [isOpen, setIsOpen] = useState(false);
+  const closeModal = () => {
+    setIsOpen(false)
+  }
+  const btnOnClickOpenPopopJoinBetaModal = () => {
+    setIsOpen(true)
+  }
 
 
   return (
@@ -130,6 +143,7 @@ export function Header() {
                           animate={{ opacity: 1 }}
                           exit={{ opacity: 0 }}
                           className="fixed inset-0 z-0 bg-gray-300/60 backdrop-blur"
+                          // style={{ pointerEvents: "none" }}
                         />
                         <Popover.Panel
                           static
@@ -142,6 +156,7 @@ export function Header() {
                             transition: { duration: 0.2 },
                           }}
                           className="max-w-[200px] absolute top-10 right-0 z-0 origin-top rounded-b-2xl rounded-t-2xl bg-gray-50 px-6 pb-6 pt-6 shadow-2xl shadow-gray-900/20"
+                          
                         >
                           <div className="space-y-4 max-w-2xl">
                             <MobileNavLink href="https://kinglawnc.com/prometheus">
@@ -159,7 +174,11 @@ export function Header() {
                           </div>
                           <div className="mt-4 flex flex-col gap-4">
                             {/* TWO BUTTONS HERE */}
-                            <DownloadButton userOS={userOS} popover='True' ></DownloadButton>
+                            {/* <DownloadButton userOS={userOS} popover='True' OS={OS}></DownloadButton> */}
+                            <PopOverOsWebAndriodIosButton 
+                              webBtnClassess={"justify-center rounded-lg  px-3 h-[2.34rem] text-sm  outline-2 outline-offset-2 transition-colors font-medium px-4 rounded"}
+                              btnOnClickOpenPopopJoinBetaModal={btnOnClickOpenPopopJoinBetaModal}
+                            />
                           </div>
                         </Popover.Panel>
                       </>
@@ -169,10 +188,19 @@ export function Header() {
               )}
             </Popover>
             {/* TWO BUTTONS HERE */}
-            <DownloadButton userOS={userOS}></DownloadButton>
+            {/* <DownloadButton userOS={userOS} OS={OS}></DownloadButton> */}
+            <PopOverOsWebAndriodIosButton 
+              webBtnClassess={"justify-center rounded-lg  px-3 h-[2.34rem] text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded hidden lg:block"}
+              andriodBtnClassess={"hidden lg:flex"}
+              btnOnClickOpenPopopJoinBetaModal={btnOnClickOpenPopopJoinBetaModal}
+            />
           </div>
         </Container>
       </nav>
+      <PopOverJoinTheBetaListModal
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+      />
     </header>
   )
 }

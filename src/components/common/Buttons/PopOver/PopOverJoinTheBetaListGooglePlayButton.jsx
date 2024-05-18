@@ -4,23 +4,24 @@ import React, { useState, useEffect } from 'react'
 import myImage from '@/images/sx89xlao.png'
 import Image from 'next/image'
 import { Container } from '@/components/Container'
-import JoinTheBetaListModal from '../Modals/JoinTheBetaListModal'
+import PopOverJoinTheBetaListModal from '../../Modals/PopOverJoinTheBetaListModal'
 
-export function JoinTheBetaListGooglePlayButton(props) {
-  const {andriodBtnClassess} = props;
-  const [isOpen, setIsOpen] = useState(false);
-  const closeModal = () => {
-    setIsOpen(false)
-  }
+export function PopOverJoinTheBetaListGooglePlayButton(props) {
+  const { andriodBtnClassess, btnOnClickOpenPopopJoinBetaModal } = props;
+  // const [isOpen, setIsOpen] = useState(false);
+  // const closeModal = () => {
+  //   setIsOpen(false)
+  // }
   return (
     <>
-      <button 
-        type="button" 
+      <button
+        type="button"
         className={`flex items-center justify-center w-28 text-white bg-black rounded-lg h-9 leading-none ${andriodBtnClassess}`}
         // className="	"
-        
+
         onClick={() => {
-          setIsOpen(true)
+          // setIsOpen(true);
+          btnOnClickOpenPopopJoinBetaModal();
         }}
       >
         <div class="mr-1">
@@ -45,15 +46,15 @@ export function JoinTheBetaListGooglePlayButton(props) {
           {/* <div class="-mt-2 font-sans text-lg font-semibold">
             Join Beta
           </div> */}
-           <div class="font-sans text-sm font-semibold">
+          <div class="font-sans text-sm font-semibold">
             Join Beta
           </div>
         </div>
       </button>
-      <JoinTheBetaListModal 
+      {/* <PopOverJoinTheBetaListModal
         isOpen={isOpen}
         setIsOpen={setIsOpen}
-      />
+      /> */}
     </>
   )
 }

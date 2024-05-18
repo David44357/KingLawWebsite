@@ -14,8 +14,9 @@ export function Cal({ selectedOption }) {
             cal("ui", { "styles": { "branding": { "brandColor": "#FF551C" } }, "hideEventTypeDetails": false, "layout": "month_view" });
         })();
     }, [])
-    return (<Button
+    return (<button
     data-cal-link="kinglawnc/consultation"
     data-cal-config='{"layout":"month_view"}'
-    className="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded">Consultation {selectedOption} </Button>);
+    type="button"
+    className="justify-center rounded-lg  px-3 h-9 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80  text-white font-medium px-4 rounded">Consultation {selectedOption} </button>);
 };

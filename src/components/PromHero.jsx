@@ -10,6 +10,7 @@ import { Cal } from '@/components/Cal'
 import { Container } from '@/components/Container'
 import myImage from '@/images/Suit.png'
 import backgroundImage from '@/images/background-call-to-action.jpg'
+import OsWebAndriodIosButton from './common/Buttons/OsWebAndriodIosButton'
 function BackgroundIllustration(props) {
   let id = useId()
 
@@ -328,27 +329,27 @@ function AppDemo() {
 
 
 export function PromHero() {
-  const [userOS, setUserOS] = useState('');
-  const [OS, setOS] = useState('');
-  useEffect(() => {
-    const platform = window.navigator.userAgent.toLowerCase();
-    //WHEN YOUR READY CHANGE 
-    if (platform.includes('android')) {
-      setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
-      setOS('android')
-    } else {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
-      setOS('other')
-    }
-  }, []);
+  // const [userOS, setUserOS] = useState('');
+  // const [OS, setOS] = useState('');
+  // useEffect(() => {
+  //   const platform = window.navigator.userAgent.toLowerCase();
+  //   //WHEN YOUR READY CHANGE 
+  //   if (platform.includes('android')) {
+  //     setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
+  //     setOS('android')
+  //   } else {
+  //     setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
+  //     setOS('other')
+  //   }
+  // }, []);
 
-  function ButtonLink(props) {
-    if (props.OS != 'other') {
-      return <AppStoreLink />;
-    } else {
-      return <Button href={props.userOS} variant="outline" className="m-3 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Web Portal</Button>
-    }
-  }
+  // function ButtonLink(props) {
+  //   if (props.OS != 'other') {
+  //     return <AppStoreLink />;
+  //   } else {
+  //     return <Button href={props.userOS} variant="outline" className="m-3 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Get Started</Button>
+  //   }
+  // }
 
   return (
     <div
@@ -390,7 +391,10 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1900"
               >
-                < ButtonLink OS={OS} userOS={userOS} ></ButtonLink>
+                <OsWebAndriodIosButton 
+                  webBtnClassess="m-3 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                />
+                {/* < ButtonLink OS={OS} userOS={userOS} ></ButtonLink> */}
               </div>
               {/* <div className="mt-10 flex justify-center gap-x-6">
                 <AppStoreLink />

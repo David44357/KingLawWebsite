@@ -9,8 +9,8 @@ const joinTheBetaFormSchema = Yup
       .email("Invalid email")
       .required("Email is Required"),
   }).required()
-export const JoinTheBetaListModal = (props) => {
-  // export default function JoinTheBetaListModal() {
+export const PopOverJoinTheBetaListModal = (props) => {
+  // export default function PopOverJoinTheBetaListModal() {
   // let [isOpen, setIsOpen] = useState(true)
   const {isOpen, setIsOpen} = props;
   const [isLoading, setIsLoading] = useState(false);
@@ -129,8 +129,8 @@ export const JoinTheBetaListModal = (props) => {
                   </div>
                   <form className="tw-mt-4 tw-mb-2 tw-mx-auto tw-w-50 tw-max-w-screen-lg" >
                     <div class="max-w-sm">
-                      <label for="tetEmailJoinBetaList" class="block text-sm font-medium mb-2">Email</label>
-                      <input type="email" id="tetEmailJoinBetaList" 
+                      <label for="tetEmailJoinBetaListPopOver" class="block text-sm font-medium mb-2">Email</label>
+                      <input type="email" id="tetEmailJoinBetaListPopOver" 
                         class="" 
                         className={`py-3 px-4 block w-full border-gray-200 rounded-lg text-sm  disabled:opacity-50 disabled:pointer-events-none ${errors.email ?
                           "!border-solid !border-red-300 !border-1 focus:border-red-500 focus:ring-red-500" : "focus:border-blue-500 focus:ring-blue-500"}`}
@@ -212,4 +212,4 @@ export const JoinTheBetaListModal = (props) => {
   )
 }
 
-export default JoinTheBetaListModal;
+export default PopOverJoinTheBetaListModal;

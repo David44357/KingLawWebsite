@@ -9,6 +9,7 @@ import { Button } from '@/components/Button'
 import { Cal } from '@/components/Cal'
 import { Container } from '@/components/Container'
 import myImage from '@/images/Suit.png'
+import OsWebAndriodIosButton from './common/Buttons/OsWebAndriodIosButton'
 
 function BackgroundIllustration(props) {
   let id = useId()
@@ -369,7 +370,13 @@ export function Hero() {
               {'What does it mean to hire a modern law firm? Getting more done for less. Trading downtown traffic for convenient Zoom meetings. Payment plans and flat-fees that include expenses. An online app to track deadlines, sign our contract, upload evidence, and more. Can\'t afford a lawyer? Use our self-service apps, starting at just $189/mo.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <DownloadButton userOS={userOS}></DownloadButton>
+              {/* <DownloadButton userOS={userOS}></DownloadButton> */}
+              <OsWebAndriodIosButton 
+                webBtnClassess={"justify-center rounded-lg  px-3 h-[2.34rem] text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded"}
+                // webBtnClassess={"justify-center rounded-lg  px-3 h-9 text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded"}
+                // webBtnClassess={"h-[2.32rem]"}
+                
+              />
               <Cal></Cal>
             </div>
           </div>
