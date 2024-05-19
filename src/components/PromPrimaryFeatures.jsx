@@ -86,7 +86,7 @@ export function PromPrimaryFeatures() {
         </div>
         <Tab.Group
           as="div"
-          role="tablist"
+          role="tabGroup"
           className="mx-auto mt-10 grid grid-cols-1 items-center gap-y-2 sm:gap-y-6 md:mt-20 lg:grid-cols-10 lg:pt-0 "
           vertical={tabOrientation === 'vertical'}
           data-aos="fade-up"
@@ -98,7 +98,7 @@ export function PromPrimaryFeatures() {
               <div className="-mx-4 overflow-x-auto sm:overflow-visible sm:pb-0 lg:col-span-5 items-center max-[360px]:overflow-x-hidden ">
               {/* <div className="-mx-4 overflow-x-auto sm:mx-auto sm:overflow-visible sm:pb-0 lg:col-span-5 items-center"> */}
                 {/* <Tab.List className="relative z-10 flex justify-between justify-around whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal"> */}
-                <Tab.List className="prometheusTabs relative z-10 flex justify-between justify-around whitespace-nowrap px-12 sm:mx-auto sm:px-30 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal " role="tab lists">
+                <Tab.List className="prometheusTabs relative z-10 flex justify-between justify-around whitespace-nowrap px-12 sm:mx-auto sm:px-30 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal " role="tablist" >
                   {features.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
@@ -117,7 +117,8 @@ export function PromPrimaryFeatures() {
                               ? 'text-blue-600 lg:text-white'
                               : 'text-white hover:text-white lg:text-white',
                           )}
-                          role={features.role}
+                          role="tab" 
+                          // role={features.role}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
                          <span className="text-lg"> {feature.title}</span>
@@ -139,7 +140,7 @@ export function PromPrimaryFeatures() {
               </div>
               <Tab.Panels className="lg:col-span-5" role='tabpanels'>
                 {features.map((feature) => (
-                  <Tab.Panel key={feature.title} unmount={false} role="tabpaneldescription">
+                  <Tab.Panel key={feature.title} unmount={false} role="tabpanel">
                     <div className="relative lg:hidden flex justify-center">
                       {/* <div className="mt-6 h-20 absolute bottom-[-4.25rem] top-[-6.7rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-xl flex items-center" /> */}
                       {/* <div className="mt-6 h-20 bg-white-tabs absolute bottom-[-4.25rem] top-[-6.7rem] sm:left-[45px] sm:right-[45px] max-[950px]:left-[120px] max-[950px]:left-[120px] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-xl flex items-center " /> */}
