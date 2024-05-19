@@ -21,24 +21,28 @@ const features = [
     description:
       "Provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide instructions.",
     image: screenshotProvideInfo,
+    role: "Setup Tab"
   },
   {
     title: 'Apps',
     description:
       "Select an app for the legal process you need, ranging from uncontested divorce decrees and separation agreements to motions, discovery, and preparing for trial.",
     image: screenshotApps,
+    role: "Apps Tab"
   },
   {
     title: 'Steps',
     description:
       "Follow the app\'s step-by-step wizard. You answer questions and provide information. The app creates your legal documents and provides instructions.",
     image: screenshotInstructions,
+    role: "Steps Tab"
   },
   {
     title: 'Support',
     description:
       "Get convenient online help from an attorney only when and if you need it. Buy a 30-minute Zoom with an attorney for $150 or pay $189 per-month for a support subscription.",    
       image: screenshotCalendar,
+      role: "Support Tab"
   },
 ]
 
@@ -71,7 +75,7 @@ export function PromPrimaryFeatures() {
     >
 
       <PromContainer className="relative " >
-        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none " role="tabheading">
+        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none " role="section heading for 4 Steps to Affordable Legal Help">
           <h2 className="font-medium leading leading-tight font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl"
             data-aos="fade-down"
             data-aos-duration="1600"
@@ -94,7 +98,7 @@ export function PromPrimaryFeatures() {
               <div className="-mx-4 overflow-x-auto sm:overflow-visible sm:pb-0 lg:col-span-5 items-center max-[360px]:overflow-x-hidden ">
               {/* <div className="-mx-4 overflow-x-auto sm:mx-auto sm:overflow-visible sm:pb-0 lg:col-span-5 items-center"> */}
                 {/* <Tab.List className="relative z-10 flex justify-between justify-around whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal"> */}
-                <Tab.List className="prometheusTabs relative z-10 flex justify-between justify-around whitespace-nowrap px-12 sm:mx-auto sm:px-30 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal " role="tab">
+                <Tab.List className="prometheusTabs relative z-10 flex justify-between justify-around whitespace-nowrap px-12 sm:mx-auto sm:px-30 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal " role="tab lists">
                   {features.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
@@ -113,7 +117,7 @@ export function PromPrimaryFeatures() {
                               ? 'text-blue-600 lg:text-white'
                               : 'text-white hover:text-white lg:text-white',
                           )}
-                          role="tabtitle"
+                          role={features.role}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
                          <span className="text-lg"> {feature.title}</span>
