@@ -371,7 +371,8 @@ export function PromHero() {
               
               <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"
                 data-aos="zoom-in"
-                data-aos-duration="1200"
+                data-aos-duration="600"
+                // data-aos-duration="1200"
               >
                 {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"> */}
                 DIY Divorce
@@ -383,13 +384,15 @@ export function PromHero() {
               > */}
               <p className="mt-6 text-xl text-white max-w-[740px] mx-auto font-medium"
                 data-aos="fade-up"
-                data-aos-duration="1600"
+                // data-aos-duration="1600"
+                data-aos-duration="800"
               >
                 {'TurboTax does your taxes. We do your divorce. Use step-by-step wizards (apps) to get divorced, draft agreements, file claims, get evidence, or even prepare for trial. Get started with a free account.'}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
-                data-aos-duration="1900"
+                // data-aos-duration="1900"
+                data-aos-duration="900"
               >
                 <OsWebAndriodIosButton 
                   webBtnClassess="m-3 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
