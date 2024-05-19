@@ -6,95 +6,114 @@ import { PromContainer } from '@/components/PromContainer'
 const people = [
   {
     name: 'Divorce Decree',
+    alt: 'Divorce Decree',
     imageUrl:'/images/webp/broken-heart.webp',
     // imageUrl:'/images/Broken Heart.png',
   },
   {
     name: 'Deed',
+    alt: 'Deed',
     imageUrl:'/images/webp/deed.webp',
     // imageUrl:'/images/Deed.png',
   },
   {
     name: 'Prenup or Postnup',
+    alt: 'Prenup or Postnup',
     imageUrl:'/images/webp/Prenup.webp',
     // imageUrl:'/images/Prenup.png',
   },
   {
     name: 'Agreement',
+    alt: 'Agreement',
     imageUrl:'/images/webp/Agreements.webp',
     // imageUrl:'/images/Agreements.png',
   },
   {
     name: 'Child Support Calculator',
+    alt: 'Child Support Calculator',
     imageUrl:'/images/webp/Calculator.webp',
     // imageUrl:'/images/Calculator.png',
   },
   {
     name: 'Property Calculator',
+    alt: 'Property Calculator',
     imageUrl:'/images/webp/PropertyCalculator.webp',
     // imageUrl:'/images/PropertyCalculator.png',
   },
   {
     name: 'Respond to a Lawsuit',
+    alt: 'Respond to a Lawsuit',
     imageUrl:'/images/webp/respond-to-a-lawsuit.webp',
     // imageUrl:'/images/Respond to a Lawsuit.jpg',
   },
   {
     name: 'File a Lawsuit',
+    alt: 'File a Lawsuit',
     imageUrl:'/images/webp/file-a-lawsuit.webp',
     // imageUrl:'/images/File a Lawsuit.png',
   },
   {
     name: 'Service of Process',
+    alt: 'Service of Process',
     imageUrl:'/images/webp/service-of-process.webp',
     // imageUrl:'/images/Service of Process.png',
   },
   {
     name: 'Pretrial / Scheduling Order',
+    alt: 'Pretrial / Scheduling Order',
     imageUrl:'/images/webp/SchedulingOrder.webp',
     // imageUrl:'/images/SchedulingOrder.jpeg',
   },
   {
     name: 'Get Evidence from Ex',
+    alt: 'Get Evidence from Ex',
     imageUrl:'/images/webp/EvidencefromEx.webp',
     // imageUrl:'/images/EvidencefromEx.png',
   },
   {
     name: 'Financial Disclosures',
+    alt: 'Financial Disclosures',
     imageUrl:'/images/webp/FinancialDisclosures.webp',
     // imageUrl:'/images/FinancialDisclosures.png',
   },
   {
     name: 'Subpoena Records',
+    alt: 'Subpoena Records',
     imageUrl:'/images/webp/Subpoena.webp',
     // imageUrl:'/images/Subpoena.png',
   },
   // {
   //   name: 'Compel Evidence',
+  // alt: 'Compel Evidence',
   //   imageUrl:'/images/Compel.jpeg',
   // },
   {
     name: 'Enforce Order',
+    alt: 'Enforce Order',
     imageUrl:'/images/webp/Enforce.webp',
     // imageUrl:'/images/Enforce.jpeg',
   },
   {
     name: 'Other Motion',
+    alt: 'Other Motion',
     imageUrl:'/images/webp/Motion.webp',
     // imageUrl:'/images/Motion.jpeg',
   },
   {
     name: 'Compel Evidence',
+    alt: 'Compel Evidence',
     imageUrl:'/images/webp/Compel.webp',
     // imageUrl:'/images/Compel.jpeg',
   },
   {
     name: 'Trial prep',
+    alt: 'Trial prep',
     imageUrl:'/images/webp/trial-prep.webp',
     // imageUrl:'/images/Trial Prep.jpeg',
   },
   {
     name: 'Schedule Hearing',
+    alt: 'Schedule Hearing',
     imageUrl:'/images/webp/ScheduleHearing.webp',
     // imageUrl:'/images/ScheduleHearing.jpeg',
   },
@@ -145,6 +164,7 @@ export function PromAppDetails() {
                     <Image
                       src={person.imageUrl}
                       className='mx-auto h-32 w-32 flex-shrink-0 rounded-full'
+                      alt={person.alt}
                       fill 
                       // width={500}
                       // height={500}
