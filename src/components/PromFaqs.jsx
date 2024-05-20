@@ -12,7 +12,7 @@ const faqs = [
     },
     {
       question: 'What if you don\'t have an app for my situation or courthouse?',
-      answer: 'Pay $189 for the a premium Assisted account to gain access to support features, including the ability to request new features or courthouses we don\'t support yet.',
+      answer: 'Pay $189 per-month for six months for the a premium Assisted account to gain access to support features, including the ability to request new features or courthouses we don\'t support yet.',
     },
     {
       question: 'Can I just use an app that\'s for a different courthouse?',
