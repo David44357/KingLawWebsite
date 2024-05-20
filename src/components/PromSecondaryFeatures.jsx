@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Each courthouse uses different forms and processes. Each app lists the courts it\'s programmed for and we add courts for premium users.',
+      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Our apps are programmed for the documents and rules for each supported courthouses. Premium users can ask that we add support for their courthouse.',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -95,7 +95,7 @@ const features = [
     summary:
       'Premium support if you want it',
     description:
-      'Many online DIY are more clickbait than substance. They aren\'t sophisticated enough to help most people, then get a kickback when inevitably referring you to a law firm. Our attorney support is intended to help DIYers, not produce leads for traditional legal representation.',
+      'Premium attorney support only when and if you need it. Our Zoom consultations are designed to help DIYers, not be an expensive sales pitch for hiring a law firm.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
