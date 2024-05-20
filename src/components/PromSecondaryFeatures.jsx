@@ -180,7 +180,7 @@ function FeaturesMobile() {
 
 function FeaturesDesktop() {
   return (
-    <Tab.Group as="div" className="hidden lg:mt-20 lg:block">
+    <Tab.Group as="div" className="hidden lg:mt-10 lg:block">
       {({ selectedIndex }) => (
         <>
           <Tab.List className="grid grid-cols-3 gap-x-8">
