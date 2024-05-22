@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Our apps are programmed for the documents and rules for each supported courthouses. Premium users can ask that we add support for their courthouse.',
+      'Did you know the process and documents to get divorced in Durham County are different than those in Lee or Wake? Our apps are programmed for each courthouse individually. If we haven\'nt added your courthouse yet, you can upgrade to premium to get us to add it.',
 
     icon: function ReportingIcon() {
       let id = useId()
