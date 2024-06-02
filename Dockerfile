@@ -1,5 +1,5 @@
-FROM node:20-alpine AS base
-# FROM node:16-alpine AS base
+FROM node:16-alpine AS base
+# FROM node:20-alpine AS base
 
 
 # Install dependencies only when needed

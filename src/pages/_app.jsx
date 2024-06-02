@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import '@/styles/comingsoonstyles.css'
 import '@/styles/prometheusstyles.css'
 // import { GoogleAnalytics } from '@next/third-parties/google'
-import Script from 'next/script';
+// import Script from 'next/script';
 
 export default function App({ Component, pageProps }) {
   // return <Component {...pageProps} />
