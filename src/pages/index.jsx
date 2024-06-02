@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>King @ Law - A modern approach to law Google.</title>
+        <title>King @ Law - A modern approach to law.</title>
         <meta
           name="description"
           content="A modern law firm in North Carolina."

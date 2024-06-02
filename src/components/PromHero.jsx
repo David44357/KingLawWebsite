@@ -376,7 +376,7 @@ export function PromHero() {
                 data-aos-duration="1200"
               >
                 {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"> */}
-                DIY Divorce
+                DIY Divorce...
               </h1>
               {/* <p className="mt-6 text-xl text-white max-w-[740px] mx-auto"> */}
               {/* <p className="mt-6 text-xl text-gray-600 max-w-[740px] mx-auto"
