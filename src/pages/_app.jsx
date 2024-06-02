@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
   // return <Component {...pageProps} />
   return (
     <>
-      <Script
+      {/* <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-KFJDNTMF3C"
         strategy="afterInteractive"
       />
@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
 
           gtag('config', 'G-KFJDNTMF3C');
         `}
-      </Script>
+      </Script> */}
       <Component {...pageProps} />
       {/* <GoogleAnalytics gaId="G-KFJDNTMF3C" /> */}
     </>
