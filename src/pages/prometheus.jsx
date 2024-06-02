@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Apps | King @ Law - A modern approach to law.</title>
+        <title>King @ Law - A modern approach to law.</title>
         <meta
           name="description"
           content="A modern law firm in North Carolina."
