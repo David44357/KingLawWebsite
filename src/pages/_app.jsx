@@ -4,7 +4,7 @@ import "animate.css"
 import "aos/dist/aos.css";
 import '@/styles/comingsoonstyles.css'
 import '@/styles/prometheusstyles.css'
-// import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 // import Script from 'next/script';
 
 export default function App({ Component, pageProps }) {
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
         `}
       </Script> */}
       <Component {...pageProps} />
-      {/* <GoogleAnalytics gaId="G-KFJDNTMF3C" /> */}
+      <GoogleAnalytics gaId="G-KFJDNTMF3C" />
     </>
   )
 }
