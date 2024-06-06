@@ -29,7 +29,8 @@ const OsWebAndriodIosButton = (props) => {
     }
   }, []);
   const btnOnClickGetStarted = () => {
-    sendGAEvent({ event: 'get_started_home_page_btn_click', value: 'home_get_started_home_page_btn_click' })
+    sendGAEvent({ event: 'get_started_home_page_btn_click', value: 'get_started_home_page_btn_click' })
+    alert('btnOnClickGetStarted')
   }
   const ButtonLink = (props) => {
     if (props.OS != 'other') {
