@@ -54,7 +54,7 @@ export function PromCallToAction() {
               Get started for free
             </h2>
             <p className="m-4 text-xl tracking-tight text-white font-medium">
-              Use the app for free during the Wake County beta
+              Create an account and get started for free. 
             </p>
           </div>
           <div className="m-3 flex items-center justify-center"
