@@ -56,11 +56,26 @@ svgImage.style.cssText = `
 svgImage.style.display = 'none';
 document.body.appendChild(svgImage);
 
+//Progress Bar
+const progressBar = document.createElement('div');
+progressBar.id = 'progressBar';
+progressBar.style.cssText = `
+    position: absolute;
+    top: calc(50% + 100px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 10px;
+    background-color: blue;
+    transition: width 5s linear; /* Change the duration here */
+`;
+document.body.appendChild(progressBar);
+
 
 // Text Element
 const textElement = document.createElement('div');
 textElement.id = 'textElement';
-textElement.textContent = 'Allow up to one minute to load'
+textElement.textContent = 'Setting up the App<BR>Allow up to one minute to load'
 textElement.style.cssText = `
     position: absolute;
    top: calc(50% - 20px);
