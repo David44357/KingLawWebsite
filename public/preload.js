@@ -65,7 +65,6 @@ document.body.appendChild(textElement);
 // Function to hide the overlay, logo, and text
 function hideOverlay() {
     overlay.style.display = 'none';
-    svgImage.style.display = 'inline';
     logoImage.style.display = 'inline';
     textElement.style.display = 'inline'; 
 }
