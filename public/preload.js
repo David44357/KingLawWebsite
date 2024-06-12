@@ -21,35 +21,6 @@ overlay.style.cssText = `
 `;
 document.body.appendChild(overlay);
 
-// Progress Bar
-const progressBar = document.createElement('div');
-progressBar.id = 'progressBar';
-progressBar.style.cssText = `
-    position: absolute;
-    top: calc(50% + 75px);
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 200px;
-    height: 20px;
-    background-color: #f2f2f2;
-    border-radius: 10px;
-`;
-
-// Progress Bar Fill
-const progressBarFill = document.createElement('div');
-progressBarFill.id = 'progressBarFill';
-progressBarFill.style.cssText = `
-    height: 100%;
-    background-color: #4CAF50;
-    border-radius: 10px;
-    width: 0%;
-    transition: width 0.5s ease;
-`;
-
-// Append the progress bar and its fill to the overlay
-progressBar.appendChild(progressBarFill);
-document.body.appendChild(progressBar);
-
 // Logo Image
 const logoImage = document.createElement('img');
 logoImage.id = 'logoImage';
@@ -105,11 +76,6 @@ textElement.style.cssText = `
 // Append the text element to the overlay
 textElement.style.display = 'none';
 document.body.appendChild(textElement);
-
-// Function to update the progress bar
-function updateProgressBar(progress) {
-    progressBarFill.style.width = progress + '%';
-}
 
 // Function to hide the overlay, logo, and text
 function hideOverlay() {
