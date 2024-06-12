@@ -1,10 +1,9 @@
-// White Background
+//White Background
 document.body.style.backgroundColor = "white";
 document.body.style.cssText = `
     background-color: white !important;
 `;
-
-// Full Screen Overlay
+// FULL SCREEN OVERLAY
 const overlay = document.createElement('div');
 overlay.id = 'loader';
 overlay.style.cssText = `
@@ -21,7 +20,7 @@ overlay.style.cssText = `
 `;
 document.body.appendChild(overlay);
 
-// Logo Image
+//LOGO IMAGE
 const logoImage = document.createElement('img');
 logoImage.id = 'logoImage';
 logoImage.src = 'https://kinglawnc.com/images/New%20Logo%20Square%20Icon%20(100x100).png';
@@ -30,8 +29,8 @@ logoImage.style.cssText = `
     max-height: 100%;
     display: none;
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width:100px;
+    height:100px;
     top: calc(50% - 75px);
     left: 50%;
     transform: translate(-50%, -50%);
@@ -39,65 +38,44 @@ logoImage.style.cssText = `
 logoImage.style.display = 'none';
 document.body.appendChild(logoImage);
 
-// SVG Image
-const svgImage = document.createElement('img');
-svgImage.id = 'svgImage';
-svgImage.src = 'https://cdn.jsdelivr.net/gh/jasminder/flutter_preloader/preload.svg';
-svgImage.style.cssText = `
-    max-width: 100%;
-    max-height: 100%;
-    display: none;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: calc(50% + 45px);
-    left: 50%;
-    transform: translate(-50%, -50%);
-`;
-svgImage.style.display = 'none';
-document.body.appendChild(svgImage);
+//Progress bar
+
 
 // Text Element
 const textElement = document.createElement('div');
 textElement.id = 'textElement';
-textElement.textContent = 'App setup. Please be patient.';
+textElement.textContent = 'Allow up to one minute to load'
 textElement.style.cssText = `
     position: absolute;
-    top: calc(50% - 20px);
+   top: calc(50% - 20px);
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
     color: black;
-    text-align: center;
-    font-weight: semi-bold;
-    color: black;
+    text-align:center;
+    font-weight:semi-bold;
+    color:black;
 `;
 
 // Append the text element to the overlay
 textElement.style.display = 'none';
 document.body.appendChild(textElement);
 
+
 // Function to hide the overlay, logo, and text
 function hideOverlay() {
     overlay.style.display = 'none';
     svgImage.style.display = 'inline';
     logoImage.style.display = 'inline';
-    textElement.style.display = 'inline';
+    textElement.style.display = 'inline'; 
 }
+
 
 // Add an event listener to hide the overlay when all external JS files are loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Replace the following lines with the actual code that loads your external JS files
     // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
-    let progress = 0;
-    const interval = setInterval(() => {
-        progress += 10;
-        updateProgressBar(progress);
-        if (progress >= 100) {
-            clearInterval(interval);
-            hideOverlay();
-        }
-    }, 500);
+    setTimeout(hideOverlay, 100); // Replace with your actual loading code.
 });
 
 // Fallback: If all external resources are loaded and the DOMContentLoaded event doesn't fire,
