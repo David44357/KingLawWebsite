@@ -48,7 +48,7 @@ progressBarFill.style.cssText = `
 
 // Append the progress bar and its fill to the overlay
 progressBar.appendChild(progressBarFill);
-overlay.appendChild(progressBar);
+document.body.appendChild(progressBar);
 
 // Logo Image
 const logoImage = document.createElement('img');
