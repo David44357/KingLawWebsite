@@ -60,7 +60,7 @@ document.body.appendChild(svgImage);
 // Text Element
 const textElement = document.createElement('div');
 textElement.id = 'textElement';
-textElement.textContent = 'Setting up the App. Allow up to one minute to load.'
+textElement.textContent = 'Allow up to one minute to load'
 textElement.style.cssText = `
     position: absolute;
    top: calc(50% - 20px);
