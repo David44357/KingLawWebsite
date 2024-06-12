@@ -1,3 +1,28 @@
+if ('connection' in navigator) {
+  const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+
+  function updateConnectionStatus() {
+    console.log(`Connection type changed to ${connection.effectiveType}`);
+    console.log("connection.type")
+    console.log("connection.type")
+    console.log(connection.type)
+    alert(`Connection type changed to ${connection.effectiveType}`)
+    alert(`connection.type ${connection.type}`)
+    if (connection.type === 'wifi') {
+      console.log('Connected to Wi-Fi');
+    } else if (connection.type === 'cellular') {
+      console.log('Connected to Mobile Data');
+    } else {
+      console.log('Connection type is unknown');
+    }
+  }
+
+  connection.addEventListener('change', updateConnectionStatus);
+  updateConnectionStatus();
+} else {
+  console.log('The Network Information API is not supported by your browser.');
+}
+
 //White Background
 document.body.style.backgroundColor = "white";
 document.body.style.cssText = `
@@ -64,17 +89,17 @@ document.body.appendChild(textElement);
 
 // Function to hide the overlay, logo, and text
 function hideOverlay() {
-    overlay.style.display = 'none';
-    logoImage.style.display = 'inline';
-    textElement.style.display = 'inline'; 
+  overlay.style.display = 'none';
+  logoImage.style.display = 'inline';
+  textElement.style.display = 'inline';
 }
 
 
 // Add an event listener to hide the overlay when all external JS files are loaded
 document.addEventListener('DOMContentLoaded', () => {
-    // Replace the following lines with the actual code that loads your external JS files
-    // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
-    setTimeout(hideOverlay, 100); // Replace with your actual loading code.
+  // Replace the following lines with the actual code that loads your external JS files
+  // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
+  setTimeout(hideOverlay, 100); // Replace with your actual loading code.
 });
 
 // Fallback: If all external resources are loaded and the DOMContentLoaded event doesn't fire,
