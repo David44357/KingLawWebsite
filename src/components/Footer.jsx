@@ -25,7 +25,7 @@ export function Footer() {
     <div style={{paddingBottom : '2.5rem'}} className="bg-black pt-10 pb-20 text-white text-center">
       <span className='block m-1' >King @ Law</span>
       <span className='block m-1' >6613 Hammersmith Drive</span>
-      <span className='block m-1' >Raleigh, NC 27613</span><br />
+      <span className='block m-1' >Raleigh, NC 27613</span>
       <span className='block m-1' >(919) 706-5322</span><br />
 <span className='block m-1 text-sm'><a href={'https://kinglawnc.com/termsofuse'}>Terms of Use</a></span>
     </div>
