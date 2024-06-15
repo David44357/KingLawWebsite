@@ -1,27 +1,27 @@
-if ('connection' in navigator) {
-  const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+// if ('connection' in navigator) {
+//   const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
 
-  function updateConnectionStatus() {
-    console.log(`Connection type changed to ${connection.effectiveType}`);
-    console.log("connection.type")
-    console.log("connection.type")
-    console.log(connection.type)
-    alert(`Connection type changed to ${connection.effectiveType}`)
-    alert(`connection.type ${connection.type}`)
-    if (connection.type === 'wifi') {
-      console.log('Connected to Wi-Fi');
-    } else if (connection.type === 'cellular') {
-      console.log('Connected to Mobile Data');
-    } else {
-      console.log('Connection type is unknown');
-    }
-  }
+//   function updateConnectionStatus() {
+//     console.log(`Connection type changed to ${connection.effectiveType}`);
+//     console.log("connection.type")
+//     console.log("connection.type")
+//     console.log(connection.type)
+//     alert(`Connection type changed to ${connection.effectiveType}`)
+//     alert(`connection.type ${connection.type}`)
+//     if (connection.type === 'wifi') {
+//       console.log('Connected to Wi-Fi');
+//     } else if (connection.type === 'cellular') {
+//       console.log('Connected to Mobile Data');
+//     } else {
+//       console.log('Connection type is unknown');
+//     }
+//   }
 
-  connection.addEventListener('change', updateConnectionStatus);
-  updateConnectionStatus();
-} else {
-  console.log('The Network Information API is not supported by your browser.');
-}
+//   connection.addEventListener('change', updateConnectionStatus);
+//   updateConnectionStatus();
+// } else {
+//   console.log('The Network Information API is not supported by your browser.');
+// }
 
 //White Background
 document.body.style.backgroundColor = "white";
@@ -64,7 +64,24 @@ logoImage.style.display = 'none';
 document.body.appendChild(logoImage);
 
 //Progress bar
+const progressContainer = document.createElement('div');
+progressContainer.id = 'myProgress';
+progressContainer.style.width = '100%';
+progressContainer.style.backgroundColor = '#ddd';
+progressContainer.style.borderRadius = '25px'; // Add border radius to container
+progressContainer.style.marginTop = '60px';    // Add margin top to container
 
+// Create and style the progress bar itself
+const progressBar = document.createElement('div');
+progressBar.style.width = '1%';
+progressBar.style.height = '30px';
+progressBar.style.backgroundColor = '#04AA6D';
+progressBar.style.borderRadius = '25px';  // Add border radius to bar
+progressBar.id = 'myBar';
+ // Append the progress bar to the container
+progressContainer.appendChild(progressBar);
+progressContainer.style.display = 'none';
+document.body.appendChild(progressContainer);
 
 // Text Element
 const textElement = document.createElement('div');
@@ -92,6 +109,7 @@ function hideOverlay() {
   overlay.style.display = 'none';
   logoImage.style.display = 'inline';
   textElement.style.display = 'inline';
+  progressContainer.style.display = 'inline';
 }
 
 
@@ -100,6 +118,63 @@ document.addEventListener('DOMContentLoaded', () => {
   // Replace the following lines with the actual code that loads your external JS files
   // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
   setTimeout(hideOverlay, 100); // Replace with your actual loading code.
+  let progress_seconds = 5;
+  if ('connection' in navigator) {
+    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+
+    function updateConnectionStatus() {
+      console.log(`Connection type changed to ${connection.effectiveType}`);
+      console.log("connection.type")
+      console.log(connection.type)
+      // alert(`Connection type changed to ${connection.effectiveType}`)
+      // alert(`connection.type ${connection.type}`)
+      if (connection.type === 'wifi') {
+        console.log('Connected to Wi-Fi');
+        progress_seconds = 5;
+      } else if (connection.type === 'cellular') {
+        console.log('Connected to Mobile Data');
+        progress_seconds = 15;
+      } else {
+        console.log('Connection type is unknown');
+        progress_seconds = 5;
+      }
+    }
+
+    connection.addEventListener('change', updateConnectionStatus);
+    updateConnectionStatus();
+  } else {
+    console.log('The Network Information API is not supported by your browser.');
+  }
+  let increment = 20;
+  if(progress_seconds === 5 ){
+    increment = 20;
+  }else if(progress_seconds === 15){
+    increment = 7;
+  }
+  let i = 0;
+  function move() {
+    if (i === 0) {
+      i = 1;
+      let elem = document.getElementById("myBar");
+      let width = 1;
+      let id = setInterval(frame, 1000);
+      function frame() {
+        if (width >= 100) {
+          clearInterval(id);
+          i = 0;
+        } else {
+          //width++;
+          // 5 seconds
+          //width = width + 20;
+          // 15 seconds
+          // width = width + 7;
+          width = width + increment;
+          elem.style.width = width + "%";
+        }
+      }
+    }
+  }
+  setTimeout(move, 100);
 });
 
 // Fallback: If all external resources are loaded and the DOMContentLoaded event doesn't fire,
