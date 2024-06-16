@@ -63,25 +63,6 @@ logoImage.style.cssText = `
 logoImage.style.display = 'none';
 document.body.appendChild(logoImage);
 
-//Progress bar
-const progressContainer = document.createElement('div');
-progressContainer.id = 'myProgress';
-progressContainer.style.width = '100%';
-progressContainer.style.backgroundColor = '#ddd';
-progressContainer.style.borderRadius = '25px'; // Add border radius to container
-progressContainer.style.marginTop = '60px';    // Add margin top to container
-
-// Create and style the progress bar itself
-const progressBar = document.createElement('div');
-progressBar.style.width = '1%';
-progressBar.style.height = '30px';
-progressBar.style.backgroundColor = '#04AA6D';
-progressBar.style.borderRadius = '25px';  // Add border radius to bar
-progressBar.id = 'myBar';
- // Append the progress bar to the container
-progressContainer.appendChild(progressBar);
-progressContainer.style.display = 'none';
-document.body.appendChild(progressContainer);
 
 // Text Element
 const textElement = document.createElement('div');
@@ -102,6 +83,39 @@ textElement.style.cssText = `
 // Append the text element to the overlay
 textElement.style.display = 'none';
 document.body.appendChild(textElement);
+
+
+//Progress bar
+const progressContainer = document.createElement('div');
+progressContainer.id = 'myProgress';
+//progressContainer.style.width = '100%';
+//progressContainer.style.backgroundColor = '#ddd';
+//progressContainer.style.borderRadius = '25px'; // Add border radius to container
+//progressContainer.style.marginTop = '60px';    // Add margin top to container
+progressContainer.style.cssText = `
+    position: absolute;
+   top: calc(50% - 20px);
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: #ddd;
+`;
+
+// Create and style the progress bar itself
+const progressBar = document.createElement('div');
+progressBar.style.width = '1%';
+progressBar.style.height = '30px';
+progressBar.style.backgroundColor = '#04AA6D';
+progressBar.style.borderRadius = '25px';  // Add border radius to bar
+progressBar.id = 'myBar';
+ // Append the progress bar to the container
+progressContainer.appendChild(progressBar);
+progressContainer.style.display = 'none';
+//textElement.parentNode.insertBefore(progressContainer, textElement.nextSibling);
+document.body.appendChild(progressContainer);
+
+
+
 
 
 // Function to hide the overlay, logo, and text
@@ -169,6 +183,9 @@ document.addEventListener('DOMContentLoaded', () => {
           // 15 seconds
           // width = width + 7;
           width = width + increment;
+          if(width > 100){
+          	width = 100;
+          }
           elem.style.width = width + "%";
         }
       }
