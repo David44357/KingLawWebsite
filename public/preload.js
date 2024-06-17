@@ -93,9 +93,18 @@ progressContainer.id = 'myProgress';
 //progressContainer.style.borderRadius = '25px'; // Add border radius to container
 //progressContainer.style.marginTop = '60px';    // Add margin top to container
 progressContainer.style.cssText = `
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-   top: calc(50% - 20px);
+    top: calc(50% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
     width: 100%;
+    max-width:280px;
     border-radius: 25px;
     margin-top: 30px;
     background-color: #ddd;
