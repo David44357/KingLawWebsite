@@ -367,7 +367,7 @@ export function Hero() {
               Legal services for the rest of us
             </h1>
             <p className="mt-0 text-lg text-gray-600 mt-3">
-              {'Other law firms focus on serving the wealthy with hourly-rate contracts for an ulimited budget. At King @ Law, we think legal services should be accessible to everyone, not just the wealthy. That\'s why we\'ve cut the fat from a bloated approach to racking up billable hours.<br /><br />If you can\'t afford our flat-fees or payment plans? We offer more affordable do-it-yourself apps to help you represent youself competently.'}
+              {'Other law firms focus on serving the wealthy with hourly-rate contracts for an ulimited budget. At King @ Law, we think legal services should be accessible to everyone, not just the wealthy.\n\nThat\'s why we\'ve cut the fat from a bloated approach to racking up billable hours. If you can\'t afford our flat-fees or payment plans? We offer more affordable do-it-yourself apps to help you represent youself competently.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <DownloadButton userOS={userOS}></DownloadButton> */}
