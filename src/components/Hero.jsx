@@ -364,10 +364,10 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              The modern law firm
+              Legal services for the rest of us
             </h1>
             <p className="mt-0 text-lg text-gray-600 mt-3">
-              {'What does it mean to hire a modern law firm? Getting more done for less. Trading downtown traffic for convenient Zoom meetings. Payment plans and flat-fees that include expenses. An online app to track deadlines, sign our contract, upload evidence, and more. Can\'t afford a lawyer? Use our self-service apps, starting at just $189/mo.'}
+              {'Most law firms focus on serving the wealthy with hourly-rate contracts that amount to a blank check for an unlimited budget. At King @ Law, we think legal services shouldn't be reserved for the rich. We’ve cut the fat from a bloated and self-serving approach to divorce law. No hourly rates. No gatekeepers between you and your lawyer. No over-priced lawyers acting as therapists or paper-pushers. No billing bureaucracy or games. No lavish downtown offices. Welcome to King @ Law, the modern law firm for everyone else.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <DownloadButton userOS={userOS}></DownloadButton> */}
