@@ -18,13 +18,13 @@ const features = [
   {
     name: 'Flat Fee',
     description:
-    'Pay a flat-fee that includes most expenses and take advantage of our payment plans.',
+    'Pay a flat-fee that includes most expenses and use our payment plan.',
     icon: CurrencyIcon,
   },
   {
     name: 'DIY Apps',
     description:
-      'Can\'t afford a lawyer? Use our self-service apps starting at just $189/mo.',
+      'Can\'t afford a lawyer? Use our self-service apps.',
     icon: DeviceListIcon,
   },
   {
