@@ -369,7 +369,7 @@ export function Hero() {
             <p className="mt-0 text-lg text-gray-600 mt-3">
               {'Other law firms focus on serving the wealthy with hourly-rate contracts for ulimited budgets. At King @ Law, we think legal services should be accessible to everyone, not just the wealthy.'}
               <br/><br/>
-              {'That\'s why we\'ve cut the fat from a bloated approach designed to rack up billable hours. We offer flat-fees, payment plans, and an affordable do-it-yourself option through our self-service apps.'}
+              {'That\'s why we\'ve created a streamlined alternative focused on your needs, rather than billable hours. We offer flat-fees, payment plans, and an affordable do-it-yourself option through our self-service apps.'}
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <DownloadButton userOS={userOS}></DownloadButton> */}
