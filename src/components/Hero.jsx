@@ -8,7 +8,7 @@ import { AppStoreLink } from '@/components/AppStoreLink'
 import { Button } from '@/components/Button'
 import { Cal } from '@/components/Cal'
 import { Container } from '@/components/Container'
-import myImage from '@/images/Suit.png'
+import myImage from '@/images/Suit Image.jpg'
 import OsWebAndriodIosButton from './common/Buttons/OsWebAndriodIosButton'
 
 function BackgroundIllustration(props) {
