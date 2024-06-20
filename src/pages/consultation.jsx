@@ -53,7 +53,7 @@ export default function MyApp() {
   return (
     <>
        <Head>
-        <title>King @ Law</title>
+        <title>King Law</title>
         <meta
           name="description"
           content="Legal Services for Everyone"
