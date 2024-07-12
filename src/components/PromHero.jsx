@@ -389,7 +389,7 @@ export function PromHero() {
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'From uncontested prenups, agreements, and decrees to trial, Wayfinder helps you find your way without a lawyer. Wayfinder is like TurboTax, but for divorce law, with step-by-step wizards to get divorced, draft agreements, file claims, or prepare for trial. Get started with a free account.'}
+                {'From uncontested prenups, agreements, and divorce decrees to filing claims and preparing for trial, Wayfinder helps you find your way without a lawyer.'}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
