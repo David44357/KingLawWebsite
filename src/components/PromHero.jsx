@@ -376,7 +376,7 @@ export function PromHero() {
                 data-aos-duration="1200"
               >
                 {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"> */}
-                DIY Divorce
+                Wayfinder
               </h1>
               {/* <p className="mt-6 text-xl text-white max-w-[740px] mx-auto"> */}
               {/* <p className="mt-6 text-xl text-gray-600 max-w-[740px] mx-auto"
@@ -389,7 +389,7 @@ export function PromHero() {
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'TurboTax does your taxes. We do your divorce. Use step-by-step wizards (apps) to get divorced, draft agreements, file claims, get evidence, or even prepare for trial. Get started with a free account.'}
+                {'From uncontested prenups, agreements, and decrees to trial, Wayfinder helps you find your way without a lawyer. Wayfinder is like TurboTax, but for divorce law, with step-by-step wizards to get divorced, draft agreements, file claims, or prepare for trial. Get started with a free account.'}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
