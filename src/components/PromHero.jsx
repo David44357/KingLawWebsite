@@ -376,7 +376,7 @@ export function PromHero() {
                 data-aos-duration="1200"
               >
                 {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl"> */}
-                Wayfinder
+                Compass
               </h1>
               {/* <p className="mt-6 text-xl text-white max-w-[740px] mx-auto"> */}
               {/* <p className="mt-6 text-xl text-gray-600 max-w-[740px] mx-auto"
@@ -389,7 +389,7 @@ export function PromHero() {
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'From uncontested prenups, agreements, and divorce decrees to filing claims and preparing for trial, Wayfinder helps you find your way without a lawyer.'}
+                {'From uncontested prenups, agreements, and divorce decrees to filing claims and preparing for trial, Compass helps you find your true north.'}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
