@@ -73,10 +73,10 @@ textElement.style.cssText = `
    top: calc(50% - 20px);
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 18px;
+    font-size: 24px;
     color: black;
     text-align:center;
-    font-weight:semi-bold;
+    font-weight:bold;
     color:black;
 `;
 
