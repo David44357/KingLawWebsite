@@ -383,13 +383,13 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               > */}
-              <p className="mt-6 text-xl text-white max-w-[740px] mx-auto font-medium"
+              <p className="mt-6 text-2xl text-white max-w-[740px] mx-auto"
                 data-aos="fade-up"
                 data-aos-duration="1600"
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'From uncontested prenups, agreements, and divorce decrees to filing claims and preparing for trial, Compass helps you find your true north.'}
+                {'From uncontested agreements and divorce decrees to filing claims and preparing for trial, Compass helps you find your true north.'}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
