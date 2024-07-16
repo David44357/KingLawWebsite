@@ -389,7 +389,7 @@ export function PromHero() {
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'From uncontested agreements and divorce decrees to filing claims and preparing for trial, Compass helps you find your true north.'}
+                {'From uncontested agreements and divorce decrees to filing claims and preparing for trial, Compass is the do-it-yourself tool that helps you find your true north.'}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
