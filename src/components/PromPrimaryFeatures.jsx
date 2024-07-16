@@ -19,28 +19,28 @@ const features = [
   {
     title: 'Setup',
     description:
-      "Provide information about your divorce to setup your account. The apps will use this information to create your legal documents and provide instructions.",
+      "Provide information about your divorce to setup your account. Compass will use this information to create your legal documents and provide instructions.",
     image: screenshotProvideInfo,
     role: "Setup Tab"
   },
   {
-    title: 'Apps',
+    title: 'Wizard',
     description:
-      "Select an app for the legal process you need, ranging from uncontested divorce decrees and separation agreements to motions, discovery, and preparing for trial.",
+      "Use the wizard to navigate to the right legal process for your situation, ranging from agreements and decrees to filing claims and preparing for trial.",
     image: screenshotApps,
     role: "Apps Tab"
   },
   {
     title: 'Steps',
     description:
-      "Follow the app\'s step-by-step wizard. You answer questions and provide information. The app creates your legal documents and provides instructions.",
+      "Follow the Compass\' step-by-step instructions. Answer questions and provide information. Compass will create your legal documents and provides instructions.",
     image: screenshotInstructions,
     role: "Steps Tab"
   },
   {
     title: 'Support',
     description:
-      "Get convenient online help from an attorney only when and if you need it. Buy a 30-minute Zoom with an attorney for $150 or pay $189 per-month for a support subscription.",    
+      "Get convenient online help from an attorney to review your documents, explain the law, and provide other support.",    
       image: screenshotCalendar,
       role: "Support Tab"
   },
