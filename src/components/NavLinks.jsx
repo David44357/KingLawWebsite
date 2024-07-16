@@ -6,7 +6,7 @@ export function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
 
   return [
-    ['DIY Apps', 'https://kinglawnc.com/prometheus'],
+    ['DIY Apps', 'https://kinglawnc.com/Compass'],
     ['Reviews', 'https://kinglawnc.com/#reviews'],
     ['Pricing', 'https://kinglawnc.com/#pricing'],
     ['About', 'https://kinglawnc.com/#about'],
