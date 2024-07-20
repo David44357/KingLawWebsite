@@ -126,7 +126,7 @@ export function Pricing() {
             name="Self-Service"
             price="$189/mo"
             description="TurboTax does your taxes. We do your divorce. Use step-by-step walkthroughs that auto-generate your legal documents combined with monthly attorney check-ins."
-            href="/prometheus"
+            href="/Compass"
             features={[
               'Get started for free and pay only for support',
               'Receive completed draft legal documents based on information you provide',
