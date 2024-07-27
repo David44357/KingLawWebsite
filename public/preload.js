@@ -67,7 +67,7 @@ document.body.appendChild(logoImage);
 // Text Element
 const textElement = document.createElement('div');
 textElement.id = 'textElement';
-textElement.textContent = 'Downloading Compass. Please be patient.'
+textElement.textContent = 'Downloading Compass.'
 textElement.style.cssText = `
     position: absolute;
    top: calc(50% - 20px);
