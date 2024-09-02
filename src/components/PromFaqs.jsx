@@ -12,31 +12,20 @@ const faqs = [
     },
     {
       question: 'What if you don\'t have an app for my situation or courthouse?',
-      answer: 'Pay $189 per-month for six months for the a premium Assisted account to gain access to support features, including the ability to request new features or courthouses we don\'t support yet.',
-    },
-    {
-      question: 'Can I just use an app that\'s for a different courthouse?',
-      answer:
-        'We don\'t recommend it. Some apps may work some of the time, but each courthouse has their own documents and processes. Apps that are not courthouse-specific are indicated as such.',
+      answer: 'Contact David@kinglawn.com and ask him to add support for your courthouse or situation. Often, we can update Compass within a week.',
     },
   ],
   [
     {
-      question: 'Isn\'t this the same as LegalZoom?',
+      question: 'Isn\'t this the same as LegalZoom and others?',
       answer:
-        'Our apps cover more complex legal matters, are programmed for specific courthouses, and incorporate attorney assistance differently. However, it is a similar concept of using an online DIY tool.',
+        'It is a similar concept. We think of it as TurboTax for divorce law. However, compared to services like LegalZoom, Compass covers more complex legal matters, is programmed for specific courthouses, and incorporates attorney assistance differently.',
     },
     {
       question:
         'How much does it cost?',
       answer:
-        'Using the app during the open beta is free. However, you can purchase a 30-minute Zoom with an attorney for $150 or upgrade to a premium account for $189 per-month on a six-month subscription.',
-    },
-        {
-      question:
-        'What does a subscription come with?',
-      answer:
-        'The subscription comes with one 30-minute attorney consultation each month, chat support with our paralegal if you need help with the app, and the ability to request we add support for your specific courthouse. It mostly makes sense if your courthouse isn\'t supported yet and you would like attorney help anyway.',
+        'Compass is free during the beta and you only pay for consultations with an attorney. We haven\'t decided what the fees will be.',
     },
   ],
   [
@@ -46,13 +35,9 @@ const faqs = [
         'It depends on what you can afford, how much money is in dispute, whether you trust lawyers, and how confident you feel with a self-service approach.',
     },
     {
-      question: 'Is it difficult to cancel?',
-      answer: 'Your subscription is purchased in 6-month increments and does not auto-renew. You never have to cancel, because each subscription is a six-month commitment and it cancels automatically after six months. You have to re-purchase it for another six months if you need it for longer.',
-    },
-    {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. However, if both parties are using the app, Mr. King will not provide a consultation to either party to avoid a potential conflicts of interest. Lawyers are not allowed to provide legal advice to both spouses.',
+        'Yes. However, if both parties are using Compass, Mr. King will not provide a consultation to either party to avoid a potential conflicts of interest. Lawyers are not allowed to provide legal advice to both spouses.',
     },
   ],
 ]
