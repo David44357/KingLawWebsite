@@ -33,7 +33,7 @@ const features = [
   {
     title: 'Steps',
     description:
-      "Follow the Compass\' step-by-step instructions. Answer questions and provide information. Compass will create your legal documents and provides instructions.",
+      "Answer questions and provide information. Compass will use the information you provide to create your legal documents and provide instructions.",
     image: screenshotInstructions,
     role: "Steps Tab"
   },
