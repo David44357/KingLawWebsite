@@ -159,10 +159,10 @@ export function PromAppDetails() {
             data-aos-duration="1600"
           >
             <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-              What we Support
+              What Compass Can Do
             </h2>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              The same tools we use at King @ Law
+              Not just for divorce decrees
             </p>
           </div>
           <ul role="list" className="grid max-[360px]:grid-cols-1 grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 mb-10 "
