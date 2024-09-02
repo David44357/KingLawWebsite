@@ -58,7 +58,7 @@ const features = [
     summary:
       'For your situation',
     description:
-      'Need a separation agreement or a draft court order after a trial? Compass doesn\'t just copy and paste information you provided into a template. It runs dozens of if/then conditions to determine what to put in your documents based on your situation.',
+      'Compass doesn\'t just copy and paste information you provided into a template. It uses logic to determine what to put in your documents based on your situation.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
