@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Compass is programmed for each county individually. If your county isn't supported yet, it will send us an automated email to look up your county's rules and documents, in order to add it.',
+      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Compass is programmed for each county courthouse individually. If your courthouse isn't supported yet, it will send us an automated email to us to add your courthouse's rules and documents.',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -58,7 +58,7 @@ const features = [
     summary:
       'For your situation',
     description:
-      'Compass doesn\'t create the same documents for everyone. Need a separation agreement or a draft court order after a trial? Compass doesn't just fill in a few blanks with information you provide. It runs dozens of if/then conditions to determine what to put in your documents based on your situation.',
+      'Need a separation agreement or a draft court order after a trial? Compass doesn\'t just copy and paste information you provided into a template. It runs dozens of if/then conditions to determine what to put in your documents based on your situation.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -95,7 +95,7 @@ const features = [
     summary:
       'Premium support',
     description:
-      'We recommend supplementing your use of Compass with help from a lawyer to advise you on your particular circumstances and help you use Compass. We\'ll never refer you to another law firm in exchange for a kickback when you need more help than Compass can provide.',
+      'We recommend supplementing your use of Compass with help from a lawyer. Our legal support is designed to help you use Compass and represent yourself affordably, rather than refer you to an expensive law firm for a kickback.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
