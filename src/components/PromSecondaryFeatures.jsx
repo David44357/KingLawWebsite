@@ -15,7 +15,7 @@ const features = [
     name: 'Localized',
     summary: 'For your courthouse',
     description:
-      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Compass is programmed for each county courthouse individually. If your courthouse isn\'t supported yet, it will send us an automated email to us to add your courthouse's rules and documents.',
+      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Compass is programmed for each county courthouse individually. If your courthouse isn\'t supported yet, it will send us an automated email to us to add your courthouse\'s rules and documents.',
 
     icon: function ReportingIcon() {
       let id = useId()
