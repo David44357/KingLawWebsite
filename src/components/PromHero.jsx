@@ -389,7 +389,7 @@ export function PromHero() {
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'The do-it-yourself North Carolina divorce wizard for contested or uncontested matters. Prenups, agreements, and divorce decrees, to trial prep and contempt.'}
+                {'The do-it-yourself North Carolina divorce wizard for trial prep, negotiations, uncontested and everything between. Developed by family lawyer David King.'}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
