@@ -12,10 +12,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Localized',
-    summary: 'For your courthouse',
+    name: 'Complex',
+    summary: 'More than just decrees',
     description:
-      'Did you know the process and documents you need to get divorced in Durham County are different than those in Lee or Wake County? Compass is programmed for each county courthouse individually. If your courthouse isn\'t supported yet, it will send us an automated email to us to add your courthouse\'s rules and documents.',
+      'Whether you\'re already in court or you just want a backup if you don\'t reach an agreement, Compass can help you with negotiations, litigation, and even trial.',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -54,11 +54,11 @@ const features = [
     },
   },
   {
-    name: 'Smart',
+    name: 'Legal Advice',
     summary:
-      'For your situation',
+      'Designed to help you',
     description:
-      'Compass doesn\'t just copy and paste information you provided into a template. It uses logic to determine what to put in your documents based on your situation.',
+      'Compass makes it easy to purchase just 30 minutes of attorney help at-a-time via online Zoom meetings to review your documents, provide advice, or help you along.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -91,11 +91,11 @@ const features = [
     },
   },
   {
-    name: 'Free',
+    name: 'Smart',
     summary:
-      'Premium support',
+      'Tailored to each courthouse',
     description:
-      'We recommend supplementing your use of Compass with help from a lawyer. Our legal support is designed to help you use Compass and represent yourself affordably, rather than refer you to an expensive law firm for a kickback.',
+      'Did you know Durham County does divorce decrees differently than Wake County. Most DIY tools provide the same documents to everyone, but our tools use complex logic to give you the right documents and instructions.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -228,7 +228,7 @@ export function PromSecondaryFeatures() {
             Features
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            How Compass is Different from other Clickbait Tools
+            How Compass is Different from other DIY Tools
           </p>
         </div>
         <div
