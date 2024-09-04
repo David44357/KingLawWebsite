@@ -239,7 +239,7 @@ function Chart({
 }
 
 function DownloadButton(props) {
-  if (props.userOS != 'https://apps.kinglawnc.com') {
+  if (props.userOS != 'https://compass.kinglawnc.com') {
     return (
         <AppStoreLink />
     )
