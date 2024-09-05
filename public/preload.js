@@ -112,7 +112,7 @@ progressContainer.style.cssText = `
 
 // Create and style the progress bar itself
 const progressBar = document.createElement('div');
-progressBar.style.width = '1%';
+progressBar.style.width = '3%';
 progressBar.style.height = '30px';
 progressBar.style.backgroundColor = '#04AA6D';
 progressBar.style.borderRadius = '25px';  // Add border radius to bar
@@ -153,10 +153,10 @@ document.addEventListener('DOMContentLoaded', () => {
       // alert(`connection.type ${connection.type}`)
       if (connection.type === 'wifi') {
         console.log('Connected to Wi-Fi');
-        progress_seconds = 5;
+        progress_seconds = 4;
       } else if (connection.type === 'cellular') {
         console.log('Connected to Mobile Data');
-        progress_seconds = 15;
+        progress_seconds = 10;
       } else {
         console.log('Connection type is unknown');
         progress_seconds = 5;
