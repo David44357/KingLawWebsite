@@ -22,13 +22,13 @@ const OsWebAndriodIosButton = (props) => {
   useEffect(() => {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
-    if (platform.includes('thisshouldbeandroid')) {
-      setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
-      setOS('android')
-    } else {
+    // if (platform.includes('thisshouldbeandroid')) {
+    //  setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
+    //  setOS('android')
+    //} else {
       setUserOS('https://compass.kinglawnc.com'); // CHANGE HERE FOR OTHER
       setOS('other')
-    }
+   // }
   }, []);
   const btnOnClickGetStarted = () => {
     sendGAEvent({ event: 'get_started_home_page_btn_click', value: 'get_started_home_page_btn_click' })
