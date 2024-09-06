@@ -54,11 +54,11 @@ const features = [
     },
   },
   {
-    name: 'Legal Advice',
+    name: 'Smart',
     summary:
-      'Designed to help you',
+      'Tailored to you',
     description:
-      'Compass makes it easy to purchase just 30 minutes of attorney help at-a-time via online Zoom meetings to review your documents, provide advice, or help you along.',
+      'Did you know Durham County does divorce decrees differently than Wake County? Most DIY tools provide the same documents to everyone, but our tools use complex logic to give you the right documents and instructions.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -91,11 +91,11 @@ const features = [
     },
   },
   {
-    name: 'Smart',
+    name: 'Legal Advice',
     summary:
-      'Tailored to each courthouse',
+      'Designed to help you',
     description:
-      'Did you know Durham County does divorce decrees differently than Wake County? Most DIY tools provide the same documents to everyone, but our tools use complex logic to give you the right documents and instructions.',
+      'Compass makes it easy to purchase just 30 minutes of attorney help at-a-time via online Zoom meetings to review your documents, provide advice, or help you along.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
