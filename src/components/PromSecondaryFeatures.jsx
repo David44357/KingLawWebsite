@@ -95,7 +95,7 @@ const features = [
     summary:
       'Tailored to each courthouse',
     description:
-      'Did you know Durham County does divorce decrees differently than Wake County. Most DIY tools provide the same documents to everyone, but our tools use complex logic to give you the right documents and instructions.',
+      'Did you know Durham County does divorce decrees differently than Wake County? Most DIY tools provide the same documents to everyone, but our tools use complex logic to give you the right documents and instructions.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
