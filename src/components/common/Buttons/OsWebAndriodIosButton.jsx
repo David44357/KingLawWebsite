@@ -22,7 +22,7 @@ const OsWebAndriodIosButton = (props) => {
   useEffect(() => {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
-    if (platform.includes('android')) {
+    if (platform.includes('thisshouldbeandroid')) {
       setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
       setOS('android')
     } else {
@@ -39,7 +39,7 @@ const OsWebAndriodIosButton = (props) => {
     // alert('btnOnClickGetStarted')
   }
   const ButtonLink = (props) => {
-    if (props.OS != 'other') {
+    if (props.OS != 'thishsouldbeOther') {
       return <AppStoreLink andriodBtnClassess={props.andriodBtnClassess} />;
     } else {
       return (
