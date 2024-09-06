@@ -39,7 +39,7 @@ const OsWebAndriodIosButton = (props) => {
     // alert('btnOnClickGetStarted')
   }
   const ButtonLink = (props) => {
-    if (props.OS != 'android') {
+    if (props.OS != 'other') {
       return <AppStoreLink andriodBtnClassess={props.andriodBtnClassess} />;
     } else {
       return (
