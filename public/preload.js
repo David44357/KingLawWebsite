@@ -168,11 +168,11 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     console.log('The Network Information API is not supported by your browser.');
   }
-  let increment = 20;
+  let increment = 10;
   if(progress_seconds === 5 ){
-    increment = 20;
+    increment = 10;
   }else if(progress_seconds === 15){
-    increment = 7;
+    increment = 4;
   }
   let i = 0;
   function move() {
