@@ -58,7 +58,7 @@ const features = [
     summary:
       'Tailored to you',
     description:
-      'Did you know Durham County does divorce decrees differently than Wake County? Most DIY tools provide the same documents to everyone, but our tools use complex logic to give you the right documents and instructions.',
+      'Did you know Durham County does divorce decrees differently than Wake County? Compass uses complex logic to provide the right instructions and documents for your situation.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -95,7 +95,7 @@ const features = [
     summary:
       'Designed to help you',
     description:
-      'Compass makes it easy to purchase just 30 minutes of attorney help at-a-time via online Zoom meetings to review your documents, provide advice, or help you along.',
+      'Compass makes it easy to purchase just 30 minutes of attorney help at-a-time via online Zoom meetings.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
