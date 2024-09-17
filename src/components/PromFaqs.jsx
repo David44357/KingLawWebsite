@@ -11,7 +11,7 @@ const faqs = [
         'Yes. For more information about hiring attorney David King, schedule an initial consultation at kinglawnc.com/meeting.',
     },
     {
-      question: 'What if you don\'t have an app for my situation or courthouse?',
+      question: 'What if Compass doesn\'t cover my situation or courthouse?',
       answer: 'Contact David@kinglawn.com and ask him to add support for your courthouse or situation. Often, we can update Compass within a week.',
     },
   ],
@@ -19,7 +19,7 @@ const faqs = [
     {
       question: 'Isn\'t this the same as LegalZoom and others?',
       answer:
-        'It is a similar concept. We think of it as TurboTax for divorce law. However, compared to services like LegalZoom, Compass covers more complex legal matters, is programmed for specific courthouses, and incorporates attorney assistance differently.',
+        'Compass uses complex logic to get you the right documents and instructions, instead of just copy/pasting information you provide into a generic form. It handles more complex situations and has attorney help designed to help you, not upsell you.',
     },
     {
       question:
