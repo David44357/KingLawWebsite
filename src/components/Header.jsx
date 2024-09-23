@@ -108,7 +108,7 @@ export function Header() {
   return (
     <header>
       <nav>
-        <Container className="relative z-50 flex justify-between" style={{ height: '60px' }}>
+        <Container className="relative z-50 flex justify-between" style={{ height: '70px' }}>
           <div className="relative z-10 flex items-center gap-16">
             <Link href="/" aria-label="Home">
               <Logo className="h-6 w-auto" />
