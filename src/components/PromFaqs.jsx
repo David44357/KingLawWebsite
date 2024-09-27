@@ -19,7 +19,7 @@ const faqs = [
     {
       question: 'Isn\'t this the same as LegalZoom and others?',
       answer:
-        'Compass uses complex logic to get you the right documents and instructions, instead of just copy/pasting information you provide into a generic form. It handles more complex situations and has attorney help designed to help you, not upsell you.',
+        'Compass uses logic to get you the right documents and instructions, instead of just copy/pasting information you provide into a generic form. Help from an attorney is offered to help you, rather than pushing you to hire an expensive law firm.',
     },
     {
       question:
