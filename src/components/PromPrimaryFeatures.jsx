@@ -71,8 +71,8 @@ export function PromPrimaryFeatures() {
     <section
       id="features"
       aria-label="Features of our apps"
-      className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32 "
-      
+      className="relative overflow-hidden pb-28 pt-20 sm:py-32 "
+      style="background: linear-gradient(to right, #001c60, #343dbb);"
     >
 
       <PromContainer className="relative " >
