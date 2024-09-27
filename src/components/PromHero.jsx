@@ -354,7 +354,7 @@ export function PromHero() {
   return (
     <div
       className="bg-cover bg-center  w-full"
-      style={{  background: 'linear-gradient(to right, #ff7e5f, #feb47b)'  }}
+      style={{  background: 'linear-gradient(to right, #002274, #323c9b)'  }}
       
     >
       <div className="overflow-hidden "
