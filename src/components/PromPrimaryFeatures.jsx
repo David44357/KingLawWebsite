@@ -41,7 +41,7 @@ const features = [
   {
     title: 'Support',
     description:
-      "Get convenient online help from an attorney to review your documents, explain the law, and provide other support.",    
+      "Get convenient online help from an attorney to review your documents, explain the law, and provide other support for an extra fee.",    
       image: screenshotCalendar,
       role: "Support Tab"
   },
