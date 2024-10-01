@@ -72,7 +72,7 @@ function DownloadButton(props) {
   return (
     <div>
     <Button href={props.userOS} variant="outline" className="hidden lg:block">
-      Get Started
+      Create Account
     </Button>
     </div>
     );
@@ -88,10 +88,10 @@ export function Header() {
     const platform = window.navigator.userAgent.toLowerCase();
     //WHEN YOUR READY CHANGE 
     if (platform.includes('android')) {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR ANDROID
+      setUserOS('https://compass.kinglawnc.com'); // CHANGE HERE FOR ANDROID
       setOS('android')
     } else {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
+      setUserOS('https://compass.kinglawnc.com'); // CHANGE HERE FOR OTHER
       setOS('other')
     }
   }, []);
