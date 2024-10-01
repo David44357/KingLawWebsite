@@ -159,7 +159,7 @@ export function Header() {
                           
                         >
                           <div className="space-y-4 max-w-2xl">
-                            <MobileNavLink href="https://kinglawnc.com/prometheus">
+                            <MobileNavLink href="https://kinglawnc.com/compass">
                               DIY Apps
                             </MobileNavLink>
                             <MobileNavLink href="https://kinglawnc.com#about">
