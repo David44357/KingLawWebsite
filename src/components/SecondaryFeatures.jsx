@@ -6,19 +6,19 @@ const features = [
   {
     name: 'Virtual Office',
     description:
-      'Schedule Zoom meetings with your lawyer online at your convenience without fighting downtown traffic.',
+      'Schedule Zoom meetings with your lawyer online at your convenience, without fighting downtown traffic.',
     icon: Microphone,
   },
   {
     name: 'Compass',
     description:
-      'Upload evidence, provide info, and check deadlines anytime in our online platform.',
+      'Upload evidence, provide info, and check deadlines anytime in our online system, called Compass.',
     icon: DeviceListIcon,
   },
   {
     name: 'Flat Fee',
     description:
-    'Say no to blank checks for hourly rates with a flat-fee or monthly payment that includes most expenses.',
+    'Pay a flat-fee or monthly payment. We cover most expenses and you don\'t have to sign a blank check for hourly fees.',
     icon: CurrencyIcon,
   },
   {
