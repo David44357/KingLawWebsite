@@ -53,7 +53,7 @@ const OsWebAndriodIosButton = (props) => {
             onClick={() => {
               btnOnClickGetStarted();
             }}
-          >Get Started</Button>
+          >Create Account</Button>
         </>
       )
     }
