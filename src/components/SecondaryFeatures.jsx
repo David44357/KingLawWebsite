@@ -6,37 +6,37 @@ const features = [
   {
     name: 'Virtual Office',
     description:
-      'Schedule Zoom meetings with your lawyer online at your convenience.',
+      'Schedule Zoom meetings with your lawyer online at your convenience without fighting downtown traffic.',
     icon: Microphone,
   },
   {
-    name: 'The App',
+    name: 'Compass',
     description:
-      'Pay fees, upload evidence, provide info, and more in our online portal.',
+      'Upload evidence, provide info, and check deadlines anytime in our online platform.',
     icon: DeviceListIcon,
   },
   {
     name: 'Flat Fee',
     description:
-    'Pay a flat-fee that includes most expenses and use our payment plan.',
+    'Say no to blank checks for hourly rates with a flat-fee or monthly payment that includes most expenses.',
     icon: CurrencyIcon,
   },
   {
-    name: 'DIY Apps',
+    name: 'Self-Service',
     description:
-      'Can\'t afford a lawyer? Use our self-service apps.',
+      'Can\'t afford a lawyer? Use Compass as a do-it-yourself tool with step-by-step wizards to help you along.',
     icon: DeviceListIcon,
   },
   {
     name: 'Lower Prices',
     description:
-      'We use custom software to automate legal work, resulting in lower prices to clients.',
+      'Our fees often come out to 30% less than an hourly rate attorney, because we favor efficiency over billable hours.',
     icon: CheckIcon,
   },
   {
     name: 'Responsive',
     description:
-      'Schedule meetings with your lawyer just 48 hours in advance.',
+      'Communicate with your lawyer directly via text, email, or Zoom, typically within just 48 hours.',
     icon: ResponsiveIcon,
   },
 ]
