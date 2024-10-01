@@ -172,7 +172,16 @@ export function Header() {
                               Pricing
                             </MobileNavLink>
                           </div>
-                    
+                          <div className="mt-4 flex flex-col gap-4">
+                            {/* TWO BUTTONS HERE */}
+                            {/* <DownloadButton userOS={userOS} popover='True' OS={OS}></DownloadButton> */}
+      <OsWebAndriodIosButton 
+                webBtnClassess={"justify-center rounded-lg  px-3 h-[2.34rem] text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded"}
+                // webBtnClassess={"justify-center rounded-lg  px-3 h-9 text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded"}
+                // webBtnClassess={"h-[2.32rem]"}
+                
+              />
+                          </div>
                         </Popover.Panel>
                       </>
                     )}
@@ -180,14 +189,6 @@ export function Header() {
                 </>
               )}
             </Popover>
-            {/* TWO BUTTONS HERE */}
-            {/* <DownloadButton userOS={userOS} OS={OS}></DownloadButton> */}
-      <OsWebAndriodIosButton 
-                webBtnClassess={"justify-center rounded-lg  px-3 h-[2.34rem] text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded"}
-                // webBtnClassess={"justify-center rounded-lg  px-3 h-9 text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded"}
-                // webBtnClassess={"h-[2.32rem]"}
-                
-              />
           </div>
         </Container>
       </nav>
