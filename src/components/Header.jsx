@@ -51,7 +51,7 @@ function MobileNavLink({ children, ...props }) {
 
 
 function DownloadButton(props) {
-  if (props.userOS != 'https://apps.kinglawnc.com' && props.popover == 'True') {
+  if (props.userOS != 'https://compass.kinglawnc.com' && props.popover == 'True') {
     return (
       <div>
         <Button href={props.userOS}>
@@ -60,7 +60,7 @@ function DownloadButton(props) {
       </div>
     )
   }
-  else if (props.userOS == 'https://apps.kinglawnc.com' && props.popover == 'True') {
+  else if (props.userOS == 'https://compass.kinglawnc.com' && props.popover == 'True') {
     return (
       <div>
       <Button href={props.userOS} variant="outline">
