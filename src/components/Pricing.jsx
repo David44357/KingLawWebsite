@@ -124,8 +124,8 @@ export function Pricing() {
         <div className="mt-8 px-8 grid max-w-2xl grid-cols-1 gap-y-5 sm:mx-auto lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Self-Service"
-            price="$189/mo"
-            description="TurboTax does your taxes. We do your divorce. Use step-by-step walkthroughs that auto-generate your legal documents combined with monthly attorney check-ins."
+            price="$150/consult"
+            description="TurboTax does your taxes. Compass does your divorce. Use step-by-step walkthroughs that auto-generate your legal documents and combine them with monthly attorney check-ins."
             href="/Compass"
             features={[
               'Get started for free and pay only for support',
@@ -136,26 +136,27 @@ export function Pricing() {
           />
           <Plan
             featured
-            name="The Settler"
-            price="~$250/mo"
-            description="An example of what our fees can come out to in a relatively common scenario; several financial claims settled at mediation using our three-year payment plan."
-            href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
+            name="Financial Disputes"
+            price="$350/mo"
+            description="Our monthly fee on a payment plan for financial disputes with no children or complications."
+            href="https://compass.kinglawnc.com/billingNewWebsite"
             features={[
               'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
-              'Only your historical credit score is evaluated to qualify for the payment plan',
-              'Most divorce disputes are settled at mediation, not trial',
-              'Must pay $1,200 up-front and be approved for a payment plan',
+              'Only your historical credit history is evaluated to qualify for the payment plan',
+              'How long you have to make payments is determined by the fee calculator',
+              'If a forbearance is approved, you will pay $200 per-month for six months, giving you time to get money for your claims',
             ]}
           />
           <Plan
-            name="Trial"
-            price="$55,000"
-            description="An example of a near-worst-case scenario; several claims taken all the way to trial without a payment plan. In some cases, your ex may have to pay some of your fees."
-            href="https://apps.kinglawnc.com/BillingCalculatorWebsite"
+            name="Maximum Price"
+            price="$700"
+            description="The maximum monthly fee for a case that involves every major claim and complication in our fee calculator."
+            href="https://compass.kinglawnc.com/billingNewWebsite"
             features={[
-            'Trial is rare, so very few King @ Law clients pay this much',
-            'Hourly-rate attorneys often come out to $75-$100k for similar trial cases',
-            'Generally, trial is to be avoided, if at all possible',
+              'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
+              'Only your historical credit history is evaluated to qualify for the payment plan',
+              'How long you have to make payments is determined by the fee calculator',
+              'If a forbearance is approved, you will pay $200 per-month for six months, giving you time to get money for your claims',
             ]}
           />
         </div>
