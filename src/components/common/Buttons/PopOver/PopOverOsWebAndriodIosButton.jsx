@@ -24,7 +24,7 @@ const PopOverOsWebAndriodIosButton = (props) => {
       setUserOS('https://play.google.com/store/apps/details?id=com.KingLaw.kinglawfinal'); // CHANGE HERE FOR ANDROID
       setOS('android')
     } else {
-      setUserOS('https://apps.kinglawnc.com'); // CHANGE HERE FOR OTHER
+      setUserOS('https://compass.kinglawnc.com'); // CHANGE HERE FOR OTHER
       setOS('other')
     }
   }, []);
