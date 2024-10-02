@@ -125,7 +125,7 @@ export function Pricing() {
           <Plan
             name="Self-Service"
             price="$150/consult"
-            description="TurboTax does your taxes. Compass does your divorce. Use step-by-step walkthroughs that auto-generate your legal documents and combine them with monthly attorney check-ins."
+            description="TurboTax does your taxes. Compass does your divorce. Use step-by-step walkthroughs with monthly attorney check-ins."
             href="/Compass"
             features={[
               'Get started for free and pay only for support',
