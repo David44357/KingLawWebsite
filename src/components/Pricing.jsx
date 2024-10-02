@@ -148,9 +148,9 @@ export function Pricing() {
             ]}
           />
           <Plan
-            name="Maximum Price"
-            price="$700"
-            description="The maximum monthly fee for a case that involves all of the most common claim and complications."
+            name="Complex"
+            price="$700/mo"
+            description="The monthly fee on a payment plan for a case that involves every common claim and complication."
             href="https://compass.kinglawnc.com/billingNewWebsite"
             features={[
               'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
