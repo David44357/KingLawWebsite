@@ -19,11 +19,11 @@ export function CallToAction() {
           <h2 className="text-3xl font-medium text-center tracking-tight text-white sm:text-4xl">
             Get a Quote
           </h2>
-          <p className="mt-4 text-lg text-center text-gray-300">
-            Use our online calculator to determine your legal fees for any given situation. Most expenses are included.<BR></BR>
+          <p className="mt-4 mb-4 text-lg text-center text-gray-300">
+            Use our online calculator to determine your legal fees for any given situation. Most expenses are included.
           </p>
           <div><a href="https://videos.kinglawnc.com/billing" className="text-blue-500 hover:text-blue-700">Watch the Explainer Video</a></div>
-          <div className="mt-2 flex justify-center">
+          <div className="flex justify-center">
             {/* <AppStoreLink color="white" /> */}
             <Button
               href={'https://compass.kinglawnc.com/billingNewWebsite'}
