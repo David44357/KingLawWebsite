@@ -115,9 +115,9 @@ export function Header() {
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
-                      <div className="hidden justify-end lg:block text-gray-700 font-bold">
-              <span>(919) 706-5322</span>
             </div>
+                                  <div className="hidden justify-end lg:block text-gray-700 font-bold ml-auto">
+              <span>(919) 706-5322</span>
             </div>
           </div>
           <div className="flex items-center gap-6">
