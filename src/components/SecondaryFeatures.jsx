@@ -36,7 +36,7 @@ const features = [
   {
     name: 'Responsive',
     description:
-      'Communicate with your lawyer directly via text, email, or Zoom, typically within just 48 hours.',
+      'Communicate with your lawyer directly via text, email, or Zoom, and get a response within 48 hours.',
     icon: ResponsiveIcon,
   },
 ]
