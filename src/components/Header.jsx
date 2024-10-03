@@ -185,6 +185,9 @@ export function Header() {
                 
               />
                           </div>
+               <div className="hidden text-gray-700 font-bold">
+              <span>(919) 706-5322</span>
+            </div>
                         </Popover.Panel>
                       </>
                     )}
