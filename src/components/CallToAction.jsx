@@ -20,10 +20,10 @@ export function CallToAction() {
             Get a Quote
           </h2>
           <p className="mt-4 text-lg text-center text-gray-300">
-            Use our online calculator to determine your legal fees for any given situation. Most expenses are included.
+            Use our online calculator to determine your legal fees for any given situation. Most expenses are included.<BR></BR>
           </p>
-          <div><a href="https://videos.kinglawnc.com/billing" className="text-blue-500 hover:text-blue-700">Watch the Video</a></div>
-          <div className="mt-8 flex justify-center">
+          <div><a href="https://videos.kinglawnc.com/billing" className="text-blue-500 hover:text-blue-700">Watch the Explainer Video</a></div>
+          <div className="mt-2 flex justify-center">
             {/* <AppStoreLink color="white" /> */}
             <Button
               href={'https://compass.kinglawnc.com/billingNewWebsite'}
