@@ -32,6 +32,7 @@ export function CallToAction() {
             >
               Quote Tool
             </Button>
+            <a href="https://videos.kinglawnc.com/consultation">Watch the Video</a>
           </div>
         </div>
       </Container>
