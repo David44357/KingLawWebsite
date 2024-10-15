@@ -163,7 +163,7 @@ export function Header() {
                         >
                           <div className="space-y-4 max-w-2xl">
                             <MobileNavLink href="https://kinglawnc.com/Compass">
-                              DIY Apps
+                              DIY
                             </MobileNavLink>
                             <MobileNavLink href="https://kinglawnc.com#about">
                               About Us
