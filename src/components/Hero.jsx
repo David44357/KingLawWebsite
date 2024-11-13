@@ -371,12 +371,7 @@ export function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <DownloadButton userOS={userOS}></DownloadButton> */}
-              <OsWebAndriodIosButton 
-                webBtnClassess={"justify-center rounded-lg  px-3 h-[2.34rem] text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded"}
-                // webBtnClassess={"justify-center rounded-lg  px-3 h-9 text-sm  outline-2 outline-offset-2 transition-colors    font-medium px-4 rounded"}
-                // webBtnClassess={"h-[2.32rem]"}
-                
-              />
+               <createaccountbutton></createaccountbutton>
               <Cal></Cal>
             </div>
           </div>
