@@ -374,7 +374,7 @@ export function Hero() {
                       <Button
               href={'https://compass.kinglawnc.com'}
               color={true ? '#000' : 'gray'}
-              className="justify-center rounded-lg outline-amber-400 py-3 font-semibold outline-2 outline-offset-2 transition-colors text-black hover:bg-gray-900 active:bg-gray-800 text-base px-6 rounded"
+              className="justify-center rounded-lg outline-amber-400 py-3 font-semibold outline-2 outline-offset-2 transition-colors text-black hover:bg-blue-900 hover:text-white  active:bg-gray-800 text-base px-6 rounded"
               aria-label={`Create Account`}
             >
              Signup
