@@ -378,7 +378,7 @@ export function Hero() {
               aria-label={`Create Account`}
                         
             >
-             Signup
+             Sign Up
             </Button>
               <Cal></Cal>
             </div>
