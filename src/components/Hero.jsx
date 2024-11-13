@@ -371,7 +371,14 @@ export function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/* <DownloadButton userOS={userOS}></DownloadButton> */}
-               <createaccountbutton></createaccountbutton>
+                      <Button
+              href={'https://compass.kinglawnc.com'}
+              color={true ? '#000' : 'gray'}
+              className="justify-center rounded-lg bg-amber-400 py-3 font-semibold outline-2 outline-offset-2 transition-colors text-black hover:bg-gray-900 active:bg-gray-800 text-base px-6 rounded"
+              aria-label={`Get started with the Quote Tool`}
+            >
+              Quote Tool
+            </Button>
               <Cal></Cal>
             </div>
           </div>
