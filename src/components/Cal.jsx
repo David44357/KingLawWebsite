@@ -18,5 +18,5 @@ export function Cal({ selectedOption }) {
     data-cal-link="kinglawnc/consultation"
     data-cal-config='{"layout":"month_view"}'
     type="button"
-    className="justify-center rounded-lg bg-amber-400 py-3 font-semibold outline-2 outline-offset-2 transition-colors text-black hover:bg-gray-900 active:bg-gray-800 text-base px-6 rounded">Initial Consultation {selectedOption} </button>);
+    className="justify-center rounded-lg bg-amber-400 py-3 font-semibold hover:bg-white hover:text-black hover:border-amber-400- transition-colors text-black text-base px-6 rounded">Initial Consultation {selectedOption} </button>);
 };
