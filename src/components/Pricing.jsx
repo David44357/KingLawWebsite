@@ -137,7 +137,7 @@ export function Pricing() {
           <Plan
             featured
             name="Financial Disputes"
-            price="$350/mo"
+            price="$300/mo"
             description="Our monthly fee on a payment plan for financial disputes with no children or complications."
             href="https://compass.kinglawnc.com/billingNewWebsite"
             features={[
@@ -149,8 +149,8 @@ export function Pricing() {
           />
           <Plan
             name="Complex"
-            price="$700/mo"
-            description="The monthly fee on a payment plan for a case that involves every common claim and complication."
+            price="$600/mo"
+            description="Our monthly fee on a payment plan for a complex case with children and financial disputes."
             href="https://compass.kinglawnc.com/billingNewWebsite"
             features={[
               'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
