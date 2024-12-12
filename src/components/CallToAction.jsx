@@ -26,12 +26,12 @@ export function CallToAction() {
           <div className="flex justify-center">
             {/* <AppStoreLink color="white" /> */}
             <Button
-              href={'https://compass.kinglawnc.com/billingNewWebsite'}
+              href={'https://compass.kinglawnc.com/?page=Calculator'}
               color={true ? '#000' : 'gray'}
               className="mt-6 text-black text-[1.10rem] bg-gray-50 px-8 py-4 rounded-md"
-              aria-label={`Get started with the Quote Tool`}
+              aria-label={`See what your flat fee would be in different scenarios. Most expenses are included.`}
             >
-              Quote Tool
+              Fee Calculator
             </Button>
             
           </div>
