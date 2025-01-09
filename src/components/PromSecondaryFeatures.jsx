@@ -58,7 +58,7 @@ const features = [
     summary:
       'Tailored to you',
     description:
-      'Did you know Durham County does divorce decrees differently than Wake County? Compass uses complex logic to provide the right instructions and documents for your situation.',
+      'Did you know that each individual courthouse has different rules, processes, and documents? Compass uses complex logic to provide the right instructions and documents for your situation.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
