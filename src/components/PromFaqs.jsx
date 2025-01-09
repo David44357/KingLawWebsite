@@ -12,7 +12,7 @@ const faqs = [
     },
     {
       question: 'What if Compass doesn\'t cover my situation or courthouse?',
-      answer: 'Contact David@kinglawn.com and ask him to add support for your courthouse or situation. Often, we can update Compass within a week.',
+      answer: 'Contact David@kinglawnc.com and ask him to add support for your courthouse or situation. Often, we can update Compass within a week.',
     },
   ],
   [
@@ -25,7 +25,7 @@ const faqs = [
       question:
         'How much does it cost?',
       answer:
-        'Compass is free during the beta and you only pay for consultations with an attorney. We haven\'t decided what the fees will be.',
+        'You can use Compass for free during a 30-day trial. Then, pay just $120 per-month, less than 10% the typical cost of an attorney. You can purchase 30 minutes of attorney help via Zoom for just $200 at-a-time.',
     },
   ],
   [
@@ -37,7 +37,7 @@ const faqs = [
     {
       question: 'Can my ex and I both use an app together to collaborate on settlement?',
       answer:
-        'Yes. However, if both parties are using Compass, Mr. King will not provide a consultation to either party to avoid a potential conflicts of interest. Lawyers are not allowed to provide legal advice to both spouses.',
+        'Yes. However, if both parties are using Compass, Mr. King will not provide a consultation to either party to avoid a conflict of interest issue. The North Carolina Bar Association prohibits lawyers from providing legal advice to both spouses.',
     },
   ],
 ]
