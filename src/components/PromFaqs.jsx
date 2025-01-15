@@ -8,7 +8,7 @@ const faqs = [
     {
       question: 'Can I just hire King @ Law to represent me?',
       answer:
-        'Yes. For more information about hiring attorney David King, schedule an initial consultation at kinglawnc.com/meeting.',
+        'Yes. For more information about hiring attorney David King, schedule an initial consultation at meetings.kinglawnc.com/initialconsultation.',
     },
     {
       question: 'What if Compass doesn\'t cover my situation or courthouse?',
@@ -19,7 +19,7 @@ const faqs = [
     {
       question: 'Isn\'t this the same as LegalZoom and others?',
       answer:
-        'Compass uses logic to get you the right documents and instructions, instead of just copy/pasting information you provide into a generic form. Help from an attorney is offered to help you, rather than pushing you to hire an expensive law firm.',
+        'Compass is programmed for individual courthouses and litigation, rather than simply copy/pasting into a form. It allows you to purchase just 30 minutes of attorney assistance at-a-time, without having to hire a lawyer. Since King @ Law is a law firm, and not just a software company, the lawyer has access to everything in Compass.',
     },
     {
       question:
