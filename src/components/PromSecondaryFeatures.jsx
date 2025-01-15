@@ -95,7 +95,7 @@ const features = [
     summary:
       'Designed to help you',
     description:
-      'Compass makes it easy to purchase just 30 minutes of attorney help at-a-time via online Zoom meetings. No $5,000+ upsells to hire a lawyer. Your lawyer has instant access to all of the information and documents in Compass.',
+      'Compass makes it easy to purchase just 30 minutes of attorney help at-a-time via online Zoom meetings. No $5,000+ upsells to hire a lawyer and the lawyer has access to everything in Compass.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
