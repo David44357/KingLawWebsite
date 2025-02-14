@@ -364,7 +364,7 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Legal Services for Everyone
+              Family Law Attorney
             </h1>
             <p className="mt-0 text-lg text-gray-600 mt-3">
               {'You should be able to hire an honest lawyer for a reasonable fee. That\'s why we\'ve created a streamlined alternative to traditional hourly rates. We offer flat-fees, payment plans, and an affordable do-it-yourself option.'}
