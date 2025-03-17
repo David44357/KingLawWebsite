@@ -124,37 +124,35 @@ export function Pricing() {
         <div className="mt-8 px-8 grid max-w-2xl grid-cols-1 gap-y-5 sm:mx-auto lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Self-Service"
-            price="$150/consult"
+            price="$80/mo"
             description="Use Compass as a self-service tool with step-by-step wizards that create your documents and provide instructions."
             href="/Compass"
             features={[
-              'Get started for free and pay only for support',
+              'Try it risk-free with a free first month and cancel online anytime',
               'Receive completed draft legal documents based on information you provide',
               'Follow step-by-step instructions that adjust with your circumstances',
-              'Premium users get one online attorney consultation per-month included',
+              'Pay just $150 for an online Zoom with an attorney to help when you need it',
             ]}
           />
           <Plan
             featured
             name="Financial Disputes"
-            price="$300/mo"
-            description="Our monthly fee on a payment plan for financial disputes with no children or complications."
-            href="https://compass.kinglawnc.com/billingNewWebsite"
+            price="$400/mo"
+            description="An example of our monthly fee on a payment plan for financial disputes with no children or complications."
+            href="https://compass.kinglawnc.com/?page=Calculator"
             features={[
               'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
-              'Only your historical credit history is evaluated to qualify for the payment plan',
               'How long you have to make payments is determined by the fee calculator',
               'If a forbearance is approved, you will pay $200 per-month for six months, giving you time to get money for your claims',
             ]}
           />
           <Plan
             name="Complex"
-            price="$600/mo"
-            description="Our monthly fee on a payment plan for a complex case with children and financial disputes."
-            href="https://compass.kinglawnc.com/billingNewWebsite"
+            price="$800/mo"
+            description="Our monthly fee on a payment plan for a complex case with children, financial disputes, and a wealthy business owner."
+            href="https://compass.kinglawnc.com/?page=Calculator"
             features={[
               'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
-              'Only your historical credit history is evaluated to qualify for the payment plan',
               'How long you have to make payments is determined by the fee calculator',
               'If a forbearance is approved, you will pay $200 per-month for six months, giving you time to get money for your claims',
             ]}
