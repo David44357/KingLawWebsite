@@ -22,7 +22,7 @@ export function CallToAction() {
           <p className="mt-4 mb-4 text-lg text-center text-gray-300">
             Use our online calculator to determine your legal fees for any given situation. Most expenses are included.
           </p>
-          <div style="text-align: center;"><a href="https://videos.kinglawnc.com/billing" className="text-blue-500 hover:text-blue-700">Watch the Explainer Video</a></div>
+          <div><center><a href="https://videos.kinglawnc.com/billing" className="text-blue-500 hover:text-blue-700">Watch the Explainer Video</a></center></div>
           <div className="flex justify-center">
             {/* <AppStoreLink color="white" /> */}
             <Button
