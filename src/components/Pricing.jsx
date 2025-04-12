@@ -124,11 +124,11 @@ export function Pricing() {
         <div className="mt-8 px-8 grid max-w-2xl grid-cols-1 gap-y-5 sm:mx-auto lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Self-Service"
-            price="$80/mo"
-            description="Use Compass as a self-service tool with step-by-step wizards that create your documents and provide instructions."
+            price="$120/mo"
+            description="Use King @ Law's Compass platform as a self-service tool with step-by-step wizards that create your documents and provide instructions."
             href="/Compass"
             features={[
-              'Try it risk-free with a free first month and cancel online anytime',
+              'Try it risk-free with a 7-day free trial and cancel online anytime',
               'Receive completed draft legal documents based on information you provide',
               'Follow step-by-step instructions that adjust with your circumstances',
               'Pay just $150 for an online Zoom with an attorney to help when you need it',
