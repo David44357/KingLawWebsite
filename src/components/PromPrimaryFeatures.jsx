@@ -20,28 +20,28 @@ const features = [
   {
     title: 'Setup',
     description:
-      "Provide information about your divorce to setup your account. Compass will use this information to create your legal documents and provide instructions.",
+      "Provide information about your divorce to setup your account.",
     image: screenshotProvideInfo,
     role: "Setup Tab"
   },
   {
     title: 'Wizard',
     description:
-      "Use the wizard to navigate to the right legal process for your situation, ranging from agreements and decrees to filing claims and preparing for trial.",
+      "Use the wizard to navigate to the right legal process for your situation",
     image: screenshotApps,
     role: "Apps Tab"
   },
   {
     title: 'Steps',
     description:
-      "Answer questions and provide information. Compass will use the information you provide to create your legal documents and provide instructions.",
+      "Get completed draft documents and instructions based on information you provide",
     image: screenshotInstructions,
     role: "Steps Tab"
   },
   {
     title: 'Support',
     description:
-      "Get convenient online help from an attorney to review your documents, explain the law, and provide other support for an extra fee.",    
+      "Get convenient online help from an attorney to review documents and answer questions",    
       image: screenshotCalendar,
       role: "Support Tab"
   },
