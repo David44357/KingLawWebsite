@@ -15,7 +15,7 @@ const features = [
     name: 'Complex',
     summary: 'More than just decrees',
     description:
-      'Whether you\'re already in court or you just want a backup if you don\'t reach an agreement, Compass can help you with negotiations, litigation, and even trial.',
+      'Compass can help you with negotiations, litigation, and even preparing for trial',
 
     icon: function ReportingIcon() {
       let id = useId()
@@ -58,7 +58,7 @@ const features = [
     summary:
       'Tailored to you',
     description:
-      'Did you know that each individual courthouse has different rules, processes, and documents? Compass uses complex logic to provide the right instructions and documents for your situation.',
+      'Complex logic determines the right instructions and documents for you',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -95,7 +95,7 @@ const features = [
     summary:
       'Designed to help you',
     description:
-      'Compass makes it easy to purchase just 30 minutes of attorney help at-a-time via online Zoom meetings. No $5,000+ upsells to hire a lawyer and the lawyer has access to everything in Compass.',
+      'Get convenient online help from an attornney without upselling',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -227,7 +227,7 @@ export function PromSecondaryFeatures() {
           >
             Features
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
+          <p className="mt-4 text-xl tracking-tight text-slate-700">
             How Compass is Different from other DIY Tools
           </p>
         </div>
