@@ -386,9 +386,9 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               >
-         the smart alternative to hiring a lawyer
+         The smart alternative to hiring a lawyer
     <br />
-    starting at $120/month
+    Starting at $120/month
               </p></div>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
