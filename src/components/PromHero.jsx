@@ -382,14 +382,14 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               > */}
-              <p className="mt-6 font-bold text-3xl text-slate-100 shadow-sm max-w-[740px] mx-auto"
+              <div className="bg-black bg-opacity-40 rounded-md"><p className="mt-6 font-bold text-3xl text-white shadow-lg max-w-[740px] mx-auto"
                 data-aos="fade-up"
                 data-aos-duration="1600"
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'Step-by-step do-it-yourself wizards for uncontested or litigious divorces. '}
-              </p>
+                {'Step-by-step do-it-yourself wizards for NC family law. '}
+              </p></div>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
                 data-aos-duration="1900"
