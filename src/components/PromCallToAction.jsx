@@ -54,7 +54,7 @@ export function PromCallToAction() {
               Get started for free
             </h2>
             <p className="m-4 text-2xl tracking-tight text-white font-medium">
-              30-day Free Trial
+              30-day free trial
             </p>
           </div>
           <div className="m-3 flex items-center justify-center"
