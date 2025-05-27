@@ -386,7 +386,7 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               >
-                {'Lawyers are expensive.\nCompass is $120 a month.'}
+                {'the smart alternative to hiring a lawyer, starting at $120/month'}
               </p></div>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
