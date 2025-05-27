@@ -386,7 +386,7 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               >
-                {'Do-it-yourself wizards for NC family law. '}
+                {'A better alternative to hiring a family lawer'}
               </p></div>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
