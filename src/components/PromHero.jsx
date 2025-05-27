@@ -382,7 +382,7 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               > */}
-              <p className="mt-6 text-2xl text-white max-w-[740px] mx-auto"
+              <p className="mt-6 font-bold text-4xl text-white max-w-[740px] mx-auto"
                 data-aos="fade-up"
                 data-aos-duration="1600"
                 // data-aos-duration="800"
