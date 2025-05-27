@@ -161,7 +161,7 @@ export function PromAppDetails() {
             <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
               What Compass Can Do
             </h2>
-            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            <p className="mt-4 text-xl tracking-tight text-slate-700">
               Not just for divorce decrees
             </p>
           </div>
