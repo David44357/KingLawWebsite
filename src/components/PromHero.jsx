@@ -388,7 +388,7 @@ export function PromHero() {
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'Prepares your legal documents and gives you step-by-step instructions in do-it-yourself wizards for uncontested or litigious divorces. '}
+                {'Step-by-step do-it-yourself wizards for uncontested or litigious divorces. '}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
