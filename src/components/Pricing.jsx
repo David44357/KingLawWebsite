@@ -117,7 +117,7 @@ export function Pricing() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl sm:text-center">
             Flat-fee pricing
           </h2>
-          <p className="mt-0 text-lg text-slate-200 sm:text-center">
+          <p className="mt-0 text-xl text-slate-200 sm:text-center">
             A few examples of our fees
           </p>
         </div>
@@ -125,36 +125,35 @@ export function Pricing() {
           <Plan
             name="Self-Service"
             price="$120/mo"
-            description="Use King @ Law's Compass platform as a self-service tool with step-by-step wizards that create your documents and provide instructions."
+            description="Use King @ Law's Compass platform as a self-service tool"
             href="/Compass"
             features={[
-              'Try it risk-free with a 7-day free trial and cancel online anytime',
-              'Receive completed draft legal documents based on information you provide',
-              'Follow step-by-step instructions that adjust with your circumstances',
-              'Pay just $150 for an online Zoom with an attorney to help when you need it',
+              'Try it risk-free for a 30-day trial and cancel online anytime',
+              'Receive completed draft legal documents and step-by-step instructions'
+              'Pay just $150 for an online Zoom with an attorney when you need it',
             ]}
           />
           <Plan
             featured
             name="Financial Disputes"
             price="$400/mo"
-            description="An example of our monthly fee on a payment plan for financial disputes with no children or complications."
+            description="Our fees for a couple financial claims with no complications"
             href="https://compass.kinglawnc.com/?page=Calculator"
             features={[
-              'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
-              'How long you have to make payments is determined by the fee calculator',
-              'If a forbearance is approved, you will pay $200 per-month for six months, giving you time to get money for your claims',
+              'Most routine expenses like court fees and mediator fees are included',
+              'Number of monthly payments is based on number of hearings and months',
+              'Frequently comes out to 30% less than hourly-rate attorneys',
             ]}
           />
           <Plan
             name="Complex"
             price="$800/mo"
-            description="Our monthly fee on a payment plan for a complex case with children, financial disputes, and a wealthy business owner."
+            description="Our fees for custody and financial disputes with a wealthy business owner"
             href="https://compass.kinglawnc.com/?page=Calculator"
             features={[
-              'Most routine expenses, such as court fees, mediator fees, subpoena fees, and court costs are included',
-              'How long you have to make payments is determined by the fee calculator',
-              'If a forbearance is approved, you will pay $200 per-month for six months, giving you time to get money for your claims',
+              'Most routine expenses like court fees and mediator fees are included',
+              'Number of monthly payments is based on number of hearings and months',
+              'Frequently comes out to 50% less than hourly-rate attorneys',
             ]}
           />
         </div>
