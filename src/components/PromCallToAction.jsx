@@ -50,11 +50,11 @@ export function PromCallToAction() {
             data-aos="fade-down"
             data-aos-duration="1600"
           >
-            <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+            <h2 className="font-display text-4xl tracking-tight text-white sm:text-4xl">
               Get started for free
             </h2>
-            <p className="m-4 text-xl tracking-tight text-white font-medium">
-              Create an account and get started for free. 
+            <p className="m-4 text-2xl tracking-tight text-white font-medium">
+              30-day Free Trial
             </p>
           </div>
           <div className="m-3 flex items-center justify-center"
