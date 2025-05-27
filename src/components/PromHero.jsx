@@ -388,7 +388,7 @@ export function PromHero() {
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'Step-by-step do-it-yourself wizards for NC family law. '}
+                {'Do-it-yourself wizards for NC family law. '}
               </p></div>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
