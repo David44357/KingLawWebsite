@@ -382,13 +382,13 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               > */}
-              <p className="mt-6 font-bold text-4xl text-white max-w-[740px] mx-auto"
+              <p className="mt-6 font-bold text-3xl text-slate-100 shadow-sm max-w-[740px] mx-auto"
                 data-aos="fade-up"
                 data-aos-duration="1600"
                 // data-aos-duration="800"
                 // data-aos-duration="400"
               >
-                {'TurboTax does your taxes. Compass does your divorce. Step-by-step DIY wizards for uncontested or litigious divorces. Developed by attorney David King.'}
+                {'TurboTax does your taxes. Compass does your divorce. Step-by-step do-it-yourself wizards for uncontested or litigious divorces.'}
               </p>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
