@@ -382,11 +382,11 @@ export function PromHero() {
                 data-aos="fade-up"
                 data-aos-duration="1600"
               > */}
-              <div style={{ width: 'fit-content' }} className="mx-auto bg-black shadow-lg bg-opacity-40 rounded-md mt-6 p-5"><p className="font-bold text-3xl text-white max-w-[740px] mx-auto"
+              <div style={{ width: 'fit-content' }} className="mx-auto bg-black shadow-lg bg-opacity-20 rounded-md mt-6 mb-6 p-5"><p className="font-bold text-3xl text-white max-w-[740px] mx-auto"
                 data-aos="fade-up"
                 data-aos-duration="1600"
               >
-                {'A better alternative to hiring a family lawer'}
+                {'Lawyers are expensive. Compass is $120 a month.'}
               </p></div>
               <div className="mt-6 flex justify-center gap-x-6"
                 data-aos="fade-up"
