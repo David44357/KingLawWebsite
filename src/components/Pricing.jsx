@@ -129,7 +129,7 @@ export function Pricing() {
             href="/Compass"
             features={[
               'Try it risk-free for a 30-day trial and cancel online anytime',
-              'Receive completed draft legal documents and step-by-step instructions'
+              'Receive completed draft legal documents and step-by-step instructions',
               'Pay just $150 for an online Zoom with an attorney when you need it',
             ]}
           />
