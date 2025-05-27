@@ -19,13 +19,13 @@ const faqs = [
     {
       question: 'Isn\'t this the same as LegalZoom and others?',
       answer:
-        'Compass is programmed for individual courthouses and litigation, rather than simply copy/pasting into a form. It allows you to purchase just 30 minutes of attorney assistance at-a-time, without having to hire a lawyer. Since King @ Law is a law firm, and not just a software company, the lawyer has access to everything in Compass.',
-    },
+        'Most DIY tools just copy and paste what you enter into a form into a legal document with placeholders. Our approach can handle more complex issues by using complex logic to determine how to create the right documents.
+        },
     {
       question:
         'How much does it cost?',
       answer:
-        'You can use Compass for free during a 30-day trial. Then, pay just $120 per-month, less than 10% the typical cost of an attorney. You can purchase 30 minutes of attorney help via Zoom for just $200 at-a-time.',
+        'You can use Compass for free during a 30-day trial. Then, pay just $120 per-month. This is less than 10% the typical cost of an attorney. You can purchase 30 minutes of attorney help via Zoom for just $150 at-a-time.',
     },
   ],
   [
