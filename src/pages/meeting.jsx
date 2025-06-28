@@ -78,7 +78,7 @@ export default function MyApp() {
               <option value="kinglawnc/prose">an opposing spouse</option>
             </select>
             </div>
-                         <a href="https://videos.kinglawnc.com/consultation">How to Schedule</a>
+                        <center><u><a href="https://videos.kinglawnc.com/consultation">Consultation Video Guide</a><</u>/center>
 
             <CalInline selectedOption={selectedOption}></CalInline>
           </Container>
