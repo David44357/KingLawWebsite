@@ -78,7 +78,16 @@ export default function MyApp() {
               <option value="kinglawnc/prose">an opposing spouse</option>
             </select>
             </div>
-                        <center><u><a href="https://videos.kinglawnc.com/consultation">Consultation Video Guide</a><</u>/center>
+                      <div className="mt-6 text-center">
+  <a
+    href="https://videos.kinglawnc.com/consultation"
+    target="_blank" // Opens the link in a new tab, which is good practice for external links
+    rel="noopener noreferrer" // Security best practice for opening new tabs
+    className="text-lg text-blue-600 underline hover:text-blue-800"
+  >
+    Consultation Video Guide
+  </a>
+</div>
 
             <CalInline selectedOption={selectedOption}></CalInline>
           </Container>
