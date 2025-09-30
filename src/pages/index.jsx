@@ -20,6 +20,9 @@ export default function Home() {
           name="description"
           content="Legal Services for Everyone"
         />
+
+        <script src="https://api.chatspell.co/widget/785d91b4-58df-4cc4-af75-e965b2af0a10"></script>
+        
       </Head>
       <Header />
       <main>
